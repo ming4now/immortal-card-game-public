@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>凡人修仙传 - 修仙卡牌</title>
+    <!-- 主菜单保底样式（防止外部CSS加载失败） -->
+    <style>
+        .main-menu {
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            z-index: 200000; display: flex; align-items: center; justify-content: center;
+            overflow: hidden;
+        }
+        .main-menu.hidden { display: none !important; }
+        .menu-content { text-align: center; max-width: 500px; width: 100%; max-height: 100vh; overflow-y: auto; scrollbar-width: none; -ms-overflow-style: none; padding: 20px; }
+        .menu-content::-webkit-scrollbar { width: 0; height: 0; display: none; }
+        .menu-logo { margin-bottom: 30px; }
+        .logo-icon { font-size: 80px; margin-bottom: 10px; }
+        .logo-title { font-size: 36px; font-weight: bold; background: linear-gradient(90deg, #f39c12, #e74c3c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
+        .logo-subtitle { color: #888; font-size: 16px; letter-spacing: 4px; }
+        .version-info { display: flex; flex-direction: column; align-items: center; gap: 6px; margin-bottom: 30px; }
+        .version-badge { color: #f39c12; background: rgba(243,156,18,0.2); border: 1px solid rgba(243,156,18,0.5); border-radius: 20px; padding: 4px 12px; font-family: monospace; font-size: 13px; }
+        .build-time { color: #666; font-family: monospace; font-size: 11px; }
+        .menu-buttons { display: flex; flex-direction: column; gap: 12px; margin-bottom: 30px; }
+        .menu-btn { display: flex; align-items: center; gap: 12px; width: 100%; padding: 16px 24px; border: none; border-radius: 12px; cursor: pointer; font-size: 18px; transition: all 0.3s; position: relative; text-align: left; }
+        .menu-btn-primary { background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; font-weight: bold; }
+        .menu-btn-secondary { background: rgba(255,255,255,0.08); color: #fff; border: 1px solid rgba(255,255,255,0.15); }
+        .menu-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .btn-icon { width: 40px; text-align: center; font-size: 24px; }
+        .btn-text { flex: 1; font-weight: 500; }
+        .btn-badge { color: #aaa; background: rgba(149,165,166,0.3); border-radius: 10px; padding: 2px 8px; font-size: 10px; white-space: nowrap; }
+        .changelog-section { background: rgba(0,0,0,0.2); border-radius: 12px; padding: 16px; margin-bottom: 20px; text-align: left; }
+        .changelog-title { color: #f39c12; text-align: center; margin-bottom: 12px; font-size: 14px; }
+        .changelog-list { color: #aaa; font-size: 12px; line-height: 1.8; }
+        .commit-item { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .commit-hash { color: #666; font-family: monospace; font-size: 11px; flex-shrink: 0; }
+        .commit-msg { color: #ccc; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .menu-footer { color: #555; text-align: center; font-size: 11px; }
+    </style>
+
+    <!-- Baidu Analytics -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?ed6ce90707663d2ae545b02ac016591a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!-- End Baidu Analytics -->
+  <script type="module" crossorigin src="./assets/main-C6-ndvyj.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-j2IcwGQn.css">
+</head>
+<body class="menu-open">
+    <button id="audio-toggle" class="audio-toggle" type="button" title="关闭背景音乐" aria-label="关闭背景音乐">🔊</button>
+    <div id="game-container">
+        <!-- ==================== 主菜单界面 ==================== -->
+        <div id="main-menu" class="main-menu">
+            <div class="menu-content">
+                <!-- 游戏 Logo -->
+                <div class="menu-logo">
+                    <div class="logo-icon">☯️</div>
+                    <h1 class="logo-title">凡人修仙传</h1>
+                    <p class="logo-subtitle">修仙卡牌对战</p>
+                </div>
+                
+                <!-- 版本信息 -->
+                <div class="version-info">
+                    <span class="version-badge" id="version-display">版本加载中...</span>
+                    <span class="build-time" id="build-time-display"></span>
+                </div>
+                
+                <!-- 主菜单按钮 -->
+                <div class="menu-buttons">
+                    <button class="menu-btn menu-btn-primary" id="btn-start-game">
+                        <span class="btn-icon">⚔️</span>
+                        <span class="btn-text">开始游戏</span>
+                    </button>
+                    <button class="menu-btn menu-btn-primary" id="btn-story-mode" style="background: linear-gradient(135deg, #8e44ad, #9b59b6);">
+                        <span class="btn-icon">📜</span>
+                        <span class="btn-text">剧情模式</span>
+                    </button>
+                    <button class="menu-btn menu-btn-secondary" id="btn-deck-builder">
+                        <span class="btn-icon">🃏</span>
+                        <span class="btn-text">构建卡牌</span>
+                    </button>
+                    <!-- 卡牌图鉴入口暂时隐藏，功能代码保留，后续需要时再恢复按钮。 -->
+                    <button class="menu-btn menu-btn-secondary" id="btn-view-heroes">
+                        <span class="btn-icon">👥</span>
+                        <span class="btn-text">英雄图鉴</span>
+                    </button>
+
+                </div>
+                
+                <!-- 更新日志 -->
+                <div class="changelog-section">
+                    <h3 class="changelog-title">📝 最近更新</h3>
+                    <div class="changelog-list" id="changelog-list">
+                        <div class="changelog-loading">加载中...</div>
+                    </div>
+                </div>
+                
+                <!-- 底部信息 -->
+                <div class="menu-footer">
+                    <p>每次构建版本不同，刷新页面即可确认使用的是最新版本</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 顶部信息栏 -->
+        <div id="top-bar">
+            <div id="game-title">凡人修仙传 - 修仙卡牌</div>
+            <div id="turn-info-top">
+                <span>第 <span id="turn-number">1</span> 回合</span>
+                <span id="current-player">我方回合</span>
+            </div>
+        </div>
+
+        <!-- 主游戏区 - 三栏布局 -->
+        <div id="main-game-area">
+            <!-- 左侧：敌方信息 -->
+            <div id="left-panel">
+                <!-- 敌方英雄信息 -->
+                <div id="opponent-hero" class="hero-card-side">
+                    <div class="hero-avatar" id="opponent-avatar">敌</div>
+                    <div class="hero-info-compact">
+                        <div class="hero-name" id="opponent-hero-name">敌方修士</div>
+                        <div class="hero-stats-row">
+                            <span>❤️<span id="opponent-health">30</span></span>
+                            <span>🛡️<span id="opponent-armor">0</span></span>
+                            <span>💎<span id="opponent-mana">0</span>/<span id="opponent-max-mana">0</span></span>
+                            <span>🃏<span id="opponent-hand-count">0</span></span>
+                        </div>
+                        <div class="hero-realm"><span id="opponent-realm">练气1层</span> | <span id="opponent-sect">魔道</span><span id="opponent-spirit-root-inline"> | <span id="opponent-spirit-root">木灵根</span></span></div>
+                    </div>
+                </div>
+                
+                <!-- 敌方英雄技能（上帝视角） -->
+                <div id="opponent-spirit-root-area" class="spirit-root-area opponent-root">
+                    <div class="spirit-root-head">
+                        <span class="spirit-root-icon">✦</span>
+                        <span class="spirit-root-name" id="opponent-spirit-root-name">灵根</span>
+                        <span class="spirit-root-badge" id="opponent-spirit-root-badge">被动</span>
+                    </div>
+                    <div class="spirit-root-desc" id="opponent-spirit-root-desc">灵根效果</div>
+                </div>
+
+                <div id="opponent-skill-area" class="skill-area opponent-skill">
+                    <button id="opponent-skill-btn" class="skill-btn" disabled>
+                        <span class="skill-icon">🌟</span>
+                        <span class="skill-name" id="opponent-skill-name">技能</span>
+                        <span class="skill-cost" id="opponent-skill-cost"></span>
+                    </button>
+                    <div class="skill-desc" id="opponent-skill-desc">技能描述</div>
+                </div>
+                
+                <!-- 敌方墓地卡牌显示（上帝视角） -->
+                <div id="opponent-graveyard-area" class="graveyard-area opponent-graveyard">
+                    <div class="field-label">🪦 敌方墓地</div>
+                    <div id="opponent-graveyard-cards" class="graveyard-cards"></div>
+                </div>
+            </div>
+
+            <!-- 中间：战场区域 -->
+            <div id="center-panel">
+                <!-- 敌方手牌（上帝视角）- 放在最上方 -->
+                <div id="opponent-hand-god-view" class="hand-area god-view-area" style="display:none;">
+                    <div id="opponent-hand-cards-god" class="hand-cards-container"></div>
+                </div>
+
+                <!-- 敌方区域 -->
+                <div id="opponent-field-area">
+                    <div class="field-row monster-row">
+                        <div class="row-label-bar">
+                            <span class="row-label-text monster-label">⚔️ 修士</span>
+                        </div>
+                        <div class="slots-row six-slots">
+                            <div id="opponent-monster-1" class="slot monster-slot" data-slot="1"></div>
+                            <div id="opponent-monster-2" class="slot monster-slot" data-slot="2"></div>
+                            <div id="opponent-monster-3" class="slot monster-slot" data-slot="3"></div>
+                            <div id="opponent-monster-4" class="slot monster-slot" data-slot="4"></div>
+                            <div id="opponent-monster-5" class="slot monster-slot" data-slot="5"></div>
+                            <div id="opponent-monster-6" class="slot monster-slot" data-slot="6"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="field-row spell-trap-row">
+                        <div class="row-label-bar">
+                            <span class="row-label-text formation-label">☯️ 阵法</span>
+                            <span class="row-divider"></span>
+                            <span class="row-label-text treasure-label">💎 法宝</span>
+                        </div>
+                        <div class="slots-row six-slots">
+                            <div id="opponent-formation-1" class="slot formation-slot" data-slot="1"></div>
+                            <div id="opponent-formation-2" class="slot formation-slot" data-slot="2"></div>
+                            <div id="opponent-formation-3" class="slot formation-slot" data-slot="3"></div>
+                            <div id="opponent-treasure-1" class="slot treasure-slot" data-slot="1"></div>
+                            <div id="opponent-treasure-2" class="slot treasure-slot" data-slot="2"></div>
+                            <div id="opponent-treasure-3" class="slot treasure-slot" data-slot="3"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 战场信息 -->
+                <div id="battle-center">
+                    <button id="end-turn-btn">结束回合</button>
+                </div>
+
+                <!-- 我方区域 -->
+                <div id="player-field-area">
+                    <div class="field-row monster-row">
+                        <div class="row-label-bar">
+                            <span class="row-label-text monster-label">⚔️ 修士</span>
+                        </div>
+                        <div class="slots-row six-slots">
+                            <div id="player-monster-1" class="slot monster-slot" data-slot="1"></div>
+                            <div id="player-monster-2" class="slot monster-slot" data-slot="2"></div>
+                            <div id="player-monster-3" class="slot monster-slot" data-slot="3"></div>
+                            <div id="player-monster-4" class="slot monster-slot" data-slot="4"></div>
+                            <div id="player-monster-5" class="slot monster-slot" data-slot="5"></div>
+                            <div id="player-monster-6" class="slot monster-slot" data-slot="6"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="field-row spell-trap-row">
+                        <div class="row-label-bar">
+                            <span class="row-label-text formation-label">☯️ 阵法</span>
+                            <span class="row-divider"></span>
+                            <span class="row-label-text treasure-label">💎 法宝</span>
+                        </div>
+                        <div class="slots-row six-slots">
+                            <div id="player-formation-1" class="slot formation-slot" data-slot="1"></div>
+                            <div id="player-formation-2" class="slot formation-slot" data-slot="2"></div>
+                            <div id="player-formation-3" class="slot formation-slot" data-slot="3"></div>
+                            <div id="player-treasure-1" class="slot treasure-slot" data-slot="1"></div>
+                            <div id="player-treasure-2" class="slot treasure-slot" data-slot="2"></div>
+                            <div id="player-treasure-3" class="slot treasure-slot" data-slot="3"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 我方手牌 -->
+                <div id="player-hand" class="hand-area-main"></div>
+            </div>
+
+            <!-- 右侧：我方信息 -->
+            <div id="right-panel">
+                <!-- 我方英雄信息 -->
+                <div id="player-hero" class="hero-card-side">
+                    <div class="hero-avatar" id="player-avatar">韩</div>
+                    <div class="hero-info-compact">
+                        <div class="hero-name" id="player-hero-name">韩立</div>
+                        <div class="hero-stats-row">
+                            <span>❤️<span id="player-health">30</span></span>
+                            <span>🛡️<span id="player-armor">0</span></span>
+                            <span>💎<span id="player-mana">0</span>/<span id="player-max-mana">0</span></span>
+                            <span>🃏<span id="player-hand-count">0</span></span>
+                        </div>
+                        <div class="hero-realm"><span id="player-realm-text">练气1层</span> | <span id="player-sect">黄枫谷</span><span id="player-spirit-root-inline"> | <span id="player-spirit-root">木灵根</span></span></div>
+                    </div>
+                </div>
+                
+                <!-- 英雄技能按钮 -->
+                <div id="player-spirit-root-area" class="spirit-root-area">
+                    <div class="spirit-root-head">
+                        <span class="spirit-root-icon">✦</span>
+                        <span class="spirit-root-name" id="player-spirit-root-name">灵根</span>
+                        <span class="spirit-root-badge" id="player-spirit-root-badge">被动</span>
+                    </div>
+                    <div class="spirit-root-desc" id="player-spirit-root-desc">灵根效果</div>
+                </div>
+
+                <div id="player-skill-area" class="skill-area">
+                    <button id="player-skill-btn" class="skill-btn" disabled>
+                        <span class="skill-icon">🌟</span>
+                        <span class="skill-name" id="player-skill-name">技能</span>
+                        <span class="skill-cost" id="player-skill-cost"></span>
+                    </button>
+                    <div class="skill-desc" id="player-skill-desc">技能描述</div>
+                </div>
+                
+                <!-- 我方牌组信息 -->
+                <div class="deck-info-side">
+                    <div>牌库: <span id="deck-count">40</span></div>
+                    <div>墓地: <span id="graveyard-count">0</span></div>
+                </div>
+
+                <!-- 我方墓地卡牌显示 -->
+                <div id="player-graveyard-area" class="graveyard-area">
+                    <div class="field-label">🪦 墓地</div>
+                    <div id="player-graveyard-cards" class="graveyard-cards"></div>
+                </div>
+                
+                <!-- 返回主菜单按钮 -->
+                <button id="btn-back-to-menu-game" class="btn-back-menu" title="返回主菜单">🏠 返回</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 游戏日志 -->
+    <div id="game-log">
+        <div class="log-header">
+            <div class="log-title">战斗记录</div>
+            <div class="log-buttons">
+                <button id="download-log-btn">📥 下载战斗日志</button>
+                <button id="download-console-btn">📥 下载完整控制台日志</button>
+            </div>
+        </div>
+        <div id="log-content"></div>
+    </div>
+
+    <!-- AI配置弹窗 -->
+    <div id="ai-config-modal" class="modal">
+        <div class="modal-content">
+            <h2>游戏模式配置</h2>
+            
+            <div class="config-section">
+                <h3>游戏模式</h3>
+                <div class="mode-select">
+                    <label class="mode-option mode-option-disabled" aria-disabled="true" title="需要后端服务器支持">
+                        <input type="radio" name="game-mode" value="pvp" disabled>
+                        <span>👤 玩家对战</span>
+                    </label>
+                    <label class="mode-option">
+                        <input type="radio" name="game-mode" value="local" checked>
+                        <span>⚔️ 本地对战</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="config-section" id="player-ai-config">
+                <h3>我方AI配置</h3>
+                <div class="ai-toggle">
+                    <label>
+                        <input type="checkbox" id="player-ai-enabled">
+                        <span>启用AI控制我方</span>
+                    </label>
+                </div>
+                <div class="ai-settings" id="player-ai-settings" style="display:none;">
+                    <div class="form-row">
+                        <label>决策方式:</label>
+                        <select id="player-ai-decision-mode">
+                            <option value="local" selected>本地规则 - 无需API Key</option>
+                            <option value="remote">大模型AI - 需要API Key</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="player-ai-difficulty-row">
+                        <label>AI难度:</label>
+                        <select id="player-ai-difficulty">
+                            <option value="local_easy">简单</option>
+                            <option value="local_medium" selected>普通</option>
+                            <option value="local_hard">困难</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="player-ai-provider-row">
+                        <label>模型供应商:</label>
+                        <select id="player-ai-provider">
+                            <option value="minimax" selected>MiniMax</option>
+                            <option value="kimi">Kimi</option>
+                            <option value="gpt">GPT</option>
+                            <option value="claude">Claude</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="player-ai-model-row">
+                        <label>模型版本:</label>
+                        <select id="player-ai-model">
+                            <option value="MiniMax-M2.7" selected>MiniMax-M2.7</option>
+                            <option value="MiniMax-M2.5">MiniMax-M2.5</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="player-ai-key-row">
+                        <label>API Key: <span class="hint">(大模型模式需要)</span></label>
+                        <input type="password" id="player-ai-key" placeholder="输入API Key">
+                    </div>
+                </div>
+            </div>
+
+            <div class="config-section" id="opponent-ai-config">
+                <h3>敌方AI配置</h3>
+                <div class="ai-toggle">
+                    <label>
+                        <input type="checkbox" id="opponent-ai-enabled" checked>
+                        <span>启用AI控制敌方</span>
+                    </label>
+                </div>
+                <div class="ai-settings" id="opponent-ai-settings">
+                    <div class="form-row">
+                        <label>决策方式:</label>
+                        <select id="opponent-ai-decision-mode">
+                            <option value="local" selected>本地规则 - 无需API Key</option>
+                            <option value="remote">大模型AI - 需要API Key</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="opponent-ai-difficulty-row">
+                        <label>AI难度:</label>
+                        <select id="opponent-ai-difficulty">
+                            <option value="local_easy">简单</option>
+                            <option value="local_medium" selected>普通</option>
+                            <option value="local_hard">困难</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="opponent-ai-provider-row">
+                        <label>模型供应商:</label>
+                        <select id="opponent-ai-provider">
+                            <option value="minimax" selected>MiniMax</option>
+                            <option value="kimi">Kimi</option>
+                            <option value="gpt">GPT</option>
+                            <option value="claude">Claude</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="opponent-ai-model-row">
+                        <label>模型版本:</label>
+                        <select id="opponent-ai-model">
+                            <option value="MiniMax-M2.7" selected>MiniMax-M2.7</option>
+                            <option value="MiniMax-M2.5">MiniMax-M2.5</option>
+                        </select>
+                    </div>
+                    <div class="form-row" id="opponent-ai-key-row">
+                        <label>API Key: <span class="hint">(大模型模式需要)</span></label>
+                        <input type="password" id="opponent-ai-key" placeholder="输入API Key">
+                    </div>
+                    <div class="form-row" id="opponent-ai-timeout-row">
+                        <label>决策超时: <span id="timeout-value">15</span>秒</label>
+                        <input type="range" id="ai-timeout" min="3" max="30" value="15">
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button id="btn-ai-back" class="secondary-btn">← 返回</button>
+                <button id="btn-ai-next" class="primary-btn">下一步: 选择篇章</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 篇章选择弹窗 -->
+    <div id="arc-select-modal" class="modal">
+        <div class="modal-content arc-select-content">
+            <h2>🗺️ 选择篇章</h2>
+            <p class="arc-subtitle">选择你要进入的修仙世界</p>
+            <div id="arc-list" class="arc-list"></div>
+            <div class="modal-actions">
+                <button id="btn-arc-back" class="secondary-btn">← 返回</button>
+                <button class="primary-btn" id="arc-confirm-btn" disabled>下一步: 选择卷章</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 子篇章选择弹窗 -->
+    <div id="sub-arc-select-modal" class="modal">
+        <div class="modal-content sub-arc-select-content">
+            <h2>📖 选择卷章</h2>
+            <p class="sub-arc-subtitle" id="sub-arc-subtitle">选择你要经历的修仙历程</p>
+            <div id="sub-arc-list" class="sub-arc-list"></div>
+            <div class="sub-arc-info" id="sub-arc-info" style="display:none;">
+                <div class="sub-arc-rule">
+                    <h4>⚡ 特殊规则</h4>
+                    <p id="sub-arc-rule-desc"></p>
+                </div>
+                <div class="sub-arc-heroes">
+                    <h4>👤 可用修士</h4>
+                    <div id="sub-arc-heroes-list"></div>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button id="btn-sub-arc-back" class="secondary-btn">← 返回</button>
+                <button class="primary-btn" id="sub-arc-confirm-btn" disabled>下一步: 选择敌人</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 关卡选择弹窗（剧情模式 - 子篇章内递进敌人） -->
+    <div id="stage-select-modal" class="modal">
+        <div class="modal-content stage-select-content">
+            <h2>⚔️ 选择关卡</h2>
+            <p class="stage-subtitle" id="stage-subtitle"></p>
+            <div id="stage-list" class="stage-list"></div>
+            <div class="modal-actions">
+                <button id="btn-stage-back" class="secondary-btn">← 返回</button>
+                <button class="primary-btn" id="stage-confirm-btn" disabled>下一步: 选择修士</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 英雄选择弹窗 -->
+    <div id="hero-select-modal" class="modal">
+        <div class="modal-content">
+            <h2>选择你的修士</h2>
+            <div id="hero-list"></div>
+            <div class="modal-actions">
+                <button id="btn-hero-back" class="secondary-btn">← 返回</button>
+                <button id="btn-hero-next" class="primary-btn">下一步: 选择牌组</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 牌组构建器 -->
+    <div id="deck-builder-container" class="deck-builder hidden"></div>
+
+    <!-- 卡牌图鉴 -->
+    <div id="card-gallery-container" class="card-gallery hidden"></div>
+
+    <!-- 牌组选择弹窗 -->
+    <div id="deck-select-modal" class="modal">
+        <div class="modal-content">
+            <h2>🃏 选择牌组</h2>
+            <div id="deck-list-select"></div>
+            <div class="modal-actions">
+                <button id="btn-deck-back" class="secondary-btn">← 返回</button>
+                <button id="btn-deck-create" class="secondary-btn">➕ 新建牌组</button>
+                <button id="btn-deck-exclusive" class="secondary-btn">🛡️ 专属牌组</button>
+                <button id="btn-deck-random" class="secondary-btn">🎲 随机生成</button>
+                <button class="primary-btn" id="deck-confirm-btn" disabled>开始战斗</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vite 应用入口 -->
+
+    <!-- Cloudflare Web Analytics -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"e253cf6941a1490bb257bb08813d3390"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+</body>
+</html>

@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 2,
+  "scenes": [
+    {
+      "id": "nangongwan_meets_hanli_again",
+      "priority": "A",
+      "trigger": "battle_start",
+      "speakerHeroId": "nangongwan",
+      "text": "落云宗的新进长老，原来真是你。",
+      "source": {
+        "chapter": "第七百一十四章 昔日之心",
+        "line": 33621
+      },
+      "conditions": {
+        "heroesAll": [
+          "nangongwan",
+          "hanli"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "落云宗的新进长老，原来真是你。",
+          "source": {
+            "chapter": "第七百一十四章 昔日之心",
+            "line": 33621
+          }
+        },
+        {
+          "text": "玉儿，你先下去，我要单独和此人谈谈。",
+          "source": {
+            "chapter": "第七百一十四章 昔日之心",
+            "line": 33611
+          },
+          "quoteHash": "cac241dac253"
+        },
+        {
+          "text": "哼！落云宗的新进长老，二百多年就进阶的元婴修士，我怎会不知道的。",
+          "source": {
+            "chapter": "第七百一十四章 昔日之心",
+            "line": 33621
+          },
+          "quoteHash": "8429d73fa016"
+        }
+      ]
+    },
+    {
+      "id": "wangchan_huangfeng_target",
+      "priority": "A",
+      "trigger": "battle_start",
+      "speakerHeroId": "wangchan",
+      "text": "这位黄枫谷弟子，倒是很有意思。",
+      "source": {
+        "chapter": "第二百五十八章 尔虞我诈",
+        "line": 10884
+      },
+      "conditions": {
+        "heroesAll": [
+          "wangchan",
+          "hanli"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "这位黄枫谷弟子，倒是很有意思。",
+          "source": {
+            "chapter": "第二百五十八章 尔虞我诈",
+            "line": 10884
+          }
+        },
+        {
+          "text": "那男子是哪一派的弟子？",
+          "source": {
+            "chapter": "第二百六十章 圈套",
+            "line": 10882
+          },
+          "quoteHash": "2af03c9066fb"
+        },
+        {
+          "text": "叫两位长老动手吧！这位黄枫谷弟子很有意思，交给我活动下手脚也不错。",
+          "source": {
+            "chapter": "第二百六十章 圈套",
+            "line": 10884
+          },
+          "quoteHash": "853fb35cdd67"
+        }
+      ]
+    },
+    {
+      "id": "linghu_recruit_hanli",
+      "priority": "A",
+      "trigger": "battle_start",
+      "speakerHeroId": "linghu",
+      "text": "重新回到黄枫谷一事，你可以再考虑。",
+      "source": {
+        "chapter": "第七百三十一章 旧识",
+        "line": 34073
+      },
+      "conditions": {
+        "heroesAll": [
+          "linghu",
+          "hanli"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "重新回到黄枫谷一事，你可以再考虑。",
+          "source": {
+            "chapter": "第七百三十一章 旧识",
+            "line": 34073
+          }
+        },
+        {
+          "text": "其他的事情都好办，但是有一件危险的事情，还需要有人去做。",
+          "source": {
+            "chapter": "第三百四十六章 令狐老祖",
+            "line": 15672
+          },
+          "quoteHash": "a7054bd8e69e"
+        },
+        {
+          "text": "既然道友如此性急，在下也不兜圈子了。不知韩道友，愿不愿重新回到黄枫谷担…",
+          "source": {
+            "chapter": "第七百二十四章 令狐之邀",
+            "line": 34073
+          },
+          "quoteHash": "27f7702dd623"
+        }
+      ]
+    },
+    {
+      "id": "yinyue_artifact_spirit_identity",
+      "priority": "A",
+      "trigger": "battle_start",
+      "speakerHeroId": "yinyue",
+      "text": "我本是玉如意器灵，此身另有缘由。",
+      "source": {
+        "chapter": "第六百一十六章 主仆与器灵",
+        "line": 29211
+      },
+      "conditions": {
+        "heroesAny": [
+          "yinyue"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "我本是玉如意器灵，此身另有缘由。",
+          "source": {
+            "chapter": "第六百一十六章 主仆与器灵",
+            "line": 29211
+          }
+        },
+        {
+          "text": "我身为玉如意器灵，是无法长时间驱动寄身器物飞行的。要想离开那座虚天殿，…",
+          "source": {
+            "chapter": "第六百一十六章 主仆与器灵",
+            "line": 29211
+          },
+          "quoteHash": "5a683cd2e3ee"
+        },
+        {
+          "text": "主人，我有一件事搁在心里许久了，能问你一下吗？",
+          "source": {
+            "chapter": "第七百九十二章 极西之地",
+            "line": 36910
+          },
+          "quoteHash": "fb3e533b5eb4"
+        }
+      ]
+    },
+    {
+      "id": "dayan_research_puppet_art",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "dayan",
+      "text": "傀儡术仍有许多可推演之处。",
+      "source": {
+        "chapter": "第八百章 上古魔界",
+        "line": 37211
+      },
+      "conditions": {
+        "cardsAny": [
+          "dayan_divine_calculation"
+        ],
+        "tagsAny": [
+          "puppet",
+          "傀儡"
+        ],
+        "minOwnPuppets": 2
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "傀儡术仍有许多可推演之处。",
+          "source": {
+            "chapter": "第八百章 上古魔界",
+            "line": 37211
+          }
+        },
+        {
+          "text": "我怎么知道，你这小怪物竟然年纪轻轻就修炼成了第二元婴。要知道，我当时除…",
+          "source": {
+            "chapter": "第七百九十九章 寄神术",
+            "line": 37177
+          },
+          "quoteHash": "97f6eeb71270"
+        },
+        {
+          "text": "好了，此事暂且不说。我没想到的是，你竟然还有养魂木这等至宝，否则就是制…",
+          "source": {
+            "chapter": "第七百九十九章 寄神术",
+            "line": 37179
+          },
+          "quoteHash": "2034ee38c732"
+        },
+        {
+          "text": "下面老夫必须养养精神，好在洞福天里继续研究傀儡术，没有事情就不要打扰我…",
+          "source": {
+            "chapter": "第八百章 上古魔界",
+            "line": 37211
+          },
+          "quoteHash": "28a77e77aaa7"
+        }
+      ]
+    },
+    {
+      "id": "fengxi_wind_thunder_wings",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "fengxi",
+      "text": "这风雷翅的气息，风某看着有些熟悉。",
+      "source": {
+        "chapter": "第五百四十三章 碧焰酒",
+        "line": 25686
+      },
+      "conditions": {
+        "cardsAny": [
+          "wind_thunder_wings",
+          "fengxi_wind_thunder_wings"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "这风雷翅的气息，风某看着有些熟悉。",
+          "source": {
+            "chapter": "第五百四十三章 碧焰酒",
+            "line": 25686
+          }
+        },
+        {
+          "text": "你只是结丹中期，竟敢大胆深入此地，依仗的是敛气术神妙吧！",
+          "source": {
+            "chapter": "第五百四十三章 碧焰酒",
+            "line": 25684
+          },
+          "quoteHash": "75fd1ebd96ef"
+        },
+        {
+          "text": "不错，你的敛气功法，风某看着就有些熟悉，曾经在一位故人那里见到过。可奇…",
+          "source": {
+            "chapter": "第五百四十三章 碧焰酒",
+            "line": 25686
+          },
+          "quoteHash": "7a57984429ac"
+        }
+      ]
+    },
+    {
+      "id": "jiyin_heavenly_corpse_fire",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "jiyin",
+      "text": "既然本祖师亲自到此，谁也别想轻易脱身。",
+      "source": {
+        "chapter": "第四百零六章 天都尸火",
+        "line": 18788
+      },
+      "conditions": {
+        "cardsAny": [
+          "heavenly_corpse_fire"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "既然本祖师亲自到此，谁也别想轻易脱身。",
+          "source": {
+            "chapter": "第四百零六章 天都尸火",
+            "line": 18788
+          }
+        },
+        {
+          "text": "看来你们是打算形神俱灭了。好，本祖师就成全你们！",
+          "source": {
+            "chapter": "第四百零六章 天都尸火",
+            "line": 18788
+          },
+          "quoteHash": "416d5ebf787a"
+        },
+        {
+          "text": "当然，既然本祖师亲自附身到了此处，所有的人要么死，要么认我为主，谁也不…",
+          "source": {
+            "chapter": "第四百零六章 天都尸火",
+            "line": 18816
+          },
+          "quoteHash": "1e882e047b8f"
+        }
+      ]
+    },
+    {
+      "id": "nangongwan_hidden_moon_message",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "nangongwan",
+      "text": "掩月宗传音秘令，非同门不可轻启。",
+      "source": {
+        "chapter": "第七百一十四章 昔日之心",
+        "line": 33623
+      },
+      "conditions": {
+        "cardsAny": [
+          "yanyue_hidden_moon_order"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "掩月宗传音秘令，非同门不可轻启。",
+          "source": {
+            "chapter": "第七百一十四章 昔日之心",
+            "line": 33623
+          }
+        },
+        {
+          "text": "你倒也不笨！的确是那位唐师侄，利用特殊渠道给我发的传音符。我接到传音符…",
+          "source": {
+            "chapter": "第七百一十四章 昔日之心",
+            "line": 33623
+          },
+          "quoteHash": "9dfd90723905"
+        },
+        {
+          "text": "后来就没什么可说的了，我回到了掩月宗内，并等本宗一在北凉国站住脚后，又…",
+          "source": {
+            "chapter": "第七百一十五章 困心术",
+            "line": 33643
+          },
+          "quoteHash": "95668010c2dd"
+        }
+      ]
+    },
+    {
+      "id": "wangchan_blood_spirit_art",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "wangchan",
+      "text": "血灵大法既出，想走可没那么容易。",
+      "source": {
+        "chapter": "第二百五十八章 尔虞我诈",
+        "line": 10961
+      },
+      "conditions": {
+        "cardsAny": [
+          "blood_spirit_art",
+          "wangchan_blood_spirit_sword"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "血灵大法既出，想走可没那么容易。",
+          "source": {
+            "chapter": "第二百五十八章 尔虞我诈",
+            "line": 10961
+          }
+        },
+        {
+          "text": "想的倒美！",
+          "source": {
+            "chapter": "第二百六十一章 血灵大法",
+            "line": 10961
+          },
+          "quoteHash": "124514a6e3c5"
+        },
+        {
+          "text": "走，通知燕家老祖，立即开始撤离！",
+          "source": {
+            "chapter": "第二百六十二章 脱身",
+            "line": 11017
+          },
+          "quoteHash": "a8d3b10061cc"
+        }
+      ]
+    },
+    {
+      "id": "wentianren_six_extreme_demon",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "wentianren",
+      "text": "一会儿就让你见识六极圣尊的厉害。",
+      "source": {
+        "chapter": "第五百七十一章 六道传人",
+        "line": 27164
+      },
+      "conditions": {
+        "cardsAny": [
+          "six_extreme_demon",
+          "wentianren_six_extreme",
+          "wentianren_six_pole_armor"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "一会儿就让你见识六极圣尊的厉害。",
+          "source": {
+            "chapter": "第五百七十一章 六道传人",
+            "line": 27164
+          }
+        },
+        {
+          "text": "哼！驱虫术，真是找死！",
+          "source": {
+            "chapter": "第五百七十二章 苦斗",
+            "line": 27100
+          },
+          "quoteHash": "21cad70b8f35"
+        },
+        {
+          "text": "哼！一会儿就会让你知道，六极圣尊的厉害。这些虽然只是六圣的幻影，但是对…",
+          "source": {
+            "chapter": "第五百七十三章 阴魔斩与六极真魔",
+            "line": 27164
+          },
+          "quoteHash": "00c8168e3778"
+        }
+      ]
+    },
+    {
+      "id": "xiangzhili_kunwu_seal",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "xiangzhili",
+      "text": "此处封印牵连甚广，切不可轻忽。",
+      "source": {
+        "chapter": "第一千一百六十八章 黑洞",
+        "line": 51332
+      },
+      "conditions": {
+        "cardsAny": [
+          "xutian_ding",
+          "kunwu_seal_chain",
+          "xiangzhili_space_seal"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "此处封印牵连甚广，切不可轻忽。",
+          "source": {
+            "chapter": "第一千一百六十八章 黑洞",
+            "line": 51332
+          }
+        },
+        {
+          "text": "晚辈并非昆吾三子三位前辈的后人，但是有关前辈的事情，这一界的确有几人知…",
+          "source": {
+            "chapter": "第一千章 幻妙天象",
+            "line": 47020
+          },
+          "quoteHash": "84845bbda8ea"
+        },
+        {
+          "text": "哪有如此容易之事，原先封印法阵都被毁了，而能够控制昆吾山禁制的化龙玺，…",
+          "source": {
+            "chapter": "第一千六十九章 逃脱",
+            "line": 51332
+          },
+          "quoteHash": "b30ed8e9d93c"
+        }
+      ]
+    },
+    {
+      "id": "xuangui_bone_fire_pressure",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "xuangui",
+      "text": "区区克制之物，又怎会让老夫退避。",
+      "source": {
+        "chapter": "第四百三十六章 九曲灵参",
+        "line": 20973
+      },
+      "conditions": {
+        "cardsAny": [
+          "xuangui_frost_bone",
+          "xuangui_bone_fire"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "区区克制之物，又怎会让老夫退避。",
+          "source": {
+            "chapter": "第四百三十六章 九曲灵参",
+            "line": 20973
+          }
+        },
+        {
+          "text": "你知道什么？这里的元婴期修士最起码有三四人，都有克制我们鬼道功法的法宝…",
+          "source": {
+            "chapter": "第四百四十六章 再聚",
+            "line": 20920
+          },
+          "quoteHash": "117f2ddaed1e"
+        },
+        {
+          "text": "本上人怎会怕此物，只不过老夫很好奇，你三人是怎样逃过此劫的？",
+          "source": {
+            "chapter": "第四百四十七章 空间",
+            "line": 20973
+          },
+          "quoteHash": "ca22985ad858"
+        }
+      ]
+    },
+    {
+      "id": "yuanyao_soul_beast_token",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "yuanyao",
+      "text": "此物便是控制啼魂兽的信物。",
+      "source": {
+        "chapter": "第四百六十四章 妖尸",
+        "line": 21819
+      },
+      "conditions": {
+        "cardsAny": [
+          "yuanyao_soul_beast_exclusive",
+          "soul_beast"
+        ],
+        "storyObjectsAny": [
+          "鸣魂珠",
+          "啼魂兽"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "此物便是控制啼魂兽的信物。",
+          "source": {
+            "chapter": "第四百六十四章 妖尸",
+            "line": 21819
+          }
+        },
+        {
+          "text": "我把啼魂交给你，你就带我走出熔岩路？",
+          "source": {
+            "chapter": "第四百六十四章 鸣魂珠",
+            "line": 21813
+          },
+          "quoteHash": "96003978251e"
+        },
+        {
+          "text": "这是鸣魂珠，也是控制啼魂兽之物，只要将此物用炼化普通法宝的方式将其炼化…",
+          "source": {
+            "chapter": "第四百六十四章 鸣魂珠",
+            "line": 21819
+          },
+          "quoteHash": "bdd4269fb312"
+        }
+      ]
+    },
+    {
+      "id": "wentianren_qingming_needle_reaction",
+      "priority": "A",
+      "trigger": "counter_card",
+      "speakerHeroId": "wentianren",
+      "text": "青冥针？你和青易居士是什么关系？",
+      "source": {
+        "chapter": "第五百七十一章 六道传人",
+        "line": 27125
+      },
+      "conditions": {
+        "cardsAny": [
+          "qingming_needles"
+        ],
+        "cardNamesAny": [
+          "青冥针"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "青冥针？你和青易居士是什么关系？",
+          "source": {
+            "chapter": "第五百七十一章 六道传人",
+            "line": 27125
+          }
+        },
+        {
+          "text": "青冥针！你和青易居士是什么关系？竟有他的青冥针符宝！这老鬼一向小气得要…",
+          "source": {
+            "chapter": "第五百七十二章 苦斗",
+            "line": 27125
+          },
+          "quoteHash": "a1b26c2a46c7"
+        },
+        {
+          "text": "哼！驱虫术，真是找死！",
+          "source": {
+            "chapter": "第五百七十二章 苦斗",
+            "line": 27100
+          },
+          "quoteHash": "21cad70b8f35"
+        }
+      ]
+    },
+    {
+      "id": "jiyin_cold_li_pearl",
+      "priority": "A",
+      "trigger": "counter_card",
+      "speakerHeroId": "jiyin",
+      "text": "寒黎珠一现，鬼道法门也要避其锋芒。",
+      "source": {
+        "chapter": "第四百零六章 天都尸火",
+        "line": 18850
+      },
+      "conditions": {
+        "cardsAny": [
+          "cold_li_pearl"
+        ],
+        "cardNamesAny": [
+          "寒黎珠"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "寒黎珠一现，鬼道法门也要避其锋芒。",
+          "source": {
+            "chapter": "第四百零六章 天都尸火",
+            "line": 18850
+          }
+        },
+        {
+          "text": "老魔，让你见识一下，用深海玄晶炼制出的寒黎珠的厉害！",
+          "source": {
+            "chapter": "第四百零七章 倒戈",
+            "line": 18850
+          },
+          "quoteHash": "de1bc318adf9"
+        },
+        {
+          "text": "就现在，赤兄快动手！",
+          "source": {
+            "chapter": "第四百零七章 倒戈",
+            "line": 18857
+          },
+          "quoteHash": "9f76f4a38916"
+        }
+      ]
+    },
+    {
+      "id": "fengxi_demon_alliance",
+      "priority": "A",
+      "trigger": "unit_enter",
+      "speakerHeroId": "fengxi",
+      "text": "三位若能通力，此事便有几分把握。",
+      "source": {
+        "chapter": "第五百四十三章 碧焰酒",
+        "line": 25773
+      },
+      "conditions": {
+        "cardNamesAny": [
+          "风希",
+          "裂风兽"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "三位若能通力，此事便有几分把握。",
+          "source": {
+            "chapter": "第五百四十三章 碧焰酒",
+            "line": 25773
+          }
+        },
+        {
+          "text": "来，厉道友先尝尝风某自制的碧焰酒。这可是百余年才能酿制一坛的真正灵酒。…",
+          "source": {
+            "chapter": "第五百四十三章 碧焰酒",
+            "line": 25694
+          },
+          "quoteHash": "53548f2d664b"
+        },
+        {
+          "text": "厉道友跟我来吧！我给你介绍另外两名妖族的挚友。这一次，需要你们三位通力…",
+          "source": {
+            "chapter": "第五百四十四章 后期大成",
+            "line": 25773
+          },
+          "quoteHash": "ee155c3a1b2e"
+        }
+      ]
+    },
+    {
+      "id": "nangongwan_yanyue_return",
+      "priority": "A",
+      "trigger": "unit_enter",
+      "speakerHeroId": "nangongwan",
+      "text": "掩月宗故人旧事，终究还是绕不开。",
+      "source": {
+        "chapter": "第七百一十四章 昔日之心",
+        "line": 33643
+      },
+      "conditions": {
+        "cardsAny": [
+          "yanyue_elder",
+          "yanyue_disciple",
+          "yanyue_enchantress"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "掩月宗故人旧事，终究还是绕不开。",
+          "source": {
+            "chapter": "第七百一十四章 昔日之心",
+            "line": 33643
+          }
+        },
+        {
+          "text": "玉儿，你先下去，我要单独和此人谈谈。",
+          "source": {
+            "chapter": "第七百一十四章 昔日之心",
+            "line": 33611
+          },
+          "quoteHash": "cac241dac253"
+        },
+        {
+          "text": "后来就没什么可说的了，我回到了掩月宗内，并等本宗一在北凉国站住脚后，又…",
+          "source": {
+            "chapter": "第七百一十五章 困心术",
+            "line": 33643
+          },
+          "quoteHash": "95668010c2dd"
+        }
+      ]
+    },
+    {
+      "id": "xiangzhili_divine_reveal",
+      "priority": "A",
+      "trigger": "skill_use",
+      "speakerHeroId": "xiangzhili",
+      "text": "这一界的事情，比你想的还要复杂。",
+      "source": {
+        "chapter": "第一千零二章 小极宫",
+        "line": 47020
+      },
+      "conditions": {
+        "effectAny": [
+          "divine_transformation",
+          "identity_reveal",
+          "realm_pressure"
+        ],
+        "skillNamesAny": [
+          "化神",
+          "神游",
+          "隐世"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "这一界的事情，比你想的还要复杂。",
+          "source": {
+            "chapter": "第一千零二章 小极宫",
+            "line": 47020
+          }
+        },
+        {
+          "text": "晚辈并非昆吾三子三位前辈的后人，但是有关前辈的事情，这一界的确有几人知…",
+          "source": {
+            "chapter": "第一千章 幻妙天象",
+            "line": 47020
+          },
+          "quoteHash": "84845bbda8ea"
+        },
+        {
+          "text": "幻妙天象！",
+          "source": {
+            "chapter": "第一千章 幻妙天象",
+            "line": 47023
+          },
+          "quoteHash": "86b3954b4feb"
+        }
+      ]
+    },
+    {
+      "id": "yinyue_soul_charm",
+      "priority": "A",
+      "trigger": "skill_use",
+      "speakerHeroId": "yinyue",
+      "text": "若真要夺舍，也要看时机是否合适。",
+      "source": {
+        "chapter": "第六百一十六章 主仆与器灵",
+        "line": 29223
+      },
+      "conditions": {
+        "cardsAny": [
+          "yinyue_soul_charm"
+        ],
+        "effectAny": [
+          "control",
+          "possess",
+          "charm"
+        ],
+        "skillNamesAny": [
+          "妖狐化身",
+          "银月魅术",
+          "魅术"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "若真要夺舍，也要看时机是否合适。",
+          "source": {
+            "chapter": "第六百一十六章 主仆与器灵",
+            "line": 29223
+          }
+        },
+        {
+          "text": "以韩兄现在的法宝和神通，就是我没有施展夺舍前，多半也不是你的对手了。现…",
+          "source": {
+            "chapter": "第六百一十六章 主仆与器灵",
+            "line": 29223
+          },
+          "quoteHash": "234794368a8f"
+        },
+        {
+          "text": "主人，我有一件事搁在心里许久了，能问你一下吗？",
+          "source": {
+            "chapter": "第七百九十二章 极西之地",
+            "line": 36910
+          },
+          "quoteHash": "fb3e533b5eb4"
+        }
+      ]
+    },
+    {
+      "id": "yuanyao_soul_recall_rescue",
+      "priority": "A",
+      "trigger": "skill_use",
+      "speakerHeroId": "yuanyao",
+      "text": "当日出手相救之恩，元瑶一直记得。",
+      "source": {
+        "chapter": "第四百六十四章 妖尸",
+        "line": 21778
+      },
+      "conditions": {
+        "effectAny": [
+          "revive",
+          "resurrect",
+          "rescue",
+          "prevent_lethal",
+          "soul_recall"
+        ],
+        "skillNamesAny": [
+          "还魂术",
+          "还魂"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "当日出手相救之恩，元瑶一直记得。",
+          "source": {
+            "chapter": "第四百六十四章 妖尸",
+            "line": 21778
+          }
+        },
+        {
+          "text": "多谢韩道友出手相救，元瑶实在感激不尽！",
+          "source": {
+            "chapter": "第四百六十三章 巧遇",
+            "line": 21778
+          },
+          "quoteHash": "3e16285d47aa"
+        },
+        {
+          "text": "你想的美？若不是在此地此时，凭你也想让本人投怀送抱。",
+          "source": {
+            "chapter": "第四百六十四章 鸣魂珠",
+            "line": 21803
+          },
+          "quoteHash": "4b03cb28018e"
+        }
+      ]
+    }
+  ]
+}

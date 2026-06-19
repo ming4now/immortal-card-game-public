@@ -1,0 +1,1346 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-07",
+  "description": "Generic lore identity graph for races, lineages, species, sects, tribes, factions, cultivation systems, and regions. Legacy game fields such as sect/race can coexist during migration.",
+  "nodeKinds": {
+    "race": "High-level race or realm-wide ancestry group.",
+    "lineage": "A sub-race, bloodline, clan lineage, or large species family.",
+    "species": "Concrete species or bloodline branch.",
+    "sect": "Sect or school with inherited techniques and organization.",
+    "tribe": "Tribal or nomadic political unit.",
+    "faction": "Loose organization, alliance, valley, palace, market, or political power.",
+    "path": "Cultivation system, identity, or technique tradition.",
+    "region": "Geographic origin, realm, island sea, forbidden zone, or secret realm."
+  },
+  "edgeRelations": {
+    "IS_A": "Child node belongs under parent node.",
+    "AFFILIATED_WITH": "Node is politically or narratively associated with another node.",
+    "HAS_CULTIVATION_SYSTEM": "Organization or group commonly uses a cultivation system.",
+    "LOCATED_IN": "Node is primarily located in a region.",
+    "ORIGINATES_FROM": "Node originates from a region or group.",
+    "TEACHES": "Organization, lineage, or path teaches a technique, spell, formation, or doctrine.",
+    "OWNS": "Hero or group owns an artifact, pet, treasure, or named object.",
+    "USES_ARTIFACT": "Hero, group, or path is strongly associated with using an artifact.",
+    "COUNTERS": "Node is narratively or mechanically favored against another node.",
+    "SYNERGIZES_WITH": "Node has positive gameplay or lore synergy with another node.",
+    "RESTRICTED_TO": "Card, artifact, technique, or identity is restricted to a node.",
+    "SOURCE_OF": "Node is the source, material, or origin of another node."
+  },
+  "nodes": [
+    {
+      "id": "race:human",
+      "kind": "race",
+      "name": "人族",
+      "aliases": [
+        "人类修士"
+      ]
+    },
+    {
+      "id": "race:yaozu",
+      "kind": "race",
+      "name": "妖族",
+      "aliases": [
+        "妖修",
+        "妖兽一族"
+      ]
+    },
+    {
+      "id": "race:mozu",
+      "kind": "race",
+      "name": "魔族",
+      "aliases": [
+        "古魔",
+        "魔修"
+      ]
+    },
+    {
+      "id": "race:guizu",
+      "kind": "race",
+      "name": "鬼族",
+      "aliases": [
+        "鬼修"
+      ]
+    },
+    {
+      "id": "lineage:yuzu",
+      "kind": "lineage",
+      "name": "羽族",
+      "aliases": [
+        "翼族",
+        "飞禽妖族"
+      ]
+    },
+    {
+      "id": "species:liefengshou",
+      "kind": "species",
+      "name": "裂风兽",
+      "aliases": [
+        "裂风族"
+      ]
+    },
+    {
+      "id": "species:jiaolong",
+      "kind": "species",
+      "name": "蛟龙",
+      "aliases": [
+        "蛟龙一族"
+      ]
+    },
+    {
+      "id": "species:gumo",
+      "kind": "species",
+      "name": "古魔",
+      "aliases": [
+        "古魔一族"
+      ]
+    },
+    {
+      "id": "sect:yanyue",
+      "kind": "sect",
+      "name": "掩月宗",
+      "aliases": [
+        "掩月派"
+      ]
+    },
+    {
+      "id": "sect:huangfeng",
+      "kind": "sect",
+      "name": "黄枫谷",
+      "aliases": []
+    },
+    {
+      "id": "sect:qingxu",
+      "kind": "sect",
+      "name": "清虚门",
+      "aliases": []
+    },
+    {
+      "id": "sect:huadaowu",
+      "kind": "sect",
+      "name": "化刀坞",
+      "aliases": []
+    },
+    {
+      "id": "sect:jujian",
+      "kind": "sect",
+      "name": "巨剑门",
+      "aliases": []
+    },
+    {
+      "id": "sect:tianque",
+      "kind": "sect",
+      "name": "天阙堡",
+      "aliases": []
+    },
+    {
+      "id": "sect:lingshou",
+      "kind": "sect",
+      "name": "灵兽山",
+      "aliases": []
+    },
+    {
+      "id": "sect:guiling",
+      "kind": "sect",
+      "name": "鬼灵门",
+      "aliases": []
+    },
+    {
+      "id": "sect:xuangu",
+      "kind": "sect",
+      "name": "玄骨门",
+      "aliases": []
+    },
+    {
+      "id": "sect:tianmo",
+      "kind": "sect",
+      "name": "天魔宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:yinluo",
+      "kind": "sect",
+      "name": "阴罗宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:hehuan",
+      "kind": "sect",
+      "name": "合欢宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:moyan",
+      "kind": "sect",
+      "name": "魔焰宗",
+      "aliases": [
+        "魔焰门"
+      ]
+    },
+    {
+      "id": "faction:jiyin",
+      "kind": "faction",
+      "name": "极阴岛",
+      "aliases": []
+    },
+    {
+      "id": "faction:heisha",
+      "kind": "faction",
+      "name": "黑煞教",
+      "aliases": []
+    },
+    {
+      "id": "faction:qixuan",
+      "kind": "faction",
+      "name": "七玄门",
+      "aliases": [
+        "七绝门"
+      ]
+    },
+    {
+      "id": "faction:wild-wolf",
+      "kind": "faction",
+      "name": "野狼帮",
+      "aliases": []
+    },
+    {
+      "id": "faction:giant-whale",
+      "kind": "faction",
+      "name": "巨鲸帮",
+      "aliases": []
+    },
+    {
+      "id": "tribe:mulan",
+      "kind": "tribe",
+      "name": "慕兰族",
+      "aliases": [
+        "慕兰人"
+      ]
+    },
+    {
+      "id": "tribe:tuwu",
+      "kind": "tribe",
+      "name": "突兀族",
+      "aliases": [
+        "突兀人"
+      ]
+    },
+    {
+      "id": "tribe:tianfeng",
+      "kind": "tribe",
+      "name": "天风部",
+      "aliases": []
+    },
+    {
+      "id": "faction:wanyaogu",
+      "kind": "faction",
+      "name": "万妖谷",
+      "aliases": []
+    },
+    {
+      "id": "path:zhengdao",
+      "kind": "path",
+      "name": "正道修士",
+      "aliases": [
+        "正道"
+      ]
+    },
+    {
+      "id": "path:modao",
+      "kind": "path",
+      "name": "魔道修士",
+      "aliases": [
+        "魔道"
+      ]
+    },
+    {
+      "id": "path:guidao",
+      "kind": "path",
+      "name": "鬼道修士",
+      "aliases": [
+        "鬼道"
+      ]
+    },
+    {
+      "id": "path:yaoxiu",
+      "kind": "path",
+      "name": "妖修",
+      "aliases": [
+        "化形妖修"
+      ]
+    },
+    {
+      "id": "path:fashi",
+      "kind": "path",
+      "name": "法士",
+      "aliases": [
+        "慕兰法士",
+        "突兀法士"
+      ]
+    },
+    {
+      "id": "path:sanxiu",
+      "kind": "path",
+      "name": "散修",
+      "aliases": []
+    },
+    {
+      "id": "path:jianghu-wuxue",
+      "kind": "path",
+      "name": "凡人武学",
+      "aliases": [
+        "江湖武学",
+        "凡俗武学"
+      ]
+    },
+    {
+      "id": "region:tiannan",
+      "kind": "region",
+      "name": "天南",
+      "aliases": [
+        "天南地区"
+      ]
+    },
+    {
+      "id": "region:yue-state",
+      "kind": "region",
+      "name": "越国",
+      "aliases": [
+        "越国修仙界"
+      ]
+    },
+    {
+      "id": "region:jingzhou",
+      "kind": "region",
+      "name": "镜州",
+      "aliases": []
+    },
+    {
+      "id": "region:luoyun",
+      "kind": "region",
+      "name": "落云宗",
+      "aliases": []
+    },
+    {
+      "id": "region:outer-star-sea",
+      "kind": "region",
+      "name": "外星海",
+      "aliases": [
+        "乱星海外海"
+      ]
+    },
+    {
+      "id": "region:human-realm",
+      "kind": "region",
+      "name": "人界",
+      "aliases": [
+        "凡界"
+      ]
+    },
+    {
+      "id": "region:tianluo",
+      "kind": "region",
+      "name": "天罗国",
+      "aliases": []
+    },
+    {
+      "id": "region:fengdu",
+      "kind": "region",
+      "name": "风都国",
+      "aliases": []
+    },
+    {
+      "id": "region:yuanwu",
+      "kind": "region",
+      "name": "元武国",
+      "aliases": []
+    },
+    {
+      "id": "region:zijin",
+      "kind": "region",
+      "name": "紫金国",
+      "aliases": []
+    },
+    {
+      "id": "region:jiang",
+      "kind": "region",
+      "name": "姜国",
+      "aliases": []
+    },
+    {
+      "id": "region:cheqi",
+      "kind": "region",
+      "name": "车骑国",
+      "aliases": []
+    },
+    {
+      "id": "region:chaotic-star-sea",
+      "kind": "region",
+      "name": "乱星海",
+      "aliases": [
+        "星海"
+      ]
+    },
+    {
+      "id": "region:great-jin",
+      "kind": "region",
+      "name": "大晋",
+      "aliases": [
+        "大晋修仙界"
+      ]
+    },
+    {
+      "id": "region:yunmeng",
+      "kind": "region",
+      "name": "云梦山",
+      "aliases": [
+        "云梦山脉"
+      ]
+    },
+    {
+      "id": "path:neutral",
+      "kind": "path",
+      "name": "中立势力",
+      "aliases": [
+        "中立修士"
+      ]
+    },
+    {
+      "id": "sect:yuling",
+      "kind": "sect",
+      "name": "御灵宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:tiansha",
+      "kind": "sect",
+      "name": "天煞宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:qianhuan",
+      "kind": "sect",
+      "name": "千幻宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:miaoyin",
+      "kind": "sect",
+      "name": "妙音门",
+      "aliases": []
+    },
+    {
+      "id": "sect:yinsha",
+      "kind": "sect",
+      "name": "隐煞门",
+      "aliases": []
+    },
+    {
+      "id": "sect:tianxing",
+      "kind": "sect",
+      "name": "天星宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:shenbing",
+      "kind": "sect",
+      "name": "神兵门",
+      "aliases": []
+    },
+    {
+      "id": "sect:wanmiao",
+      "kind": "sect",
+      "name": "万妙观",
+      "aliases": []
+    },
+    {
+      "id": "sect:qianzhu",
+      "kind": "sect",
+      "name": "千竹教",
+      "aliases": []
+    },
+    {
+      "id": "sect:wanfa",
+      "kind": "sect",
+      "name": "万法门",
+      "aliases": []
+    },
+    {
+      "id": "sect:luoyun",
+      "kind": "sect",
+      "name": "落云宗",
+      "aliases": []
+    },
+    {
+      "id": "sect:gujian",
+      "kind": "sect",
+      "name": "古剑门",
+      "aliases": []
+    },
+    {
+      "id": "sect:baiqiao",
+      "kind": "sect",
+      "name": "百巧院",
+      "aliases": []
+    },
+    {
+      "id": "sect:taiyi",
+      "kind": "sect",
+      "name": "太一门",
+      "aliases": []
+    },
+    {
+      "id": "sect:xiaoji",
+      "kind": "sect",
+      "name": "小极宫",
+      "aliases": [
+        "北冥小极宫"
+      ]
+    },
+    {
+      "id": "sect:tianji",
+      "kind": "sect",
+      "name": "天机阁",
+      "aliases": []
+    },
+    {
+      "id": "faction:yue-seven-sects",
+      "kind": "faction",
+      "name": "越国七派",
+      "aliases": [
+        "七派",
+        "七大派"
+      ]
+    },
+    {
+      "id": "faction:tiannan-demon-six",
+      "kind": "faction",
+      "name": "魔道六宗",
+      "aliases": [
+        "天罗国魔道六宗",
+        "六宗"
+      ]
+    },
+    {
+      "id": "faction:zhengdao-alliance",
+      "kind": "faction",
+      "name": "正道盟",
+      "aliases": [
+        "正道联盟"
+      ]
+    },
+    {
+      "id": "faction:tiandao-alliance",
+      "kind": "faction",
+      "name": "天道盟",
+      "aliases": []
+    },
+    {
+      "id": "faction:jiuguo-alliance",
+      "kind": "faction",
+      "name": "九国盟",
+      "aliases": []
+    },
+    {
+      "id": "faction:star-palace",
+      "kind": "faction",
+      "name": "星宫",
+      "aliases": [
+        "天星城星宫"
+      ]
+    },
+    {
+      "id": "faction:reverse-star-alliance",
+      "kind": "faction",
+      "name": "逆星盟",
+      "aliases": []
+    },
+    {
+      "id": "faction:liulian",
+      "kind": "faction",
+      "name": "六连殿",
+      "aliases": []
+    },
+    {
+      "id": "faction:yan-clan",
+      "kind": "faction",
+      "name": "燕家堡",
+      "aliases": [
+        "燕家"
+      ]
+    },
+    {
+      "id": "faction:chaotic-star-righteous",
+      "kind": "faction",
+      "name": "乱星海正道",
+      "aliases": []
+    },
+    {
+      "id": "faction:chaotic-star-demonic",
+      "kind": "faction",
+      "name": "乱星海魔道",
+      "aliases": []
+    },
+    {
+      "id": "faction:great-jin-top-sects",
+      "kind": "faction",
+      "name": "大晋正魔十大宗门",
+      "aliases": [
+        "大晋十大宗门",
+        "正魔十大宗门"
+      ]
+    },
+    {
+      "id": "lineage:liudao",
+      "kind": "lineage",
+      "name": "六道传承",
+      "aliases": [
+        "六道极圣传承",
+        "六道传人",
+        "六道少主"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "lineage:yuzu",
+      "relation": "IS_A",
+      "target": "race:yaozu",
+      "evidence": "User-confirmed: 裂风兽属于羽族；羽族归入妖族大类。"
+    },
+    {
+      "source": "species:liefengshou",
+      "relation": "IS_A",
+      "target": "lineage:yuzu",
+      "evidence": "User-confirmed: 裂风兽属于羽族。"
+    },
+    {
+      "source": "species:jiaolong",
+      "relation": "IS_A",
+      "target": "race:yaozu"
+    },
+    {
+      "source": "species:gumo",
+      "relation": "IS_A",
+      "target": "race:mozu"
+    },
+    {
+      "source": "tribe:mulan",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:fashi"
+    },
+    {
+      "source": "tribe:tuwu",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:fashi"
+    },
+    {
+      "source": "tribe:tianfeng",
+      "relation": "IS_A",
+      "target": "tribe:mulan"
+    },
+    {
+      "source": "sect:yanyue",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:huangfeng",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:qingxu",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "越国七派之一；当前游戏阵营按正道宗门处理。"
+    },
+    {
+      "source": "sect:huadaowu",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "越国七派之一；当前游戏阵营按正道宗门处理。"
+    },
+    {
+      "source": "sect:jujian",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "越国七派之一；当前游戏阵营按正道宗门处理。"
+    },
+    {
+      "source": "sect:tianque",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "越国七派之一；当前游戏阵营按正道宗门处理。"
+    },
+    {
+      "source": "sect:lingshou",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "越国七派之一；当前游戏阵营按正道宗门处理。"
+    },
+    {
+      "source": "sect:guiling",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:xuangu",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:guidao"
+    },
+    {
+      "source": "sect:xuangu",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:tianmo",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:yinluo",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:hehuan",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:moyan",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "faction:jiyin",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "faction:jiyin",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:guidao"
+    },
+    {
+      "source": "faction:heisha",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "faction:qixuan",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:jianghu-wuxue",
+      "evidence": "七玄门是镜州江湖门派，门内传授正阳劲、风雷刀法等凡人武学。"
+    },
+    {
+      "source": "faction:wild-wolf",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:jianghu-wuxue",
+      "evidence": "野狼帮由马贼势力演化，帮众以江湖厮杀与凡人武艺为主。"
+    },
+    {
+      "source": "faction:giant-whale",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:jianghu-wuxue"
+    },
+    {
+      "source": "faction:wanyaogu",
+      "relation": "AFFILIATED_WITH",
+      "target": "race:yaozu"
+    },
+    {
+      "source": "path:yaoxiu",
+      "relation": "AFFILIATED_WITH",
+      "target": "race:yaozu"
+    },
+    {
+      "source": "sect:yanyue",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "sect:huangfeng",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "sect:qingxu",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "sect:huadaowu",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "sect:jujian",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "sect:tianque",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "sect:lingshou",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "region:yue-state",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:jingzhou",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "faction:qixuan",
+      "relation": "LOCATED_IN",
+      "target": "region:jingzhou"
+    },
+    {
+      "source": "faction:wild-wolf",
+      "relation": "LOCATED_IN",
+      "target": "region:jingzhou"
+    },
+    {
+      "source": "sect:huangfeng",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:yue-seven-sects",
+      "evidence": "越国七派成员。"
+    },
+    {
+      "source": "sect:yanyue",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:yue-seven-sects",
+      "evidence": "越国七派成员。"
+    },
+    {
+      "source": "sect:qingxu",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:yue-seven-sects",
+      "evidence": "越国七派成员。"
+    },
+    {
+      "source": "sect:huadaowu",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:yue-seven-sects",
+      "evidence": "越国七派成员。"
+    },
+    {
+      "source": "sect:jujian",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:yue-seven-sects",
+      "evidence": "越国七派成员。"
+    },
+    {
+      "source": "sect:tianque",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:yue-seven-sects",
+      "evidence": "越国七派成员。"
+    },
+    {
+      "source": "sect:lingshou",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:yue-seven-sects",
+      "evidence": "越国七派成员。"
+    },
+    {
+      "source": "faction:yue-seven-sects",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state",
+      "evidence": "越国七派为越国修仙界主体势力。"
+    },
+    {
+      "source": "sect:hehuan",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:tiannan-demon-six",
+      "evidence": "天罗国魔道六宗成员。"
+    },
+    {
+      "source": "sect:hehuan",
+      "relation": "LOCATED_IN",
+      "target": "region:tianluo"
+    },
+    {
+      "source": "sect:guiling",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:tiannan-demon-six",
+      "evidence": "天罗国魔道六宗成员。"
+    },
+    {
+      "source": "sect:guiling",
+      "relation": "LOCATED_IN",
+      "target": "region:tianluo"
+    },
+    {
+      "source": "sect:yuling",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:tiannan-demon-six",
+      "evidence": "天罗国魔道六宗成员。"
+    },
+    {
+      "source": "sect:yuling",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:yuling",
+      "relation": "LOCATED_IN",
+      "target": "region:tianluo"
+    },
+    {
+      "source": "sect:tiansha",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:tiannan-demon-six",
+      "evidence": "天罗国魔道六宗成员。"
+    },
+    {
+      "source": "sect:tiansha",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:tiansha",
+      "relation": "LOCATED_IN",
+      "target": "region:tianluo"
+    },
+    {
+      "source": "sect:moyan",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:tiannan-demon-six",
+      "evidence": "天罗国魔道六宗成员。"
+    },
+    {
+      "source": "sect:moyan",
+      "relation": "LOCATED_IN",
+      "target": "region:tianluo"
+    },
+    {
+      "source": "sect:qianhuan",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:tiannan-demon-six",
+      "evidence": "天罗国魔道六宗成员。"
+    },
+    {
+      "source": "sect:qianhuan",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:qianhuan",
+      "relation": "LOCATED_IN",
+      "target": "region:tianluo"
+    },
+    {
+      "source": "faction:tiannan-demon-six",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao",
+      "evidence": "天罗国魔道六宗整体按魔道势力维护。"
+    },
+    {
+      "source": "faction:tiannan-demon-six",
+      "relation": "LOCATED_IN",
+      "target": "region:tianluo"
+    },
+    {
+      "source": "sect:lingshou",
+      "relation": "ORIGINATES_FROM",
+      "target": "sect:yuling",
+      "evidence": "原文提到灵兽山原本是魔道御灵宗分支，但后续不愿再自认其一份子。"
+    },
+    {
+      "source": "sect:yanyue",
+      "relation": "ORIGINATES_FROM",
+      "target": "sect:hehuan",
+      "evidence": "原文提到掩月宗和合欢宗大有渊源，后续断开联系自立。"
+    },
+    {
+      "source": "faction:zhengdao-alliance",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "faction:zhengdao-alliance",
+      "relation": "LOCATED_IN",
+      "target": "region:fengdu",
+      "evidence": "风都国正道盟/正道联盟。"
+    },
+    {
+      "source": "faction:tiandao-alliance",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "faction:tiandao-alliance",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "faction:jiuguo-alliance",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "faction:jiuguo-alliance",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "sect:tianxing",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "元武国三大正派之一。"
+    },
+    {
+      "source": "sect:tianxing",
+      "relation": "LOCATED_IN",
+      "target": "region:yuanwu"
+    },
+    {
+      "source": "sect:shenbing",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "元武国三大正派之一。"
+    },
+    {
+      "source": "sect:shenbing",
+      "relation": "LOCATED_IN",
+      "target": "region:yuanwu"
+    },
+    {
+      "source": "sect:wanmiao",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao",
+      "evidence": "元武国三大正派之一。"
+    },
+    {
+      "source": "sect:wanmiao",
+      "relation": "LOCATED_IN",
+      "target": "region:yuanwu"
+    },
+    {
+      "source": "sect:qianzhu",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:neutral"
+    },
+    {
+      "source": "sect:qianzhu",
+      "relation": "LOCATED_IN",
+      "target": "region:yuanwu"
+    },
+    {
+      "source": "sect:miaoyin",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:neutral"
+    },
+    {
+      "source": "sect:miaoyin",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "faction:star-palace",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:neutral"
+    },
+    {
+      "source": "faction:star-palace",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "faction:liulian",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:neutral"
+    },
+    {
+      "source": "faction:liulian",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "sect:yinsha",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "sect:yinsha",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "faction:jiyin",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "faction:reverse-star-alliance",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "faction:chaotic-star-righteous",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "faction:chaotic-star-righteous",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "faction:chaotic-star-demonic",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao"
+    },
+    {
+      "source": "faction:chaotic-star-demonic",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea"
+    },
+    {
+      "source": "faction:reverse-star-alliance",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:chaotic-star-demonic",
+      "evidence": "逆星盟为反星宫联盟，游戏侧按乱星海魔道/反星宫势力维护。"
+    },
+    {
+      "source": "sect:luoyun",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:luoyun",
+      "relation": "LOCATED_IN",
+      "target": "region:yunmeng"
+    },
+    {
+      "source": "sect:gujian",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:gujian",
+      "relation": "LOCATED_IN",
+      "target": "region:yunmeng"
+    },
+    {
+      "source": "sect:baiqiao",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:baiqiao",
+      "relation": "LOCATED_IN",
+      "target": "region:yunmeng"
+    },
+    {
+      "source": "region:yunmeng",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "sect:taiyi",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:taiyi",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "sect:taiyi",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:great-jin-top-sects"
+    },
+    {
+      "source": "sect:xiaoji",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:xiaoji",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "sect:xiaoji",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:great-jin-top-sects"
+    },
+    {
+      "source": "sect:tianmo",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "sect:tianmo",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:great-jin-top-sects"
+    },
+    {
+      "source": "sect:yinluo",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "sect:yinluo",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:great-jin-top-sects"
+    },
+    {
+      "source": "faction:wanyaogu",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "faction:wanyaogu",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:great-jin-top-sects"
+    },
+    {
+      "source": "sect:tianji",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "sect:tianji",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:great-jin-top-sects"
+    },
+    {
+      "source": "sect:tianji",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:neutral"
+    },
+    {
+      "source": "faction:great-jin-top-sects",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "region:tiannan",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:tianluo",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:fengdu",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:yuanwu",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:zijin",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:jiang",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:cheqi",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:chaotic-star-sea",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:great-jin",
+      "relation": "LOCATED_IN",
+      "target": "region:human-realm"
+    },
+    {
+      "source": "region:tianluo",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:fengdu",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:yuanwu",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:zijin",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:jiang",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:cheqi",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "faction:yan-clan",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "lineage:liudao",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:modao",
+      "evidence": "原文称温天仁为六道极圣高徒、六道传人，此处作为魔道传承维护，不作为宗门。"
+    },
+    {
+      "source": "lineage:liudao",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:reverse-star-alliance",
+      "evidence": "原文称温公子是逆星盟六道极圣前辈的高徒。"
+    }
+  ],
+  "migrationPolicy": {
+    "legacyFields": [
+      "sect",
+      "race"
+    ],
+    "preferredIdentityFields": [
+      "taxonomyRefs",
+      "affiliationRefs",
+      "race",
+      "lineage",
+      "species",
+      "rootRace",
+      "cultivationSystem",
+      "gameTags",
+      "requirements",
+      "synergyRules"
+    ],
+    "notes": [
+      "Keep legacy sect/race during staged migration so old deck generation, UI, and validation continue to work.",
+      "Use taxonomyRefs for strict graph identity and gameTags for looser deck-building or card synergy.",
+      "Non-human groups should not be forced into sect unless the source explicitly treats them as an organization."
+    ]
+  }
+}

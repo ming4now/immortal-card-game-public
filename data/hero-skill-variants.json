@@ -1,0 +1,629 @@
+{
+  "variants": {
+    "hanli": [
+      {
+        "id": "heaven_bottle",
+        "name": "掌天瓶",
+        "archetype": "资源流",
+        "description": "每3个己方回合抽1张牌，模拟掌天瓶催熟灵药带来的资源积累。",
+        "skillEffectId": "hero_variant_draw_cycle__skill",
+        "interval": 3,
+        "draw": 1
+      },
+      {
+        "id": "cautious_guard",
+        "name": "韩立谨慎",
+        "archetype": "防守流",
+        "description": "每回合开始时获得2点护甲，适合稳扎稳打拖入后期。",
+        "skillEffectId": "hero_variant_armor__skill",
+        "armor": 2
+      }
+    ],
+    "nangongwan": [
+      {
+        "id": "moonlight_recovery",
+        "name": "月华护体",
+        "archetype": "续航流",
+        "description": "每回合开始时恢复2点生命。",
+        "skillEffectId": "hero_variant_heal__skill",
+        "heal": 2
+      },
+      {
+        "id": "yanyue_cold_light",
+        "name": "掩月寒光",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      }
+    ],
+    "dayan": [
+      {
+        "id": "puppet_deduction",
+        "name": "大衍推演",
+        "archetype": "资源流",
+        "description": "每3个己方回合抽1张牌，偏向傀儡资源运转。",
+        "skillEffectId": "hero_variant_draw_cycle__skill",
+        "interval": 3,
+        "draw": 1
+      },
+      {
+        "id": "puppet_command",
+        "name": "傀儡号令",
+        "archetype": "铺场流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      }
+    ],
+    "yinyue": [
+      {
+        "id": "moon_shadow_step",
+        "name": "银月遁影",
+        "archetype": "节奏流",
+        "description": "每回合开始时获得1点临时灵力。",
+        "skillEffectId": "hero_variant_temp_mana__skill",
+        "mana": 1
+      },
+      {
+        "id": "fox_charm",
+        "name": "妖狐魅术",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      }
+    ],
+    "ziling": [
+      {
+        "id": "soul_music",
+        "name": "妙音镇魂",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      },
+      {
+        "id": "miaoyin_resources",
+        "name": "妙音门脉",
+        "archetype": "资源流",
+        "description": "每3个己方回合抽1张牌。",
+        "skillEffectId": "hero_variant_draw_cycle__skill",
+        "interval": 3,
+        "draw": 1
+      }
+    ],
+    "yuanyao": [
+      {
+        "id": "ghost_lantern",
+        "name": "阴魂引路",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1阴魂。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "阴魂",
+        "tokenAvatar": "👻",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "soul_nurture",
+        "name": "养魂秘术",
+        "archetype": "续航流",
+        "description": "每回合开始时恢复2点生命。",
+        "skillEffectId": "hero_variant_heal__skill",
+        "heal": 2
+      }
+    ],
+    "xuangui": [
+      {
+        "id": "bone_flame_lock",
+        "name": "冰焰封魂",
+        "archetype": "点杀流",
+        "description": "每回合开始时对敌方生命最低的修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_weakest__skill",
+        "damage": 1
+      },
+      {
+        "id": "xuan_yin_pressure",
+        "name": "玄阴压制",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      }
+    ],
+    "jiyin": [
+      {
+        "id": "five_child_demon",
+        "name": "五子同心魔",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1魔魂。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "魔魂",
+        "tokenAvatar": "👹",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "corpse_fire_blast",
+        "name": "尸火点杀",
+        "archetype": "点杀流",
+        "description": "每回合开始时对敌方生命最低的修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_weakest__skill",
+        "damage": 1
+      }
+    ],
+    "fengxi": [
+      {
+        "id": "wind_thunder_speed",
+        "name": "风雷疾行",
+        "archetype": "节奏流",
+        "description": "每回合开始时获得1点临时灵力。",
+        "skillEffectId": "hero_variant_temp_mana__skill",
+        "mana": 1
+      },
+      {
+        "id": "wing_clan_command",
+        "name": "翼族号令",
+        "archetype": "妖兽流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      }
+    ],
+    "wentianren": [
+      {
+        "id": "six_extreme_armor",
+        "name": "六极魔甲",
+        "archetype": "防守流",
+        "description": "每回合开始时获得2点护甲。",
+        "skillEffectId": "hero_variant_armor__skill",
+        "armor": 2
+      },
+      {
+        "id": "demon_shadow_poison",
+        "name": "魔影蚀毒",
+        "archetype": "消耗流",
+        "description": "每回合开始时对敌方英雄造成1点伤害，并使随机敌方修士中毒。",
+        "skillEffectId": "hero_variant_poison_pressure__skill",
+        "damage": 1
+      }
+    ],
+    "wangchan": [
+      {
+        "id": "blood_poison",
+        "name": "血灵毒网",
+        "archetype": "消耗流",
+        "description": "每回合开始时对敌方英雄造成1点伤害，并使随机敌方修士中毒。",
+        "skillEffectId": "hero_variant_poison_pressure__skill",
+        "damage": 1
+      },
+      {
+        "id": "ghost_gate_lifedrain",
+        "name": "鬼灵汲血",
+        "archetype": "续航流",
+        "description": "每回合开始时恢复2点生命。",
+        "skillEffectId": "hero_variant_heal__skill",
+        "heal": 2
+      }
+    ],
+    "xiangzhili": [
+      {
+        "id": "spirit_pressure",
+        "name": "化神威压",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士2点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 2
+      },
+      {
+        "id": "world_travel",
+        "name": "人界游历",
+        "archetype": "资源流",
+        "description": "每3个己方回合抽1张牌。",
+        "skillEffectId": "hero_variant_draw_cycle__skill",
+        "interval": 3,
+        "draw": 1
+      }
+    ],
+    "linghu": [
+      {
+        "id": "yellow_maple_order",
+        "name": "护宗法旨",
+        "archetype": "铺场流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "changchun_complete",
+        "name": "长春圆满",
+        "archetype": "续航流",
+        "description": "每回合开始时恢复3点生命。",
+        "skillEffectId": "hero_variant_heal__skill",
+        "heal": 3
+      }
+    ],
+    "mo_jiao_hero": [
+      {
+        "id": "poison_breath",
+        "name": "墨蛟毒息",
+        "archetype": "消耗流",
+        "description": "每回合开始时对敌方英雄造成1点伤害，并使随机敌方修士中毒。",
+        "skillEffectId": "hero_variant_poison_pressure__skill",
+        "damage": 1
+      },
+      {
+        "id": "black_scale",
+        "name": "黑鳞护体",
+        "archetype": "防守流",
+        "description": "每回合开始时获得2点护甲。",
+        "skillEffectId": "hero_variant_armor__skill",
+        "armor": 2
+      }
+    ],
+    "hehuan_young_master": [
+      {
+        "id": "moon_charm",
+        "name": "玄月迷情",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      },
+      {
+        "id": "dual_cultivation",
+        "name": "合欢调息",
+        "archetype": "续航流",
+        "description": "每回合开始时恢复2点生命。",
+        "skillEffectId": "hero_variant_heal__skill",
+        "heal": 2
+      }
+    ],
+    "demon_vanguard": [
+      {
+        "id": "demon_flame_pickoff",
+        "name": "魔焰点杀",
+        "archetype": "点杀流",
+        "description": "每回合开始时对敌方生命最低的修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_weakest__skill",
+        "damage": 1
+      },
+      {
+        "id": "demon_flame_armor",
+        "name": "魔焰护身",
+        "archetype": "防守流",
+        "description": "每回合开始时获得2点护甲。",
+        "skillEffectId": "hero_variant_armor__skill",
+        "armor": 2
+      }
+    ],
+    "mulan_elder": [
+      {
+        "id": "grassland_array",
+        "name": "草原法士阵",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1慕兰法士。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "慕兰法士",
+        "tokenAvatar": "🏹",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "spirit_eagle_banner",
+        "name": "灵鹰战旗",
+        "archetype": "强化流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      }
+    ],
+    "yue_emperor": [
+      {
+        "id": "blood_servant",
+        "name": "血尸护驾",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1黑煞血侍。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "黑煞血侍",
+        "tokenAvatar": "🩸",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "black_evil_altar",
+        "name": "黑煞血坛",
+        "archetype": "消耗流",
+        "description": "每回合开始时对敌方英雄造成1点伤害，并使随机敌方修士中毒。",
+        "skillEffectId": "hero_variant_poison_pressure__skill",
+        "damage": 1
+      }
+    ],
+    "tianlan_saintess": [
+      {
+        "id": "saint_beast_oath",
+        "name": "圣兽誓约",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1突兀战士。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "突兀战士",
+        "tokenAvatar": "🦅",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "sacred_wind_guard",
+        "name": "天澜圣风",
+        "archetype": "防守流",
+        "description": "每回合开始时获得2点护甲。",
+        "skillEffectId": "hero_variant_armor__skill",
+        "armor": 2
+      }
+    ],
+    "wild_wolf_chief": [
+      {
+        "id": "wolf_raid",
+        "name": "野狼夜袭",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1野狼帮众。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "野狼帮众",
+        "tokenAvatar": "🐺",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "gang_war_drums",
+        "name": "帮众战鼓",
+        "archetype": "强化流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      }
+    ],
+    "golden_light": [
+      {
+        "id": "ascension_token",
+        "name": "升仙令",
+        "archetype": "节奏流",
+        "description": "每回合开始时获得1点临时灵力。",
+        "skillEffectId": "hero_variant_temp_mana__skill",
+        "mana": 1
+      },
+      {
+        "id": "thunder_pearl",
+        "name": "天雷子",
+        "archetype": "点杀流",
+        "description": "每回合开始时对敌方生命最低的修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_weakest__skill",
+        "damage": 1
+      }
+    ],
+    "doctor_mo": [
+      {
+        "id": "medicine_poison",
+        "name": "药毒并施",
+        "archetype": "消耗流",
+        "description": "每回合开始时对敌方英雄造成1点伤害，并使随机敌方修士中毒。",
+        "skillEffectId": "hero_variant_poison_pressure__skill",
+        "damage": 1
+      },
+      {
+        "id": "soul_seizing",
+        "name": "夺舍秘谋",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      }
+    ],
+    "lu_shixiong": [
+      {
+        "id": "wind_blade_combo",
+        "name": "风刃连击",
+        "archetype": "点杀流",
+        "description": "每回合开始时对敌方生命最低的修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_weakest__skill",
+        "damage": 1
+      },
+      {
+        "id": "inner_discipline",
+        "name": "内门调息",
+        "archetype": "节奏流",
+        "description": "每回合开始时获得1点临时灵力。",
+        "skillEffectId": "hero_variant_temp_mana__skill",
+        "mana": 1
+      }
+    ],
+    "gu_elder": [
+      {
+        "id": "six_hall_trade",
+        "name": "六连殿调度",
+        "archetype": "资源流",
+        "description": "每3个己方回合抽1张牌。",
+        "skillEffectId": "hero_variant_draw_cycle__skill",
+        "interval": 3,
+        "draw": 1
+      },
+      {
+        "id": "merchant_guard",
+        "name": "商盟护卫",
+        "archetype": "强化流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      }
+    ],
+    "mulan_shaman": [
+      {
+        "id": "shaman_avatar",
+        "name": "神师降灵",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个2/2慕兰法士。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "慕兰法士",
+        "tokenAvatar": "🔮",
+        "attack": 2,
+        "health": 2
+      },
+      {
+        "id": "fire_ritual",
+        "name": "火神师秘仪",
+        "archetype": "清场流",
+        "description": "每回合开始时对敌方所有修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_all__skill",
+        "damage": 1
+      }
+    ],
+    "hu_old_demon": [
+      {
+        "id": "demon_mind",
+        "name": "天魔噬心",
+        "archetype": "干扰流",
+        "description": "每3个己方回合使敌方随机弃1张牌。",
+        "skillEffectId": "hero_variant_discard_enemy__skill",
+        "interval": 3,
+        "discard": 1
+      },
+      {
+        "id": "demon_pressure",
+        "name": "魔念压制",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      }
+    ],
+    "che_old_demon": [
+      {
+        "id": "beast_king_command",
+        "name": "万妖号令",
+        "archetype": "妖兽流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "valley_pack",
+        "name": "妖谷兽群",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1妖兽。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "妖兽",
+        "tokenAvatar": "🐾",
+        "attack": 1,
+        "health": 1,
+        "type": "pet"
+      }
+    ],
+    "flower_basket_weirdo": [
+      {
+        "id": "basket_puppet",
+        "name": "花篮机关",
+        "archetype": "傀儡流",
+        "description": "每回合开始时召唤一个1/1机关傀儡。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "机关傀儡",
+        "tokenAvatar": "🤖",
+        "attack": 1,
+        "health": 1,
+        "type": "puppet"
+      },
+      {
+        "id": "puppet_repair",
+        "name": "机关修补",
+        "archetype": "强化流",
+        "description": "每回合开始时随机强化一个己方单位+1/+1。",
+        "skillEffectId": "hero_variant_buff_ally__skill",
+        "attack": 1,
+        "health": 1
+      }
+    ],
+    "qian_old_demon": [
+      {
+        "id": "five_demon_banner",
+        "name": "五魔魂幡",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1五子魔。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "五子魔",
+        "tokenAvatar": "👹",
+        "attack": 1,
+        "health": 1
+      },
+      {
+        "id": "yinluo_poison",
+        "name": "阴罗血毒",
+        "archetype": "消耗流",
+        "description": "每回合开始时对敌方英雄造成1点伤害，并使随机敌方修士中毒。",
+        "skillEffectId": "hero_variant_poison_pressure__skill",
+        "damage": 1
+      }
+    ],
+    "yuansha_avatar": [
+      {
+        "id": "ancient_demon_aura",
+        "name": "古魔威压",
+        "archetype": "清场流",
+        "description": "每回合开始时对敌方所有修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_all__skill",
+        "damage": 1
+      },
+      {
+        "id": "demon_soul_lock",
+        "name": "魔念锁魂",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士1点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 1
+      }
+    ],
+    "le_shangshi": [
+      {
+        "id": "wind_chariot",
+        "name": "御风车",
+        "archetype": "节奏流",
+        "description": "每回合开始时获得1点临时灵力。",
+        "skillEffectId": "hero_variant_temp_mana__skill",
+        "mana": 1
+      },
+      {
+        "id": "wind_rider",
+        "name": "天风骑令",
+        "archetype": "铺场流",
+        "description": "每回合开始时召唤一个1/1御风战士。",
+        "skillEffectId": "hero_variant_summon_token__skill",
+        "tokenName": "御风战士",
+        "tokenAvatar": "🌪️",
+        "attack": 1,
+        "health": 1
+      }
+    ],
+    "silver_wing_yasha": [
+      {
+        "id": "silver_pupil",
+        "name": "银瞳幻术",
+        "archetype": "控制流",
+        "description": "每回合开始时削弱敌方攻击最高的修士2点攻击力。",
+        "skillEffectId": "hero_variant_weaken_strongest__skill",
+        "attackLoss": 2
+      },
+      {
+        "id": "silver_wing_dive",
+        "name": "银翅突袭",
+        "archetype": "点杀流",
+        "description": "每回合开始时对敌方生命最低的修士造成1点伤害。",
+        "skillEffectId": "hero_variant_damage_weakest__skill",
+        "damage": 1
+      }
+    ]
+  }
+}
