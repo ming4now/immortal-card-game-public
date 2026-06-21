@@ -53,8 +53,8 @@
         })();
     </script>
     <!-- End Baidu Analytics -->
-  <script type="module" crossorigin src="./assets/main-C6-ndvyj.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/main-j2IcwGQn.css">
+  <script type="module" crossorigin src="./assets/main-D4fgYBVx.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-CjChojjj.css">
 </head>
 <body class="menu-open">
     <button id="audio-toggle" class="audio-toggle" type="button" title="关闭背景音乐" aria-label="关闭背景音乐">🔊</button>
@@ -115,6 +115,41 @@
         <!-- 顶部信息栏 -->
         <div id="top-bar">
             <div id="game-title">凡人修仙传 - 修仙卡牌</div>
+            <div id="battle-background-control" class="battle-background-control" hidden>
+                <label for="battle-background-select">背景模式</label>
+                <select id="battle-background-select" aria-label="切换对战背景模式"></select>
+                <div id="battle-background-opacity-control" class="battle-background-opacity-control" hidden>
+                    <label for="battle-background-opacity">图案透明度</label>
+                    <input id="battle-background-opacity" type="range" min="0" max="100" step="1" value="42">
+                    <span id="battle-background-opacity-value">42%</span>
+                </div>
+                <details id="battle-ui-opacity-control" class="battle-ui-opacity-control" hidden>
+                    <summary>界面透明度</summary>
+                    <div class="battle-ui-opacity-panel" aria-label="本地调试对战界面区域透明度">
+                        <label>
+                            <span>战场</span>
+                            <input type="range" min="0" max="100" step="1" value="100" data-battle-ui-opacity="field">
+                            <output data-battle-ui-opacity-value="field">100%</output>
+                        </label>
+                        <label>
+                            <span>手牌</span>
+                            <input type="range" min="0" max="100" step="1" value="100" data-battle-ui-opacity="hand">
+                            <output data-battle-ui-opacity-value="hand">100%</output>
+                        </label>
+                        <label>
+                            <span>回合栏</span>
+                            <input type="range" min="0" max="100" step="1" value="100" data-battle-ui-opacity="center">
+                            <output data-battle-ui-opacity-value="center">100%</output>
+                        </label>
+                        <label>
+                            <span>侧栏</span>
+                            <input type="range" min="0" max="100" step="1" value="100" data-battle-ui-opacity="side">
+                            <output data-battle-ui-opacity-value="side">100%</output>
+                        </label>
+                        <button type="button" id="battle-ui-opacity-reset">重置</button>
+                    </div>
+                </details>
+            </div>
             <div id="turn-info-top">
                 <span>第 <span id="turn-number">1</span> 回合</span>
                 <span id="current-player">我方回合</span>

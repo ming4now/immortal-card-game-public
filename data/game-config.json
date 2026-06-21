@@ -1,4 +1,45 @@
 {
+  "battleBackgrounds": {
+    "enabled": true,
+    "defaultMode": "solid",
+    "defaultOpacity": 0.42,
+    "modes": [
+      {
+        "id": "solid",
+        "name": "纯色背景"
+      },
+      {
+        "id": "artwork",
+        "name": "图案背景"
+      }
+    ],
+    "matchups": [
+      {
+        "id": "hanli-vs-nangongwan",
+        "leftHeroId": "hanli",
+        "rightHeroId": "nangongwan",
+        "image": "battle-backgrounds/hanli-vs-nangongwan.webp",
+        "devImage": "dev-assets/covers/hanli-vs-nangongwan/16x9/hanli-left-fade.png",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-dayan",
+        "leftHeroId": "hanli",
+        "rightHeroId": "dayan",
+        "image": "battle-backgrounds/hanli-vs-dayan.webp",
+        "devImage": "dev-assets/covers/hanli-vs-dayan/16x9/hanli-left-fade.png",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-golden-light",
+        "leftHeroId": "hanli",
+        "rightHeroId": "golden_light",
+        "image": "battle-backgrounds/hanli-vs-golden-light.webp",
+        "devImage": "dev-assets/covers/hanli-vs-golden_light/16x9/hanli-left-fade.png",
+        "position": "center center"
+      }
+    ]
+  },
   "sceneDialogues": {
     "enabled": true
   },
@@ -688,6 +729,16 @@
       "category": "faction",
       "region": "大晋",
       "bonus": "大晋高阶宗门卡牌协同"
+    },
+    "beiye": {
+      "name": "贝叶宗",
+      "type": "正道",
+      "category": "sect",
+      "region": "九国盟",
+      "aliases": [
+        "贝叶宗宗门"
+      ],
+      "bonus": "九国盟防御和统筹卡牌协同"
     }
   },
   "races": {

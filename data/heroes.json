@@ -19,7 +19,10 @@
             "name": "护在身前",
             "description": "被动技能：韩立场上有修士时，敌方无法直接攻击韩立"
         },
-        "specialCards": [],
+        "specialCards": [
+            "hanli_huanxing_jue",
+            "hanli_wangchen_pill"
+        ],
         "skillEffectId": "hanli__skill",
         "originRegion": "青牛镇",
         "activeRegions": [
@@ -66,7 +69,15 @@
             "yanyue_disciple",
             "reincarnation_art",
             "mystic_woman_yin_needles",
-            "nangongwan_zhuque_ring"
+            "nangongwan_zhuque_ring",
+            "yanyue_yuer_attendant",
+            "yanyue_waner_pastry",
+            "yanyue_nangong_que",
+            "yanyue_kunxin_shu",
+            "nangong_sunu_huanxing_shu",
+            "yanyue_yuan_kun",
+            "nangong_furong_chestnut_cake",
+            "nangong_ping_identity"
         ],
         "skillEffectId": "nangongwan__skill",
         "originRegion": "掩月宗",
@@ -1083,7 +1094,6 @@
         },
         "specialCards": [
             "thunder_leopard",
-            "frost_worm",
             "spirit_pill",
             "burst_pill",
             "healing_formation",

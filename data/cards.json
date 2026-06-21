@@ -2073,6 +2073,128 @@
                 ]
             },
             "spiritRoot": "全属性"
+        },
+        {
+            "id": "yanyue_yuer_attendant",
+            "name": "玉儿",
+            "type": "cultivator",
+            "realm": 2,
+            "cost": 2,
+            "attack": 1,
+            "health": 3,
+            "spiritRoot": "水",
+            "description": "掩月宗黄衫筑基女修，曾引韩立入厅见南宫婉。战吼：获得2点护甲并抽1张牌",
+            "avatar": "👧",
+            "battlecry": true,
+            "onPlayEffectId": "yanyue_yuer_attendant__onPlay",
+            "sect": "掩月宗",
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "gameTags": [
+                "掩月宗",
+                "越国",
+                "正道",
+                "南宫婉",
+                "抽牌",
+                "防御"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "heroOnly": "nangongwan",
+            "exclusive": true
+        },
+        {
+            "id": "yanyue_nangong_que",
+            "name": "南宫阙",
+            "type": "cultivator",
+            "realm": 8,
+            "cost": 7,
+            "attack": 4,
+            "health": 8,
+            "spiritRoot": "水",
+            "description": "掩月宗宗主，元婴中期修士，统摄门中禁制与弟子。战吼：召唤一个掩月宗弟子；若场上已满，改为获得4点护甲",
+            "avatar": "🌙",
+            "battlecry": true,
+            "onPlayEffectId": "yanyue_nangong_que__onPlay",
+            "sect": "掩月宗",
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "gameTags": [
+                "掩月宗",
+                "越国",
+                "正道",
+                "南宫婉",
+                "高阶",
+                "防御",
+                "召唤"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "heroOnly": "nangongwan",
+            "exclusive": true
+        },
+        {
+            "id": "beiye_wupeng",
+            "name": "吾鹏",
+            "type": "cultivator",
+            "realm": 8,
+            "cost": 7,
+            "attack": 4,
+            "health": 8,
+            "maxHealth": 8,
+            "spiritRoot": "木",
+            "sect": "贝叶宗",
+            "battlecry": true,
+            "description": "九国盟贝叶宗宗主，统筹前线战事。战吼：获得4点护甲，并使随机敌方修士攻击力-2",
+            "avatar": "🧔",
+            "gameTags": [
+                "九国盟",
+                "正道",
+                "高阶",
+                "防御",
+                "削弱"
+            ],
+            "onPlayEffectId": "beiye_wupeng__onPlay"
+        },
+        {
+            "id": "yanyue_yuan_kun",
+            "name": "袁坤",
+            "type": "cultivator",
+            "realm": 1,
+            "cost": 1,
+            "attack": 1,
+            "health": 2,
+            "maxHealth": 2,
+            "spiritRoot": "土",
+            "sect": "掩月宗",
+            "battlecry": true,
+            "description": "掩月宗炼气期管事，负责采买世俗物品。战吼：抽1张牌并获得1点护甲",
+            "avatar": "🧾",
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "gameTags": [
+                "掩月宗",
+                "南宫婉",
+                "抽牌",
+                "防御"
+            ],
+            "onPlayEffectId": "yanyue_yuan_kun__onPlay",
+            "heroOnly": "nangongwan",
+            "exclusive": true
         }
     ],
     "spells": [
@@ -2362,7 +2484,9 @@
             "description": "韩立专属：对敌方全体造成2点伤害，若手牌中有青元剑诀则额外+1伤害",
             "avatar": "⚔️",
             "effectEffectId": "hanli_qingyuan_sword_glow__effect",
-            "realm": 3
+            "realm": 3,
+            "heroOnly": "hanli",
+            "exclusive": true
         },
         {
             "id": "nangong_reincarnation_light",
@@ -3628,7 +3752,9 @@
                     "path:jianghu-wuxue"
                 ]
             },
-            "effectEffectId": "lore_guard_draw__effect"
+            "effectEffectId": "lore_guard_draw__effect",
+            "heroOnly": "hanli",
+            "exclusive": true
         },
         {
             "id": "blink_sword_art",
@@ -3652,7 +3778,9 @@
                     "path:jianghu-wuxue"
                 ]
             },
-            "effectEffectId": "lore_random_blast__effect"
+            "effectEffectId": "lore_random_blast__effect",
+            "heroOnly": "hanli",
+            "exclusive": true
         },
         {
             "id": "elephant_armor_art",
@@ -4992,6 +5120,114 @@
                     "faction:great-jin-top-sects"
                 ]
             }
+        },
+        {
+            "id": "hanli_huanxing_jue",
+            "name": "换形诀",
+            "type": "spell",
+            "realm": 4,
+            "cost": 2,
+            "spiritRoot": "木",
+            "effect": "change_form",
+            "description": "玄阴经秘术之一，改换身形容貌以避人耳目。效果：获得3点护甲并抽1张牌，随机敌方修士攻击力-1",
+            "avatar": "🎭",
+            "heroOnly": "hanli",
+            "exclusive": true,
+            "gameTags": [
+                "韩立",
+                "身法",
+                "防御",
+                "抽牌",
+                "削弱"
+            ],
+            "effectEffectId": "hanli_huanxing_jue__effect"
+        },
+        {
+            "id": "yanyue_kunxin_shu",
+            "name": "困心术",
+            "type": "spell",
+            "realm": 4,
+            "cost": 3,
+            "spiritRoot": "水",
+            "sect": "掩月宗",
+            "effect": "heart_binding",
+            "description": "掩月宗禁制秘术，可借令牌引发心神禁制。效果：冻结一个敌方修士并使其攻击力-2；若无修士，敌方英雄受到1点伤害",
+            "avatar": "🔒",
+            "heroOnly": "nangongwan",
+            "exclusive": true,
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "gameTags": [
+                "掩月宗",
+                "南宫婉",
+                "控制",
+                "削弱"
+            ],
+            "effectEffectId": "yanyue_kunxin_shu__effect"
+        },
+        {
+            "id": "nangong_sunu_huanxing_shu",
+            "name": "幻形术",
+            "type": "spell",
+            "realm": 4,
+            "cost": 2,
+            "spiritRoot": "水",
+            "sect": "掩月宗",
+            "effect": "illusion_form",
+            "description": "素女轮回功相关幻术，化形藏真。效果：获得2点护甲，抽1张牌，并使己方随机修士潜行",
+            "avatar": "🌫️",
+            "heroOnly": "nangongwan",
+            "exclusive": true,
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "gameTags": [
+                "掩月宗",
+                "南宫婉",
+                "控制",
+                "防御",
+                "抽牌"
+            ],
+            "effectEffectId": "nangong_sunu_huanxing_shu__effect"
+        },
+        {
+            "id": "nangong_ping_identity",
+            "name": "南宫屏",
+            "type": "spell",
+            "realm": 4,
+            "cost": 2,
+            "spiritRoot": "水",
+            "sect": "掩月宗",
+            "effect": "false_identity",
+            "description": "南宫婉曾以“南宫屏”身份遮掩真实来历。效果：获得3点护甲，本回合下一个受到的伤害-2",
+            "avatar": "🎴",
+            "heroOnly": "nangongwan",
+            "exclusive": true,
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "gameTags": [
+                "南宫婉",
+                "掩月宗",
+                "防御"
+            ],
+            "effectEffectId": "nangong_ping_identity__effect"
         }
     ],
     "treasures": [
@@ -8285,6 +8521,80 @@
                     "faction:great-jin-top-sects"
                 ]
             }
+        },
+        {
+            "id": "yanyue_waner_pastry",
+            "name": "婉儿点心",
+            "type": "pill",
+            "realm": 1,
+            "cost": 1,
+            "description": "南宫婉想念的凡俗点心，入口安神回气。效果：恢复3点生命；若场上有掩月宗修士，抽1张牌",
+            "avatar": "🥮",
+            "effectEffectId": "yanyue_waner_pastry__effect",
+            "sect": "掩月宗",
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "gameTags": [
+                "南宫婉",
+                "回复",
+                "抽牌"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "heroOnly": "nangongwan",
+            "exclusive": true
+        },
+        {
+            "id": "hanli_wangchen_pill",
+            "name": "忘尘丹",
+            "type": "pill",
+            "realm": 2,
+            "cost": 2,
+            "effect": "forget_dust",
+            "description": "与无忧针并称的抹除记忆之物。效果：恢复4点生命，清除己方中毒和冻结，并抽1张牌",
+            "avatar": "💊",
+            "heroOnly": "hanli",
+            "exclusive": true,
+            "gameTags": [
+                "韩立",
+                "丹药",
+                "回复",
+                "抽牌",
+                "防御"
+            ],
+            "effectEffectId": "hanli_wangchen_pill__effect"
+        },
+        {
+            "id": "nangong_furong_chestnut_cake",
+            "name": "芙蓉栗子糕",
+            "type": "pill",
+            "realm": 1,
+            "cost": 1,
+            "effect": "pastry",
+            "description": "南宫婉偏爱的凡俗糕点。效果：恢复2点生命并获得1点护甲；若生命值低于一半，额外抽1张牌",
+            "avatar": "🍰",
+            "heroOnly": "nangongwan",
+            "exclusive": true,
+            "taxonomyRefs": [
+                "sect:yanyue"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yanyue"
+                ]
+            },
+            "gameTags": [
+                "南宫婉",
+                "丹药",
+                "回复",
+                "防御",
+                "抽牌"
+            ],
+            "effectEffectId": "nangong_furong_chestnut_cake__effect"
         }
     ],
     "puppets": [
@@ -8513,7 +8823,9 @@
             "avatar": "🔄",
             "category": "反击",
             "onActivateEffectId": "reversed_five_elements__onActivate",
-            "onExpireEffectId": "reversed_five_elements__onExpire"
+            "onExpireEffectId": "reversed_five_elements__onExpire",
+            "heroOnly": "hanli",
+            "exclusive": true
         },
         {
             "id": "dage_sword_formation",
@@ -8527,7 +8839,9 @@
             "category": "攻击",
             "onTurnStartEffectId": "dage_sword_formation__onTurnStart",
             "onActivateEffectId": "dage_sword_formation__onActivate",
-            "onExpireEffectId": "dage_sword_formation__onExpire"
+            "onExpireEffectId": "dage_sword_formation__onExpire",
+            "heroOnly": "hanli",
+            "exclusive": true
         },
         {
             "id": "wind_thunder_formation",
@@ -10471,7 +10785,9 @@
             ],
             "description": "奇虫榜奇虫，冰属性真灵，攻击时冻结目标",
             "avatar": "🦋",
-            "onAttackEffectId": "frost_worm__onAttack"
+            "onAttackEffectId": "frost_worm__onAttack",
+            "heroOnly": "hanli",
+            "exclusive": true
         },
         {
             "id": "thunder_leopard",

@@ -173,25 +173,20 @@
                     "读玉简",
                     "护盾术",
                     "罗烟步",
-                    "眨眼剑法"
+                    "眨眼剑法",
+                    "换形诀"
                 ],
                 "pill": [
                     "回灵丹",
                     "筑基丹",
-                    "爆灵丹"
+                    "爆灵丹",
+                    "忘尘丹"
                 ]
             },
             "preferredTags": [
                 "韩立",
-                "黄枫谷",
-                "法宝",
                 "防御",
-                "回复",
-                "雷法",
-                "剑修",
-                "妖族",
-                "丹药",
-                "凡人武学",
+                "抽牌",
                 "身法"
             ],
             "avoidTags": [
@@ -236,7 +231,9 @@
                 "golden_thunder_bamboo",
                 "sword_shadow_split",
                 "ten_thousand_spirit_milk",
-                "puppet_beast"
+                "puppet_beast",
+                "hanli_huanxing_jue",
+                "hanli_wangchen_pill"
             ],
             "excludedCards": [
                 "ancient_demon_pressure",
@@ -623,7 +620,10 @@
                     "掩月宗弟子",
                     "掩月宗长老",
                     "内门弟子",
-                    "筑基长老"
+                    "筑基长老",
+                    "玉儿",
+                    "南宫阙",
+                    "袁坤"
                 ],
                 "treasure": [
                     "朱雀环",
@@ -634,7 +634,6 @@
                 ],
                 "formation": [
                     "迷踪幻阵",
-                    "颠倒五行阵",
                     "金刚阵",
                     "九天玄罡阵"
                 ],
@@ -642,17 +641,24 @@
                     "掩月秘令",
                     "冰冻术",
                     "护盾术",
-                    "雷击术"
+                    "雷击术",
+                    "困心术",
+                    "幻形术",
+                    "南宫屏"
+                ],
+                "pill": [
+                    "婉儿点心",
+                    "月华丹",
+                    "芙蓉栗子糕"
                 ]
             },
             "preferredTags": [
                 "南宫婉",
                 "掩月宗",
-                "防御",
                 "控制",
                 "回复",
-                "冰系",
-                "阵法"
+                "抽牌",
+                "防御"
             ],
             "avoidTags": [
                 "血道",
@@ -665,7 +671,15 @@
                 "yue_seven_sects_lineage_disciple",
                 "yue_seven_sects_secret_order",
                 "yue_seven_sects_signature_artifact",
-                "yue_seven_sects_protective_array"
+                "yue_seven_sects_protective_array",
+                "yanyue_yuer_attendant",
+                "yanyue_waner_pastry",
+                "yanyue_nangong_que",
+                "yanyue_kunxin_shu",
+                "nangong_sunu_huanxing_shu",
+                "yanyue_yuan_kun",
+                "nangong_furong_chestnut_cake",
+                "nangong_ping_identity"
             ],
             "coreCards": [
                 "yanyue_enchantress",
@@ -1058,12 +1072,10 @@
                     "影杀傀儡"
                 ],
                 "treasure": [
-                    "金蚨子母刃",
                     "五子同心魔",
                     "火鼎"
                 ],
                 "formation": [
-                    "大庚剑阵",
                     "小五行剑阵"
                 ]
             },
@@ -1084,7 +1096,6 @@
                 "spirit_gathering",
                 "sword_formation",
                 "confusion_formation",
-                "dage_sword_formation",
                 "black_iron_shield"
             ],
             "coreCards": [],
@@ -1459,21 +1470,15 @@
                     "厉飞雨"
                 ],
                 "pet": [
-                    "噬金虫",
                     "啼魂兽",
-                    "豹麟兽",
-                    "六翼霜蚣",
-                    "血玉蜘蛛"
+                    "豹麟兽"
                 ],
                 "treasure": [
-                    "风雷翅",
-                    "掌天瓶",
                     "金雷竹"
                 ],
                 "formation": [
                     "风雷阵",
-                    "聚灵阵",
-                    "大庚剑阵"
+                    "聚灵阵"
                 ]
             },
             "preferredTags": [
@@ -1866,7 +1871,6 @@
                 ],
                 "formation": [
                     "迷踪幻阵",
-                    "颠倒五行阵",
                     "九天玄罡阵",
                     "金刚阵"
                 ],
@@ -1893,7 +1897,6 @@
                 "xutian_ding",
                 "freeze_spell",
                 "snow_silkworm",
-                "reversed_five_elements",
                 "eight_spirit_ruler",
                 "blue_crystal_shield"
             ],
@@ -2255,9 +2258,7 @@
                     "玄天仙盾"
                 ],
                 "formation": [
-                    "逆转阴阳阵",
-                    "颠倒五行阵",
-                    "大庚剑阵"
+                    "逆转阴阳阵"
                 ],
                 "spell": [
                     "血遁术",
@@ -2644,9 +2645,7 @@
                     "魔道散修"
                 ],
                 "pet": [
-                    "霜蚣幼虫",
-                    "六翼霜蚣",
-                    "噬金虫"
+                    "霜蚣幼虫"
                 ],
                 "treasure": [
                     "玄骨魔焰",
@@ -2682,14 +2681,15 @@
                 "xuangu_protective_array",
                 "snow_silkworm",
                 "frost_worm_larva",
-                "frost_worm",
                 "freeze_spell",
                 "dry_blue_ice_flame",
                 "golden_thunder_bamboo"
             ],
             "coreCards": [
                 "xuangui_frost_bone",
-                "xuangui_bone_fire"
+                "xuangui_bone_fire",
+                "xuangui_ice_soul_light",
+                "xuangui_bone_shield"
             ],
             "excludedCards": [
                 "baiqiao_lineage_disciple",
@@ -3404,19 +3404,14 @@
                 ],
                 "pet": [
                     "裂风兽幼崽",
-                    "噬金虫",
-                    "六翼霜蚣",
                     "豹麟兽"
                 ],
                 "treasure": [
-                    "风雷翅",
-                    "金雷竹",
-                    "掌天瓶"
+                    "金雷竹"
                 ],
                 "formation": [
                     "风雷阵",
-                    "聚灵阵",
-                    "大庚剑阵"
+                    "聚灵阵"
                 ]
             },
             "preferredTags": [
@@ -3811,10 +3806,7 @@
                     "魔道散修",
                     "魔道筑基"
                 ],
-                "pet": [
-                    "血玉蜘蛛",
-                    "噬金虫"
-                ],
+                "pet": [],
                 "treasure": [
                     "玄天仙盾",
                     "蓝晶盾",
@@ -3823,8 +3815,7 @@
                 ],
                 "formation": [
                     "金刚阵",
-                    "九天玄罡阵",
-                    "颠倒五行阵"
+                    "九天玄罡阵"
                 ],
                 "spell": [
                     "护盾术",
@@ -4601,11 +4592,9 @@
                 ],
                 "treasure": [
                     "虚天鼎",
-                    "玄天仙盾",
-                    "掌天瓶"
+                    "玄天仙盾"
                 ],
                 "formation": [
-                    "颠倒五行阵",
                     "逆转阴阳阵",
                     "九天玄罡阵"
                 ],
@@ -4632,7 +4621,6 @@
                 "spirit_gathering",
                 "blue_crystal_shield",
                 "defense_formation",
-                "dage_sword_formation",
                 "nine_heavens_protection",
                 "core_ancestor"
             ],
@@ -4980,7 +4968,6 @@
                 ],
                 "treasure": [
                     "九曲灵参",
-                    "掌天瓶",
                     "灵眼之泉"
                 ],
                 "formation": [
@@ -7467,9 +7454,7 @@
                     "野狼马贼冲阵",
                     "野狼夜袭",
                     "狼牙刀势",
-                    "帮众夜袭令",
-                    "罗烟步",
-                    "眨眼剑法"
+                    "帮众夜袭令"
                 ]
             },
             "supportCards": [
@@ -8184,8 +8169,7 @@
                 "spell": [
                     "神手谷药室",
                     "药毒散",
-                    "七玄内门演武",
-                    "罗烟步"
+                    "七玄内门演武"
                 ]
             },
             "supportCards": [
@@ -8875,7 +8859,6 @@
             "supportCards": [
                 "flying_sword_basic",
                 "sword_cultivator",
-                "dage_sword_formation",
                 "blood_red_dart",
                 "golden_thunder_bamboo",
                 "ancient_soul_banner"
@@ -9228,7 +9211,6 @@
             "supportCards": [
                 "stealth_formation",
                 "confusion_formation",
-                "reversed_five_elements",
                 "wind_thunder_formation",
                 "thunder_master",
                 "core_ancestor"
@@ -11693,7 +11675,6 @@
             "supportCards": [
                 "earth_dragon",
                 "snow_silkworm",
-                "frost_worm",
                 "stealth_formation",
                 "yaozu_wind_cave",
                 "mystic_turtle"

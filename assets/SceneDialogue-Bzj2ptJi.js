@@ -1,4 +1,4 @@
-import{t as e}from"./main-C6-ndvyj.js";var t={A:10,B:20,C:30},n=`
+import{t as e}from"./main-D4fgYBVx.js";var t={A:10,B:20,C:30},n=`
 .scene-dialogue-toast {
     position: fixed;
     top: 72px;
