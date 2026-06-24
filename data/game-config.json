@@ -1,8 +1,14 @@
 {
   "battleBackgrounds": {
     "enabled": true,
-    "defaultMode": "solid",
-    "defaultOpacity": 0.42,
+    "defaultMode": "artwork",
+    "defaultOpacity": 1,
+    "uiOpacity": {
+      "field": 0.06,
+      "hand": 0.2,
+      "center": 0.2,
+      "side": 0.2
+    },
     "modes": [
       {
         "id": "solid",
@@ -19,7 +25,6 @@
         "leftHeroId": "hanli",
         "rightHeroId": "nangongwan",
         "image": "battle-backgrounds/hanli-vs-nangongwan.webp",
-        "devImage": "dev-assets/covers/hanli-vs-nangongwan/16x9/hanli-left-fade.png",
         "position": "center center"
       },
       {
@@ -27,7 +32,125 @@
         "leftHeroId": "hanli",
         "rightHeroId": "dayan",
         "image": "battle-backgrounds/hanli-vs-dayan.webp",
-        "devImage": "dev-assets/covers/hanli-vs-dayan/16x9/hanli-left-fade.png",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yinyue",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yinyue",
+        "image": "battle-backgrounds/hanli-vs-yinyue.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-ziling",
+        "leftHeroId": "hanli",
+        "rightHeroId": "ziling",
+        "image": "battle-backgrounds/hanli-vs-ziling.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yuanyao",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yuanyao",
+        "image": "battle-backgrounds/hanli-vs-yuanyao.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-xuangui",
+        "leftHeroId": "hanli",
+        "rightHeroId": "xuangui",
+        "image": "battle-backgrounds/hanli-vs-xuangui.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-jiyin",
+        "leftHeroId": "hanli",
+        "rightHeroId": "jiyin",
+        "image": "battle-backgrounds/hanli-vs-jiyin.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-fengxi",
+        "leftHeroId": "hanli",
+        "rightHeroId": "fengxi",
+        "image": "battle-backgrounds/hanli-vs-fengxi.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-wentianren",
+        "leftHeroId": "hanli",
+        "rightHeroId": "wentianren",
+        "image": "battle-backgrounds/hanli-vs-wentianren.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-wangchan",
+        "leftHeroId": "hanli",
+        "rightHeroId": "wangchan",
+        "image": "battle-backgrounds/hanli-vs-wangchan.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-xiangzhili",
+        "leftHeroId": "hanli",
+        "rightHeroId": "xiangzhili",
+        "image": "battle-backgrounds/hanli-vs-xiangzhili.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-linghu",
+        "leftHeroId": "hanli",
+        "rightHeroId": "linghu",
+        "image": "battle-backgrounds/hanli-vs-linghu.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-mo-jiao-hero",
+        "leftHeroId": "hanli",
+        "rightHeroId": "mo_jiao_hero",
+        "image": "battle-backgrounds/hanli-vs-mo-jiao-hero.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-hehuan-young-master",
+        "leftHeroId": "hanli",
+        "rightHeroId": "hehuan_young_master",
+        "image": "battle-backgrounds/hanli-vs-hehuan-young-master.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-demon-vanguard",
+        "leftHeroId": "hanli",
+        "rightHeroId": "demon_vanguard",
+        "image": "battle-backgrounds/hanli-vs-demon-vanguard.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-mulan-elder",
+        "leftHeroId": "hanli",
+        "rightHeroId": "mulan_elder",
+        "image": "battle-backgrounds/hanli-vs-mulan-elder.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yue-emperor",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yue_emperor",
+        "image": "battle-backgrounds/hanli-vs-yue-emperor.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-tianlan-saintess",
+        "leftHeroId": "hanli",
+        "rightHeroId": "tianlan_saintess",
+        "image": "battle-backgrounds/hanli-vs-tianlan-saintess.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-wild-wolf-chief",
+        "leftHeroId": "hanli",
+        "rightHeroId": "wild_wolf_chief",
+        "image": "battle-backgrounds/hanli-vs-wild-wolf-chief.webp",
         "position": "center center"
       },
       {
@@ -35,7 +158,83 @@
         "leftHeroId": "hanli",
         "rightHeroId": "golden_light",
         "image": "battle-backgrounds/hanli-vs-golden-light.webp",
-        "devImage": "dev-assets/covers/hanli-vs-golden_light/16x9/hanli-left-fade.png",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-doctor-mo",
+        "leftHeroId": "hanli",
+        "rightHeroId": "doctor_mo",
+        "image": "battle-backgrounds/hanli-vs-doctor-mo.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-lu-shixiong",
+        "leftHeroId": "hanli",
+        "rightHeroId": "lu_shixiong",
+        "image": "battle-backgrounds/hanli-vs-lu-shixiong.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-gu-elder",
+        "leftHeroId": "hanli",
+        "rightHeroId": "gu_elder",
+        "image": "battle-backgrounds/hanli-vs-gu-elder.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-mulan-shaman",
+        "leftHeroId": "hanli",
+        "rightHeroId": "mulan_shaman",
+        "image": "battle-backgrounds/hanli-vs-mulan-shaman.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-hu-old-demon",
+        "leftHeroId": "hanli",
+        "rightHeroId": "hu_old_demon",
+        "image": "battle-backgrounds/hanli-vs-hu-old-demon.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-che-old-demon",
+        "leftHeroId": "hanli",
+        "rightHeroId": "che_old_demon",
+        "image": "battle-backgrounds/hanli-vs-che-old-demon.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-flower-basket-weirdo",
+        "leftHeroId": "hanli",
+        "rightHeroId": "flower_basket_weirdo",
+        "image": "battle-backgrounds/hanli-vs-flower-basket-weirdo.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-qian-old-demon",
+        "leftHeroId": "hanli",
+        "rightHeroId": "qian_old_demon",
+        "image": "battle-backgrounds/hanli-vs-qian-old-demon.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yuansha-avatar",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yuansha_avatar",
+        "image": "battle-backgrounds/hanli-vs-yuansha-avatar.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-le-shangshi",
+        "leftHeroId": "hanli",
+        "rightHeroId": "le_shangshi",
+        "image": "battle-backgrounds/hanli-vs-le-shangshi.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-silver-wing-yasha",
+        "leftHeroId": "hanli",
+        "rightHeroId": "silver_wing_yasha",
+        "image": "battle-backgrounds/hanli-vs-silver-wing-yasha.webp",
         "position": "center center"
       }
     ]
@@ -328,17 +527,23 @@
     "huangfeng": {
       "name": "黄枫谷",
       "type": "正道",
-      "bonus": "木属性卡牌灵力消耗-1"
+      "bonus": "木属性卡牌灵力消耗-1",
+      "category": "sect",
+      "taxonomyRef": "sect:huangfeng"
     },
     "yanyue": {
       "name": "掩月宗",
       "type": "正道",
-      "bonus": "水属性法术伤害+1"
+      "bonus": "水属性法术伤害+1",
+      "category": "sect",
+      "taxonomyRef": "sect:yanyue"
     },
     "hehuan": {
       "name": "合欢宗",
       "type": "魔道",
-      "bonus": "控制法术持续时间+1"
+      "bonus": "控制法术持续时间+1",
+      "category": "sect",
+      "taxonomyRef": "sect:hehuan"
     },
     "guhun": {
       "name": "鬼灵门",
@@ -346,24 +551,31 @@
       "bonus": "墓地卡牌效果增强",
       "deprecated": true,
       "canonicalKey": "guiling",
-      "note": "兼容旧键；规范宗派键使用 guiling。"
+      "note": "兼容旧键；规范宗派键使用 guiling。",
+      "category": "sect",
+      "taxonomyRef": "sect:guiling"
     },
     "yaozu": {
       "name": "妖族",
       "type": "妖族",
-      "bonus": "灵宠卡牌召唤费用-1"
+      "bonus": "灵宠卡牌召唤费用-1",
+      "category": "race",
+      "taxonomyRef": "race:yaozu"
     },
     "qingyuan": {
       "name": "青元宫",
       "type": "中立",
-      "bonus": "剑修卡牌攻击+1"
+      "bonus": "剑修卡牌攻击+1",
+      "category": "faction",
+      "taxonomyRef": "faction:qingyuan-palace"
     },
     "miaoyin": {
       "name": "妙音门",
       "type": "中立势力",
       "bonus": "音律、幻术和商贸卡牌协同",
       "category": "sect",
-      "region": "乱星海"
+      "region": "乱星海",
+      "taxonomyRef": "sect:miaoyin"
     },
     "guiling": {
       "name": "鬼灵门",
@@ -375,62 +587,85 @@
       ],
       "category": "sect",
       "region": "天罗国",
-      "note": "天罗国魔道六宗之一。"
+      "note": "天罗国魔道六宗之一。",
+      "taxonomyRef": "sect:guiling"
     },
     "jiyin": {
       "name": "极阴岛",
       "type": "魔道",
-      "bonus": "阴属性修士攻击附带中毒"
+      "bonus": "阴属性修士攻击附带中毒",
+      "category": "faction",
+      "taxonomyRef": "faction:jiyin"
     },
     "xuangui": {
       "name": "玄骨门",
       "type": "魔道",
-      "bonus": "冰属性法术伤害+1"
+      "bonus": "冰属性法术伤害+1",
+      "category": "sect",
+      "taxonomyRef": "sect:xuangu"
     },
     "liufeng": {
       "name": "裂风兽",
       "type": "妖族",
-      "bonus": "风属性修士攻击次数+1"
+      "bonus": "风属性修士攻击次数+1",
+      "category": "species",
+      "taxonomyRef": "species:liefengshou"
     },
     "huashen": {
       "name": "化神散修",
       "type": "正道",
-      "bonus": "高境界修士费用-1"
+      "bonus": "高境界修士费用-1",
+      "category": "path",
+      "taxonomyRef": "path:huashen"
     },
     "qingxu": {
       "name": "清虚门",
       "type": "正道",
-      "bonus": "水属性防御卡牌协同"
+      "bonus": "水属性防御卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:qingxu"
     },
     "huadaowu": {
       "name": "化刀坞",
       "type": "正道",
-      "bonus": "刀兵修士攻击增强"
+      "bonus": "刀兵修士攻击增强",
+      "category": "sect",
+      "taxonomyRef": "sect:huadaowu"
     },
     "giant_sword": {
       "name": "巨剑门",
       "type": "正道",
-      "bonus": "剑修卡牌攻击增强"
+      "bonus": "剑修卡牌攻击增强",
+      "category": "sect",
+      "taxonomyRef": "sect:jujian"
     },
     "tianque": {
       "name": "天阙堡",
       "type": "正道",
-      "bonus": "火土属性修士协同"
+      "bonus": "火土属性修士协同",
+      "category": "sect",
+      "taxonomyRef": "sect:tianque"
     },
     "spirit_beast_mountain": {
       "name": "灵兽山",
       "type": "正道",
-      "bonus": "灵宠卡牌协同"
+      "bonus": "灵宠卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:lingshou"
     },
     "yuling": {
       "name": "御灵宗",
       "type": "魔道",
-      "bonus": "驱使灵兽和虫类卡牌"
+      "bonus": "驱使灵兽和虫类卡牌",
+      "category": "sect",
+      "taxonomyRef": "sect:yuling"
     },
     "tiansha": {
       "name": "天煞宗",
       "type": "魔道",
-      "bonus": "煞气攻击卡牌协同"
+      "bonus": "煞气攻击卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:tiansha"
     },
     "demonic_flame": {
       "name": "魔焰宗",
@@ -440,12 +675,16 @@
         "魔焰门",
         "魔焰宗"
       ],
-      "note": "原文常见称呼为魔焰门，游戏中兼容魔焰宗。"
+      "note": "原文常见称呼为魔焰门，游戏中兼容魔焰宗。",
+      "category": "sect",
+      "taxonomyRef": "sect:moyan"
     },
     "qianhuan": {
       "name": "千幻宗",
       "type": "中立",
-      "bonus": "幻术卡牌协同"
+      "bonus": "幻术卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:qianhuan"
     },
     "star_palace": {
       "name": "星宫",
@@ -456,62 +695,85 @@
       "aliases": [
         "星宫",
         "天星城星宫"
-      ]
+      ],
+      "taxonomyRef": "faction:star-palace"
     },
     "wanfa": {
       "name": "万法门",
       "type": "正道",
-      "bonus": "法术卡牌协同"
+      "bonus": "法术卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:wanfa"
     },
     "seven_mysteries": {
       "name": "七玄门",
       "type": "江湖",
-      "bonus": "凡人武学卡牌协同"
+      "bonus": "凡人武学卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:qixuan"
     },
     "human_realm": {
       "name": "人界",
       "type": "中立",
-      "bonus": "人界通用卡牌"
+      "bonus": "人界通用卡牌",
+      "category": "region",
+      "taxonomyRef": "region:human-realm"
     },
     "tu_wu": {
       "name": "突兀族",
       "type": "法士",
-      "bonus": "草原法士和风土卡牌协同"
+      "bonus": "草原法士和风土卡牌协同",
+      "category": "tribe",
+      "taxonomyRef": "tribe:tuwu"
     },
     "mulan": {
       "name": "慕兰族",
       "type": "法士",
-      "bonus": "慕兰法士和神师卡牌协同"
+      "bonus": "慕兰法士和神师卡牌协同",
+      "category": "tribe",
+      "taxonomyRef": "tribe:mulan"
     },
     "yan_clan": {
       "name": "燕家堡",
       "type": "修仙家族",
-      "bonus": "家族修士卡牌协同"
+      "bonus": "家族修士卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:yan-clan"
     },
     "rogue": {
       "name": "散修",
       "type": "中立",
-      "bonus": "通用修士和法宝适配"
+      "bonus": "通用修士和法宝适配",
+      "category": "path",
+      "taxonomyRef": "path:sanxiu"
     },
     "black_fiend": {
       "name": "黑煞教",
       "type": "魔道",
-      "bonus": "血道与阴暗属性卡牌协同"
+      "bonus": "血道与阴暗属性卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:heisha"
     },
     "blood_trial": {
       "name": "血色禁地",
       "type": "秘境",
-      "bonus": "禁地妖兽和试炼卡牌协同"
+      "bonus": "禁地妖兽和试炼卡牌协同",
+      "category": "region",
+      "taxonomyRef": "region:blood-forbidden-land"
     },
     "wild_wolf": {
       "name": "野狼帮",
       "type": "江湖",
-      "bonus": "凡人武者卡牌协同"
+      "bonus": "凡人武者卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:wild-wolf"
     },
     "giant_whale": {
       "name": "巨鲸帮",
       "type": "江湖",
-      "bonus": "水路帮派和凡人武学卡牌协同"
+      "bonus": "水路帮派和凡人武学卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:giant-whale"
     },
     "liulian": {
       "name": "六连殿",
@@ -521,52 +783,71 @@
       "region": "乱星海",
       "aliases": [
         "六连殿"
-      ]
+      ],
+      "taxonomyRef": "faction:liulian"
     },
     "heavenly_demon": {
       "name": "天魔宗",
       "type": "魔道",
-      "bonus": "魔功与暗属性卡牌协同"
+      "bonus": "魔功与暗属性卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:tianmo"
     },
     "wan_yao": {
       "name": "万妖谷",
       "type": "妖族",
-      "bonus": "妖族和灵宠卡牌协同"
+      "bonus": "妖族和灵宠卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:wanyaogu"
     },
     "yinluo": {
       "name": "阴罗宗",
       "type": "魔道",
-      "bonus": "阴魂和鬼道卡牌协同"
+      "bonus": "阴魂和鬼道卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:yinluo"
     },
     "ancient_demon": {
       "name": "古魔",
       "type": "魔族",
-      "bonus": "古魔与魔属性卡牌协同"
+      "bonus": "古魔与魔属性卡牌协同",
+      "category": "species",
+      "taxonomyRef": "species:gumo"
     },
     "tianfeng": {
       "name": "天风部",
       "type": "法士",
-      "bonus": "风属性法士卡牌协同"
+      "bonus": "风属性法士卡牌协同",
+      "category": "tribe",
+      "taxonomyRef": "tribe:tianfeng"
     },
     "kunwu": {
       "name": "昆吾山",
       "type": "秘境",
-      "bonus": "昆吾封印和炼尸卡牌协同"
+      "bonus": "昆吾封印和炼尸卡牌协同",
+      "category": "region",
+      "taxonomyRef": "region:kunwu-mountain"
     },
     "demon_path": {
       "name": "魔道",
       "type": "魔道",
-      "bonus": "魔道通用卡牌协同"
+      "bonus": "魔道通用卡牌协同",
+      "category": "path",
+      "taxonomyRef": "path:modao"
     },
     "ghost_path": {
       "name": "鬼道",
       "type": "鬼道",
-      "bonus": "鬼修和阴魂卡牌协同"
+      "bonus": "鬼修和阴魂卡牌协同",
+      "category": "path",
+      "taxonomyRef": "path:guidao"
     },
     "demon_clan": {
       "name": "魔族",
       "type": "魔族",
-      "bonus": "魔族卡牌协同"
+      "bonus": "魔族卡牌协同",
+      "category": "race",
+      "taxonomyRef": "race:mozu"
     },
     "yue_seven_sects": {
       "name": "越国七派",
@@ -578,7 +859,8 @@
         "七大派"
       ],
       "bonus": "越国七派宗门卡牌协同",
-      "note": "黄枫谷、掩月宗、清虚门、化刀坞、巨剑门、天阙堡、灵兽山。"
+      "note": "黄枫谷、掩月宗、清虚门、化刀坞、巨剑门、天阙堡、灵兽山。",
+      "taxonomyRef": "faction:yue-seven-sects"
     },
     "tiannan_demon_six": {
       "name": "魔道六宗",
@@ -590,7 +872,8 @@
         "六宗"
       ],
       "bonus": "魔道六宗卡牌协同",
-      "note": "合欢宗、鬼灵门、御灵宗、天煞宗、魔焰宗、千幻宗。"
+      "note": "合欢宗、鬼灵门、御灵宗、天煞宗、魔焰宗、千幻宗。",
+      "taxonomyRef": "faction:tiannan-demon-six"
     },
     "zhengdao_alliance": {
       "name": "正道盟",
@@ -600,7 +883,8 @@
       "aliases": [
         "正道联盟"
       ],
-      "bonus": "正道宗门和防御卡牌协同"
+      "bonus": "正道宗门和防御卡牌协同",
+      "taxonomyRef": "faction:zhengdao-alliance"
     },
     "tiandao_alliance": {
       "name": "天道盟",
@@ -610,7 +894,8 @@
       "aliases": [
         "天道盟势力"
       ],
-      "bonus": "天南正道盟友卡牌协同"
+      "bonus": "天南正道盟友卡牌协同",
+      "taxonomyRef": "faction:tiandao-alliance"
     },
     "jiuguo_alliance": {
       "name": "九国盟",
@@ -620,91 +905,112 @@
       "aliases": [
         "九国盟势力"
       ],
-      "bonus": "边境防御和法士对抗卡牌协同"
+      "bonus": "边境防御和法士对抗卡牌协同",
+      "taxonomyRef": "faction:jiuguo-alliance"
     },
     "tianxing": {
       "name": "天星宗",
       "type": "正道",
       "category": "sect",
       "region": "元武国",
-      "bonus": "阵法和禁制卡牌协同"
+      "bonus": "阵法和禁制卡牌协同",
+      "taxonomyRef": "sect:tianxing"
     },
     "shenbing": {
       "name": "神兵门",
       "type": "正道",
       "category": "sect",
       "region": "元武国",
-      "bonus": "炼器和法宝卡牌协同"
+      "bonus": "炼器和法宝卡牌协同",
+      "taxonomyRef": "sect:shenbing"
     },
     "wanmiao": {
       "name": "万妙观",
       "type": "正道",
       "category": "sect",
       "region": "元武国",
-      "bonus": "符箓和法术卡牌协同"
+      "bonus": "符箓和法术卡牌协同",
+      "taxonomyRef": "sect:wanmiao"
     },
     "qianzhu": {
       "name": "千竹教",
       "type": "中立势力",
       "category": "sect",
       "region": "元武国",
-      "bonus": "傀儡术和机关卡牌协同"
+      "bonus": "傀儡术和机关卡牌协同",
+      "taxonomyRef": "sect:qianzhu"
     },
     "yinsha": {
       "name": "隐煞门",
       "type": "魔道",
       "category": "sect",
       "region": "乱星海",
-      "bonus": "隐匿和煞气卡牌协同"
+      "bonus": "隐匿和煞气卡牌协同",
+      "taxonomyRef": "sect:yinsha"
     },
     "reverse_star_alliance": {
       "name": "逆星盟",
       "type": "乱星海联盟",
       "category": "faction",
       "region": "乱星海",
-      "bonus": "反星宫势力卡牌协同"
+      "bonus": "反星宫势力卡牌协同",
+      "taxonomyRef": "faction:reverse-star-alliance"
     },
     "chaotic_star_righteous": {
       "name": "乱星海正道",
       "type": "正道势力",
       "category": "faction",
       "region": "乱星海",
-      "bonus": "乱星海正道修士协同"
+      "bonus": "乱星海正道修士协同",
+      "taxonomyRef": "faction:chaotic-star-righteous"
     },
     "chaotic_star_demonic": {
       "name": "乱星海魔道",
       "type": "魔道势力",
       "category": "faction",
       "region": "乱星海",
-      "bonus": "乱星海魔道修士协同"
+      "bonus": "乱星海魔道修士协同",
+      "taxonomyRef": "faction:chaotic-star-demonic"
     },
     "luoyun": {
       "name": "落云宗",
       "type": "正道",
       "category": "sect",
       "region": "云梦山",
-      "bonus": "云梦山宗门和木土防御卡牌协同"
+      "bonus": "云梦山宗门和木土防御卡牌协同",
+      "taxonomyRef": "sect:luoyun"
     },
     "gujian": {
       "name": "古剑门",
       "type": "正道",
       "category": "sect",
       "region": "云梦山",
-      "bonus": "剑修卡牌协同"
+      "bonus": "剑修卡牌协同",
+      "taxonomyRef": "sect:gujian"
     },
     "baiqiao": {
       "name": "百巧院",
       "type": "正道",
       "category": "sect",
       "region": "云梦山",
-      "bonus": "炼器和机关卡牌协同"
+      "bonus": "炼器和机关卡牌协同",
+      "taxonomyRef": "sect:baiqiao"
     },
     "taiyi": {
       "name": "太一门",
       "type": "正道",
       "category": "sect",
       "region": "大晋",
-      "bonus": "大晋正道卡牌协同"
+      "bonus": "大晋正道卡牌协同",
+      "taxonomyRef": "sect:taiyi"
+    },
+    "taizhen": {
+      "name": "太真门",
+      "type": "正道",
+      "category": "sect",
+      "region": "天南",
+      "bonus": "静心诀和正道盟卡牌协同",
+      "taxonomyRef": "sect:taizhen"
     },
     "xiaoji": {
       "name": "小极宫",
@@ -714,21 +1020,24 @@
       "aliases": [
         "北冥小极宫"
       ],
-      "bonus": "冰寒和防御卡牌协同"
+      "bonus": "冰寒和防御卡牌协同",
+      "taxonomyRef": "sect:xiaoji"
     },
     "tianji": {
       "name": "天机阁",
       "type": "中立势力",
       "category": "sect",
       "region": "大晋",
-      "bonus": "情报和交易卡牌协同"
+      "bonus": "情报和交易卡牌协同",
+      "taxonomyRef": "sect:tianji"
     },
     "great_jin_top_sects": {
       "name": "大晋正魔十大宗门",
       "type": "大晋势力",
       "category": "faction",
       "region": "大晋",
-      "bonus": "大晋高阶宗门卡牌协同"
+      "bonus": "大晋高阶宗门卡牌协同",
+      "taxonomyRef": "faction:great-jin-top-sects"
     },
     "beiye": {
       "name": "贝叶宗",
@@ -738,44 +1047,52 @@
       "aliases": [
         "贝叶宗宗门"
       ],
-      "bonus": "九国盟防御和统筹卡牌协同"
+      "bonus": "九国盟防御和统筹卡牌协同",
+      "taxonomyRef": "sect:beiye"
     }
   },
   "races": {
     "human": {
       "name": "人族",
       "description": "修仙界主流种族，修炼体系完善",
-      "bonus": "每回合额外抽1张牌（上限10张）"
+      "bonus": "每回合额外抽1张牌（上限10张）",
+      "taxonomyRef": "race:human"
     },
     "demon": {
       "name": "妖族",
       "description": "天生具有强大肉身和神通",
-      "bonus": "初始生命值+2"
+      "bonus": "初始生命值+2",
+      "taxonomyRef": "race:yaozu"
     },
     "ghost": {
       "name": "鬼族",
       "description": "死后化为鬼修，擅长阴属性功法",
-      "bonus": "墓地卡牌复活费用-1"
+      "bonus": "墓地卡牌复活费用-1",
+      "taxonomyRef": "race:guizu"
     },
     "mage": {
       "name": "法士",
       "description": "草原修炼体系，常以部族和图腾法术作战",
-      "bonus": "法术与部族协同"
+      "bonus": "法术与部族协同",
+      "taxonomyRef": "path:fashi"
     },
     "feather": {
       "name": "羽族",
       "description": "具备飞遁和风属性天赋的异族",
-      "bonus": "风属性和速度协同"
+      "bonus": "风属性和速度协同",
+      "taxonomyRef": "lineage:yuzu"
     },
     "demon_clan": {
       "name": "魔族",
       "description": "古魔或魔界族裔，擅长魔气与暗属性神通",
-      "bonus": "魔属性卡牌协同"
+      "bonus": "魔属性卡牌协同",
+      "taxonomyRef": "race:mozu"
     },
     "corpse": {
       "name": "炼尸",
       "description": "由秘法炼制或尸气孕育的特殊存在",
-      "bonus": "阴暗属性和复生协同"
+      "bonus": "阴暗属性和复生协同",
+      "taxonomyRef": "species:lianshi"
     }
   },
   "regions": {

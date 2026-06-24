@@ -21,7 +21,8 @@
         },
         "specialCards": [
             "hanli_huanxing_jue",
-            "hanli_wangchen_pill"
+            "hanli_wangchen_pill",
+            "xuanmu_huaying_dafa"
         ],
         "skillEffectId": "hanli__skill",
         "originRegion": "青牛镇",
@@ -62,23 +63,7 @@
             "name": "轮回诀",
             "description": "生命值首次降到0时，恢复12点生命并抽1张牌（每场战斗一次）"
         },
-        "specialCards": [
-            "yanyue_elder",
-            "moon_pill",
-            "moon_rabbit",
-            "yanyue_disciple",
-            "reincarnation_art",
-            "mystic_woman_yin_needles",
-            "nangongwan_zhuque_ring",
-            "yanyue_yuer_attendant",
-            "yanyue_waner_pastry",
-            "yanyue_nangong_que",
-            "yanyue_kunxin_shu",
-            "nangong_sunu_huanxing_shu",
-            "yanyue_yuan_kun",
-            "nangong_furong_chestnut_cake",
-            "nangong_ping_identity"
-        ],
+        "specialCards": [],
         "skillEffectId": "nangongwan__skill",
         "originRegion": "掩月宗",
         "activeRegions": [
@@ -108,18 +93,7 @@
             "name": "大衍决",
             "description": "召唤的傀儡获得+1/+1"
         },
-        "specialCards": [
-            "puppet_soldier",
-            "puppet_beast",
-            "puppet_giant",
-            "puppet_assassin",
-            "puppet_core",
-            "dayan_puppet_link",
-            "dayan_puppet_substitute",
-            "dayan_giant_puppet",
-            "dayan_divine_calculation",
-            "dayan_divine_formula"
-        ],
+        "specialCards": [],
         "skillEffectId": "dayan__skill",
         "originRegion": "极西之地",
         "activeRegions": [
@@ -148,27 +122,44 @@
             "description": "消耗2灵力，额外抽1张牌"
         },
         "specialCards": [
-            "silver_fox",
-            "fox_pill",
-            "confusion_formation",
-            "soul_pill",
             "yinyue_fox_transformation",
             "yinyue_fox_fire",
-            "yinyue_moonlight_barrier",
-            "yinyue_soul_charm",
-            "silver_moon_escape",
-            "fox_shadow_step"
+            "silver_moon_escape"
         ],
         "skillEffectId": "yinyue__skill",
         "originRegion": "大晋",
         "activeRegions": [
             "大晋",
             "昆吾山"
+        ],
+        "rootRace": "妖族",
+        "lineage": "银月狼族",
+        "species": "银月狐",
+        "cultivationSystem": "妖修",
+        "taxonomyRefs": [
+            "race:yaozu",
+            "lineage:silvermoon-wolf",
+            "species:silver-fox",
+            "path:yaoxiu"
+        ],
+        "affiliationRefs": [
+            "region:great-jin",
+            "region:kunwu-mountain"
+        ],
+        "gameTags": [
+            "银月",
+            "妖族",
+            "妖修",
+            "控制",
+            "抽牌"
         ]
     },
     "ziling": {
         "id": "ziling",
         "name": "紫灵",
+        "aliases": [
+            "紫灵仙子"
+        ],
         "avatar": "🎵",
         "arc": "human",
         "sect": "妙音门",
@@ -185,12 +176,9 @@
             "description": "每回合开始时，敌方场上修士攻击力-1（已减过的不再重复）"
         },
         "specialCards": [
-            "miaoyin_disciple",
-            "sound_pill",
             "ziling_sound_of_soul",
             "ziling_mystic_sound",
-            "ziling_charm_dance",
-            "ziling_beauty_trap"
+            "ziling_charm_dance"
         ],
         "skillEffectId": "ziling__skill",
         "originRegion": "乱星海",
@@ -230,12 +218,9 @@
             "description": "可以复活墓地中的一张修士卡（消耗5灵力）"
         },
         "specialCards": [
-            "soul_beast",
             "soul_pill",
-            "ghost_cultivator",
             "yin_yang_reversal",
             "healing_formation",
-            "soul_recall_art",
             "yuanyao_yin_spirit_possession",
             "yuanyao_soul_ring",
             "yuanyao_yin_yang_dao",
@@ -279,12 +264,7 @@
             "name": "玄骨魔焰",
             "description": "每回合开始时，对敌方生命最低的修士造成1点伤害并冻结；敌方无修士时伤害敌方英雄"
         },
-        "specialCards": [
-            "ice_cultivator",
-            "ice_flame_skeleton",
-            "ghost_cultivator",
-            "xuanyin_demonic_qi"
-        ],
+        "specialCards": [],
         "skillEffectId": "xuangui__skill",
         "originRegion": "乱星海",
         "activeRegions": [
@@ -324,14 +304,10 @@
             "description": "己方修士击败敌方修士时，恢复3点生命"
         },
         "specialCards": [
-            "ghost_cultivator",
             "soul_pill",
-            "demon_cultivator",
             "blood_escape",
             "blood_red_dart",
-            "heavenly_corpse_fire",
-            "xuanyin_demonic_qi",
-            "cold_li_pearl"
+            "jiyin_blood_jade"
         ],
         "skillEffectId": "jiyin__skill",
         "originRegion": "极阴岛",
@@ -380,12 +356,7 @@
             "name": "风雷翅",
             "description": "每回合开始时获得1点临时灵力，并使随机己方修士攻击力+1"
         },
-        "specialCards": [
-            "wind_beast",
-            "wind_demon",
-            "wing_clan_warrior",
-            "black_wind_beast"
-        ],
+        "specialCards": [],
         "skillEffectId": "fengxi__skill",
         "originRegion": "外星海",
         "activeRegions": [
@@ -470,13 +441,9 @@
         "specialCards": [
             "blood_escape",
             "blood_red_dart",
-            "blood_demon_sword",
-            "demon_cultivator",
             "five_devils",
-            "ghost_cultivator",
             "yin_yang_reversal",
-            "core_ancestor",
-            "blood_spirit_art"
+            "core_ancestor"
         ],
         "skillEffectId": "wangchan__skill",
         "originRegion": "天南",
@@ -508,6 +475,23 @@
         "activeRegions": [
             "天南",
             "大晋"
+        ],
+        "cultivationSystem": "化神修士",
+        "taxonomyRefs": [
+            "race:human",
+            "path:huashen",
+            "path:sanxiu"
+        ],
+        "affiliationRefs": [
+            "region:human-realm",
+            "region:great-jin",
+            "region:kunwu-mountain"
+        ],
+        "gameTags": [
+            "化神散修",
+            "散修",
+            "高阶",
+            "控制"
         ]
     },
     "linghu": {
@@ -528,13 +512,7 @@
             "description": "每回合开始时恢复1点生命，并使生命最低的己方修士生命+1"
         },
         "specialCards": [
-            "linghu_old",
-            "disciple_huangfeng",
-            "huangfeng_elder",
-            "linghu_elder_wisdom",
-            "linghu_ancient_elixir",
-            "linghu_yellow_maple_sword",
-            "linghu_changchun_perfect"
+            "linghu_ancient_elixir"
         ],
         "skillEffectId": "linghu__skill",
         "originRegion": "黄枫谷",
@@ -564,20 +542,32 @@
             "description": "每回合开始时使敌方英雄中毒；若其已中毒，则造成1点伤害"
         },
         "specialCards": [
-            "ink_dragon",
             "blood_burn",
             "spirit_pill",
-            "shield_spell",
-            "mo_jiao_poison_breath",
-            "mo_jiao_black_scale",
-            "mo_jiao_blood_pool",
-            "mo_jiao_tail_sweep",
-            "mo_jiao_lair_ambush"
+            "shield_spell"
         ],
         "skillEffectId": "mo_jiao_hero__skill",
         "originRegion": "血色禁地",
         "activeRegions": [
             "血色禁地"
+        ],
+        "rootRace": "妖族",
+        "species": "蛟龙",
+        "cultivationSystem": "妖修",
+        "taxonomyRefs": [
+            "race:yaozu",
+            "species:jiaolong",
+            "path:yaoxiu"
+        ],
+        "affiliationRefs": [
+            "region:blood-forbidden-land"
+        ],
+        "gameTags": [
+            "妖族",
+            "妖修",
+            "血色禁地",
+            "毒",
+            "控制"
         ]
     },
     "hehuan_young_master": {
@@ -599,17 +589,13 @@
             "description": "己方修士攻击敌方英雄时，恢复1点生命"
         },
         "specialCards": [
-            "hehuan_femaledisciple",
             "confusion_formation",
             "healing_formation",
             "shield_spell",
             "spirit_pill",
             "burst_pill",
             "xuan_yue_absorption_art",
-            "hehuan_moon_charm",
-            "hehuan_red_dust_mist",
-            "hehuan_soul_snare",
-            "hehuan_dual_cultivation"
+            "hehuan_red_dust_mist"
         ],
         "skillEffectId": "hehuan_young_master__skill",
         "originRegion": "天南",
@@ -673,10 +659,6 @@
             "spirit_pill",
             "shield_spell",
             "fireball",
-            "mulan_totem_staff",
-            "grassland_spell_array",
-            "spirit_eagle_banner",
-            "prairie_wind_rider",
             "wind_blade",
             "divine_sense"
         ],
@@ -685,6 +667,21 @@
         "activeRegions": [
             "慕兰草原",
             "天南边境"
+        ],
+        "cultivationSystem": "法士",
+        "taxonomyRefs": [
+            "tribe:mulan",
+            "path:fashi"
+        ],
+        "affiliationRefs": [
+            "region:mulan-grassland",
+            "region:tiannan-border"
+        ],
+        "gameTags": [
+            "慕兰族",
+            "法士",
+            "风系",
+            "召唤"
         ]
     },
     "yue_emperor": {
@@ -719,15 +716,8 @@
             "description": "每回合开始时召唤黑煞血侍；若场上已有血侍，新血侍为2/1"
         },
         "specialCards": [
-            "blood_demon_sword",
             "blood_escape",
             "blood_red_dart",
-            "ghost_cultivator",
-            "demon_cultivator",
-            "black_evil_blood_altar",
-            "imperial_blood_order",
-            "blood_corpse_guard",
-            "palace_shadow_net",
             "soul_seizing_formula"
         ],
         "skillEffectId": "yue_emperor__skill",
@@ -755,25 +745,33 @@
             "description": "每回合开始时，获得1点护甲并召唤一个1/1突兀战士"
         },
         "specialCards": [
-            "tianlan_saint",
             "wind_blade",
             "spirit_pill",
             "shield_spell",
             "healing_formation",
-            "confusion_formation",
-            "tianlan_sacred_beast",
-            "tianlan_beast_oath",
-            "grassland_spell_array",
-            "spirit_eagle_banner",
-            "prairie_wind_rider",
-            "tianlan_sacred_wind",
-            "saintess_wind_lance"
+            "confusion_formation"
         ],
         "skillEffectId": "tianlan_saintess__skill",
         "originRegion": "天澜草原",
         "activeRegions": [
             "天澜草原",
             "天南边境"
+        ],
+        "cultivationSystem": "法士",
+        "taxonomyRefs": [
+            "tribe:tuwu",
+            "path:fashi"
+        ],
+        "affiliationRefs": [
+            "region:tianlan-grassland",
+            "region:tiannan-border"
+        ],
+        "gameTags": [
+            "突兀族",
+            "法士",
+            "风系",
+            "防御",
+            "召唤"
         ]
     },
     "wild_wolf_chief": {
@@ -793,19 +791,7 @@
             "name": "江湖霸刀",
             "description": "每回合开始时，随机一个己方修士攻击力+1"
         },
-        "specialCards": [
-            "wolf_gang_raider",
-            "jianghu_hidden_dart",
-            "iron_sand_palm",
-            "night_raid_order",
-            "mortal_bodyguard_contract",
-            "wolf_tooth_blade",
-            "gang_war_drums",
-            "bandit_net_trap",
-            "wild_wolf_scout",
-            "rough_bandit_blade",
-            "wild_wolf_horse_bandit_charge"
-        ],
+        "specialCards": [],
         "skillEffectId": "wild_wolf_chief__skill",
         "originRegion": "嘉元城",
         "activeRegions": [
@@ -850,6 +836,18 @@
         "activeRegions": [
             "越国",
             "天南"
+        ],
+        "taxonomyRefs": [
+            "race:human",
+            "path:sanxiu"
+        ],
+        "affiliationRefs": [
+            "region:yue-state"
+        ],
+        "gameTags": [
+            "散修",
+            "越国",
+            "低费"
         ]
     },
     "doctor_mo": {
@@ -871,17 +869,13 @@
             "description": "每3回合，随机控制敌方一个修士1回合"
         },
         "specialCards": [
-            "doctor_mo",
             "soul_pill",
             "blood_escape",
-            "seven_mysteries_doctor_room",
             "soul_seizing_formula",
-            "medicinal_poison_powder",
             "blood_burn",
             "read_jade_slip",
-            "changchun_gong",
             "meditation",
-            "seven_mysteries_inner_drill"
+            "seven_ghost_soul_devourer_art"
         ],
         "skillEffectId": "doctor_mo__skill",
         "originRegion": "七玄门",
@@ -928,8 +922,7 @@
             "wind_blade",
             "read_jade_slip",
             "observe_qi",
-            "meditation",
-            "ascension_token"
+            "meditation"
         ],
         "skillEffectId": "lu_shixiong__skill",
         "originRegion": "黄枫谷",
@@ -964,10 +957,6 @@
             "shield_spell",
             "healing_light",
             "spirit_pill",
-            "liulian_sea_chart",
-            "sea_frost_net",
-            "tide_lock_array",
-            "island_guard_order",
             "divine_sense",
             "read_jade_slip"
         ],
@@ -1004,10 +993,6 @@
             "burst_pill",
             "spirit_pill",
             "shield_spell",
-            "mulan_totem_staff",
-            "grassland_spell_array",
-            "spirit_eagle_banner",
-            "prairie_wind_rider",
             "wind_blade",
             "divine_sense",
             "read_jade_slip"
@@ -1017,6 +1002,22 @@
         "activeRegions": [
             "慕兰草原",
             "天南边境"
+        ],
+        "cultivationSystem": "法士",
+        "taxonomyRefs": [
+            "tribe:mulan",
+            "path:fashi"
+        ],
+        "affiliationRefs": [
+            "region:mulan-grassland",
+            "region:tiannan-border"
+        ],
+        "gameTags": [
+            "慕兰族",
+            "法士",
+            "火系",
+            "召唤",
+            "爆发"
         ]
     },
     "hu_old_demon": {
@@ -1038,14 +1039,10 @@
             "description": "每回合开始时，敌方手牌随机弃置1张"
         },
         "specialCards": [
-            "demon_cultivator",
             "five_devils",
             "shadow_assassin",
-            "dark_cultivator",
-            "blood_demon_sword",
             "blood_escape",
             "blood_red_dart",
-            "burning_soul_order",
             "blood_burn"
         ],
         "skillEffectId": "hu_old_demon__skill",
@@ -1096,12 +1093,7 @@
             "thunder_leopard",
             "spirit_pill",
             "burst_pill",
-            "healing_formation",
-            "beast_king_roar",
-            "beast_soul_order",
-            "valley_demon_pack",
-            "golden_dragon_king",
-            "yaozu_thunder_beast"
+            "healing_formation"
         ],
         "skillEffectId": "che_old_demon__skill",
         "originRegion": "万妖谷",
@@ -1134,15 +1126,25 @@
             "puppet_core",
             "shield_spell",
             "spirit_pill",
-            "flower_basket_treasure",
-            "puppet_giant",
-            "puppet_assassin",
             "defense_formation"
         ],
         "skillEffectId": "flower_basket_weirdo__skill",
         "originRegion": "大晋",
         "activeRegions": [
             "大晋"
+        ],
+        "taxonomyRefs": [
+            "race:human",
+            "path:sanxiu"
+        ],
+        "affiliationRefs": [
+            "region:great-jin"
+        ],
+        "gameTags": [
+            "散修",
+            "傀儡",
+            "召唤",
+            "防御"
         ]
     },
     "qian_old_demon": {
@@ -1164,14 +1166,10 @@
             "description": "每回合开始时召唤1/1五子魔；凑成五子时额外伤害敌方英雄"
         },
         "specialCards": [
-            "demon_cultivator",
             "five_devils",
             "shadow_assassin",
-            "dark_cultivator",
-            "blood_demon_sword",
             "blood_escape",
             "blood_red_dart",
-            "burning_soul_order",
             "soul_seizing_formula"
         ],
         "skillEffectId": "qian_old_demon__skill",
@@ -1219,15 +1217,10 @@
             "description": "每回合开始时，对敌方所有修士造成1点伤害"
         },
         "specialCards": [
-            "demon_cultivator",
             "five_devils",
             "shadow_assassin",
-            "dark_cultivator",
-            "blood_demon_sword",
             "blood_escape",
-            "blood_red_dart",
-            "ghost_cultivator",
-            "burning_soul_order"
+            "blood_red_dart"
         ],
         "skillEffectId": "yuansha_avatar__skill",
         "originRegion": "魔界",
@@ -1269,9 +1262,6 @@
             "spirit_pill",
             "shield_spell",
             "wind_riding_chariot",
-            "prairie_wind_rider",
-            "grassland_wind_lance",
-            "spirit_eagle_banner",
             "wind_blade",
             "wind_thunder_formation",
             "divine_sense"
@@ -1293,7 +1283,9 @@
         "cultivationSystem": "鬼道修士",
         "taxonomyRefs": [
             "race:guizu",
-            "path:guidao"
+            "path:guidao",
+            "species:lianshi",
+            "region:kunwu-mountain"
         ],
         "gameTags": [
             "鬼道",
@@ -1313,19 +1305,13 @@
             "description": "每回合开始时，随机敌方修士攻击力-1，并有概率冻结"
         },
         "specialCards": [
-            "ghost_cultivator",
             "soul_pill",
             "confusion_formation",
-            "dark_cultivator",
             "shield_spell",
             "kunwu_seal_chain",
             "silver_wing_claw",
-            "corpse_qi_barrier",
-            "yasha_shadow_pack",
             "silver_pupil_illusion",
-            "silver_wing_dive",
-            "night_yasha_body",
-            "silver_eye_fear"
+            "silver_wing_dive"
         ],
         "skillEffectId": "silver_wing_yasha__skill",
         "originRegion": "昆吾山",

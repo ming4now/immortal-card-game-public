@@ -53,7 +53,7 @@
         })();
     </script>
     <!-- End Baidu Analytics -->
-  <script type="module" crossorigin src="./assets/main-D4fgYBVx.js"></script>
+  <script type="module" crossorigin src="./assets/main-DMkuQDYD.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/main-CjChojjj.css">
 </head>
 <body class="menu-open">
@@ -89,7 +89,10 @@
                         <span class="btn-icon">🃏</span>
                         <span class="btn-text">构建卡牌</span>
                     </button>
-                    <!-- 卡牌图鉴入口暂时隐藏，功能代码保留，后续需要时再恢复按钮。 -->
+                    <button class="menu-btn menu-btn-secondary" id="btn-view-cards" hidden>
+                        <span class="btn-icon">📚</span>
+                        <span class="btn-text">卡牌图鉴</span>
+                    </button>
                     <button class="menu-btn menu-btn-secondary" id="btn-view-heroes">
                         <span class="btn-icon">👥</span>
                         <span class="btn-text">英雄图鉴</span>
@@ -98,7 +101,7 @@
                 </div>
                 
                 <!-- 更新日志 -->
-                <div class="changelog-section">
+                <div class="changelog-section" hidden>
                     <h3 class="changelog-title">📝 最近更新</h3>
                     <div class="changelog-list" id="changelog-list">
                         <div class="changelog-loading">加载中...</div>
@@ -404,7 +407,9 @@
                     <div class="form-row" id="player-ai-model-row">
                         <label>模型版本:</label>
                         <select id="player-ai-model">
-                            <option value="MiniMax-M2.7" selected>MiniMax-M2.7</option>
+                            <option value="MiniMax-M3" selected>MiniMax-M3</option>
+                            <option value="MiniMax-M2.7">MiniMax-M2.7</option>
+                            <option value="MiniMax-M2.7-highspeed">MiniMax-M2.7-highspeed</option>
                             <option value="MiniMax-M2.5">MiniMax-M2.5</option>
                         </select>
                     </div>
@@ -451,7 +456,9 @@
                     <div class="form-row" id="opponent-ai-model-row">
                         <label>模型版本:</label>
                         <select id="opponent-ai-model">
-                            <option value="MiniMax-M2.7" selected>MiniMax-M2.7</option>
+                            <option value="MiniMax-M3" selected>MiniMax-M3</option>
+                            <option value="MiniMax-M2.7">MiniMax-M2.7</option>
+                            <option value="MiniMax-M2.7-highspeed">MiniMax-M2.7-highspeed</option>
                             <option value="MiniMax-M2.5">MiniMax-M2.5</option>
                         </select>
                     </div>
@@ -461,7 +468,7 @@
                     </div>
                     <div class="form-row" id="opponent-ai-timeout-row">
                         <label>决策超时: <span id="timeout-value">15</span>秒</label>
-                        <input type="range" id="ai-timeout" min="3" max="30" value="15">
+                        <input type="range" id="ai-timeout" min="3" max="180" value="15">
                     </div>
                 </div>
             </div>

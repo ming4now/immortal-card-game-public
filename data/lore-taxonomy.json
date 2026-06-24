@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-07",
+  "updatedAt": "2026-06-21",
   "description": "Generic lore identity graph for races, lineages, species, sects, tribes, factions, cultivation systems, and regions. Legacy game fields such as sect/race can coexist during migration.",
   "nodeKinds": {
     "race": "High-level race or realm-wide ancestry group.",
@@ -15,6 +15,7 @@
   "edgeRelations": {
     "IS_A": "Child node belongs under parent node.",
     "AFFILIATED_WITH": "Node is politically or narratively associated with another node.",
+    "SUBORDINATE_TO": "Node is under another organization's jurisdiction or hierarchy.",
     "HAS_CULTIVATION_SYSTEM": "Organization or group commonly uses a cultivation system.",
     "LOCATED_IN": "Node is primarily located in a region.",
     "ORIGINATES_FROM": "Node originates from a region or group.",
@@ -489,6 +490,12 @@
       "aliases": []
     },
     {
+      "id": "sect:taizhen",
+      "kind": "sect",
+      "name": "太真门",
+      "aliases": []
+    },
+    {
       "id": "sect:xiaoji",
       "kind": "sect",
       "name": "小极宫",
@@ -597,6 +604,197 @@
         "六道极圣传承",
         "六道传人",
         "六道少主"
+      ]
+    },
+    {
+      "id": "lineage:silvermoon-wolf",
+      "kind": "lineage",
+      "name": "银月狼族",
+      "aliases": [
+        "银月狐族",
+        "银月一族"
+      ]
+    },
+    {
+      "id": "species:silver-fox",
+      "kind": "species",
+      "name": "银月狐",
+      "aliases": [
+        "银月灵狐",
+        "银月本命妖兽"
+      ]
+    },
+    {
+      "id": "species:lianshi",
+      "kind": "species",
+      "name": "炼尸",
+      "aliases": [
+        "尸傀",
+        "尸修"
+      ]
+    },
+    {
+      "id": "path:huashen",
+      "kind": "path",
+      "name": "化神修士",
+      "aliases": [
+        "化神散修",
+        "化神老怪",
+        "人界化神"
+      ]
+    },
+    {
+      "id": "region:blood-forbidden-land",
+      "kind": "region",
+      "name": "血色禁地",
+      "aliases": [
+        "血色试炼",
+        "血色禁地试炼"
+      ]
+    },
+    {
+      "id": "region:mulan-grassland",
+      "kind": "region",
+      "name": "慕兰草原",
+      "aliases": [
+        "慕兰草原战场"
+      ]
+    },
+    {
+      "id": "region:tianlan-grassland",
+      "kind": "region",
+      "name": "天澜草原",
+      "aliases": [
+        "天澜草原战场"
+      ]
+    },
+    {
+      "id": "region:tiannan-border",
+      "kind": "region",
+      "name": "天南边境",
+      "aliases": [
+        "天南草原边境"
+      ]
+    },
+    {
+      "id": "region:kunwu-mountain",
+      "kind": "region",
+      "name": "昆吾山",
+      "aliases": [
+        "昆吾山封印"
+      ]
+    },
+    {
+      "id": "faction:qingyuan-palace",
+      "kind": "faction",
+      "name": "青元宫",
+      "aliases": [
+        "青元一脉"
+      ]
+    },
+    {
+      "id": "sect:beiye",
+      "kind": "sect",
+      "name": "贝叶宗",
+      "aliases": []
+    },
+    {
+      "id": "lineage:lingchong",
+      "kind": "lineage",
+      "name": "灵虫",
+      "aliases": [
+        "虫豸妖兽",
+        "奇虫榜灵虫",
+        "灵虫一脉"
+      ]
+    },
+    {
+      "id": "species:gold-devourer",
+      "kind": "species",
+      "name": "噬金虫",
+      "aliases": [
+        "噬金虫王",
+        "噬金虫群"
+      ]
+    },
+    {
+      "id": "species:six-winged-frost-centipede",
+      "kind": "species",
+      "name": "六翼霜蚣",
+      "aliases": [
+        "霜蚣",
+        "霜蚣幼虫"
+      ]
+    },
+    {
+      "id": "species:blood-jade-spider",
+      "kind": "species",
+      "name": "血玉蜘蛛",
+      "aliases": [
+        "血玉蛛"
+      ]
+    },
+    {
+      "id": "species:thunder-peng",
+      "kind": "species",
+      "name": "雷鹏",
+      "aliases": [
+        "风雷妖禽"
+      ]
+    },
+    {
+      "id": "species:xuangui",
+      "kind": "species",
+      "name": "玄龟",
+      "aliases": [
+        "上古玄岩龟",
+        "玄龟后裔",
+        "圭灵"
+      ]
+    },
+    {
+      "id": "species:ice-phoenix",
+      "kind": "species",
+      "name": "冰凤",
+      "aliases": [
+        "冰海之主",
+        "天凤血脉"
+      ]
+    },
+    {
+      "id": "species:lion-bird-beast",
+      "kind": "species",
+      "name": "狮禽兽",
+      "aliases": [
+        "狮身鸟翼妖兽",
+        "未化形凶禽"
+      ]
+    },
+    {
+      "id": "species:greenback-wolf",
+      "kind": "species",
+      "name": "青背苍狼",
+      "aliases": [
+        "青背苍狼一族",
+        "狼类妖兽"
+      ]
+    },
+    {
+      "id": "species:ancient-corpse-bear",
+      "kind": "species",
+      "name": "万年尸熊",
+      "aliases": [
+        "尸熊",
+        "万妖谷尸熊"
+      ]
+    },
+    {
+      "id": "species:wood-spirit-kui",
+      "kind": "species",
+      "name": "木魁",
+      "aliases": [
+        "树妖木魁",
+        "灵木成精"
       ]
     }
   ],
@@ -1067,6 +1265,12 @@
       "target": "region:chaotic-star-sea"
     },
     {
+      "source": "faction:liulian",
+      "relation": "SUBORDINATE_TO",
+      "target": "faction:star-palace",
+      "evidence": "原文称整个乱星海由星宫管辖，魁星岛也是星宫下辖外岛；六连殿作为乱星海有头有脸的商家，在势力图谱中维护为星宫体系下属势力。"
+    },
+    {
       "source": "sect:yinsha",
       "relation": "HAS_CULTIVATION_SYSTEM",
       "target": "path:modao"
@@ -1161,6 +1365,21 @@
       "source": "sect:taiyi",
       "relation": "AFFILIATED_WITH",
       "target": "faction:great-jin-top-sects"
+    },
+    {
+      "source": "sect:taizhen",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:taizhen",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "sect:taizhen",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:zhengdao-alliance"
     },
     {
       "source": "sect:xiaoji",
@@ -1318,6 +1537,241 @@
       "relation": "AFFILIATED_WITH",
       "target": "faction:reverse-star-alliance",
       "evidence": "原文称温公子是逆星盟六道极圣前辈的高徒。"
+    },
+    {
+      "source": "lineage:silvermoon-wolf",
+      "relation": "IS_A",
+      "target": "race:yaozu"
+    },
+    {
+      "source": "species:silver-fox",
+      "relation": "IS_A",
+      "target": "lineage:silvermoon-wolf"
+    },
+    {
+      "source": "species:silver-fox",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu"
+    },
+    {
+      "source": "species:lianshi",
+      "relation": "IS_A",
+      "target": "race:guizu"
+    },
+    {
+      "source": "species:lianshi",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:guidao"
+    },
+    {
+      "source": "region:blood-forbidden-land",
+      "relation": "LOCATED_IN",
+      "target": "region:yue-state"
+    },
+    {
+      "source": "region:mulan-grassland",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:tianlan-grassland",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:tiannan-border",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "region:kunwu-mountain",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "tribe:mulan",
+      "relation": "LOCATED_IN",
+      "target": "region:mulan-grassland"
+    },
+    {
+      "source": "tribe:tuwu",
+      "relation": "LOCATED_IN",
+      "target": "region:tianlan-grassland"
+    },
+    {
+      "source": "tribe:tianfeng",
+      "relation": "LOCATED_IN",
+      "target": "region:mulan-grassland"
+    },
+    {
+      "source": "faction:qingyuan-palace",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "faction:qingyuan-palace",
+      "relation": "LOCATED_IN",
+      "target": "region:tiannan"
+    },
+    {
+      "source": "sect:beiye",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:zhengdao"
+    },
+    {
+      "source": "sect:beiye",
+      "relation": "LOCATED_IN",
+      "target": "region:great-jin"
+    },
+    {
+      "source": "lineage:lingchong",
+      "relation": "IS_A",
+      "target": "race:yaozu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:gold-devourer",
+      "relation": "IS_A",
+      "target": "lineage:lingchong",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:six-winged-frost-centipede",
+      "relation": "IS_A",
+      "target": "lineage:lingchong",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:blood-jade-spider",
+      "relation": "IS_A",
+      "target": "lineage:lingchong",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:thunder-peng",
+      "relation": "IS_A",
+      "target": "lineage:yuzu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:thunder-peng",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:xuangui",
+      "relation": "IS_A",
+      "target": "race:yaozu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:xuangui",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:ice-phoenix",
+      "relation": "IS_A",
+      "target": "lineage:yuzu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:ice-phoenix",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:lion-bird-beast",
+      "relation": "IS_A",
+      "target": "lineage:yuzu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:lion-bird-beast",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:greenback-wolf",
+      "relation": "IS_A",
+      "target": "race:yaozu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:greenback-wolf",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:greenback-wolf",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:wanyaogu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:ancient-corpse-bear",
+      "relation": "IS_A",
+      "target": "race:yaozu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:ancient-corpse-bear",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:ancient-corpse-bear",
+      "relation": "AFFILIATED_WITH",
+      "target": "faction:wanyaogu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:wood-spirit-kui",
+      "relation": "IS_A",
+      "target": "race:yaozu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:wood-spirit-kui",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:wood-spirit-kui",
+      "relation": "LOCATED_IN",
+      "target": "region:kunwu-mountain",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:jiaolong",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:liefengshou",
+      "relation": "HAS_CULTIVATION_SYSTEM",
+      "target": "path:yaoxiu",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "region:outer-star-sea",
+      "relation": "LOCATED_IN",
+      "target": "region:chaotic-star-sea",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "species:jiaolong",
+      "relation": "AFFILIATED_WITH",
+      "target": "region:outer-star-sea",
+      "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
     }
   ],
   "migrationPolicy": {
