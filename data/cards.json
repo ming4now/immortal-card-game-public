@@ -571,6 +571,7 @@
             "description": "玄骨上人门下修炼玄骨冰焰的修士，攻击时30%概率冻结目标",
             "avatar": "❄️",
             "onAttackEffectId": "ice_cultivator__onAttack",
+            "freezeOnContactChance": 0.3,
             "taxonomyRefs": [
                 "sect:xuangu",
                 "path:guidao",
@@ -3639,7 +3640,7 @@
             "type": "spell",
             "cost": 3,
             "spiritRoot": "水",
-            "description": "紫灵专属：使敌方攻击力最高的修士本回合无法攻击",
+            "description": "紫灵专属：使敌方攻击力最高的修士本回合无法攻击；若敌方空场，对敌方英雄造成2点伤害并抽1张牌",
             "avatar": "🎵",
             "heroOnly": "ziling",
             "effectEffectId": "ziling_sound_of_soul__effect",
@@ -4146,7 +4147,7 @@
             "cost": 6,
             "heroOnly": "fengxi",
             "exclusive": true,
-            "description": "风希召唤风雷风暴，对所有敌方单位造成3点伤害，抽2张牌",
+            "description": "风希召唤风雷风暴，对所有敌方单位造成3点伤害，抽1张牌",
             "avatar": "🌪️",
             "effectEffectId": "fengxi_storm_call__effect",
             "realm": 6,
@@ -8000,6 +8001,7 @@
             "avatar": "❄️",
             "category": "攻击",
             "durability": 4,
+            "freezing": true,
             "onAttackEffectId": "dry_blue_ice_flame__onAttack",
             "equipEffectEffectId": "dry_blue_ice_flame__equipEffect",
             "onUnequipEffectId": "dry_blue_ice_flame__onUnequip",
@@ -8491,15 +8493,71 @@
             "type": "treasure",
             "realm": 4,
             "cost": 4,
-            "heroOnly": "le_shangshi",
-            "exclusive": true,
-            "description": "天风部御风宝车：装备修士+1攻击并可再次攻击；回合开始时获得1点临时灵力，持续3次。效果：装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
+            "description": "天风部顶阶飞行异宝，遁速惊人；装备修士攻击+1且可攻击两次，回合开始获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
             "avatar": "🛞",
             "category": "机动",
             "durability": 3,
             "onTurnStartEffectId": "wind_riding_chariot__onTurnStart",
             "equipEffectEffectId": "wind_riding_chariot__equipEffect",
-            "onUnequipEffectId": "wind_riding_chariot__onUnequip"
+            "onUnequipEffectId": "wind_riding_chariot__onUnequip",
+            "taxonomyRefs": [
+                "tribe:tianfeng",
+                "tribe:mulan"
+            ],
+            "gameTags": [
+                "天风部",
+                "慕兰族",
+                "风系",
+                "速度",
+                "法宝"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "le_shangshi",
+                    "mulan_shaman",
+                    "mulan_elder"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "御风车",
+                    "aliases": [],
+                    "occurrenceCount": 25,
+                    "lineHints": [
+                        32565,
+                        32566,
+                        32570,
+                        32587,
+                        32597,
+                        32599,
+                        32604,
+                        32607,
+                        32615,
+                        32617,
+                        32634,
+                        35739,
+                        35741,
+                        35742,
+                        36552,
+                        37035,
+                        37039,
+                        38563,
+                        38570,
+                        38577,
+                        38777,
+                        38778,
+                        38789,
+                        43495,
+                        43497
+                    ]
+                },
+                "note": "原文强调御风车速度惊人、适合飞遁赶路和追击，游戏化为双攻节奏和临时灵力。"
+            }
         },
         {
             "id": "cold_li_pearl",
@@ -8560,25 +8618,73 @@
         },
         {
             "id": "flower_basket_treasure",
-            "name": "花篮法宝",
+            "name": "花篮古宝",
             "type": "treasure",
-            "realm": 4,
+            "realm": 5,
             "cost": 4,
-            "description": "花篮怪人的驱傀法宝：装备修士+1生命；回合开始时召唤1/1机关傀儡，持续3次。效果：装备修士生命+1；回合开始时召唤1个1/1机关傀儡，持续3次；若我方场上已满，则只消耗耐久。",
+            "description": "可喷出白气收取法宝、困住妖兽和敌方法器的特殊古宝；装备修士生命+1，主动收取一个随机敌方法宝；若敌方没有法宝，则冻结随机敌方修士并使其攻击-1。",
             "avatar": "🧺",
-            "category": "召唤",
+            "category": "控制",
             "durability": 3,
-            "onTurnStartEffectId": "flower_basket_treasure__onTurnStart",
             "equipEffectEffectId": "flower_basket_treasure__equipEffect",
             "onUnequipEffectId": "flower_basket_treasure__onUnequip",
-            "heroOnly": "flower_basket_weirdo",
-            "exclusive": true,
             "taxonomyRefs": [
                 "path:sanxiu"
             ],
             "gameTags": [
-                "散修"
-            ]
+                "韩立",
+                "散修",
+                "法宝",
+                "控制"
+            ],
+            "activeSkill": {
+                "name": "花篮收宝"
+            },
+            "activeSkillEffectId": "flower_basket_treasure__activeSkill",
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "flower_basket_weirdo"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "花篮古宝",
+                    "aliases": [
+                        "花篮法宝"
+                    ],
+                    "occurrenceCount": 22,
+                    "lineHints": [
+                        19471,
+                        19492,
+                        19510,
+                        19516,
+                        19550,
+                        19624,
+                        21163,
+                        22782,
+                        22800,
+                        22848,
+                        22850,
+                        23744,
+                        23748,
+                        23762,
+                        27191,
+                        27194,
+                        27199,
+                        34954,
+                        34960,
+                        34968,
+                        34976,
+                        36546
+                    ]
+                },
+                "note": "原文反复写到花篮古宝收取法宝、困住银狼和收走青铜古灯，游戏化为主动收宝/冻结。"
+            }
         },
         {
             "id": "qingming_needles",
@@ -8586,8 +8692,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 3,
-            "exclusive": true,
-            "description": "散修青易居士所修青冥针符宝，曾赠予韩立防身：装备修士+1攻击；攻击时令目标中毒并额外造成1点伤害",
+            "description": "青易居士所修青冥针符宝，威力强于普通法宝；装备修士+1攻击，攻击时令目标中毒并额外造成1点伤害。",
             "avatar": "🪡",
             "category": "攻击",
             "sect": "散修",
@@ -8595,6 +8700,7 @@
                 "path:sanxiu"
             ],
             "gameTags": [
+                "韩立",
                 "散修",
                 "法宝",
                 "毒",
@@ -8603,7 +8709,33 @@
             "durability": 4,
             "onAttackEffectId": "qingming_needles__onAttack",
             "equipEffectEffectId": "qingming_needles__equipEffect",
-            "onUnequipEffectId": "qingming_needles__onUnequip"
+            "onUnequipEffectId": "qingming_needles__onUnequip",
+            "requirements": {
+                "heroIds": [
+                    "hanli"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "青冥针",
+                    "aliases": [
+                        "青冥针符宝"
+                    ],
+                    "occurrenceCount": 5,
+                    "lineHints": [
+                        21966,
+                        21967,
+                        27125,
+                        27126,
+                        27132
+                    ]
+                },
+                "note": "原文称青冥针符宝威力极大、强于普通法宝，并在韩立对温天仁时使用。"
+            }
         },
         {
             "id": "wood_dragon_tablet",
@@ -9903,6 +10035,203 @@
             "requirements": {
                 "anyIdentity": [
                     "faction:great-jin-top-sects"
+                ]
+            }
+        },
+        {
+            "id": "thousand_layer_peak",
+            "name": "千重峰",
+            "type": "treasure",
+            "realm": 6,
+            "cost": 5,
+            "description": "黑色巨峰古宝，祭出后化为山峰重压敌人；装备修士攻击+1、生命+2，主动对随机敌方修士造成4点伤害并冻结；敌方无修士时对敌方英雄造成2点伤害。",
+            "avatar": "⛰️",
+            "category": "攻击",
+            "durability": 3,
+            "activeSkill": {
+                "name": "千峰重压"
+            },
+            "activeSkillEffectId": "thousand_layer_peak__activeSkill",
+            "equipEffectEffectId": "thousand_layer_peak__equipEffect",
+            "onUnequipEffectId": "thousand_layer_peak__onUnequip",
+            "gameTags": [
+                "韩立",
+                "法宝",
+                "控制",
+                "爆发"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "千重峰",
+                    "aliases": [],
+                    "occurrenceCount": 6,
+                    "lineHints": [
+                        32700,
+                        33782,
+                        34840,
+                        36048,
+                        37779,
+                        39526
+                    ]
+                },
+                "note": "原文多次写作黑色巨峰/山峰重压型古宝，游戏化为重压伤害与冻结。"
+            },
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "le_shangshi"
+                ]
+            }
+        },
+        {
+            "id": "yuanming_lamp",
+            "name": "元明灯",
+            "type": "treasure",
+            "realm": 5,
+            "cost": 4,
+            "description": "慕兰族传承古灯，可照破隐匿并护持元神；装备修士生命+2，回合开始获得1护甲，并使随机敌方修士显形且攻击-1，持续3次。",
+            "avatar": "🪔",
+            "category": "控制",
+            "durability": 3,
+            "onTurnStartEffectId": "yuanming_lamp__onTurnStart",
+            "equipEffectEffectId": "yuanming_lamp__equipEffect",
+            "onUnequipEffectId": "yuanming_lamp__onUnequip",
+            "taxonomyRefs": [
+                "tribe:mulan"
+            ],
+            "gameTags": [
+                "慕兰族",
+                "法宝",
+                "控制",
+                "防御"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "元明灯",
+                    "aliases": [],
+                    "occurrenceCount": 3,
+                    "lineHints": [
+                        34963,
+                        36419,
+                        36540
+                    ]
+                },
+                "note": "原文为慕兰族传承之宝，并有照破隐匿、灯焰克制相关表现，游戏化为护甲和显形削弱。"
+            },
+            "heroOnly": "tianlan_saintess",
+            "exclusive": true
+        },
+        {
+            "id": "zicheng_dou",
+            "name": "紫铖兜",
+            "type": "treasure",
+            "realm": 5,
+            "cost": 4,
+            "description": "银月使用的古宝，可化紫网禁锢目标并催动玉阳真火；装备修士攻击+1，主动冻结随机敌方修士并造成2点伤害。",
+            "avatar": "🕸️",
+            "category": "控制",
+            "durability": 3,
+            "activeSkill": {
+                "name": "紫网禁锢"
+            },
+            "activeSkillEffectId": "zicheng_dou__activeSkill",
+            "equipEffectEffectId": "zicheng_dou__equipEffect",
+            "onUnequipEffectId": "zicheng_dou__onUnequip",
+            "gameTags": [
+                "韩立",
+                "银月",
+                "火系",
+                "控制"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "紫铖兜",
+                    "aliases": [],
+                    "occurrenceCount": 18,
+                    "lineHints": [
+                        33882,
+                        33886,
+                        33895,
+                        34432,
+                        34435,
+                        34436,
+                        34743,
+                        34744,
+                        34890,
+                        34906,
+                        34912,
+                        34917,
+                        34919,
+                        34938,
+                        34966,
+                        36546,
+                        36547,
+                        36714
+                    ]
+                },
+                "note": "原文表现为紫网禁锢和玉阳真火，游戏化为主动冻结和伤害。"
+            },
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "yinyue",
+                    "wentianren"
+                ]
+            }
+        },
+        {
+            "id": "four_symbol_dragon_belt",
+            "name": "四象蟠龙带",
+            "type": "treasure",
+            "realm": 4,
+            "cost": 3,
+            "description": "镶嵌避风、辟火、避水、避尘四珠并能安神定魂的腰带；装备修士生命+2、受到伤害-1，回合开始清除冻结和中毒并获得1护甲，持续3次。",
+            "avatar": "🧣",
+            "category": "防御",
+            "durability": 3,
+            "onTurnStartEffectId": "four_symbol_dragon_belt__onTurnStart",
+            "equipEffectEffectId": "four_symbol_dragon_belt__equipEffect",
+            "onUnequipEffectId": "four_symbol_dragon_belt__onUnequip",
+            "gameTags": [
+                "韩立",
+                "法宝",
+                "防御",
+                "控制"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "四象蟠龙带",
+                    "aliases": [
+                        "四象带"
+                    ],
+                    "occurrenceCount": 2,
+                    "lineHints": [
+                        28165,
+                        28166
+                    ]
+                },
+                "note": "原文说明其避风、辟火、避水、避尘并安神定魂，游戏化为防御和清除异常。"
+            },
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "wentianren"
                 ]
             }
         }
@@ -13934,6 +14263,59 @@
                     "faction:great-jin-top-sects"
                 ]
             }
+        },
+        {
+            "id": "four_symbols_formation",
+            "name": "四象阵",
+            "type": "formation",
+            "realm": 3,
+            "cost": 3,
+            "duration": 2,
+            "description": "黑煞教用于困住来敌的冷僻阵法；持续2回合，布置时冻结敌方所有修士并令其暂时无法攻击，之后每回合开始随机冻结1名敌方修士。",
+            "avatar": "四",
+            "category": "控制",
+            "onActivateEffectId": "four_symbols_formation__onActivate",
+            "onTurnStartEffectId": "four_symbols_formation__onTurnStart",
+            "onExpireEffectId": "four_symbols_formation__onExpire",
+            "taxonomyRefs": [
+                "faction:heisha"
+            ],
+            "gameTags": [
+                "黑煞教",
+                "阵法",
+                "控制",
+                "防御"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "faction:heisha"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "novelExactMatch": {
+                    "name": "四象阵",
+                    "aliases": [],
+                    "occurrenceCount": 11,
+                    "lineHints": [
+                        14038,
+                        14078,
+                        14080,
+                        14083,
+                        14115,
+                        14116,
+                        14118,
+                        14119,
+                        14120,
+                        14122,
+                        14127
+                    ]
+                },
+                "note": "原文黑煞教以四象阵困住韩立一行、拖延时间，游戏化为冻结和攻击封锁。"
+            }
         }
     ],
     "pets": [
@@ -14173,6 +14555,7 @@
             "description": "奇虫榜奇虫，冰属性真灵，攻击时冻结目标",
             "avatar": "🦋",
             "onAttackEffectId": "frost_worm__onAttack",
+            "freezing": true,
             "heroOnly": "hanli",
             "exclusive": true,
             "race": "妖族",

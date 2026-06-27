@@ -250,7 +250,9 @@
   },
   "turnBalance": {
     "enabled": true,
-    "secondPlayerExtraStartingCards": 1
+    "secondPlayerExtraStartingCards": 0,
+    "secondPlayerStartingArmor": 0,
+    "secondPlayerOpeningShield": 3
   },
   "spiritRoots": {
     "metal": {
