@@ -5,7 +5,7 @@
             "name": "黄枫谷弟子",
             "type": "cultivator",
             "realm": 1,
-            "cost": 1,
+            "cost": 2,
             "attack": 1,
             "health": 1,
             "spiritRoot": "木",
@@ -59,7 +59,7 @@
             "name": "外门弟子",
             "type": "cultivator",
             "realm": 2,
-            "cost": 2,
+            "cost": 3,
             "attack": 2,
             "health": 3,
             "spiritRoot": "金",
@@ -153,7 +153,7 @@
             "name": "墨彩环",
             "type": "cultivator",
             "realm": 1,
-            "cost": 1,
+            "cost": 2,
             "attack": 1,
             "health": 2,
             "spiritRoot": "凡",
@@ -717,7 +717,7 @@
             "name": "六极魔侍",
             "type": "cultivator",
             "realm": 4,
-            "cost": 3,
+            "cost": 4,
             "attack": 3,
             "health": 4,
             "spiritRoot": "暗",
@@ -740,7 +740,7 @@
             "name": "暗影刺客",
             "type": "cultivator",
             "realm": 3,
-            "cost": 2,
+            "cost": 3,
             "attack": 3,
             "health": 2,
             "spiritRoot": "暗",
@@ -976,7 +976,7 @@
             "name": "天煞宗杀手",
             "type": "cultivator",
             "realm": 3,
-            "cost": 3,
+            "cost": 4,
             "attack": 5,
             "health": 2,
             "spiritRoot": "火",
@@ -1178,7 +1178,7 @@
             "name": "张铁",
             "type": "cultivator",
             "realm": 2,
-            "cost": 2,
+            "cost": 3,
             "attack": 2,
             "health": 3,
             "spiritRoot": "土",
@@ -2496,7 +2496,7 @@
             "name": "玉儿",
             "type": "cultivator",
             "realm": 2,
-            "cost": 2,
+            "cost": 3,
             "attack": 1,
             "health": 3,
             "spiritRoot": "水",
@@ -2582,7 +2582,7 @@
             "name": "袁坤",
             "type": "cultivator",
             "realm": 1,
-            "cost": 1,
+            "cost": 2,
             "attack": 1,
             "health": 2,
             "maxHealth": 2,
@@ -2617,7 +2617,7 @@
             "health": 8,
             "spiritRoot": "冰",
             "sect": "小极宫",
-            "description": "小极宫高阶修士，北冥寒宫一脉的代表人物。关键词命中：上人。",
+            "description": "小极宫高阶修士，北冥寒宫一脉的代表人物。",
             "avatar": "❄️",
             "taxonomyRefs": [
                 "sect:xiaoji",
@@ -2656,7 +2656,7 @@
             "health": 9,
             "spiritRoot": "金",
             "sect": "太真门",
-            "description": "正道盟太真门高阶修士，慕兰大战中主持赌战和战局调度。关键词命中：上人。",
+            "description": "正道盟太真门高阶修士，慕兰大战中主持赌战和战局调度。",
             "avatar": "☀️",
             "taxonomyRefs": [
                 "sect:taizhen",
@@ -2695,7 +2695,7 @@
             "health": 6,
             "spiritRoot": "水",
             "sect": "妙音门",
-            "description": "乱星海妙音门核心人物，擅长音律与惑心之术。关键词命中：仙子。",
+            "description": "乱星海妙音门核心人物，擅长音律与惑心之术。",
             "avatar": "🎵",
             "representsHeroId": "ziling",
             "taxonomyRefs": [
@@ -2735,7 +2735,7 @@
             "health": 6,
             "spiritRoot": "阴",
             "sect": "玄骨门",
-            "description": "玄骨门鬼修老魔，玄骨阴火和鬼道传承的核心人物。关键词命中：上人。",
+            "description": "玄骨门鬼修老魔，玄骨阴火和鬼道传承的核心人物。",
             "avatar": "☠️",
             "representsHeroId": "xuangui",
             "taxonomyRefs": [
@@ -2776,7 +2776,7 @@
             "health": 7,
             "spiritRoot": "阴",
             "sect": "阴罗宗",
-            "description": "阴罗宗魔道强者，和五子同心魔、阴罗宗传承关系密切。关键词命中：老魔。",
+            "description": "阴罗宗魔道强者，和五子同心魔、阴罗宗传承关系密切。",
             "avatar": "🕯️",
             "representsHeroId": "qian_old_demon",
             "taxonomyRefs": [
@@ -2817,7 +2817,7 @@
             "health": 8,
             "spiritRoot": "魔",
             "sect": "合欢宗",
-            "description": "天南魔道六宗中的合欢宗老魔，慕兰大战中代表魔道高层。关键词命中：老魔。",
+            "description": "天南魔道六宗中的合欢宗老魔，慕兰大战中代表魔道高层。",
             "avatar": "💜",
             "taxonomyRefs": [
                 "sect:hehuan",
@@ -2874,7 +2874,7 @@
             "health": 6,
             "spiritRoot": "魔",
             "sect": "天魔宗",
-            "description": "大晋天魔宗老魔，魔陀山一线的重要魔道人物。关键词命中：老魔。",
+            "description": "大晋天魔宗老魔，魔陀山一线的重要魔道人物。",
             "avatar": "🔥",
             "representsHeroId": "hu_old_demon",
             "taxonomyRefs": [
@@ -2913,7 +2913,7 @@
             "health": 6,
             "spiritRoot": "金",
             "sect": "燕家堡",
-            "description": "燕家堡老祖，燕家堡势力和鬼灵门纠葛中的关键人物。关键词命中：老祖。",
+            "description": "燕家堡老祖，燕家堡势力和鬼灵门纠葛中的关键人物。",
             "avatar": "🏯",
             "taxonomyRefs": [
                 "faction:yan-clan"
@@ -3055,7 +3055,7 @@
             "name": "魏无涯",
             "type": "cultivator",
             "realm": 9,
-            "cost": 8,
+            "cost": 7,
             "attack": 5,
             "health": 8,
             "spiritRoot": "毒",
@@ -3273,8 +3273,8 @@
             "name": "火球术",
             "type": "spell",
             "realm": 1,
-            "cost": 1,
-            "description": "造成3点伤害",
+            "cost": 2,
+            "description": "基础火属性法术，造成3点伤害。",
             "avatar": "🔥",
             "effectEffectId": "fireball__effect"
         },
@@ -3294,7 +3294,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 5,
-            "description": "造成8点伤害",
+            "description": "青元剑修杀伐法门，造成8点伤害。",
             "avatar": "🗡️",
             "effectEffectId": "sword_qingyuan__effect",
             "heroOnly": "hanli",
@@ -3314,7 +3314,7 @@
             "type": "spell",
             "realm": 2,
             "cost": 2,
-            "description": "获得5点护甲",
+            "description": "凝聚灵力护身，获得5点护甲。",
             "avatar": "🛡️",
             "effectEffectId": "shield_spell__effect"
         },
@@ -3324,7 +3324,7 @@
             "type": "spell",
             "realm": 2,
             "cost": 2,
-            "description": "恢复5点生命",
+            "description": "木系疗伤法术，恢复5点生命。",
             "avatar": "💚",
             "effectEffectId": "healing_light__effect"
         },
@@ -3413,6 +3413,100 @@
             "effectEffectId": "observe_qi__effect"
         },
         {
+            "id": "wind_control_art",
+            "name": "御风诀",
+            "type": "spell",
+            "realm": 1,
+            "cost": 1,
+            "description": "入门机动法术：随机友方修士攻击力+1并解除行动限制；若无友方修士，本回合灵力+1并抽1张牌。",
+            "avatar": "🌬️",
+            "effectEffectId": "wind_control_art__effect",
+            "taxonomyRefs": [
+                "faction:qixuan",
+                "path:zhengdao"
+            ],
+            "gameTags": [
+                "七玄门",
+                "法术",
+                "风系",
+                "速度",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "御风诀",
+                    "occurrenceCount": 12,
+                    "lineHints": [
+                        2317,
+                        2595,
+                        2596,
+                        2597,
+                        2599,
+                        2603
+                    ]
+                },
+                "note": "原文明确列为长春功末页入门法术；游戏化为轻身机动和临时灵力。"
+            }
+        },
+        {
+            "id": "heaven_eye_art",
+            "name": "天眼术",
+            "type": "spell",
+            "realm": 1,
+            "cost": 1,
+            "description": "入门辅助法术：抽1张牌；若敌方有修士，显形并削弱其最强修士攻击力-1，否则展示敌方手牌。",
+            "avatar": "👁️",
+            "effectEffectId": "heaven_eye_art__effect",
+            "taxonomyRefs": [
+                "faction:qixuan",
+                "path:zhengdao"
+            ],
+            "gameTags": [
+                "七玄门",
+                "法术",
+                "抽牌",
+                "控制",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "天眼术",
+                    "occurrenceCount": 24,
+                    "lineHints": [
+                        2317,
+                        2326,
+                        2327,
+                        2337,
+                        2340,
+                        2341
+                    ]
+                },
+                "note": "原文明确列为长春功末页入门法术，用于观察法力深浅；游戏化为侦查、抽牌和显形削弱。"
+            }
+        },
+        {
             "id": "alchemy_insight",
             "name": "炼丹术",
             "type": "spell",
@@ -3465,32 +3559,6 @@
             "gameTags": [
                 "魔道",
                 "血道"
-            ]
-        },
-        {
-            "id": "xutian_ding",
-            "name": "虚天鼎",
-            "type": "spell",
-            "realm": 8,
-            "cost": 7,
-            "description": "以虚天鼎封印一个敌方修士，使其下回合无法攻击。",
-            "avatar": "🏛️",
-            "category": "特殊",
-            "effectEffectId": "xutian_ding__effect"
-        },
-        {
-            "id": "eight_spirit_ruler",
-            "name": "八灵尺",
-            "type": "spell",
-            "realm": 7,
-            "cost": 6,
-            "description": "八灵尺摄魂控灵，使一个敌方修士攻击另一个敌方修士。",
-            "avatar": "📏",
-            "category": "特殊",
-            "effectEffectId": "eight_spirit_ruler__effect",
-            "gameTags": [
-                "昆吾山",
-                "正道"
             ]
         },
         {
@@ -3955,7 +4023,7 @@
             "name": "千竹教傀儡大军",
             "type": "spell",
             "cost": 6,
-            "description": "韩立召唤3个千竹教傀儡（2/2），场上每有一个傀儡，韩立获得+1灵力",
+            "description": "韩立召唤3个2/2千竹教傀儡；场上每有一个傀儡，韩立获得+1灵力。",
             "avatar": "🤖",
             "effectEffectId": "hanli_puppet_army__effect",
             "realm": 6,
@@ -4250,6 +4318,32 @@
                 "anyIdentity": [
                     "sect:qianzhu"
                 ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "大衍诀",
+                    "occurrenceCount": 174,
+                    "lineHints": [
+                        9481,
+                        9483,
+                        9494,
+                        9496,
+                        9505,
+                        9509
+                    ]
+                },
+                "note": "本轮外部功法资料与原文共同确认的神识/傀儡核心功法；现有卡牌效果已符合抽牌检索傀儡定位。"
             }
         },
         {
@@ -4275,7 +4369,33 @@
             ],
             "managedOwnershipRefs": [
                 "faction:qixuan"
-            ]
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "长春功",
+                    "occurrenceCount": 69,
+                    "lineHints": [
+                        1017,
+                        1031,
+                        1033,
+                        1035,
+                        1036,
+                        1049
+                    ]
+                },
+                "note": "原文早期基础功法，末页包含数种入门法术；现有卡牌继续保留恢复和抽牌定位。"
+            }
         },
         {
             "id": "bixie_divine_thunder",
@@ -4334,7 +4454,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 2,
-            "description": "墨大夫以七刃引鬼噬魂，短暂借来法力但反噬精元。效果：本回合获得2点临时灵力，抽1张牌，并受到2点伤害。",
+            "description": "墨大夫以七刃引鬼噬魂；本回合获得2点临时灵力，抽1张牌，并受到2点伤害。",
             "avatar": "👻",
             "effectEffectId": "seven_ghost_soul_devourer_art__effect",
             "taxonomyRefs": [
@@ -4367,7 +4487,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 4,
-            "description": "玄骨传下、极阴一脉修炼的霸道魔功。效果：敌方全体修士受到1点伤害并攻击力-1；若敌方无修士，则敌方英雄受到2点伤害。",
+            "description": "玄骨传下、极阴一脉修炼的霸道魔功；敌方全体修士受到1点伤害并攻击力-1；若敌方无修士，则敌方英雄受到2点伤害。",
             "avatar": "🌑",
             "effectEffectId": "xuan_yin_dafa__effect",
             "taxonomyRefs": [
@@ -4410,7 +4530,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "远距离借体操纵的魔道秘术。效果：临时控制一个攻击力不高于3的敌方修士；若无合适目标，则召唤一个2/2附身傀儡。",
+            "description": "远距离借体操纵的魔道秘术；临时控制一个攻击力不高于3的敌方修士；若无合适目标，则召唤一个2/2附身傀儡。",
             "avatar": "🕯️",
             "effectEffectId": "possession_dafa__effect",
             "taxonomyRefs": [
@@ -4453,7 +4573,7 @@
             "type": "spell",
             "realm": 6,
             "cost": 5,
-            "description": "韩立参悟的第二元婴秘功。效果：抽1张牌；若场上未满，召唤一个2/2第二元婴，并使己方英雄获得2点护甲。",
+            "description": "韩立参悟的第二元婴秘功；抽1张牌；若场上未满，召唤一个2/2第二元婴，并使己方英雄获得2点护甲。",
             "avatar": "👶",
             "effectEffectId": "xuanmu_huaying_dafa__effect",
             "taxonomyRefs": [
@@ -4484,7 +4604,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 4,
-            "description": "大衍神君传给韩立的暂封煞气之法。效果：获得5点护甲并抽1张牌；若敌方有修士，使随机敌方修士攻击力-2。",
+            "description": "大衍神君传给韩立的暂封煞气之法；获得5点护甲并抽1张牌；若敌方有修士，使随机敌方修士攻击力-2。",
             "avatar": "🔒",
             "effectEffectId": "five_ghost_lock_spirit_art__effect",
             "taxonomyRefs": [
@@ -4520,7 +4640,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 4,
-            "description": "以肢体承受反噬、替自身避过杀劫的魔道秘术。效果：获得6点护甲并抽1张牌；若己方已有护甲，则额外恢复2点生命。",
+            "description": "以肢体承受反噬、替自身避过杀劫的魔道秘术；获得6点护甲并抽1张牌；若己方已有护甲，则额外恢复2点生命。",
             "avatar": "✋",
             "effectEffectId": "calamity_transfer_art__effect",
             "taxonomyRefs": [
@@ -4560,7 +4680,7 @@
             "type": "spell",
             "realm": 6,
             "cost": 5,
-            "description": "尸王借地脉阴气催动的炼尸秘法。效果：获得3点护甲，敌方随机修士受到3点伤害并中毒；若敌方无修士，则敌方英雄中毒。",
+            "description": "尸王借地脉阴气催动的炼尸秘法；获得3点护甲，敌方随机修士受到3点伤害并中毒；若敌方无修士，则敌方英雄中毒。",
             "avatar": "🧟",
             "effectEffectId": "heavenly_corpse_dafa__effect",
             "taxonomyRefs": [
@@ -4599,7 +4719,7 @@
             "type": "spell",
             "realm": 7,
             "cost": 5,
-            "description": "昆吾山封印中牵连古魔与银月狼魂的融合秘术。效果：恢复4点生命并抽1张牌；随机敌方修士攻击力-2。",
+            "description": "昆吾山封印中牵连古魔与银月狼魂的融合秘术；恢复4点生命并抽1张牌；随机敌方修士攻击力-2。",
             "avatar": "🌗",
             "effectEffectId": "spirit_fusion_dafa__effect",
             "taxonomyRefs": [
@@ -4735,7 +4855,437 @@
             "cost": 3,
             "description": "韩立重修根基的功法：恢复4点生命，获得2点护甲，抽1张牌",
             "avatar": "🔄",
-            "effectEffectId": "three_turn_reorigin_art__effect"
+            "effectEffectId": "three_turn_reorigin_art__effect",
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "三转重元功",
+                    "occurrenceCount": 21,
+                    "lineHints": [
+                        9998,
+                        10017,
+                        10019,
+                        10028,
+                        10048,
+                        14778
+                    ]
+                },
+                "note": "原文确认韩立重修根基相关功法；现有卡牌继续保留恢复、护甲、抽牌定位。"
+            }
+        },
+        {
+            "id": "jingzhe_art",
+            "name": "惊蛰诀",
+            "type": "spell",
+            "realm": 8,
+            "cost": 6,
+            "description": "韩立灵界后期真灵变化功法：获得3点护甲；随机友方修士+2/+2并解除行动限制，若无修士则召唤3/3真灵虚影。",
+            "avatar": "🪽",
+            "effectEffectId": "jingzhe_art__effect",
+            "taxonomyRefs": [
+                "race:human"
+            ],
+            "gameTags": [
+                "韩立",
+                "法术",
+                "灵宠",
+                "高阶"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "hanli"
+                ]
+            },
+            "loreSource": {
+                "arc": "spirit",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵界功法",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "惊蛰诀",
+                    "occurrenceCount": 26,
+                    "lineHints": [
+                        75033,
+                        75038,
+                        75043,
+                        75044,
+                        75045,
+                        75051
+                    ]
+                },
+                "note": "原文说明惊蛰诀可汇聚诸多真灵变化，韩立后续以真灵变化应敌；游戏化为后期强化或召唤真灵虚影。"
+            }
+        },
+        {
+            "id": "asura_sacred_fire",
+            "name": "修罗圣火",
+            "type": "spell",
+            "realm": 7,
+            "cost": 5,
+            "description": "玄骨上人融合乾蓝冰焰、玄魂阴火、辟邪神雷所追求的鬼道圣火：敌方最强修士受到4点伤害并冻结；若无修士则敌方英雄受到3点伤害。",
+            "avatar": "🔥",
+            "effectEffectId": "asura_sacred_fire__effect",
+            "taxonomyRefs": [
+                "sect:xuangu",
+                "path:guidao",
+                "path:modao"
+            ],
+            "gameTags": [
+                "玄骨门",
+                "鬼道",
+                "魔道",
+                "火系",
+                "冰系",
+                "控制",
+                "爆发"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "xuangui"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "修罗圣火",
+                    "occurrenceCount": 25,
+                    "lineHints": [
+                        23115,
+                        23131,
+                        23162,
+                        23169,
+                        23178,
+                        23184
+                    ]
+                },
+                "note": "原文明确称玄骨欲以乾蓝冰焰、玄魂阴火、辟邪神雷融合修罗圣火；游戏化为冰火混合的高额伤害和冻结。"
+            }
+        },
+        {
+            "id": "north_pole_origin_light",
+            "name": "北极元光",
+            "type": "spell",
+            "realm": 6,
+            "cost": 5,
+            "description": "坠魔谷元光禁制：敌方全体修士冻结并受到1点伤害，己方获得2点护甲；若敌方无修士则伤害敌方英雄。",
+            "avatar": "🌌",
+            "effectEffectId": "north_pole_origin_light__effect",
+            "taxonomyRefs": [
+                "region:tiannan",
+                "path:neutral"
+            ],
+            "gameTags": [
+                "法术",
+                "冰系",
+                "控制",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "北极元光",
+                    "occurrenceCount": 95,
+                    "lineHints": [
+                        34163,
+                        34164,
+                        34184,
+                        37227,
+                        37633,
+                        37637
+                    ]
+                },
+                "note": "原文围绕两仪环和坠魔谷反复说明北极元光可伤身、可借宝物操纵；游戏化为群体冻结和防御。"
+            }
+        },
+        {
+            "id": "yuan_magnet_divine_light",
+            "name": "元磁神光",
+            "type": "spell",
+            "realm": 7,
+            "cost": 5,
+            "description": "星宫顶级功法：获得2点护甲，敌方全体修士攻击力-1，并对敌方最强修士造成2点伤害且封锁攻击。",
+            "avatar": "🧲",
+            "effectEffectId": "yuan_magnet_divine_light__effect",
+            "taxonomyRefs": [
+                "faction:star-palace",
+                "region:chaotic-star-sea"
+            ],
+            "gameTags": [
+                "星宫",
+                "法术",
+                "控制",
+                "高阶"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "faction:star-palace"
+                ]
+            },
+            "managedOwnershipRefs": [
+                "faction:star-palace"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "元磁神光",
+                    "occurrenceCount": 203,
+                    "lineHints": [
+                        18940,
+                        18941,
+                        18945,
+                        21856,
+                        23536,
+                        55012
+                    ]
+                },
+                "note": "原文多次将元磁神光与天星双圣、天星城、元磁山峰绑定，并提到克尽天下五行；游戏化为群体压制和单点封锁。"
+            }
+        },
+        {
+            "id": "lost_spirit_spike",
+            "name": "失神刺",
+            "type": "spell",
+            "realm": 5,
+            "cost": 3,
+            "description": "韩立自创的简化神识攻击：冻结敌方最强修士并使其攻击力-1；若无修士则敌方英雄受到1点伤害并抽1张牌。",
+            "avatar": "🌀",
+            "effectEffectId": "lost_spirit_spike__effect",
+            "taxonomyRefs": [
+                "sect:qianzhu"
+            ],
+            "gameTags": [
+                "韩立",
+                "法术",
+                "控制",
+                "抽牌"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "hanli"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "失神刺",
+                    "occurrenceCount": 11,
+                    "lineHints": [
+                        49887,
+                        52385,
+                        53472,
+                        53480,
+                        53743,
+                        59347
+                    ]
+                },
+                "note": "原文明确称失神刺是韩立参照惊神刺改动的简化版神识攻击；游戏化为冻结、削弱和小额补牌。"
+            }
+        },
+        {
+            "id": "shocking_spirit_spike",
+            "name": "惊神刺",
+            "type": "spell",
+            "realm": 5,
+            "cost": 3,
+            "description": "大衍诀中的神识攻击：敌方最强修士受到2点伤害，且下回合无法攻击；若无修士则敌方英雄受到2点伤害。",
+            "avatar": "🪡",
+            "effectEffectId": "shocking_spirit_spike__effect",
+            "taxonomyRefs": [
+                "sect:qianzhu"
+            ],
+            "gameTags": [
+                "千竹教",
+                "法术",
+                "控制",
+                "爆发"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "dayan"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "惊神刺",
+                    "occurrenceCount": 16,
+                    "lineHints": [
+                        44097,
+                        49886,
+                        49887,
+                        61743,
+                        61744,
+                        61752
+                    ]
+                },
+                "note": "原文称韩立参照大衍诀惊神刺研究出简化神识攻击；游戏化为伤害和攻击封锁。"
+            }
+        },
+        {
+            "id": "gold_escape_art",
+            "name": "金遁术",
+            "type": "spell",
+            "realm": 6,
+            "cost": 3,
+            "description": "金身月尸罕见遁法：获得3点护甲，随机友方修士潜行并解除行动限制；若无修士则抽1张牌。",
+            "avatar": "🟡",
+            "effectEffectId": "gold_escape_art__effect",
+            "taxonomyRefs": [
+                "race:guizu",
+                "species:lianshi"
+            ],
+            "gameTags": [
+                "炼尸",
+                "鬼道",
+                "法术",
+                "身法",
+                "防御"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "silver_wing_yasha"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "功法术法候选",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "金遁术",
+                    "occurrenceCount": 1,
+                    "lineHints": [
+                        46411
+                    ]
+                },
+                "note": "原文由韩立判断银翅夜叉可能掌握金遁术，并说明金身月尸才具备此神通；游戏化为潜行与解控。"
+            }
+        },
+        {
+            "id": "fansheng_true_demon_art",
+            "name": "梵圣真魔功",
+            "type": "spell",
+            "realm": 8,
+            "cost": 5,
+            "description": "韩立后期法体双修功法：获得4点护甲；友方全体修士+1/+1，若场上无修士则恢复2点生命。",
+            "avatar": "🛡️",
+            "effectEffectId": "fansheng_true_demon_art__effect",
+            "taxonomyRefs": [
+                "race:human",
+                "path:neutral"
+            ],
+            "gameTags": [
+                "韩立",
+                "法术",
+                "防御",
+                "高阶"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "hanli"
+                ]
+            },
+            "loreSource": {
+                "arc": "spirit",
+                "source": "novel-local+external-articles",
+                "title": "功法术法外部资料与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵界功法",
+                "relatedUrls": [
+                    "https://zhuanlan.zhihu.com/p/30675525",
+                    "https://www.sohu.com/a/815792306_568249",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_shufa.html",
+                    "https://zhuanlan.zhihu.com/p/713098734"
+                ],
+                "novelExactMatch": {
+                    "name": "梵圣真魔功",
+                    "occurrenceCount": 97,
+                    "lineHints": [
+                        69811,
+                        70146,
+                        70999,
+                        71654,
+                        71656,
+                        72547
+                    ]
+                },
+                "note": "原文称韩立将法体双修功法命名为梵圣真魔功，后续多次体现肉身、防御和法体双修强度；游戏化为护甲与全场强化。"
+            }
         },
         {
             "id": "reincarnation_art",
@@ -4763,8 +5313,8 @@
             "name": "身外化身",
             "type": "spell",
             "realm": 5,
-            "cost": 5,
-            "description": "炼制身外化身：召唤一个3/3化身；若已修炼大衍诀，化身获得+1/+1",
+            "cost": 4,
+            "description": "炼制身外化身，召唤一个3/3化身；若已修炼大衍诀，化身获得+1/+1。",
             "avatar": "👥",
             "effectEffectId": "external_incarnation__effect"
         },
@@ -4840,7 +5390,7 @@
             "type": "spell",
             "realm": 2,
             "cost": 3,
-            "description": "墨蛟喷吐黑毒，压制敌方修士并令其染毒。效果：敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
+            "description": "墨蛟喷吐黑毒；敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
             "avatar": "🐉",
             "effectEffectId": "lore_poison_pressure__effect",
             "taxonomyRefs": [
@@ -4868,7 +5418,7 @@
             "type": "spell",
             "realm": 2,
             "cost": 2,
-            "description": "以墨蛟鳞甲护身，获得护甲并补充一张手牌。效果：获得3点护甲，并抽1张牌。",
+            "description": "以墨蛟鳞甲护身；获得3点护甲，并抽1张牌。",
             "avatar": "🛡️",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -4896,7 +5446,7 @@
             "type": "spell",
             "realm": 2,
             "cost": 3,
-            "description": "血色禁地的污血滋养妖躯，恢复生命并抽牌。效果：恢复3点生命，并抽1张牌。",
+            "description": "血色禁地的污血滋养妖躯；恢复3点生命，并抽1张牌。",
             "avatar": "🩸",
             "effectEffectId": "lore_heal_draw__effect",
             "taxonomyRefs": [
@@ -4924,7 +5474,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 4,
-            "description": "墨蛟横扫战场，对敌方阵线造成群体伤害。效果：敌方全体修士与敌方英雄各受到1点伤害。",
+            "description": "墨蛟横扫战场；敌方全体修士与敌方英雄各受到1点伤害。",
             "avatar": "🌊",
             "effectEffectId": "lore_aoe_damage__effect",
             "taxonomyRefs": [
@@ -4952,7 +5502,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 4,
-            "description": "血色禁地暗影翻涌，召来一名伏击援手。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "血色禁地暗影翻涌，召来一名伏击援手；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🕳️",
             "effectEffectId": "lore_summon_token__effect",
             "taxonomyRefs": [
@@ -4980,7 +5530,7 @@
             "type": "spell",
             "realm": 2,
             "cost": 3,
-            "description": "黄枫谷传功阁收藏基础法诀，补充手牌并争取本回合节奏。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "黄枫谷传功阁收藏基础法诀；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "📚",
             "sect": "黄枫谷",
             "taxonomyRefs": [
@@ -5007,7 +5557,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "掩月宗秘令借月华遮蔽敌阵，削弱敌方修士攻势。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "掩月宗秘令借月华遮蔽敌阵；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🌘",
             "sect": "掩月宗",
             "taxonomyRefs": [
@@ -5034,7 +5584,7 @@
             "type": "spell",
             "realm": 2,
             "cost": 2,
-            "description": "清虚门以雪虹绫接引弟子入场，护身并补充手牌。效果：获得3点护甲，并抽1张牌。",
+            "description": "清虚门以雪虹绫接引弟子入场；获得3点护甲，并抽1张牌。",
             "avatar": "🌈",
             "sect": "清虚门",
             "taxonomyRefs": [
@@ -5061,7 +5611,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "化刀坞刀修立誓出手，抢先斩破敌方阵脚。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "化刀坞刀修立誓出手；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🔪",
             "sect": "化刀坞",
             "taxonomyRefs": [
@@ -5087,7 +5637,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "巨剑门重剑开山，正面压迫敌方防线。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "巨剑门重剑开山；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🗡️",
             "sect": "巨剑门",
             "taxonomyRefs": [
@@ -5114,7 +5664,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "天阙堡以火土符守阵，稳住中盘并补足手牌。效果：获得3点护甲，并抽1张牌。",
+            "description": "天阙堡以火土符守阵；获得3点护甲，并抽1张牌。",
             "avatar": "🧿",
             "sect": "天阙堡",
             "taxonomyRefs": [
@@ -5141,7 +5691,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 4,
-            "description": "灵兽山打开兽栏召出援手，形成御兽宗门的场面压力。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "灵兽山打开兽栏召出援手，形成御兽宗门的场面压力；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🐾",
             "sect": "灵兽山",
             "taxonomyRefs": [
@@ -5168,7 +5718,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "合欢宗玄月秘术，削弱敌方修士的攻势。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "合欢宗玄月秘术；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🌙",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -5191,7 +5741,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "红尘香雾扰乱神识，使敌阵攻势迟滞。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "红尘香雾扰乱神识，使敌阵攻势迟滞；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🌫️",
             "effectEffectId": "lore_weaken_mist__effect",
             "gameTags": [
@@ -5205,7 +5755,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 4,
-            "description": "以媚术摄住对手，换取手牌与节奏。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "以媚术摄住对手；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "💫",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "taxonomyRefs": [
@@ -5228,7 +5778,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "采补调息，恢复生命并抽取一张牌。效果：恢复3点生命，并抽1张牌。",
+            "description": "采补调息；恢复3点生命，并抽1张牌。",
             "avatar": "💞",
             "effectEffectId": "lore_heal_draw__effect",
             "taxonomyRefs": [
@@ -5251,7 +5801,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "魔焰宗护体秘术，获得护甲并抽牌。效果：获得3点护甲，并抽1张牌。",
+            "description": "魔焰宗护体秘术；获得3点护甲，并抽1张牌。",
             "avatar": "🔥",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -5275,7 +5825,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 4,
-            "description": "魔焰翻卷成幡，扫荡敌方修士。效果：敌方全体修士与敌方英雄各受到1点伤害。",
+            "description": "魔焰翻卷成幡；敌方全体修士与敌方英雄各受到1点伤害。",
             "avatar": "🚩",
             "effectEffectId": "lore_aoe_damage__effect",
             "taxonomyRefs": [
@@ -5299,7 +5849,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "以燃魂秘令催动法力，获得临时灵力并抽牌。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "以燃魂秘令催动法力；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "📜",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "taxonomyRefs": [
@@ -5323,7 +5873,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "魔焰凝甲，适合魔道修士稳住中盘。效果：获得3点护甲，并抽1张牌。",
+            "description": "魔焰凝甲，适合魔道修士稳住中盘；获得3点护甲，并抽1张牌。",
             "avatar": "🥋",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -5347,7 +5897,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "慕兰法士以图腾护阵，获得护甲并补充手牌。效果：获得3点护甲，并抽1张牌。",
+            "description": "慕兰法士以图腾护阵；获得3点护甲，并抽1张牌。",
             "avatar": "🪄",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -5373,7 +5923,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "草原法士列阵施法，获得临时灵力并抽牌。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "草原法士列阵施法；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🏕️",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "taxonomyRefs": [
@@ -5402,7 +5952,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 4,
-            "description": "灵鹰旗引来草原援军，召唤一名战旗护卫。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "灵鹰旗引来草原援军；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🦅",
             "effectEffectId": "lore_summon_token__effect",
             "taxonomyRefs": [
@@ -5431,7 +5981,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "天风与草原骑令相合，加速本回合节奏。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "天风与草原骑令相合；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🌬️",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "taxonomyRefs": [
@@ -5463,7 +6013,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "天澜圣女以风矛破阵，对敌方目标造成伤害。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "天澜圣女以风矛破阵；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🔱",
             "effectEffectId": "lore_random_blast__effect",
             "taxonomyRefs": [
@@ -5489,7 +6039,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "草原法士常用的风系攻击法术，适合慕兰与天风部法士。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "草原法士常用的风系攻击法术，适合慕兰与天风部法士；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🔱",
             "effectEffectId": "lore_random_blast__effect",
             "taxonomyRefs": [
@@ -5514,7 +6064,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "黑煞教血祭之坛，压制敌阵并散播血毒。效果：敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
+            "description": "黑煞教血祭之坛，压制敌阵并散播血毒；敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
             "avatar": "🩸",
             "effectEffectId": "lore_poison_pressure__effect",
             "taxonomyRefs": [
@@ -5565,7 +6115,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "越皇密诏催动黑煞秘法，换取临时灵力。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "越皇密诏催动黑煞秘法；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "📜",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "taxonomyRefs": [
@@ -5592,7 +6142,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 4,
-            "description": "黑煞教炼尸护驾，召唤一名护卫。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "黑煞教炼尸护驾；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🧟",
             "effectEffectId": "lore_summon_token__effect",
             "taxonomyRefs": [
@@ -5624,7 +6174,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "宫廷阴影结成罗网，削弱敌方攻势。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "宫廷阴影结成罗网；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🕸️",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -5651,7 +6201,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "夺舍一脉的阴毒秘方，恢复生命并补充手牌。效果：恢复3点生命，并抽1张牌。",
+            "description": "夺舍一脉的阴毒秘方；恢复3点生命，并抽1张牌。",
             "avatar": "📖",
             "effectEffectId": "lore_heal_draw__effect",
             "gameTags": [
@@ -5666,7 +6216,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "墨大夫藏在神手谷的药室，药毒兼修，恢复生命并抽牌。效果：恢复3点生命，并抽1张牌。",
+            "description": "墨大夫藏在神手谷的药室，药毒兼修；恢复3点生命，并抽1张牌。",
             "avatar": "⚕️",
             "effectEffectId": "lore_heal_draw__effect",
             "sect": "七玄门",
@@ -5690,7 +6240,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "以药入毒的江湖秘散，削弱敌阵并散播毒性。效果：敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
+            "description": "以药入毒的江湖秘散，削弱敌阵并散播毒性；敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
             "avatar": "🧪",
             "effectEffectId": "lore_poison_pressure__effect",
             "sect": "七玄门",
@@ -5714,7 +6264,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "野狼帮趁夜突袭，对敌方造成伤害。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "野狼帮趁夜突袭；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🐺",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "野狼帮",
@@ -5740,7 +6290,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "凡俗江湖的暗器手段，专破轻敌之人。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "凡俗江湖的暗器手段，专破轻敌之人；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🎯",
             "effectEffectId": "lore_random_blast__effect",
             "taxonomyRefs": [
@@ -5762,7 +6312,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 2,
-            "description": "凡人武学刚猛霸道，攻守兼备。效果：获得3点护甲，并抽1张牌。",
+            "description": "凡人武学刚猛霸道，攻守兼备；获得3点护甲，并抽1张牌。",
             "avatar": "✋",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -5784,7 +6334,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "召集帮众夜袭，获得一名临时援手。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "召集帮众夜袭；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🏴",
             "effectEffectId": "lore_summon_token__effect",
             "taxonomyRefs": [
@@ -5806,7 +6356,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 2,
-            "description": "凡俗势力雇佣护院，稳住场面。效果：获得3点护甲，并抽1张牌。",
+            "description": "凡俗势力雇佣护院，稳住场面；获得3点护甲，并抽1张牌。",
             "avatar": "🧾",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -5828,7 +6378,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "野狼帮粗粝狠辣的刀势，适合凡俗帮派突袭。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "野狼帮粗粝狠辣的刀势，适合凡俗帮派突袭；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🗡️",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "野狼帮",
@@ -5854,7 +6404,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 2,
-            "description": "战鼓聚众壮胆，给凡俗帮派争取喘息。效果：获得3点护甲，并抽1张牌。",
+            "description": "战鼓聚众壮胆，给凡俗帮派争取喘息；获得3点护甲，并抽1张牌。",
             "avatar": "🥁",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -5876,7 +6426,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 2,
-            "description": "江湖帮派常用的伏击陷阱，拖慢敌方攻势。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "江湖帮派常用的伏击陷阱；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🪢",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -5898,7 +6448,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "野狼帮派出的探哨，提前摸清敌情。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "野狼帮派出的探哨，提前摸清敌情；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "👣",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "sect": "野狼帮",
@@ -5924,7 +6474,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "凡俗帮众的快刀突袭，不讲章法但足够狠。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "凡俗帮众的快刀突袭，不讲章法但足够狠；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🔪",
             "effectEffectId": "lore_random_blast__effect",
             "taxonomyRefs": [
@@ -5946,7 +6496,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 2,
-            "description": "韩立少年时习得的江湖身法，步影如烟，护住自身并寻找出手机会。效果：获得3点护甲，并抽1张牌。",
+            "description": "韩立少年时习得的江湖身法，步影如烟，护住自身并寻找出手机会；获得3点护甲，并抽1张牌。",
             "avatar": "👣",
             "taxonomyRefs": [
                 "path:jianghu-wuxue",
@@ -5974,7 +6524,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "凡人时期修习的快剑路数，倏忽出手，专打对手措手不及。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "凡人时期修习的快剑路数，倏忽出手，专打对手措手不及；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "⚔️",
             "taxonomyRefs": [
                 "path:jianghu-wuxue",
@@ -6002,7 +6552,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "张铁修炼的刚猛横练武功，以苦修淬体换取强韧防御。效果：获得3点护甲，并抽1张牌。",
+            "description": "张铁修炼的刚猛横练武功，以苦修淬体换取强韧防御；获得3点护甲，并抽1张牌。",
             "avatar": "🐘",
             "taxonomyRefs": [
                 "path:jianghu-wuxue"
@@ -6024,7 +6574,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "七玄门内门弟子按堂口演武，召来一名江湖援手。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "七玄门内门弟子按堂口演武，召来一名江湖援手；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🏯",
             "sect": "七玄门",
             "taxonomyRefs": [
@@ -6049,7 +6599,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "野狼帮承袭马贼狠劲，集众冲阵，撕开敌方阵脚。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "野狼帮承袭马贼狠劲，集众冲阵；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🐺",
             "sect": "野狼帮",
             "taxonomyRefs": [
@@ -6075,7 +6625,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "巨鲸帮水寨号令一出，帮众沿水道集结成阵。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "巨鲸帮水寨号令一出，帮众沿水道集结成阵；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🐋",
             "sect": "巨鲸帮",
             "taxonomyRefs": [
@@ -6100,7 +6650,7 @@
             "type": "spell",
             "realm": 1,
             "cost": 3,
-            "description": "巨鲸帮水路刀法，借破浪之势抢攻敌手。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "巨鲸帮水路刀法，借破浪之势抢攻敌手；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🌊",
             "sect": "巨鲸帮",
             "taxonomyRefs": [
@@ -6125,7 +6675,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "银月借月影闪转腾挪，补充灵力与手牌。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "银月借月影闪转腾挪；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🌙",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "taxonomyRefs": [
@@ -6146,7 +6696,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "妖狐幻步迷乱敌阵，削弱敌方修士。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "妖狐幻步迷乱敌阵；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🦊",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -6172,7 +6722,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "六连殿海图标记灵脉与暗礁，抽牌并护身。效果：获得3点护甲，并抽1张牌。",
+            "description": "六连殿海图标记灵脉与暗礁；获得3点护甲，并抽1张牌。",
             "avatar": "🗺️",
             "effectEffectId": "lore_guard_draw__effect",
             "taxonomyRefs": [
@@ -6198,7 +6748,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "海霜结网，牵制敌方修士。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "海霜结网；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🕸️",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -6224,7 +6774,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "借海潮之势锁敌，压低敌阵攻击。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "借海潮之势锁敌；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🌊",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -6250,7 +6800,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 4,
-            "description": "六连殿守岛法令，召来一名守卫。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "六连殿守岛法令，召来一名守卫；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🏝️",
             "effectEffectId": "lore_summon_token__effect",
             "taxonomyRefs": [
@@ -6276,7 +6826,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 4,
-            "description": "万妖谷群妖齐啸，震荡敌方阵线。效果：敌方全体修士与敌方英雄各受到1点伤害。",
+            "description": "万妖谷群妖齐啸；敌方全体修士与敌方英雄各受到1点伤害。",
             "avatar": "🗣️",
             "effectEffectId": "lore_aoe_damage__effect",
             "taxonomyRefs": [
@@ -6301,7 +6851,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 4,
-            "description": "以妖王号令聚拢兽魂，召唤一名援手。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "以妖王号令聚拢兽魂；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🐾",
             "effectEffectId": "lore_summon_token__effect",
             "taxonomyRefs": [
@@ -6326,7 +6876,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 3,
-            "description": "万妖谷兽群压境，迫使敌阵后撤。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "万妖谷兽群压境，迫使敌阵后撤；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🐺",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -6351,7 +6901,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 3,
-            "description": "银翅夜叉俯冲袭杀，对敌方目标造成伤害。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "银翅夜叉俯冲袭杀；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🦇",
             "effectEffectId": "lore_random_blast__effect",
             "heroOnly": "silver_wing_yasha",
@@ -6369,7 +6919,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 3,
-            "description": "炼尸之躯坚硬异常，获得护甲并抽牌。效果：获得3点护甲，并抽1张牌。",
+            "description": "炼尸之躯坚硬异常；获得3点护甲，并抽1张牌。",
             "avatar": "🧟",
             "effectEffectId": "lore_guard_draw__effect",
             "affiliationRefs": [
@@ -6398,7 +6948,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 3,
-            "description": "银瞳神光震慑敌胆，削弱敌方攻势。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "银瞳神光震慑敌胆；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "👁️",
             "effectEffectId": "lore_weaken_mist__effect",
             "affiliationRefs": [
@@ -6427,7 +6977,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 4,
-            "description": "天澜圣女借圣兽名义号令族众，召来草原援手。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "天澜圣女借圣兽名义号令族众，召来草原援手；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🦌",
             "effectEffectId": "lore_summon_token__effect",
             "taxonomyRefs": [
@@ -6453,7 +7003,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "突兀族圣女引动草原圣风，扰乱敌阵并削弱攻势。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "突兀族圣女引动草原圣风，扰乱敌阵并削弱攻势；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🌬️",
             "effectEffectId": "lore_weaken_mist__effect",
             "taxonomyRefs": [
@@ -6479,7 +7029,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 4,
-            "description": "昆吾山残存禁制化作锁链，压住敌方最凶猛的攻势。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "昆吾山残存禁制化作锁链；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "⛓️",
             "effectEffectId": "lore_weaken_mist__effect",
             "affiliationRefs": [
@@ -6495,7 +7045,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 3,
-            "description": "银翅夜叉以尸爪破空突袭，对敌方目标造成伤害。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "银翅夜叉以尸爪破空突袭；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🪽",
             "effectEffectId": "lore_random_blast__effect",
             "heroOnly": "silver_wing_yasha",
@@ -6513,7 +7063,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 3,
-            "description": "炼尸之气凝成护障，获得护甲并补充手牌。效果：获得3点护甲，并抽1张牌。",
+            "description": "炼尸之气凝成护障；获得3点护甲，并抽1张牌。",
             "avatar": "🧟",
             "effectEffectId": "lore_guard_draw__effect",
             "affiliationRefs": [
@@ -6542,7 +7092,7 @@
             "type": "spell",
             "realm": 5,
             "cost": 4,
-            "description": "夜叉阴影从昆吾山裂隙中涌出，召来一名援手。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "夜叉阴影从昆吾山裂隙中涌出，召来一名援手；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🌑",
             "effectEffectId": "lore_summon_token__effect",
             "affiliationRefs": [
@@ -6570,8 +7120,8 @@
             "name": "古魔威压",
             "type": "spell",
             "realm": 5,
-            "cost": 5,
-            "description": "昆吾山古魔气息压境，对敌方阵线造成群体伤害。效果：敌方全体修士与敌方英雄各受到1点伤害。",
+            "cost": 3,
+            "description": "昆吾山古魔气息压境，敌方全体修士与敌方英雄各受到1点伤害。",
             "avatar": "😈",
             "effectEffectId": "lore_aoe_damage__effect",
             "affiliationRefs": [
@@ -6599,7 +7149,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "鬼灵门的标志性秘术，体现“鬼灵役魂”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "鬼灵门的标志性秘术，体现“鬼灵役魂”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "👻",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "鬼灵门",
@@ -6626,7 +7176,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "六道极圣一脉的标志性秘术，体现六极真魔功的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "六道极圣一脉的标志性秘术，体现六极真魔功的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "☯️",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "逆星盟",
@@ -6655,7 +7205,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "玄骨门的标志性秘术，体现“玄骨阴火”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
+            "description": "玄骨门的标志性秘术，体现“玄骨阴火”的斗法风格；敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
             "avatar": "☠️",
             "effectEffectId": "lore_poison_pressure__effect",
             "sect": "玄骨门",
@@ -6681,7 +7231,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "天魔宗的标志性秘术，体现“天魔真诀”的斗法风格。效果：敌方全体修士与敌方英雄各受到1点伤害。",
+            "description": "天魔宗的标志性秘术，体现“天魔真诀”的斗法风格；敌方全体修士与敌方英雄各受到1点伤害。",
             "avatar": "😈",
             "effectEffectId": "lore_aoe_damage__effect",
             "sect": "天魔宗",
@@ -6707,7 +7257,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "阴罗宗的标志性秘术，体现“阴罗鬼幡”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "阴罗宗的标志性秘术，体现“阴罗鬼幡”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🏴",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "阴罗宗",
@@ -6733,7 +7283,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "合欢宗的标志性秘术，体现“合欢魅术”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "合欢宗的标志性秘术，体现“合欢魅术”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "💞",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "合欢宗",
@@ -6759,7 +7309,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "魔焰宗的标志性秘术，体现“魔焰炼魂”的斗法风格。效果：敌方全体修士与敌方英雄各受到1点伤害。",
+            "description": "魔焰宗的标志性秘术，体现“魔焰炼魂”的斗法风格；敌方全体修士与敌方英雄各受到1点伤害。",
             "avatar": "🔥",
             "effectEffectId": "lore_aoe_damage__effect",
             "sect": "魔焰宗",
@@ -6785,7 +7335,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "极阴岛的标志性秘术，体现“极阴岛尸火”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
+            "description": "极阴岛的标志性秘术，体现“极阴岛尸火”的斗法风格；敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
             "avatar": "🕯️",
             "effectEffectId": "lore_poison_pressure__effect",
             "sect": "极阴岛",
@@ -6811,7 +7361,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "黑煞教的标志性秘术，体现“黑煞血祭”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
+            "description": "黑煞教的标志性秘术，体现“黑煞血祭”的斗法风格；敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
             "avatar": "🩸",
             "effectEffectId": "lore_poison_pressure__effect",
             "sect": "黑煞教",
@@ -6837,7 +7387,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "万妖谷的标志性秘术，体现“万妖谷妖修”的斗法风格。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "万妖谷的标志性秘术，体现“万妖谷妖修”的斗法风格；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🦊",
             "effectEffectId": "lore_summon_token__effect",
             "sect": "万妖谷",
@@ -6863,7 +7413,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "御灵宗的标志性秘术，体现“御灵虫兽”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
+            "description": "御灵宗的标志性秘术，体现“御灵虫兽”的斗法风格；敌方有修士时，全体敌方修士攻击力-1并中毒；若敌方场上无修士，则令敌方英雄中毒。",
             "avatar": "🪲",
             "effectEffectId": "lore_poison_pressure__effect",
             "sect": "御灵宗",
@@ -6890,7 +7440,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "天煞宗的标志性秘术，体现“天煞暗杀”的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "天煞宗的标志性秘术，体现“天煞暗杀”的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🗡️",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "天煞宗",
@@ -6916,7 +7466,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "千幻宗的标志性秘术，体现“千幻迷心”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "千幻宗的标志性秘术，体现“千幻迷心”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🎭",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "千幻宗",
@@ -6941,7 +7491,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "妙音门的标志性秘术，体现“妙音幻声”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "妙音门的标志性秘术，体现“妙音幻声”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🎵",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "妙音门",
@@ -6966,7 +7516,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "隐煞门的标志性秘术，体现“隐煞伏杀”的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "隐煞门的标志性秘术，体现“隐煞伏杀”的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🥷",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "隐煞门",
@@ -6992,7 +7542,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "天星宗的标志性秘术，体现“天星阵法”的斗法风格。效果：获得3点护甲，并抽1张牌。",
+            "description": "天星宗的标志性秘术，体现“天星阵法”的斗法风格；获得3点护甲，并抽1张牌。",
             "avatar": "⭐",
             "effectEffectId": "lore_guard_draw__effect",
             "sect": "天星宗",
@@ -7018,7 +7568,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "神兵门的标志性秘术，体现“神兵炼器”的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "神兵门的标志性秘术，体现“神兵炼器”的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "⚒️",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "神兵门",
@@ -7044,7 +7594,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "万妙观的标志性秘术，体现“万妙符观”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "万妙观的标志性秘术，体现“万妙符观”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "☯️",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "万妙观",
@@ -7069,7 +7619,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "千竹教的标志性秘术，体现“千竹傀儡”的斗法风格。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "千竹教的标志性秘术，体现“千竹傀儡”的斗法风格；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "🎋",
             "effectEffectId": "lore_summon_token__effect",
             "sect": "千竹教",
@@ -7095,7 +7645,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "万法门的标志性秘术，体现“万法归藏”的斗法风格。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "万法门的标志性秘术，体现“万法归藏”的斗法风格；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "📜",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "sect": "万法门",
@@ -7120,7 +7670,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "落云宗的标志性秘术，体现“云梦养气”的斗法风格。效果：恢复3点生命，并抽1张牌。",
+            "description": "落云宗的标志性秘术，体现“云梦养气”的斗法风格；恢复3点生命，并抽1张牌。",
             "avatar": "☁️",
             "effectEffectId": "lore_heal_draw__effect",
             "sect": "落云宗",
@@ -7146,7 +7696,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "古剑门的标志性秘术，体现“古剑传承”的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "古剑门的标志性秘术，体现“古剑传承”的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "⚔️",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "古剑门",
@@ -7172,7 +7722,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "百巧院的标志性秘术，体现“百巧机关”的斗法风格。效果：召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
+            "description": "百巧院的标志性秘术，体现“百巧机关”的斗法风格；召唤1名2/2剧情援手；若我方场上已满，则改为获得2点护甲。",
             "avatar": "⚙️",
             "effectEffectId": "lore_summon_token__effect",
             "sect": "百巧院",
@@ -7198,7 +7748,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "太一门的标志性秘术，体现“太一正光”的斗法风格。效果：获得3点护甲，并抽1张牌。",
+            "description": "太一门的标志性秘术，体现“太一正光”的斗法风格；获得3点护甲，并抽1张牌。",
             "avatar": "☀️",
             "effectEffectId": "lore_guard_draw__effect",
             "sect": "太一门",
@@ -7224,7 +7774,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 2,
-            "description": "小极宫的标志性秘术，体现“北冥寒宫”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "小极宫的标志性秘术，体现“北冥寒宫”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "❄️",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "小极宫",
@@ -7250,7 +7800,7 @@
             "type": "spell",
             "realm": 3,
             "cost": 3,
-            "description": "天机阁的标志性秘术，体现“天机推演”的斗法风格。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "天机阁的标志性秘术，体现“天机推演”的斗法风格；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🔭",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "sect": "天机阁",
@@ -7275,7 +7825,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "越国七派的标志性秘术，体现“越国七派合议”的斗法风格。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "越国七派的标志性秘术，体现“越国七派合议”的斗法风格；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🏔️",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "sect": "越国七派",
@@ -7301,7 +7851,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "魔道六宗的标志性秘术，体现“魔道六宗合击”的斗法风格。效果：敌方全体修士与敌方英雄各受到1点伤害。",
+            "description": "魔道六宗的标志性秘术，体现“魔道六宗合击”的斗法风格；敌方全体修士与敌方英雄各受到1点伤害。",
             "avatar": "👹",
             "effectEffectId": "lore_aoe_damage__effect",
             "sect": "魔道六宗",
@@ -7327,7 +7877,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "正道盟的标志性秘术，体现“正道盟守约”的斗法风格。效果：获得3点护甲，并抽1张牌。",
+            "description": "正道盟的标志性秘术，体现“正道盟守约”的斗法风格；获得3点护甲，并抽1张牌。",
             "avatar": "🛡️",
             "effectEffectId": "lore_guard_draw__effect",
             "sect": "正道盟",
@@ -7353,7 +7903,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "天道盟的标志性秘术，体现“天道盟巡令”的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "天道盟的标志性秘术，体现“天道盟巡令”的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "⚡",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "天道盟",
@@ -7379,7 +7929,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "九国盟的标志性秘术，体现“九国边防”的斗法风格。效果：获得3点护甲，并抽1张牌。",
+            "description": "九国盟的标志性秘术，体现“九国边防”的斗法风格；获得3点护甲，并抽1张牌。",
             "avatar": "🏯",
             "effectEffectId": "lore_guard_draw__effect",
             "sect": "九国盟",
@@ -7405,7 +7955,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "星宫的标志性秘术，体现“星宫执法”的斗法风格。效果：敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
+            "description": "星宫的标志性秘术，体现“星宫执法”的斗法风格；敌方有修士时，全体敌方修士攻击力-1；若敌方场上无修士，则对敌方英雄造成1点伤害。",
             "avatar": "🌌",
             "effectEffectId": "lore_weaken_mist__effect",
             "sect": "星宫",
@@ -7431,7 +7981,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "逆星盟的标志性秘术，体现“逆星盟叛旗”的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "逆星盟的标志性秘术，体现“逆星盟叛旗”的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🌑",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "逆星盟",
@@ -7457,7 +8007,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "六连殿的标志性秘术，体现“六连殿海贸”的斗法风格。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "六连殿的标志性秘术，体现“六连殿海贸”的斗法风格；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🌊",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "sect": "六连殿",
@@ -7483,7 +8033,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "燕家堡的标志性秘术，体现“燕家堡家法”的斗法风格。效果：获得3点护甲，并抽1张牌。",
+            "description": "燕家堡的标志性秘术，体现“燕家堡家法”的斗法风格；获得3点护甲，并抽1张牌。",
             "avatar": "🏰",
             "effectEffectId": "lore_guard_draw__effect",
             "sect": "燕家堡",
@@ -7509,7 +8059,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "乱星海正道的标志性秘术，体现“星海正道航路”的斗法风格。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "乱星海正道的标志性秘术，体现“星海正道航路”的斗法风格；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🧭",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "sect": "乱星海正道",
@@ -7535,7 +8085,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "乱星海魔道的标志性秘术，体现“星海魔道劫掠”的斗法风格。效果：随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
+            "description": "乱星海魔道的标志性秘术，体现“星海魔道劫掠”的斗法风格；随机敌方修士受到3点伤害；若敌方场上无修士，则对敌方英雄造成3点伤害。",
             "avatar": "🏴‍☠️",
             "effectEffectId": "lore_random_blast__effect",
             "sect": "乱星海魔道",
@@ -7561,7 +8111,7 @@
             "type": "spell",
             "realm": 4,
             "cost": 3,
-            "description": "大晋正魔十大宗门的标志性秘术，体现“大晋宗门议席”的斗法风格。效果：本回合获得1点临时灵力，并抽1张牌。",
+            "description": "大晋正魔十大宗门的标志性秘术，体现“大晋宗门议席”的斗法风格；本回合获得1点临时灵力，并抽1张牌。",
             "avatar": "🏛️",
             "effectEffectId": "lore_temp_mana_draw__effect",
             "sect": "大晋正魔十大宗门",
@@ -7589,7 +8139,7 @@
             "cost": 2,
             "spiritRoot": "木",
             "effect": "change_form",
-            "description": "玄阴经秘术之一，改换身形容貌以避人耳目。效果：获得3点护甲并抽1张牌，随机敌方修士攻击力-1",
+            "description": "玄阴经秘术之一，改换身形容貌以避人耳目；获得3点护甲并抽1张牌，随机敌方修士攻击力-1。",
             "avatar": "🎭",
             "heroOnly": "hanli",
             "exclusive": true,
@@ -7611,7 +8161,7 @@
             "spiritRoot": "水",
             "sect": "掩月宗",
             "effect": "heart_binding",
-            "description": "掩月宗禁制秘术，可借令牌引发心神禁制。效果：冻结一个敌方修士并使其攻击力-2；若无修士，敌方英雄受到1点伤害",
+            "description": "掩月宗禁制秘术；冻结一个敌方修士并使其攻击力-2；若无修士，敌方英雄受到1点伤害。",
             "avatar": "🔒",
             "taxonomyRefs": [
                 "sect:yanyue"
@@ -7638,7 +8188,7 @@
             "spiritRoot": "水",
             "sect": "掩月宗",
             "effect": "illusion_form",
-            "description": "素女轮回功相关幻术，化形藏真。效果：获得2点护甲，抽1张牌，并使己方随机修士潜行",
+            "description": "素女轮回功相关幻术，化形藏真；获得2点护甲，抽1张牌，并使己方随机修士潜行。",
             "avatar": "🌫️",
             "taxonomyRefs": [
                 "sect:yanyue"
@@ -7663,7 +8213,7 @@
             "spiritRoot": "水",
             "sect": "掩月宗",
             "effect": "false_identity",
-            "description": "南宫婉曾以“南宫屏”身份遮掩真实来历。效果：获得3点护甲，本回合下一个受到的伤害-2",
+            "description": "南宫婉曾以“南宫屏”身份遮掩真实来历；获得3点护甲，本回合下一个受到的伤害-2。",
             "avatar": "🎴",
             "taxonomyRefs": [
                 "sect:yanyue"
@@ -7757,7 +8307,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "魔道至宝，装备修士攻击+2，攻击时吸血。效果：装备修士攻击力+2；攻击后装备修士恢复2点生命。",
+            "description": "魔道至宝；装备修士攻击力+2；攻击后装备修士恢复2点生命。",
             "avatar": "🗡️",
             "category": "攻击",
             "durability": 3,
@@ -7847,8 +8397,8 @@
             "name": "玄天仙盾",
             "type": "treasure",
             "realm": 9,
-            "cost": 8,
-            "description": "玄天系防御宝物的泛化卡，装备修士免疫一次致命伤害；外部榜单提到“玄天化灵盾”，但本地人界原文暂未精确命中。",
+            "cost": 5,
+            "description": "玄天系防御宝物的泛化卡，装备修士免疫一次致命伤害，触发后消耗。",
             "avatar": "🌟",
             "category": "防御",
             "durability": 1,
@@ -7957,7 +8507,132 @@
             "durability": 4,
             "onTurnStartEffectId": "nine_curve_spirit__onTurnStart",
             "equipEffectEffectId": "nine_curve_spirit__equipEffect",
-            "onUnequipEffectId": "nine_curve_spirit__onUnequip"
+            "onUnequipEffectId": "nine_curve_spirit__onUnequip",
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/元婴丹主材",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "九曲灵参",
+                    "occurrenceCount": 92,
+                    "lineHints": [
+                        20281,
+                        20309,
+                        20310,
+                        20313,
+                        20975,
+                        20976
+                    ]
+                },
+                "note": "灵草百科列为天地灵气化形、元婴丹主材；现有持续回复定位保留。"
+            }
+        },
+        {
+            "id": "companion_demon_grass",
+            "name": "伴妖草",
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "灵草",
+            "realm": 3,
+            "cost": 3,
+            "durability": 2,
+            "description": "生于妖兽洞穴附近，可指示妖气强弱。放置于法宝区，不需装备。主动从牌库获得1张灵宠牌；若无灵宠则获得2点护甲。",
+            "avatar": "🌿",
+            "activeSkill": {
+                "name": "寻妖指引"
+            },
+            "activeSkillEffectId": "companion_demon_grass__activeSkill",
+            "taxonomyRefs": [
+                "race:yaozu"
+            ],
+            "gameTags": [
+                "法宝",
+                "灵宠",
+                "抽牌",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/寻妖",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "伴妖草",
+                    "occurrenceCount": 15,
+                    "lineHints": [
+                        24292,
+                        24308,
+                        24310,
+                        25210,
+                        25213,
+                        25290
+                    ]
+                },
+                "note": "灵草百科列为妖兽洞穴指示灵草，原文坠魔谷线多次命中；游戏化为灵宠检索资源。"
+            }
+        },
+        {
+            "id": "nichang_grass",
+            "name": "霓裳草",
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "灵草",
+            "realm": 3,
+            "cost": 4,
+            "durability": 3,
+            "description": "又名诱妖草，百年一叶，可诱八级以下妖兽。放置于法宝区，不需装备。主动召唤一个2/2诱来的妖兽；场上已满则抽1张牌。",
+            "avatar": "🌈",
+            "activeSkill": {
+                "name": "诱妖异香"
+            },
+            "activeSkillEffectId": "nichang_grass__activeSkill",
+            "taxonomyRefs": [
+                "race:yaozu"
+            ],
+            "gameTags": [
+                "法宝",
+                "灵宠",
+                "召唤",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/诱妖",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "霓裳草",
+                    "occurrenceCount": 85,
+                    "lineHints": [
+                        18192,
+                        18205,
+                        18206,
+                        18208,
+                        18211,
+                        18212
+                    ]
+                },
+                "note": "灵草百科列为韩立诱杀妖兽利器，原文虚天殿线多次命中；游戏化为法宝区放置的诱妖资源。"
+            }
         },
         {
             "id": "five_devils",
@@ -7984,7 +8659,7 @@
             "type": "treasure",
             "realm": 2,
             "cost": 2,
-            "description": "基础飞剑，装备修士攻击力+2。效果：装备修士攻击力+2。",
+            "description": "基础飞剑；装备修士攻击力+2。",
             "avatar": "🗡️",
             "category": "攻击",
             "durability": 4,
@@ -8023,7 +8698,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 5,
-            "description": "鬼灵门至宝，装备修士获得嘲讽，敌方攻击时50%概率无效。效果：装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
+            "description": "鬼灵门至宝；装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
             "avatar": "🏴",
             "category": "防御",
             "durability": 4,
@@ -8082,7 +8757,7 @@
             "type": "treasure",
             "realm": 2,
             "cost": 3,
-            "description": "基础防御法宝，装备修士生命+2，受到的伤害-1。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "基础防御法宝；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "🛡️",
             "category": "防御",
             "durability": 4,
@@ -8096,7 +8771,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "韩立早期法宝，装备修士攻击+2，攻击时对相邻目标造成1点伤害。效果：装备修士攻击力+2；攻击时对目标相邻的敌方修士造成1点伤害。",
+            "description": "韩立早期法宝；装备修士攻击力+2；攻击时对目标相邻的敌方修士造成1点伤害。",
             "avatar": "🗡️",
             "category": "攻击",
             "durability": 3,
@@ -8134,7 +8809,8 @@
             },
             "managedOwnershipRefs": [
                 "sect:yanyue"
-            ]
+            ],
+            "category": "防御"
         },
         {
             "id": "ziling_charm_dance",
@@ -8156,7 +8832,8 @@
                 "妙音门",
                 "紫灵",
                 "正道"
-            ]
+            ],
+            "category": "控制"
         },
         {
             "id": "yuanyao_soul_ring",
@@ -8177,7 +8854,8 @@
             "gameTags": [
                 "元瑶",
                 "鬼道"
-            ]
+            ],
+            "category": "回复"
         },
         {
             "id": "xuangui_bone_shield",
@@ -8200,7 +8878,8 @@
                 "玄骨门",
                 "鬼道",
                 "魔道"
-            ]
+            ],
+            "category": "防御"
         },
         {
             "id": "fengxi_wind_thunder_wing",
@@ -8225,7 +8904,8 @@
                 "妖修",
                 "羽族",
                 "裂风兽"
-            ]
+            ],
+            "category": "攻击"
         },
         {
             "id": "wentianren_six_pole_armor",
@@ -8247,7 +8927,8 @@
             "gameTags": [
                 "六道传承",
                 "魔道"
-            ]
+            ],
+            "category": "防御"
         },
         {
             "id": "wangchan_blood_spirit_sword",
@@ -8273,7 +8954,8 @@
                 "魔道",
                 "鬼道",
                 "血道"
-            ]
+            ],
+            "category": "攻击"
         },
         {
             "id": "hanli_bamboo_sword",
@@ -8324,7 +9006,8 @@
                     ]
                 },
                 "note": "作为韩立专属版本，保留个人限定；外部榜单将其列为韩立飞升前主力攻防核心。"
-            }
+            },
+            "category": "攻击"
         },
         {
             "id": "nangongwan_moon_mask",
@@ -8354,7 +9037,8 @@
             },
             "managedOwnershipRefs": [
                 "sect:yanyue"
-            ]
+            ],
+            "category": "防御"
         },
         {
             "id": "nangongwan_zhuque_ring",
@@ -8390,7 +9074,7 @@
             "heroOnly": "yuanyao",
             "exclusive": true,
             "durability": 4,
-            "description": "元瑶的阴阳双刀，攻击时吸取目标1点攻击力",
+            "description": "元瑶的阴阳双刀，装备修士攻击时吸取目标1点攻击力，耐久4次。",
             "avatar": "⚔️",
             "onAttackEffectId": "yuanyao_yin_yang_dao__onAttack",
             "equipEffectEffectId": "yuanyao_yin_yang_dao__equipEffect",
@@ -8403,7 +9087,8 @@
             "gameTags": [
                 "元瑶",
                 "鬼道"
-            ]
+            ],
+            "category": "控制"
         },
         {
             "id": "fengxi_wind_thunder_wings",
@@ -8428,7 +9113,8 @@
                 "妖修",
                 "羽族",
                 "裂风兽"
-            ]
+            ],
+            "category": "攻击"
         },
         {
             "id": "wentianren_demon_blade",
@@ -8438,7 +9124,7 @@
             "heroOnly": "wentianren",
             "exclusive": true,
             "durability": 4,
-            "description": "温天仁魔刀，攻击时如果消灭目标，恢复3生命并获得+1攻击",
+            "description": "温天仁魔刀，装备修士消灭目标时恢复3点生命并获得+1攻击，耐久4次。",
             "avatar": "🔪",
             "onAttackEffectId": "wentianren_demon_blade__onAttack",
             "equipEffectEffectId": "wentianren_demon_blade__equipEffect",
@@ -8451,7 +9137,8 @@
             "gameTags": [
                 "六道传承",
                 "魔道"
-            ]
+            ],
+            "category": "攻击"
         },
         {
             "id": "ascension_token",
@@ -8565,7 +9252,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "极阴岛阴寒宝珠：装备修士+2生命；回合开始时冻结一个随机敌方修士，持续3次。效果：装备修士生命+2；回合开始时随机冻结1名敌方修士，持续3次。",
+            "description": "极阴岛阴寒宝珠；装备修士生命+2；回合开始时随机冻结1名敌方修士，持续3次。",
             "avatar": "🔮",
             "category": "控制",
             "durability": 3,
@@ -8683,7 +9370,537 @@
                         36546
                     ]
                 },
-                "note": "原文反复写到花篮古宝收取法宝、困住银狼和收走青铜古灯，游戏化为主动收宝/冻结。"
+                "note": "原文反复写到花篮古宝收取法宝、困住银狼和收走青铜古灯，游戏化为主动收宝/冻结。",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ]
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "封印",
+            "durability": 3,
+            "id": "xutian_ding",
+            "name": "虚天鼎",
+            "realm": 8,
+            "cost": 7,
+            "description": "虚天殿核心秘宝，放置于法宝区，不需装备。主动封印并冻结敌方最强修士1回合。",
+            "avatar": "🏛️",
+            "activeSkill": {
+                "name": "虚天封禁"
+            },
+            "activeSkillEffectId": "xutian_ding__activeSkill",
+            "taxonomyRefs": [
+                "region:chaotic-star-sea"
+            ],
+            "gameTags": [
+                "法宝",
+                "控制",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "虚天鼎",
+                    "aliases": [],
+                    "occurrenceCount": 391,
+                    "lineHints": [
+                        20378,
+                        20379,
+                        20382,
+                        20383,
+                        20390,
+                        20395,
+                        20396,
+                        20398
+                    ]
+                },
+                "note": "原文围绕虚天殿核心秘宝反复出现，游戏化为高费放置型封印法宝。"
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "控制",
+            "durability": 3,
+            "id": "eight_spirit_ruler",
+            "name": "八灵尺",
+            "realm": 7,
+            "cost": 6,
+            "description": "昆吾山相关控魂秘宝，放置于法宝区，不需装备。主动控制敌方最强修士反噬同伴；若无同伴则反噬敌方英雄。",
+            "avatar": "📏",
+            "activeSkill": {
+                "name": "八灵摄魂"
+            },
+            "activeSkillEffectId": "eight_spirit_ruler__activeSkill",
+            "taxonomyRefs": [
+                "region:kunwu-mountain"
+            ],
+            "gameTags": [
+                "昆吾山",
+                "正道",
+                "法宝",
+                "控制",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "八灵尺",
+                    "aliases": [],
+                    "occurrenceCount": 91,
+                    "lineHints": [
+                        48137,
+                        48138,
+                        49183,
+                        49232,
+                        49233,
+                        49234,
+                        49267,
+                        49277
+                    ]
+                },
+                "note": "原文多次与昆吾山、灵宝和控魂类威能并列，游戏化为放置型控制法宝。"
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "防御",
+            "durability": 2,
+            "id": "black_wind_flag",
+            "name": "黑风旗",
+            "realm": 8,
+            "cost": 7,
+            "description": "元刹一系的空间防御重宝，放置于法宝区，不需装备。主动获得3护甲，并冻结敌方最强修士且造成2点伤害；敌方无修士时伤害敌方英雄。",
+            "avatar": "🏴",
+            "activeSkill": {
+                "name": "绝灵黑风"
+            },
+            "activeSkillEffectId": "black_wind_flag__activeSkill",
+            "taxonomyRefs": [
+                "region:kunwu-mountain",
+                "species:gumo"
+            ],
+            "gameTags": [
+                "昆吾山",
+                "古魔",
+                "魔道",
+                "法宝",
+                "控制",
+                "防御",
+                "高阶"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "species:gumo"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "黑风旗",
+                    "aliases": [],
+                    "occurrenceCount": 53,
+                    "lineHints": [
+                        48138,
+                        48284,
+                        48307,
+                        49634,
+                        49638,
+                        49639,
+                        49645,
+                        49656
+                    ]
+                },
+                "note": "原文写到黑风旗可形成黑风护体和空间隔绝，游戏化为护甲、冻结与小额伤害。"
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "召唤",
+            "durability": 3,
+            "id": "wanyaofan",
+            "name": "万妖幡",
+            "realm": 8,
+            "cost": 6,
+            "description": "万妖谷镇谷妖幡，放置于法宝区，不需装备。主动召唤两个2/2妖兽化身，并压制随机敌方修士攻击-1。",
+            "avatar": "🚩",
+            "activeSkill": {
+                "name": "万妖化形"
+            },
+            "activeSkillEffectId": "wanyaofan__activeSkill",
+            "taxonomyRefs": [
+                "faction:wanyaogu",
+                "race:yaozu",
+                "path:yaoxiu"
+            ],
+            "gameTags": [
+                "万妖谷",
+                "妖族",
+                "妖修",
+                "法宝",
+                "召唤",
+                "控制",
+                "高阶"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "faction:wanyaogu"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "万妖幡",
+                    "aliases": [],
+                    "occurrenceCount": 40,
+                    "lineHints": [
+                        42297,
+                        44605,
+                        53023,
+                        53032,
+                        53226,
+                        53233,
+                        53240,
+                        53257
+                    ]
+                },
+                "note": "原文将万妖幡作为万妖谷重宝，并写到大量妖魂/化身压制，游戏化为妖兽召唤与减攻。"
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "攻击",
+            "durability": 2,
+            "id": "eight_gates_golden_light_mirror",
+            "name": "八门金光镜",
+            "realm": 7,
+            "cost": 7,
+            "description": "乱星海传说级攻击法宝，放置于法宝区，不需装备。主动对敌方最强修士造成6点伤害；敌方无修士时对敌方英雄造成4点伤害。",
+            "avatar": "🪞",
+            "activeSkill": {
+                "name": "八门金光"
+            },
+            "activeSkillEffectId": "eight_gates_golden_light_mirror__activeSkill",
+            "taxonomyRefs": [
+                "region:chaotic-star-sea",
+                "faction:reverse-star-alliance"
+            ],
+            "gameTags": [
+                "逆星盟",
+                "法宝",
+                "爆发",
+                "控制",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "八门金光镜",
+                    "aliases": [],
+                    "occurrenceCount": 7,
+                    "lineHints": [
+                        27190,
+                        27227,
+                        27229,
+                        27236,
+                        27237,
+                        27238,
+                        27342
+                    ]
+                },
+                "note": "原文称其为星海第一攻击法宝，游戏化为高费高伤害放置型法宝。"
+            },
+            "heroOnly": "wentianren",
+            "exclusive": true
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "控制",
+            "durability": 2,
+            "id": "sea_suppressing_bell",
+            "name": "镇海钟",
+            "realm": 7,
+            "cost": 6,
+            "description": "小极宫镇压冰海妖兽的重宝，放置于法宝区，不需装备。主动冻结敌方全场，妖兽额外受到1点伤害。",
+            "avatar": "🔔",
+            "activeSkill": {
+                "name": "镇海钟鸣"
+            },
+            "activeSkillEffectId": "sea_suppressing_bell__activeSkill",
+            "taxonomyRefs": [
+                "sect:xiaoji",
+                "region:great-jin"
+            ],
+            "gameTags": [
+                "小极宫",
+                "冰系",
+                "法宝",
+                "控制",
+                "防御",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "镇海钟",
+                    "aliases": [],
+                    "occurrenceCount": 7,
+                    "lineHints": [
+                        52959,
+                        52963,
+                        52987,
+                        53006,
+                        53014,
+                        53015,
+                        53018
+                    ]
+                },
+                "note": "原文写其镇压冰海低阶妖物，游戏化为全场冻结并额外克制妖兽。"
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "封印",
+            "durability": 2,
+            "id": "dragon_seal",
+            "name": "化龙玺",
+            "realm": 7,
+            "cost": 4,
+            "description": "昆吾山禁制中枢宝物，放置于法宝区，不需装备；主动获得3点护甲，并封住敌方最强修士1回合。",
+            "avatar": "🐉",
+            "activeSkill": {
+                "name": "真龙镇封"
+            },
+            "activeSkillEffectId": "dragon_seal__activeSkill",
+            "taxonomyRefs": [
+                "region:kunwu-mountain"
+            ],
+            "gameTags": [
+                "昆吾山",
+                "法宝",
+                "控制",
+                "防御",
+                "高阶"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "region:kunwu-mountain"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "化龙玺",
+                    "aliases": [],
+                    "occurrenceCount": 20,
+                    "lineHints": [
+                        48126,
+                        48129,
+                        48136,
+                        48461,
+                        48474,
+                        48476,
+                        48613,
+                        49299
+                    ]
+                },
+                "note": "原文将化龙玺和昆吾山封印禁制联系起来，游戏化为护甲与封印控制。"
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "攻击",
+            "durability": 2,
+            "id": "mountain_flattening_seal",
+            "name": "平山印",
+            "realm": 7,
+            "cost": 7,
+            "description": "仿制掌天印的开山裂地重宝，放置于法宝区，不需装备。主动对敌方最强修士造成5点伤害并冻结；敌方无修士时对英雄造成3点伤害。",
+            "avatar": "⛰️",
+            "activeSkill": {
+                "name": "平山开地"
+            },
+            "activeSkillEffectId": "mountain_flattening_seal__activeSkill",
+            "taxonomyRefs": [
+                "region:great-jin"
+            ],
+            "gameTags": [
+                "法宝",
+                "爆发",
+                "控制",
+                "高阶"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "region:great-jin"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "平山印",
+                    "aliases": [],
+                    "occurrenceCount": 18,
+                    "lineHints": [
+                        43218,
+                        44197,
+                        44198,
+                        44199,
+                        44564,
+                        44596,
+                        44597,
+                        44601
+                    ]
+                },
+                "note": "原文称平山印仿制掌天印，有开山裂地威能，游戏化为高额单体伤害与冻结。"
+            }
+        },
+        {
+            "type": "treasure",
+            "placement": "artifact",
+            "category": "控制",
+            "durability": 3,
+            "id": "evil_moon_mirror",
+            "name": "邪月幻镜",
+            "aliases": [
+                "邪月幻境"
+            ],
+            "realm": 6,
+            "cost": 4,
+            "description": "银翅夜叉催动幻术的古镜，放置于法宝区，不需装备；主动冻结敌方最强修士并使其攻击力-1。",
+            "avatar": "🌙",
+            "activeSkill": {
+                "name": "邪月幻境"
+            },
+            "activeSkillEffectId": "evil_moon_mirror__activeSkill",
+            "taxonomyRefs": [
+                "region:kunwu-mountain",
+                "path:guidao"
+            ],
+            "gameTags": [
+                "昆吾山",
+                "鬼道",
+                "炼尸",
+                "法宝",
+                "控制",
+                "高阶"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "silver_wing_yasha"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+external-ranking",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-06-27",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ],
+                "novelExactMatch": {
+                    "name": "邪月幻镜",
+                    "aliases": [
+                        "邪月幻境"
+                    ],
+                    "occurrenceCount": 7,
+                    "lineHints": [
+                        46163,
+                        46172,
+                        46216,
+                        46282,
+                        46296,
+                        46298,
+                        46485
+                    ]
+                },
+                "note": "原文写邪月幻镜辅助银瞳幻术威力提升，游戏化为冻结和削弱攻击。"
             }
         },
         {
@@ -8758,7 +9975,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "清虚门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "清虚门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -8789,7 +10006,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "化刀坞常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "化刀坞常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -8818,7 +10035,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "巨剑门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "巨剑门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -8848,7 +10065,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "天阙堡常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "天阙堡常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -8879,7 +10096,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 4,
-            "description": "灵兽山常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
+            "description": "灵兽山常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
             "avatar": "💍",
             "category": "速度",
             "durability": 3,
@@ -8910,7 +10127,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "鬼灵门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
+            "description": "鬼灵门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -8941,7 +10158,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "六道极圣一脉流传的魔道法器，适合温天仁麾下修士作为压制支点。效果：装备修士攻击力+2；攻击后装备修士恢复2点生命。",
+            "description": "六道极圣一脉流传的魔道法器，适合温天仁麾下修士作为压制支点；装备修士攻击力+2；攻击后装备修士恢复2点生命。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 3,
@@ -8974,7 +10191,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "玄骨门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
+            "description": "玄骨门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9004,7 +10221,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "天魔宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2；攻击后装备修士恢复2点生命。",
+            "description": "天魔宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2；攻击后装备修士恢复2点生命。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 3,
@@ -9034,7 +10251,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "阴罗宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
+            "description": "阴罗宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9064,7 +10281,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "合欢宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "合欢宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9094,7 +10311,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "魔焰宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2；攻击时对目标相邻的敌方修士造成1点伤害。",
+            "description": "魔焰宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2；攻击时对目标相邻的敌方修士造成1点伤害。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -9124,7 +10341,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "极阴岛常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
+            "description": "极阴岛常见的传承法器，入门可用，进阶也能作为体系支点；装备修士获得嘲讽；敌方攻击该修士时有50%概率无效。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9154,7 +10371,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "黑煞教常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2；攻击后装备修士恢复2点生命。",
+            "description": "黑煞教常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2；攻击后装备修士恢复2点生命。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 3,
@@ -9184,7 +10401,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "万妖谷常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
+            "description": "万妖谷常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
             "avatar": "💍",
             "category": "速度",
             "durability": 3,
@@ -9214,7 +10431,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 4,
-            "description": "御灵宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
+            "description": "御灵宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
             "avatar": "💍",
             "category": "速度",
             "durability": 3,
@@ -9245,7 +10462,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "天煞宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "天煞宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -9274,7 +10491,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "千幻宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "千幻宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9303,7 +10520,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "妙音门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "妙音门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9332,7 +10549,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "隐煞门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "隐煞门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -9361,7 +10578,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "天星宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "天星宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9391,7 +10608,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "神兵门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "神兵门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -9419,7 +10636,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "万妙观常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "万妙观常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9449,7 +10666,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "千竹教常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+1；回合开始时召唤1个1/1机关傀儡，持续3次；若我方场上已满，则只消耗耐久。",
+            "description": "千竹教常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+1；回合开始时召唤1个1/1机关傀儡，持续3次；若我方场上已满，则只消耗耐久。",
             "avatar": "💍",
             "category": "召唤",
             "durability": 3,
@@ -9479,7 +10696,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "万法门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "万法门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9509,7 +10726,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "落云宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "落云宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9539,7 +10756,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "古剑门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "古剑门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -9568,7 +10785,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "百巧院常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+1；回合开始时召唤1个1/1机关傀儡，持续3次；若我方场上已满，则只消耗耐久。",
+            "description": "百巧院常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+1；回合开始时召唤1个1/1机关傀儡，持续3次；若我方场上已满，则只消耗耐久。",
             "avatar": "💍",
             "category": "召唤",
             "durability": 3,
@@ -9597,7 +10814,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "太一门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "太一门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9627,7 +10844,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 3,
-            "description": "小极宫常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2；回合开始时随机冻结1名敌方修士，持续3次。",
+            "description": "小极宫常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2；回合开始时随机冻结1名敌方修士，持续3次。",
             "avatar": "💍",
             "category": "控制",
             "durability": 3,
@@ -9657,7 +10874,7 @@
             "type": "treasure",
             "realm": 4,
             "cost": 4,
-            "description": "天机阁常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
+            "description": "天机阁常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+1且可攻击两次；回合开始时获得1点临时灵力，并使装备修士本回合可攻击，持续3次。",
             "avatar": "💍",
             "category": "速度",
             "durability": 3,
@@ -9687,7 +10904,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "越国七派常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "越国七派常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9717,7 +10934,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "魔道六宗常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2；攻击后装备修士恢复2点生命。",
+            "description": "魔道六宗常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2；攻击后装备修士恢复2点生命。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 3,
@@ -9747,7 +10964,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "正道盟常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "正道盟常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9777,7 +10994,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "天道盟常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "天道盟常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -9806,7 +11023,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "九国盟常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "九国盟常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9836,7 +11053,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "星宫常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "星宫常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9866,7 +11083,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "逆星盟常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2。",
+            "description": "逆星盟常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 4,
@@ -9895,7 +11112,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "六连殿常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "六连殿常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9924,7 +11141,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "燕家堡常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "燕家堡常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9954,7 +11171,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "乱星海正道常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "乱星海正道常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -9984,7 +11201,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "乱星海魔道常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士攻击力+2；攻击后装备修士恢复2点生命。",
+            "description": "乱星海魔道常见的传承法器，入门可用，进阶也能作为体系支点；装备修士攻击力+2；攻击后装备修士恢复2点生命。",
             "avatar": "💍",
             "category": "攻击",
             "durability": 3,
@@ -10014,7 +11231,7 @@
             "type": "treasure",
             "realm": 5,
             "cost": 4,
-            "description": "大晋正魔十大宗门常见的传承法器，入门可用，进阶也能作为体系支点。效果：装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
+            "description": "大晋正魔十大宗门常见的传承法器，入门可用，进阶也能作为体系支点；装备修士生命+2，受到的伤害-1；每次受到伤害消耗1点耐久。",
             "avatar": "💍",
             "category": "防御",
             "durability": 4,
@@ -10068,17 +11285,25 @@
                 "novelExactMatch": {
                     "name": "千重峰",
                     "aliases": [],
-                    "occurrenceCount": 6,
+                    "occurrenceCount": 8,
                     "lineHints": [
-                        32700,
+                        32753,
                         33782,
                         34840,
                         36048,
+                        36054,
+                        36220,
                         37779,
                         39526
                     ]
                 },
-                "note": "原文多次写作黑色巨峰/山峰重压型古宝，游戏化为重压伤害与冻结。"
+                "note": "原文多次写作黑色巨峰/山峰重压型古宝；外部榜单亦将千重峰列入高阶法宝，游戏中保留装备增益与主动重压。",
+                "relatedUrls": [
+                    "https://www.163.com/dy/article/K8N2OGG80552H59B.html",
+                    "https://news.17173.com/content/2010-10-26/20101026090412429,1.shtml?__stay_on_pc",
+                    "https://zhuanlan.zhihu.com/p/32729845350",
+                    "https://zhuanlan.zhihu.com/p/721882066"
+                ]
             },
             "requirements": {
                 "heroIds": [
@@ -10243,7 +11468,7 @@
             "type": "pill",
             "realm": 1,
             "cost": 1,
-            "description": "基础灵力恢复丹药。效果：恢复3点生命。",
+            "description": "基础灵力恢复丹药；恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "category": "疗伤恢复",
@@ -10273,7 +11498,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "生死关头透支潜力。效果：本回合获得2点灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
+            "description": "生死关头透支潜力；本回合获得2点灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💉",
             "effectEffectId": "burst_pill__effect",
             "category": "临时增幅",
@@ -10302,22 +11527,34 @@
             "type": "pill",
             "realm": 4,
             "cost": 4,
-            "description": "炼气修士冲击筑基的关键丹药。效果：永久提升1点灵力上限，并恢复3点生命。",
+            "description": "炼气修士冲击筑基的关键丹药；永久提升1点灵力上限，并恢复3点生命。",
             "avatar": "💎",
             "effectEffectId": "foundation_pill__effect",
             "category": "突破瓶颈",
             "loreSource": {
                 "arc": "human",
-                "source": "external-wiki",
-                "url": "https://immortalascension.com/treasures/pills-mortal-realm",
-                "title": "人界丹药大全",
-                "pageDate": "2026-03-05",
-                "retrievedAt": "2026-06-21",
-                "category": "突破瓶颈",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药/突破",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
                 "novelExactMatch": {
                     "name": "筑基丹",
-                    "occurrenceCount": 229
-                }
+                    "occurrenceCount": 192,
+                    "lineHints": [
+                        3747,
+                        4578,
+                        4911,
+                        4912,
+                        4913,
+                        4914
+                    ]
+                },
+                "note": "丹药与灵草百科均指向筑基关键丹药及三大主材；现有灵力上限提升定位保留。"
             },
             "gameTags": [
                 "丹药",
@@ -10447,7 +11684,7 @@
             "type": "pill",
             "realm": 1,
             "cost": 1,
-            "description": "驻颜定貌的特殊丹药。效果：恢复2点生命，下回合受到的伤害-1。",
+            "description": "驻颜定貌的特殊丹药；恢复2点生命，下回合受到的伤害-1。",
             "avatar": "💊",
             "effectEffectId": "beauty_pill__effect",
             "requirements": {
@@ -10462,23 +11699,502 @@
             ],
             "loreSource": {
                 "arc": "human",
-                "source": "external-wiki",
-                "url": "https://immortalascension.com/treasures/pills-mortal-realm",
-                "title": "人界丹药大全",
-                "pageDate": "2026-03-05",
-                "retrievedAt": "2026-06-21",
-                "category": "特殊功效",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药/特殊",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
                 "novelExactMatch": {
                     "name": "定颜丹",
-                    "occurrenceCount": 23
+                    "occurrenceCount": 18,
+                    "lineHints": [
+                        5858,
+                        5861,
+                        5866,
+                        6035,
+                        6036,
+                        6129
+                    ]
                 },
-                "note": "外部百科称“驻颜丹”；本地原文“定颜丹”命中更多，作为当前卡牌主名保留。"
+                "note": "丹药百科列为驻颜丹药；现有小回复和减伤定位保留。"
             },
             "gameTags": [
                 "丹药",
                 "回复",
                 "防御"
             ]
+        },
+        {
+            "id": "heaven_mending_mushroom",
+            "name": "补天芝",
+            "type": "pill",
+            "realm": 6,
+            "cost": 4,
+            "description": "紫色灵芝，服用可精进修为；本回合灵力+2，抽1张牌并恢复2点生命。",
+            "avatar": "🍄",
+            "effectEffectId": "heaven_mending_mushroom__effect",
+            "gameTags": [
+                "丹药",
+                "抽牌",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/修为暴涨",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "补天芝",
+                    "occurrenceCount": 1,
+                    "lineHints": [
+                        38384
+                    ]
+                },
+                "note": "灵草百科列为修为暴涨灵芝，原文有明确命中；游戏化为爆发灵力和补牌。"
+            }
+        },
+        {
+            "id": "longevity_fruit",
+            "name": "寿元果",
+            "type": "pill",
+            "realm": 5,
+            "cost": 4,
+            "description": "延长寿元的珍贵灵果；生命上限+4并恢复6点生命。",
+            "avatar": "🍑",
+            "effectEffectId": "longevity_fruit__effect",
+            "gameTags": [
+                "丹药",
+                "回复",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/延寿至宝",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "寿元果",
+                    "occurrenceCount": 8,
+                    "lineHints": [
+                        20274,
+                        20376,
+                        20387,
+                        20576,
+                        21024,
+                        21026
+                    ]
+                },
+                "note": "灵草百科列为延寿至宝，原文多次命中；游戏化为生命上限和续航。"
+            }
+        },
+        {
+            "id": "seven_cloud_lotus",
+            "name": "七霞莲",
+            "type": "pill",
+            "realm": 5,
+            "cost": 5,
+            "description": "千年难遇的逆天灵莲；复活墓地费用最高的单位并恢复4点生命；若无法复活则恢复8点生命。",
+            "avatar": "🪷",
+            "effectEffectId": "seven_cloud_lotus__effect",
+            "gameTags": [
+                "丹药",
+                "回复",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/逆天改命",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "七霞莲",
+                    "occurrenceCount": 21,
+                    "lineHints": [
+                        19650,
+                        19702,
+                        19705,
+                        19709,
+                        19714,
+                        19715
+                    ]
+                },
+                "note": "灵草百科列为逆天改命灵草，原文在乱星海相关段落多次命中；游戏化为复活和大回复。"
+            }
+        },
+        {
+            "id": "spirit_candle_fruit",
+            "name": "灵烛果",
+            "type": "pill",
+            "realm": 5,
+            "cost": 4,
+            "description": "火红如烛的结婴灵果；灵力上限永久+1并恢复3点生命。",
+            "avatar": "🕯️",
+            "effectEffectId": "spirit_candle_fruit__effect",
+            "gameTags": [
+                "丹药",
+                "回复",
+                "高阶"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/结婴材料",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "灵烛果",
+                    "occurrenceCount": 50,
+                    "lineHints": [
+                        35252,
+                        35286,
+                        35287,
+                        35288,
+                        35296,
+                        35298
+                    ]
+                },
+                "note": "灵草百科列为造化丹主材，原文在坠魔谷线多次命中；游戏化为中后期资源成长。"
+            }
+        },
+        {
+            "id": "heaven_spirit_fruit",
+            "name": "天灵果",
+            "type": "pill",
+            "realm": 2,
+            "cost": 2,
+            "description": "炼制筑基丹三大主原料之一；灵力上限永久+1。",
+            "avatar": "🍏",
+            "effectEffectId": "heaven_spirit_fruit__effect",
+            "gameTags": [
+                "丹药"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/炼丹主材",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "天灵果",
+                    "occurrenceCount": 6,
+                    "lineHints": [
+                        6029,
+                        6039,
+                        7871,
+                        7969,
+                        7970,
+                        8459
+                    ]
+                },
+                "note": "灵草百科列为筑基丹主材，原文多次命中；游戏化为筑基资源成长。"
+            }
+        },
+        {
+            "id": "purple_monkey_flower",
+            "name": "紫猴花",
+            "type": "pill",
+            "realm": 1,
+            "cost": 2,
+            "description": "炼制筑基丹三大主原料之一；本回合灵力+1并抽1张牌。",
+            "avatar": "🌺",
+            "effectEffectId": "purple_monkey_flower__effect",
+            "gameTags": [
+                "丹药",
+                "抽牌",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/炼丹主材",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "紫猴花",
+                    "occurrenceCount": 10,
+                    "lineHints": [
+                        6029,
+                        7792,
+                        7819,
+                        7825,
+                        7854,
+                        7855
+                    ]
+                },
+                "note": "灵草百科列为筑基丹主材，原文血色禁地采药线多次命中；游戏化为轻灵过牌。"
+            }
+        },
+        {
+            "id": "jade_marrow_zhi",
+            "name": "玉髓芝",
+            "type": "pill",
+            "realm": 1,
+            "cost": 1,
+            "description": "炼制筑基丹三大主原料之一；恢复3点生命并获得1点护甲。",
+            "avatar": "🍄",
+            "effectEffectId": "jade_marrow_zhi__effect",
+            "gameTags": [
+                "丹药",
+                "回复",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "灵草/炼丹主材",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "玉髓芝",
+                    "occurrenceCount": 5,
+                    "lineHints": [
+                        6029,
+                        6039,
+                        6073,
+                        8459,
+                        8525
+                    ]
+                },
+                "note": "灵草百科列为筑基丹主材，原文血色禁地前后多次命中；游戏化为直接服用的根基回复。"
+            }
+        },
+        {
+            "id": "clear_spirit_powder",
+            "name": "清灵散",
+            "type": "pill",
+            "realm": 1,
+            "cost": 1,
+            "description": "清除体内杂质的辅助药散；清除己方中毒和冻结，并抽1张牌。",
+            "avatar": "🌫️",
+            "effectEffectId": "clear_spirit_powder__effect",
+            "gameTags": [
+                "丹药",
+                "抽牌",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "清灵散",
+                    "occurrenceCount": 13,
+                    "lineHints": [
+                        941,
+                        942,
+                        1087,
+                        2301,
+                        2359,
+                        2442
+                    ]
+                },
+                "note": "外部丹药百科列为清除杂质药散，原文早期命中；游戏化为低费异常清理和过牌。"
+            }
+        },
+        {
+            "id": "spirit_feeding_pill",
+            "name": "饲灵丸",
+            "type": "pill",
+            "realm": 2,
+            "cost": 2,
+            "description": "喂养灵宠的丹丸；随机友方灵宠+1/+1；若无灵宠，从牌库获得1张灵宠牌。",
+            "avatar": "🍘",
+            "effectEffectId": "spirit_feeding_pill__effect",
+            "gameTags": [
+                "丹药",
+                "灵宠",
+                "抽牌"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药/灵宠",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "饲灵丸",
+                    "occurrenceCount": 13,
+                    "lineHints": [
+                        10664,
+                        10666,
+                        10667,
+                        17299,
+                        18074,
+                        18076
+                    ]
+                },
+                "note": "外部丹药百科列为助灵兽升阶丹药，原文多次命中韩立培育灵虫灵兽段落；游戏化为灵宠强化/检索。"
+            }
+        },
+        {
+            "id": "qi_harmony_pill",
+            "name": "合气丹",
+            "type": "pill",
+            "realm": 2,
+            "cost": 2,
+            "description": "筑基期调和灵气丹药；灵力上限低于6时永久+1并恢复2点生命；否则抽1张牌并恢复3点生命。",
+            "avatar": "🟢",
+            "effectEffectId": "qi_harmony_pill__effect",
+            "gameTags": [
+                "丹药",
+                "回复",
+                "抽牌"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "合气丹",
+                    "occurrenceCount": 2,
+                    "lineHints": [
+                        5649,
+                        5670
+                    ]
+                },
+                "note": "外部丹药百科列为筑基期精进丹药，原文命中筑基期丹药语境；游戏化为前中期小幅成长。"
+            }
+        },
+        {
+            "id": "golden_marrow_pill",
+            "name": "金髓丸",
+            "type": "pill",
+            "realm": 1,
+            "cost": 1,
+            "description": "与黄龙丹齐名的练气期精进丹药；本回合灵力+1并获得2点护甲。",
+            "avatar": "🟠",
+            "effectEffectId": "golden_marrow_pill__effect",
+            "gameTags": [
+                "丹药",
+                "防御",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "金髓丸",
+                    "occurrenceCount": 17,
+                    "lineHints": [
+                        941,
+                        942,
+                        949,
+                        1175,
+                        4780,
+                        4793
+                    ]
+                },
+                "note": "外部丹药百科列为练气期精进丹药，原文早期与黄龙丹并列出现；游戏化为临时灵力和护甲。"
+            }
+        },
+        {
+            "id": "yellow_dragon_pill",
+            "name": "黄龙丹",
+            "type": "pill",
+            "realm": 1,
+            "cost": 1,
+            "description": "练气期精进丹药；本回合灵力+1并恢复2点生命。",
+            "avatar": "🟡",
+            "effectEffectId": "yellow_dragon_pill__effect",
+            "gameTags": [
+                "丹药",
+                "回复",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "黄龙丹",
+                    "occurrenceCount": 21,
+                    "lineHints": [
+                        941,
+                        942,
+                        949,
+                        1175,
+                        4780,
+                        4793
+                    ]
+                },
+                "note": "外部丹药百科列为练气期精进丹药，原文早期多次命中；游戏化为低阶临时灵力和回复。"
+            }
         },
         {
             "id": "ten_thousand_spirit_milk",
@@ -10502,7 +12218,7 @@
             "type": "pill",
             "realm": 5,
             "cost": 5,
-            "description": "从墓地召回一个修士直接置入战场",
+            "description": "还魂丹可从墓地复活1名修士、灵宠或傀儡并直接置入战场。",
             "avatar": "💀",
             "effectEffectId": "resurrection_pill__effect",
             "gameTags": [
@@ -10548,7 +12264,7 @@
             "type": "pill",
             "realm": 1,
             "cost": 1,
-            "description": "闭关常备丹药，使修士长期无需进食。效果：获得2点护甲并抽1张牌。",
+            "description": "闭关常备丹药，使修士长期无需进食；获得2点护甲并抽1张牌。",
             "avatar": "🍘",
             "category": "特殊功效",
             "effectEffectId": "fasting_pill__effect",
@@ -10578,7 +12294,7 @@
             "type": "pill",
             "realm": 2,
             "cost": 2,
-            "description": "对抗灵毒的常备丹药。效果：清除己方英雄和随从的中毒，并恢复2点生命。",
+            "description": "对抗灵毒的常备丹药；清除己方英雄和随从的中毒，并恢复2点生命。",
             "avatar": "🧪",
             "category": "特殊功效",
             "effectEffectId": "detoxification_pill__effect",
@@ -10589,16 +12305,26 @@
             ],
             "loreSource": {
                 "arc": "human",
-                "source": "external-wiki",
-                "url": "https://immortalascension.com/treasures/pills-mortal-realm",
-                "title": "人界丹药大全",
-                "pageDate": "2026-03-05",
-                "retrievedAt": "2026-06-21",
-                "category": "特殊功效",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "丹药/辅助",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
                 "novelExactMatch": {
                     "name": "解毒丹",
-                    "occurrenceCount": 4
-                }
+                    "occurrenceCount": 4,
+                    "lineHints": [
+                        4479,
+                        14996,
+                        72906,
+                        109741
+                    ]
+                },
+                "note": "丹药百科列为解百毒丹药，原文有命中；现有解毒定位保留。"
             }
         },
         {
@@ -10607,7 +12333,7 @@
             "type": "pill",
             "realm": 5,
             "cost": 4,
-            "description": "高阶疗伤丹药，可调理灵力紊乱与经脉损伤。效果：恢复6点生命，清除己方异常状态，并获得2点护甲。",
+            "description": "高阶疗伤丹药；恢复6点生命，清除己方异常状态，并获得2点护甲。",
             "avatar": "🌌",
             "category": "疗伤恢复",
             "effectEffectId": "heavenly_spirit_pill__effect",
@@ -10637,7 +12363,7 @@
             "type": "pill",
             "realm": 6,
             "cost": 5,
-            "description": "结丹修士冲击元婴的关键丹药。效果：永久提升1点灵力上限，恢复4点生命并抽1张牌。",
+            "description": "结丹修士冲击元婴的关键丹药；永久提升1点灵力上限，恢复4点生命并抽1张牌。",
             "avatar": "👶",
             "category": "突破瓶颈",
             "effectEffectId": "nascent_soul_pill__effect",
@@ -10691,7 +12417,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "清虚门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "清虚门流通的调息秘丹，恢复4点生命并获得2点护甲。",
             "avatar": "💊",
             "effectEffectId": "moon_pill__effect",
             "sect": "清虚门",
@@ -10719,7 +12445,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "化刀坞内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "化刀坞流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "化刀坞",
@@ -10746,7 +12472,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "巨剑门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "巨剑门流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "巨剑门",
@@ -10774,7 +12500,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "天阙堡内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "天阙堡流通的调息秘丹，恢复4点生命并获得2点护甲。",
             "avatar": "💊",
             "effectEffectId": "moon_pill__effect",
             "sect": "天阙堡",
@@ -10802,7 +12528,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "灵兽山内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "灵兽山流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "灵兽山",
@@ -10830,7 +12556,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "鬼灵门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "鬼灵门流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "鬼灵门",
@@ -10858,7 +12584,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "六道极圣一脉流通的调息秘丹，适合逆星盟魔修在中盘续航。",
+            "description": "六道传承流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "逆星盟",
@@ -10888,7 +12614,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "玄骨门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "玄骨门流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "玄骨门",
@@ -10915,7 +12641,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "天魔宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "天魔宗流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "天魔宗",
@@ -10942,7 +12668,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "阴罗宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "阴罗宗流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "阴罗宗",
@@ -10969,7 +12695,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "合欢宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "合欢宗流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "合欢宗",
@@ -10995,7 +12721,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "魔焰宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "魔焰宗流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "魔焰宗",
@@ -11022,7 +12748,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "极阴岛内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "极阴岛流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "极阴岛",
@@ -11049,7 +12775,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "黑煞教内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "黑煞教流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "黑煞教",
@@ -11076,7 +12802,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "巨鲸帮内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "巨鲸帮流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "巨鲸帮",
@@ -11103,7 +12829,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "万妖谷内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "万妖谷流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "万妖谷",
@@ -11130,7 +12856,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "御灵宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "御灵宗流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "御灵宗",
@@ -11158,7 +12884,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "天煞宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "天煞宗流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "天煞宗",
@@ -11185,7 +12911,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "千幻宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "千幻宗流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "千幻宗",
@@ -11211,7 +12937,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "妙音门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "妙音门流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "妙音门",
@@ -11237,7 +12963,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "隐煞门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "隐煞门流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "隐煞门",
@@ -11264,7 +12990,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "天星宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "天星宗流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "天星宗",
@@ -11291,7 +13017,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "神兵门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "神兵门流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "神兵门",
@@ -11318,7 +13044,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "万妙观内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "万妙观流通的调息秘丹，恢复4点生命并获得2点护甲。",
             "avatar": "💊",
             "effectEffectId": "moon_pill__effect",
             "sect": "万妙观",
@@ -11345,7 +13071,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "千竹教内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "千竹教流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "千竹教",
@@ -11372,7 +13098,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "万法门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "万法门流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "万法门",
@@ -11399,7 +13125,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "落云宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "落云宗流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "落云宗",
@@ -11425,7 +13151,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "古剑门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "古剑门流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "古剑门",
@@ -11452,7 +13178,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "百巧院内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "百巧院流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "百巧院",
@@ -11479,7 +13205,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "太一门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "太一门流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "太一门",
@@ -11506,7 +13232,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "小极宫内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "小极宫流通的调息秘丹，恢复4点生命并获得2点护甲。",
             "avatar": "💊",
             "effectEffectId": "moon_pill__effect",
             "sect": "小极宫",
@@ -11533,7 +13259,7 @@
             "type": "pill",
             "realm": 3,
             "cost": 2,
-            "description": "天机阁内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "天机阁流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "天机阁",
@@ -11560,7 +13286,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "越国七派内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "越国七派流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "越国七派",
@@ -11587,7 +13313,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "魔道六宗内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "魔道六宗流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "魔道六宗",
@@ -11614,7 +13340,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "正道盟内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "正道盟流通的调息秘丹，恢复4点生命并获得2点护甲。",
             "avatar": "💊",
             "effectEffectId": "moon_pill__effect",
             "sect": "正道盟",
@@ -11641,7 +13367,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "天道盟内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "天道盟流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "天道盟",
@@ -11668,7 +13394,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "九国盟内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "九国盟流通的调息秘丹，恢复4点生命并获得2点护甲。",
             "avatar": "💊",
             "effectEffectId": "moon_pill__effect",
             "sect": "九国盟",
@@ -11695,7 +13421,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "星宫内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "星宫流通的调息秘丹，灵力上限永久+1，并恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "foundation_pill__effect",
             "sect": "星宫",
@@ -11722,7 +13448,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "逆星盟内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "逆星盟流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "逆星盟",
@@ -11749,7 +13475,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "六连殿内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "六连殿流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "六连殿",
@@ -11776,7 +13502,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "燕家堡内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "燕家堡流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "燕家堡",
@@ -11803,7 +13529,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "乱星海正道内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "乱星海正道流通的调息秘丹，恢复3点生命。",
             "avatar": "💊",
             "effectEffectId": "spirit_pill__effect",
             "sect": "乱星海正道",
@@ -11830,7 +13556,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "乱星海魔道内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "乱星海魔道流通的调息秘丹，本回合获得2点临时灵力，下回合锁定2点灵力，并受到2点反噬伤害。",
             "avatar": "💊",
             "effectEffectId": "burst_pill__effect",
             "sect": "乱星海魔道",
@@ -11857,7 +13583,7 @@
             "type": "pill",
             "realm": 4,
             "cost": 3,
-            "description": "大晋正魔十大宗门内部流通的调息丹药，适合本宗修士在中盘续航。",
+            "description": "大晋正魔十大宗门流通的调息秘丹，生命恢复至满值并抽2张牌。",
             "avatar": "💊",
             "effectEffectId": "ten_thousand_spirit_milk__effect",
             "sect": "大晋正魔十大宗门",
@@ -11884,7 +13610,7 @@
             "type": "pill",
             "realm": 1,
             "cost": 1,
-            "description": "南宫婉想念的凡俗点心，入口安神回气。效果：恢复3点生命；若场上有掩月宗修士，抽1张牌",
+            "description": "南宫婉想念的凡俗点心，入口安神回气；恢复3点生命；若场上有掩月宗修士，抽1张牌。",
             "avatar": "🥮",
             "effectEffectId": "yanyue_waner_pastry__effect",
             "sect": "掩月宗",
@@ -11909,7 +13635,7 @@
             "realm": 2,
             "cost": 2,
             "effect": "forget_dust",
-            "description": "与无忧针并称的抹除记忆之物。效果：恢复4点生命，清除己方中毒和冻结，并抽1张牌",
+            "description": "与无忧针并称的抹除记忆之物；恢复4点生命，清除己方中毒和冻结，并抽1张牌。",
             "avatar": "💊",
             "heroOnly": "hanli",
             "exclusive": true,
@@ -11929,7 +13655,7 @@
             "realm": 1,
             "cost": 1,
             "effect": "pastry",
-            "description": "南宫婉偏爱的凡俗糕点。效果：恢复2点生命并获得1点护甲；若生命值低于一半，额外抽1张牌",
+            "description": "南宫婉偏爱的凡俗糕点；恢复2点生命并获得1点护甲；若生命值低于一半，额外抽1张牌。",
             "avatar": "🍰",
             "taxonomyRefs": [
                 "sect:yanyue"
@@ -12043,7 +13769,7 @@
             "id": "dayan_puppet_substitute",
             "name": "傀儡替身",
             "type": "puppet",
-            "cost": 2,
+            "cost": 4,
             "attack": 1,
             "health": 4,
             "spiritRoot": "金",
@@ -12210,7 +13936,7 @@
             "name": "颠倒五行阵",
             "type": "formation",
             "realm": 5,
-            "cost": 5,
+            "cost": 4,
             "duration": 3,
             "description": "天星宗体系中极负盛名的便携禁法器具，阵旗阵盘布置后可反制敌方法术；持续3回合，敌方施放法术时受到2点反噬伤害。",
             "avatar": "🔄",
@@ -12524,7 +14250,7 @@
             "type": "formation",
             "cost": 2,
             "duration": 3,
-            "description": "黄枫谷弟子在此炼丹，每回合开始时如果手牌中有丹药，恢复2生命",
+            "description": "黄枫谷弟子在此炼丹，每回合开始时如果手牌中有丹药，恢复2生命，持续3回合。",
             "avatar": "⚗️",
             "onTurnStartEffectId": "huangfeng_alchemy__onTurnStart",
             "onActivateEffectId": "huangfeng_alchemy__onActivate",
@@ -12550,7 +14276,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "黄枫谷护山剑阵，我方金属性修士攻击力+2",
+            "description": "黄枫谷护山剑阵，我方金属性修士攻击力+2，持续3回合。",
             "avatar": "⚔️",
             "onActivateEffectId": "huangfeng_sword_array__onActivate",
             "onExpireEffectId": "huangfeng_sword_array__onExpire",
@@ -12603,7 +14329,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "魔道血祭坛，我方修士攻击时吸血1点",
+            "description": "魔道血祭坛，我方修士攻击时吸血1点，持续3回合。",
             "avatar": "🩸",
             "onActivateEffectId": "modao_blood_altar__onActivate",
             "onExpireEffectId": "modao_blood_altar__onExpire",
@@ -12616,7 +14342,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "妖族风穴，我方妖族修士攻击时额外造成1点伤害",
+            "description": "妖族风穴，我方妖族修士攻击时额外造成1点伤害，持续3回合。",
             "avatar": "🌪️",
             "onActivateEffectId": "yaozu_wind_cave__onActivate",
             "onExpireEffectId": "yaozu_wind_cave__onExpire",
@@ -12669,7 +14395,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "鬼道迷雾，我方修士死亡时进入墓地而非直接消失",
+            "description": "鬼道迷雾，我方修士死亡时进入墓地而非直接消失，持续3回合。",
             "avatar": "🌫️",
             "onActivateEffectId": "guidao_ghost_mist__onActivate",
             "onExpireEffectId": "guidao_ghost_mist__onExpire",
@@ -12694,7 +14420,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "血杀宗毒雾，敌方修士每回合开始时受到1点伤害",
+            "description": "血杀宗毒雾，敌方修士每回合开始时受到1点伤害，持续3回合。",
             "avatar": "☠️",
             "onTurnStartEffectId": "xuesha_poison_mist__onTurnStart",
             "realm": 2
@@ -12705,7 +14431,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "南宫婉的轮回契约，我方修士死亡时，南宫婉恢复3生命",
+            "description": "南宫婉的轮回契约，我方修士死亡时，南宫婉恢复3生命，持续3回合。",
             "avatar": "💫",
             "onActivateEffectId": "nangongwan_soul_pact__onActivate",
             "onExpireEffectId": "nangongwan_soul_pact__onExpire",
@@ -12752,7 +14478,7 @@
             "type": "formation",
             "cost": 2,
             "duration": 3,
-            "description": "银月施展魅术，敌方英雄每回合失去1灵力",
+            "description": "银月施展魅术，敌方英雄每回合失去1灵力，持续3回合。",
             "avatar": "💋",
             "onTurnStartEffectId": "yinyue_soul_charm__onTurnStart",
             "realm": 2,
@@ -12779,7 +14505,7 @@
             "type": "formation",
             "cost": 2,
             "duration": 3,
-            "description": "紫灵以天姿设下陷阱，敌方修士攻击紫灵时受到2点反噬",
+            "description": "紫灵以天姿设下陷阱，敌方修士攻击紫灵时受到2点反噬，持续3回合。",
             "avatar": "💜",
             "onActivateEffectId": "ziling_beauty_trap__onActivate",
             "onExpireEffectId": "ziling_beauty_trap__onExpire",
@@ -12805,7 +14531,7 @@
             "type": "formation",
             "cost": 4,
             "duration": 3,
-            "description": "玄骨上人冰焰大阵，敌方修士每回合有50%概率被冻结",
+            "description": "玄骨上人冰焰大阵，敌方修士每回合有50%概率被冻结，持续3回合。",
             "avatar": "❄️",
             "onTurnStartEffectId": "xuangui_frost_bone__onTurnStart",
             "realm": 3,
@@ -12831,7 +14557,7 @@
             "type": "formation",
             "cost": 5,
             "duration": 3,
-            "description": "极阴祖师五子同心魔阵，每回合对敌方英雄造成2点伤害",
+            "description": "极阴祖师五子同心魔阵，每回合对敌方英雄造成2点伤害，持续3回合。",
             "avatar": "👹",
             "onTurnStartEffectId": "jiyin_five_child_demon__onTurnStart",
             "realm": 5,
@@ -12857,7 +14583,7 @@
             "type": "formation",
             "cost": 4,
             "duration": 3,
-            "description": "温天仁六极真魔功，每回合开始时获得2护甲，敌方修士攻击力-1",
+            "description": "温天仁六极真魔功，每回合开始时获得2护甲，敌方修士攻击力-1，持续3回合。",
             "avatar": "😈",
             "onTurnStartEffectId": "wentianren_six_extreme__onTurnStart",
             "onExpireEffectId": "wentianren_six_extreme__onExpire",
@@ -12882,7 +14608,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "血杀宗血池，我方修士击杀敌方时恢复全部生命",
+            "description": "血杀宗血池，我方修士击杀敌方时恢复全部生命，持续3回合。",
             "avatar": "🏊",
             "onActivateEffectId": "wangchan_blood_pool__onActivate",
             "onExpireEffectId": "wangchan_blood_pool__onExpire",
@@ -12911,7 +14637,7 @@
             "type": "formation",
             "cost": 4,
             "duration": 4,
-            "description": "令狐老祖长春功圆满境界，每回合恢复3生命，友方修士+1生命上限",
+            "description": "令狐老祖长春功圆满境界，每回合恢复3生命，友方修士+1生命上限，持续4回合。",
             "avatar": "🌿",
             "onTurnStartEffectId": "linghu_changchun_perfect__onTurnStart",
             "onExpireEffectId": "linghu_changchun_perfect__onExpire",
@@ -14397,7 +16123,7 @@
             "name": "噬金虫",
             "type": "pet",
             "realm": 2,
-            "cost": 2,
+            "cost": 3,
             "attack": 1,
             "health": 2,
             "spiritRoot": "变异",
@@ -14425,26 +16151,28 @@
             ],
             "loreSource": {
                 "arc": "human",
-                "source": "external-wiki",
-                "url": "https://immortalascension.com/rankings/han-li-arsenal-evolution",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠",
                 "relatedUrls": [
-                    "https://immortalascension.com/rankings/human-realm-top-ten"
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
                 ],
-                "title": "韩立法宝库变迁史",
-                "pageDate": "2026-03-06",
-                "retrievedAt": "2026-06-21",
-                "category": "韩立核心灵虫战力",
                 "novelExactMatch": {
                     "name": "噬金虫",
-                    "occurrenceCount": 430,
+                    "occurrenceCount": 841,
                     "lineHints": [
                         17802,
                         17824,
                         17827,
-                        17828
+                        17828,
+                        17837,
+                        17843
                     ]
                 },
-                "note": "外部榜单将噬金虫群列为韩立飞升前核心战力；本地人界原文高频命中。"
+                "note": "外部妖兽百科列为韩立核心灵虫；现有吞噬成长定位保留。"
             }
         },
         {
@@ -14474,7 +16202,170 @@
                 "race:yaozu",
                 "lineage:lingchong",
                 "species:blood-jade-spider"
-            ]
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "血玉蜘蛛",
+                    "occurrenceCount": 113,
+                    "lineHints": [
+                        15583,
+                        17730,
+                        17827,
+                        17841,
+                        18064,
+                        18065
+                    ]
+                },
+                "note": "外部妖兽百科列为韩立取虚天鼎关键灵兽；现有攻击中毒定位保留。"
+            }
+        },
+        {
+            "id": "yin_zhi_horse",
+            "name": "阴芝马",
+            "type": "pet",
+            "realm": 4,
+            "cost": 4,
+            "attack": 1,
+            "health": 4,
+            "avatar": "🐴",
+            "description": "灵药化形的阴芝马，药香可滋养灵宠。战吼：随机友方灵宠+0/+1并清除中毒；每回合开始恢复一名受伤友军1点生命。",
+            "onPlayEffectId": "yin_zhi_horse__onPlay",
+            "onTurnStartEffectId": "yin_zhi_horse__onTurnStart",
+            "taxonomyRefs": [
+                "race:yaozu"
+            ],
+            "gameTags": [
+                "妖族",
+                "灵宠",
+                "回复"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠/灵草化形",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "阴芝马",
+                    "occurrenceCount": 38,
+                    "lineHints": [
+                        45475,
+                        45516,
+                        45517,
+                        45519,
+                        45523,
+                        45524
+                    ]
+                },
+                "note": "原文在坠魔谷相关段落多次出现阴芝马；游戏化为灵药化形的持续回复灵宠。"
+            }
+        },
+        {
+            "id": "double_pupil_mouse",
+            "name": "双瞳鼠",
+            "type": "pet",
+            "realm": 1,
+            "cost": 2,
+            "attack": 1,
+            "health": 1,
+            "avatar": "🐭",
+            "description": "双瞳鼠能窥破迷雾与遮蔽。战吼：显形敌方最强修士并使其攻击力-1；若无敌方修士则抽1张牌。",
+            "onPlayEffectId": "double_pupil_mouse__onPlay",
+            "taxonomyRefs": [
+                "race:yaozu"
+            ],
+            "gameTags": [
+                "妖族",
+                "灵宠",
+                "控制",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "双瞳鼠",
+                    "occurrenceCount": 12,
+                    "lineHints": [
+                        8918,
+                        8921,
+                        8924,
+                        8934,
+                        8936,
+                        8940
+                    ]
+                },
+                "note": "外部妖兽百科列为低级透视灵兽，原文在黄枫谷修仙体系中命中；游戏化为显形和削弱。"
+            }
+        },
+        {
+            "id": "cloud_wing_bird",
+            "name": "云翅鸟",
+            "type": "pet",
+            "realm": 1,
+            "cost": 2,
+            "attack": 1,
+            "health": 2,
+            "avatar": "🕊️",
+            "description": "低阶灵禽，可传讯与高空侦查。战吼：抽1张牌；若敌方有修士，显形敌方最强修士。",
+            "onPlayEffectId": "cloud_wing_bird__onPlay",
+            "taxonomyRefs": [
+                "race:yaozu"
+            ],
+            "gameTags": [
+                "妖族",
+                "灵宠",
+                "抽牌",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "云翅鸟",
+                    "occurrenceCount": 9,
+                    "lineHints": [
+                        1445,
+                        1450,
+                        2167,
+                        3416,
+                        4261,
+                        4262
+                    ]
+                },
+                "note": "外部妖兽百科列为低阶灵禽，原文多处出现；游戏化为侦查和传讯抽牌。"
+            }
         },
         {
             "id": "soul_beast",
@@ -14499,6 +16390,31 @@
                     "hanli",
                     "yuanyao"
                 ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "啼魂兽",
+                    "occurrenceCount": 243,
+                    "lineHints": [
+                        20514,
+                        20515,
+                        20565,
+                        20630,
+                        20631,
+                        20632
+                    ]
+                },
+                "note": "外部妖兽百科列为吸魂啖鬼灵兽；现有克制鬼物定位保留。"
             }
         },
         {
@@ -14566,7 +16482,32 @@
                 "race:yaozu",
                 "lineage:lingchong",
                 "species:six-winged-frost-centipede"
-            ]
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "六翼霜蚣",
+                    "occurrenceCount": 106,
+                    "lineHints": [
+                        31562,
+                        31591,
+                        31596,
+                        31678,
+                        31679,
+                        31680
+                    ]
+                },
+                "note": "外部妖兽百科列为冰属性真龙后裔；现有冻结定位保留。"
+            }
         },
         {
             "id": "thunder_leopard",
@@ -14601,7 +16542,32 @@
                 "防御"
             ],
             "description": "擅长遁地，无法被法术指定为目标",
-            "avatar": "🐲"
+            "avatar": "🐲",
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local+ydys-encyclopedia",
+                "title": "妖兽、丹药、灵草百科与本地原文交叉校验",
+                "retrievedAt": "2026-06-27",
+                "category": "妖兽灵宠",
+                "relatedUrls": [
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_yaoshou.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_danyao.html",
+                    "https://ydys.axiaoxin.com/linggen-quiz/baike_lingcao.html"
+                ],
+                "novelExactMatch": {
+                    "name": "土甲龙",
+                    "occurrenceCount": 33,
+                    "lineHints": [
+                        43396,
+                        43399,
+                        43400,
+                        43414,
+                        43415,
+                        43416
+                    ]
+                },
+                "note": "外部妖兽百科列为寻宝灵宠；现有难以被法术指定定位保留。"
+            }
         },
         {
             "id": "snow_silkworm",
@@ -14762,7 +16728,7 @@
             "name": "月兔",
             "type": "pet",
             "realm": 3,
-            "cost": 3,
+            "cost": 4,
             "attack": 2,
             "health": 4,
             "spiritRoot": "水",
@@ -14980,7 +16946,7 @@
             "id": "yaozu_thunder_beast",
             "name": "妖族雷兽",
             "type": "pet",
-            "cost": 3,
+            "cost": 4,
             "attack": 3,
             "health": 3,
             "spiritRoot": "雷",
@@ -15129,7 +17095,7 @@
             "managedOwnershipRefs": [
                 "race:yaozu"
             ],
-            "description": "冰海之主，天凤血脉的高阶妖修，出场时冻结并伤害敌方最强修士",
+            "description": "冰海之主，天凤血脉的高阶妖修；出场时冻结敌方最强修士并造成2点伤害，若敌方无修士则对敌方英雄造成3点伤害。",
             "avatar": "❄️",
             "battlecry": true,
             "onPlayEffectId": "ice_phoenix__onPlay",
@@ -15301,7 +17267,7 @@
             "managedOwnershipRefs": [
                 "region:kunwu-mountain"
             ],
-            "description": "昆吾山树妖，灵木成精；每回合开始时为受伤友军恢复生命",
+            "description": "昆吾山树妖，灵木成精；每回合开始时为受伤友军恢复2点生命，若无受伤友军则为己方英雄恢复1点生命。",
             "avatar": "🌳",
             "onTurnStartEffectId": "wood_spirit_kui__onTurnStart"
         },

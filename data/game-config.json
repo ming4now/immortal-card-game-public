@@ -4,10 +4,10 @@
     "defaultMode": "artwork",
     "defaultOpacity": 1,
     "uiOpacity": {
-      "field": 0.06,
-      "hand": 0.2,
-      "center": 0.2,
-      "side": 0.2
+      "field": 0.13,
+      "hand": 0.28,
+      "center": 0.22,
+      "side": 0.55
     },
     "modes": [
       {
