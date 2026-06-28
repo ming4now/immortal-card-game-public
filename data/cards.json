@@ -514,8 +514,6 @@
             "description": "鬼灵门弟子，死亡时抽一张牌",
             "avatar": "👻",
             "onDeathEffectId": "guiling_disciple__onDeath",
-            "heroOnly": "wangchan",
-            "exclusive": true,
             "taxonomyRefs": [
                 "sect:guiling",
                 "path:modao",
@@ -523,10 +521,17 @@
             ],
             "gameTags": [
                 "鬼灵门",
-                "王婵",
                 "魔道",
                 "鬼道",
                 "血道"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:guiling"
+                ]
+            },
+            "managedOwnershipRefs": [
+                "sect:guiling"
             ]
         },
         {
@@ -724,8 +729,6 @@
             "description": "温天仁六极真魔功召唤的魔侍，攻击时偷取目标1点攻击力",
             "avatar": "👹",
             "onAttackEffectId": "six_extreme_demon__onAttack",
-            "heroOnly": "wentianren",
-            "exclusive": true,
             "taxonomyRefs": [
                 "lineage:liudao",
                 "path:modao"
@@ -733,6 +736,14 @@
             "gameTags": [
                 "六道传承",
                 "魔道"
+            ],
+            "requirements": {
+                "allIdentity": [
+                    "lineage:liudao"
+                ]
+            },
+            "managedOwnershipRefs": [
+                "lineage:liudao"
             ]
         },
         {
@@ -750,6 +761,17 @@
             "gameTags": [
                 "逆星盟",
                 "魔道"
+            ],
+            "requirements": {
+                "allIdentity": [
+                    "faction:reverse-star-alliance"
+                ]
+            },
+            "taxonomyRefs": [
+                "faction:reverse-star-alliance"
+            ],
+            "managedOwnershipRefs": [
+                "faction:reverse-star-alliance"
             ]
         },
         {
@@ -1571,35 +1593,6 @@
             }
         },
         {
-            "id": "guiling_lineage_disciple",
-            "name": "鬼灵门弟子",
-            "type": "cultivator",
-            "realm": 2,
-            "cost": 2,
-            "attack": 2,
-            "health": 3,
-            "description": "鬼灵役魂的基础门人，承接鬼灵门的群体传承。",
-            "avatar": "👻",
-            "sect": "鬼灵门",
-            "taxonomyRefs": [
-                "sect:guiling"
-            ],
-            "gameTags": [
-                "鬼灵门",
-                "魔道",
-                "鬼道",
-                "控制",
-                "召唤",
-                "低费"
-            ],
-            "requirements": {
-                "anyIdentity": [
-                    "sect:guiling"
-                ]
-            },
-            "spiritRoot": "阴"
-        },
-        {
             "id": "liudao_lineage_disciple",
             "name": "六道传承魔侍",
             "type": "cultivator",
@@ -1825,33 +1818,6 @@
                 ]
             },
             "spiritRoot": "妖"
-        },
-        {
-            "id": "miaoyin_lineage_disciple",
-            "name": "妙音门弟子",
-            "type": "cultivator",
-            "realm": 2,
-            "cost": 2,
-            "attack": 2,
-            "health": 3,
-            "description": "妙音幻声的基础门人，承接妙音门的群体传承。",
-            "avatar": "🎵",
-            "sect": "妙音门",
-            "taxonomyRefs": [
-                "sect:miaoyin"
-            ],
-            "gameTags": [
-                "妙音门",
-                "控制",
-                "抽牌",
-                "低费"
-            ],
-            "requirements": {
-                "anyIdentity": [
-                    "sect:miaoyin"
-                ]
-            },
-            "spiritRoot": "水"
         },
         {
             "id": "yinsha_lineage_disciple",
@@ -3393,16 +3359,6 @@
             "effectEffectId": "meditation__effect"
         },
         {
-            "id": "spirit_eye_spring_spell",
-            "name": "灵眼之泉",
-            "type": "spell",
-            "realm": 4,
-            "cost": 3,
-            "description": "借助灵眼之泉的精纯灵气，抽2张牌，并在本回合获得1点临时灵力。",
-            "avatar": "💧",
-            "effectEffectId": "spirit_eye_spring__effect"
-        },
-        {
             "id": "observe_qi",
             "name": "观气术",
             "type": "spell",
@@ -3525,16 +3481,6 @@
             "description": "使一个敌方随从下两回合无法攻击",
             "avatar": "✋",
             "effectEffectId": "immobilize__effect"
-        },
-        {
-            "id": "soul_peek",
-            "name": "搜魂术",
-            "type": "spell",
-            "realm": 2,
-            "cost": 2,
-            "description": "查看敌方手牌，抽1张牌",
-            "avatar": "👁️",
-            "effectEffectId": "soul_search__effect"
         },
         {
             "id": "earth_escape",
@@ -8640,7 +8586,7 @@
             "type": "treasure",
             "realm": 6,
             "cost": 5,
-            "description": "魔道邪宝，装备修士攻击+1，死亡时召唤5个1/1魔魂",
+            "description": "极阴祖师祭炼的魔道邪宝，装备修士攻击+1，死亡时召唤5个1/1魔魂",
             "avatar": "👹",
             "category": "特殊",
             "durability": 1,
@@ -8651,6 +8597,22 @@
                 "极阴岛",
                 "鬼道",
                 "魔道"
+            ],
+            "requirements": {
+                "anyIdentity": [
+                    "sect:yinluo",
+                    "faction:jiyin"
+                ]
+            },
+            "taxonomyRefs": [
+                "sect:yinluo",
+                "faction:jiyin",
+                "path:guidao",
+                "path:modao"
+            ],
+            "managedOwnershipRefs": [
+                "sect:yinluo",
+                "faction:jiyin"
             ]
         },
         {
@@ -11568,7 +11530,8 @@
             "type": "pill",
             "realm": 2,
             "cost": 2,
-            "description": "韩立秘制，恢复5点生命并抽一张牌",
+            "spiritRoot": "木",
+            "description": "韩立专属：恢复5点生命并抽1张牌；若生命低于50%则额外恢复3点",
             "avatar": "🧪",
             "effectEffectId": "green_liquid__effect",
             "heroOnly": "hanli",
@@ -12386,18 +12349,6 @@
                     "occurrenceCount": 1
                 }
             }
-        },
-        {
-            "id": "hanli_heaven_bottle_ripe",
-            "name": "掌天瓶绿液",
-            "type": "pill",
-            "cost": 2,
-            "spiritRoot": "木",
-            "description": "韩立专属：恢复5点生命，若生命低于50%则额外恢复3点",
-            "avatar": "🍃",
-            "heroOnly": "hanli",
-            "effectEffectId": "hanli_heaven_bottle_ripe__effect",
-            "realm": 2
         },
         {
             "id": "linghu_ancient_elixir",
@@ -14552,32 +14503,6 @@
             }
         },
         {
-            "id": "jiyin_five_child_demon",
-            "name": "五子同心魔",
-            "type": "formation",
-            "cost": 5,
-            "duration": 3,
-            "description": "极阴祖师五子同心魔阵，每回合对敌方英雄造成2点伤害，持续3回合。",
-            "avatar": "👹",
-            "onTurnStartEffectId": "jiyin_five_child_demon__onTurnStart",
-            "realm": 5,
-            "taxonomyRefs": [
-                "faction:jiyin",
-                "path:guidao",
-                "path:modao"
-            ],
-            "gameTags": [
-                "极阴岛",
-                "鬼道",
-                "魔道"
-            ],
-            "requirements": {
-                "anyIdentity": [
-                    "faction:jiyin"
-                ]
-            }
-        },
-        {
             "id": "wentianren_six_extreme",
             "name": "六极真魔功",
             "type": "formation",
@@ -14597,10 +14522,13 @@
                 "魔道"
             ],
             "requirements": {
-                "anyIdentity": [
+                "allIdentity": [
                     "lineage:liudao"
                 ]
-            }
+            },
+            "managedOwnershipRefs": [
+                "lineage:liudao"
+            ]
         },
         {
             "id": "wangchan_blood_pool",
@@ -15998,7 +15926,7 @@
             "cost": 3,
             "duration": 2,
             "description": "黑煞教用于困住来敌的冷僻阵法；持续2回合，布置时冻结敌方所有修士并令其暂时无法攻击，之后每回合开始随机冻结1名敌方修士。",
-            "avatar": "四",
+            "avatar": "☯️",
             "category": "控制",
             "onActivateEffectId": "four_symbols_formation__onActivate",
             "onTurnStartEffectId": "four_symbols_formation__onTurnStart",

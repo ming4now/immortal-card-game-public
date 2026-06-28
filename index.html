@@ -53,8 +53,8 @@
         })();
     </script>
     <!-- End Baidu Analytics -->
-  <script type="module" crossorigin src="./assets/main-BJC3QbW2.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/main-ChAHhbMB.css">
+  <script type="module" crossorigin src="./assets/main-BUROFyUB.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-Bkd800UH.css">
 </head>
 <body class="menu-open">
     <button id="audio-toggle" class="audio-toggle" type="button" title="关闭背景音乐" aria-label="关闭背景音乐">🔊</button>
@@ -92,6 +92,10 @@
                     <button class="menu-btn menu-btn-secondary" id="btn-view-cards" hidden>
                         <span class="btn-icon">📚</span>
                         <span class="btn-text">卡牌图鉴</span>
+                    </button>
+                    <button class="menu-btn menu-btn-secondary" id="btn-view-card-backs" hidden>
+                        <span class="btn-icon">▣</span>
+                        <span class="btn-text">卡背系统</span>
                     </button>
                     <button class="menu-btn menu-btn-secondary" id="btn-view-heroes">
                         <span class="btn-icon">👥</span>
@@ -153,6 +157,7 @@
                     </div>
                 </details>
             </div>
+            <button id="opponent-hand-toggle" class="opponent-hand-toggle" type="button" hidden aria-pressed="false">查看敌方手牌</button>
             <div id="turn-info-top">
                 <span>第 <span id="turn-number">1</span> 回合</span>
                 <span id="current-player">我方回合</span>
@@ -548,6 +553,9 @@
 
     <!-- 卡牌图鉴 -->
     <div id="card-gallery-container" class="card-gallery hidden"></div>
+
+    <!-- 卡背系统 -->
+    <div id="card-back-gallery-container" class="card-back-gallery hidden"></div>
 
     <!-- 牌组选择弹窗 -->
     <div id="deck-select-modal" class="modal">

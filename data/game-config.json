@@ -1,4 +1,56 @@
 {
+  "cardBacks": {
+    "enabled": true,
+    "defaultId": "classic_cultivation",
+    "sideDefaults": {
+      "player": "classic_cultivation",
+      "opponent": "classic_cultivation"
+    },
+    "backs": [
+      {
+        "id": "classic_cultivation",
+        "name": "青玄卡背",
+        "mark": "",
+        "pattern": "stripe",
+        "description": "默认修仙牌背，用于隐藏非当前操作者的手牌正面信息。",
+        "colors": {
+          "border": "rgba(243, 156, 18, 0.48)",
+          "accent": "rgba(243, 156, 18, 0.32)",
+          "glow": "rgba(243, 156, 18, 0.28)",
+          "text": "rgba(255, 230, 176, 0.86)",
+          "background": "linear-gradient(135deg, #142236, #223e58 48%, #101827)"
+        }
+      },
+      {
+        "id": "moon_shadow",
+        "name": "月影卡背",
+        "mark": "",
+        "pattern": "moon",
+        "description": "偏冷色的月华牌背，可用于后续特殊活动或阵营主题。",
+        "colors": {
+          "border": "rgba(125, 211, 252, 0.52)",
+          "accent": "rgba(167, 139, 250, 0.36)",
+          "glow": "rgba(125, 211, 252, 0.26)",
+          "text": "rgba(224, 242, 254, 0.9)",
+          "background": "linear-gradient(135deg, #111827, #26365f 50%, #141126)"
+        }
+      },
+      {
+        "id": "demon_flame",
+        "name": "魔焰卡背",
+        "mark": "",
+        "pattern": "flame",
+        "description": "偏魔道的暗红牌背，保留为后续阵营卡背扩展。",
+        "colors": {
+          "border": "rgba(248, 113, 113, 0.52)",
+          "accent": "rgba(251, 146, 60, 0.34)",
+          "glow": "rgba(248, 113, 113, 0.25)",
+          "text": "rgba(254, 226, 226, 0.9)",
+          "background": "linear-gradient(135deg, #1a1116, #4b1f28 48%, #111827)"
+        }
+      }
+    ]
+  },
   "battleBackgrounds": {
     "enabled": true,
     "defaultMode": "artwork",
