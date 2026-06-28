@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-21",
+  "updatedAt": "2026-06-28",
   "description": "Generic lore identity graph for races, lineages, species, sects, tribes, factions, cultivation systems, and regions. Legacy game fields such as sect/race can coexist during migration.",
   "nodeKinds": {
     "race": "High-level race or realm-wide ancestry group.",
@@ -10,7 +10,11 @@
     "tribe": "Tribal or nomadic political unit.",
     "faction": "Loose organization, alliance, valley, palace, market, or political power.",
     "path": "Cultivation system, identity, or technique tradition.",
-    "region": "Geographic origin, realm, island sea, forbidden zone, or secret realm."
+    "region": "Geographic origin, realm, island sea, forbidden zone, or secret realm.",
+    "spiritRoot": "Spirit-root elemental attribute or game root attribute.",
+    "spiritRootLevel": "Spirit-root aptitude tier such as heavenly, mutant, true, pseudo, or hidden root.",
+    "constitution": "Special body constitution, bloodline body, or acquired body state.",
+    "concept": "Reusable lore concept that can support future systems."
   },
   "edgeRelations": {
     "IS_A": "Child node belongs under parent node.",
@@ -25,7 +29,13 @@
     "COUNTERS": "Node is narratively or mechanically favored against another node.",
     "SYNERGIZES_WITH": "Node has positive gameplay or lore synergy with another node.",
     "RESTRICTED_TO": "Card, artifact, technique, or identity is restricted to a node.",
-    "SOURCE_OF": "Node is the source, material, or origin of another node."
+    "SOURCE_OF": "Node is the source, material, or origin of another node.",
+    "HAS_SPIRIT_ROOT": "Hero, character, or group has a spirit-root attribute.",
+    "HAS_SPIRIT_ROOT_LEVEL": "Hero or character has a spirit-root aptitude tier.",
+    "HAS_CONSTITUTION": "Hero or character has a special body constitution.",
+    "ASSOCIATED_WITH_ATTRIBUTE": "Node is associated with an element, attribute, or root.",
+    "IMPROVES": "Item or method improves another identity property.",
+    "CONTRADICTS": "Source claim conflicts with another curated fact."
   },
   "nodes": [
     {
@@ -795,6 +805,893 @@
       "aliases": [
         "树妖木魁",
         "灵木成精"
+      ]
+    },
+    {
+      "id": "spirit-root:metal",
+      "kind": "spiritRoot",
+      "name": "金灵根",
+      "aliases": [
+        "金",
+        "金属性",
+        "金灵根"
+      ],
+      "element": "金",
+      "rootType": "base"
+    },
+    {
+      "id": "spirit-root:wood",
+      "kind": "spiritRoot",
+      "name": "木灵根",
+      "aliases": [
+        "木",
+        "木属性",
+        "木灵根"
+      ],
+      "element": "木",
+      "rootType": "base"
+    },
+    {
+      "id": "spirit-root:water",
+      "kind": "spiritRoot",
+      "name": "水灵根",
+      "aliases": [
+        "水",
+        "水属性",
+        "水灵根"
+      ],
+      "element": "水",
+      "rootType": "base"
+    },
+    {
+      "id": "spirit-root:fire",
+      "kind": "spiritRoot",
+      "name": "火灵根",
+      "aliases": [
+        "火",
+        "火属性",
+        "火灵根"
+      ],
+      "element": "火",
+      "rootType": "base"
+    },
+    {
+      "id": "spirit-root:earth",
+      "kind": "spiritRoot",
+      "name": "土灵根",
+      "aliases": [
+        "土",
+        "土属性",
+        "土灵根"
+      ],
+      "element": "土",
+      "rootType": "base"
+    },
+    {
+      "id": "spirit-root:thunder",
+      "kind": "spiritRoot",
+      "name": "雷灵根",
+      "aliases": [
+        "雷",
+        "雷属性",
+        "雷灵根"
+      ],
+      "element": "雷",
+      "rootType": "mutant"
+    },
+    {
+      "id": "spirit-root:ice",
+      "kind": "spiritRoot",
+      "name": "冰灵根",
+      "aliases": [
+        "冰",
+        "冰属性",
+        "冰灵根"
+      ],
+      "element": "冰",
+      "rootType": "mutant"
+    },
+    {
+      "id": "spirit-root:wind",
+      "kind": "spiritRoot",
+      "name": "风灵根",
+      "aliases": [
+        "风",
+        "风属性",
+        "风灵根"
+      ],
+      "element": "风",
+      "rootType": "mutant"
+    },
+    {
+      "id": "spirit-root:yin",
+      "kind": "spiritRoot",
+      "name": "阴灵根",
+      "aliases": [
+        "阴",
+        "阴属性",
+        "阴灵根"
+      ],
+      "element": "阴",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:dark",
+      "kind": "spiritRoot",
+      "name": "暗灵根",
+      "aliases": [
+        "暗",
+        "暗属性",
+        "暗灵根"
+      ],
+      "element": "暗",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:blood",
+      "kind": "spiritRoot",
+      "name": "血灵根",
+      "aliases": [
+        "血",
+        "血属性",
+        "血灵根"
+      ],
+      "element": "血",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:time",
+      "kind": "spiritRoot",
+      "name": "时间灵根",
+      "aliases": [
+        "时间",
+        "时间属性",
+        "时间灵根"
+      ],
+      "element": "时间",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:item-vzocv7",
+      "kind": "spiritRoot",
+      "name": "全属性灵根",
+      "aliases": [
+        "全属性",
+        "全属性属性",
+        "全属性灵根",
+        "全"
+      ],
+      "element": "全",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:mutant",
+      "kind": "spiritRoot",
+      "name": "变异灵根",
+      "aliases": [
+        "变异",
+        "变异属性",
+        "变异灵根"
+      ],
+      "element": "变异",
+      "rootType": "mutant"
+    },
+    {
+      "id": "spirit-root:poison",
+      "kind": "spiritRoot",
+      "name": "毒灵根",
+      "aliases": [
+        "毒",
+        "毒属性",
+        "毒灵根"
+      ],
+      "element": "毒",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:mortal",
+      "kind": "spiritRoot",
+      "name": "凡灵根",
+      "aliases": [
+        "凡",
+        "凡属性",
+        "凡灵根"
+      ],
+      "element": "凡",
+      "rootType": "none"
+    },
+    {
+      "id": "spirit-root:demonic",
+      "kind": "spiritRoot",
+      "name": "魔灵根",
+      "aliases": [
+        "魔",
+        "魔属性",
+        "魔灵根"
+      ],
+      "element": "魔",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:monster",
+      "kind": "spiritRoot",
+      "name": "妖灵根",
+      "aliases": [
+        "妖",
+        "妖属性",
+        "妖灵根"
+      ],
+      "element": "妖",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root:corpse",
+      "kind": "spiritRoot",
+      "name": "尸灵根",
+      "aliases": [
+        "尸",
+        "尸属性",
+        "尸灵根"
+      ],
+      "element": "尸",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root-level:heavenly",
+      "kind": "spiritRootLevel",
+      "name": "天灵根",
+      "aliases": [
+        "天根",
+        "单一灵根"
+      ],
+      "gameLevelRefs": [
+        "heavenly"
+      ],
+      "description": "单一五行属性，修炼速度极快，原文称“天根”拥有结丹无瓶颈优势。",
+      "group": "heavenly"
+    },
+    {
+      "id": "spirit-root-level:hidden",
+      "kind": "spiritRootLevel",
+      "name": "隐灵根",
+      "aliases": [
+        "隐雷灵根",
+        "隐暗灵根"
+      ],
+      "gameLevelRefs": [
+        "hidden"
+      ],
+      "description": "被特殊体质或血脉遮蔽、间歇显现的稀有灵根，原文以海月天的隐雷灵根作例。",
+      "group": "hidden"
+    },
+    {
+      "id": "spirit-root-level:mutant",
+      "kind": "spiritRootLevel",
+      "name": "变异灵根",
+      "aliases": [
+        "异灵根",
+        "雷灵根",
+        "冰灵根",
+        "风灵根",
+        "暗灵根"
+      ],
+      "gameLevelRefs": [
+        "mutant"
+      ],
+      "description": "二至三种五行属性异变升华，速度不逊天根，但仍有结丹瓶颈。",
+      "group": "mutant"
+    },
+    {
+      "id": "spirit-root-level:true",
+      "kind": "spiritRootLevel",
+      "name": "真灵根",
+      "aliases": [
+        "双灵根",
+        "三灵根"
+      ],
+      "gameLevelRefs": [
+        "dual",
+        "triple"
+      ],
+      "description": "两种或三种属性，修炼速度明显优于四、五属性伪灵根。"
+    },
+    {
+      "id": "spirit-root-level:pseudo",
+      "kind": "spiritRootLevel",
+      "name": "伪灵根",
+      "aliases": [
+        "四灵根",
+        "五灵根",
+        "四属性灵根",
+        "五属性灵根"
+      ],
+      "gameLevelRefs": [
+        "quad",
+        "penta"
+      ],
+      "description": "四种或五种属性混杂，修炼困难。韩立原文明确为四属性缺金。"
+    },
+    {
+      "id": "spirit-root-level:special",
+      "kind": "spiritRootLevel",
+      "name": "特殊灵根",
+      "aliases": [
+        "特殊灵体"
+      ],
+      "gameLevelRefs": [
+        "special"
+      ],
+      "description": "游戏中用于承载阴、血、魔、妖、尸等非标准五行或身份化属性。",
+      "group": "special"
+    },
+    {
+      "id": "spirit-root-level:none",
+      "kind": "spiritRootLevel",
+      "name": "凡骨",
+      "aliases": [
+        "无灵根"
+      ],
+      "gameLevelRefs": [
+        "none"
+      ],
+      "description": "未进入修仙灵根体系。",
+      "group": "none"
+    },
+    {
+      "id": "constitution:earth-spirit",
+      "kind": "constitution",
+      "name": "土灵之体",
+      "aliases": [],
+      "category": "elemental",
+      "elements": [
+        "土"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:fire-spirit",
+      "kind": "constitution",
+      "name": "火灵之体",
+      "aliases": [],
+      "category": "elemental",
+      "elements": [
+        "火"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:five-elements",
+      "kind": "constitution",
+      "name": "五行之体",
+      "aliases": [],
+      "category": "legendary",
+      "elements": [
+        "金",
+        "木",
+        "水",
+        "火",
+        "土"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:five-thunder",
+      "kind": "constitution",
+      "name": "五雷之体",
+      "aliases": [],
+      "category": "thunder",
+      "elements": [
+        "雷"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:flame-spirit",
+      "kind": "constitution",
+      "name": "炎灵之体",
+      "aliases": [],
+      "category": "elemental",
+      "elements": [
+        "火"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:forged-metal",
+      "kind": "constitution",
+      "name": "锻金之体",
+      "aliases": [],
+      "category": "elemental",
+      "elements": [
+        "金"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:indestructible",
+      "kind": "constitution",
+      "name": "不灭之体",
+      "aliases": [],
+      "category": "beast",
+      "elements": [
+        "生机"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:longyin",
+      "kind": "constitution",
+      "name": "龙吟之体",
+      "aliases": [],
+      "category": "innate",
+      "elements": [
+        "阴阳"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:natural-charm",
+      "kind": "constitution",
+      "name": "天生媚体",
+      "aliases": [
+        "媚体"
+      ],
+      "category": "innate",
+      "elements": [
+        "阴",
+        "神识"
+      ],
+      "localStatus": "external-candidate",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:nine-spirit-sword",
+      "kind": "constitution",
+      "name": "九灵剑体",
+      "aliases": [],
+      "category": "legendary",
+      "elements": [
+        "剑"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:sanyang",
+      "kind": "constitution",
+      "name": "三阳之体",
+      "aliases": [],
+      "category": "innate",
+      "elements": [
+        "阳",
+        "火"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:self-governing",
+      "kind": "constitution",
+      "name": "自治之体",
+      "aliases": [],
+      "category": "beast",
+      "elements": [
+        "神识"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:self-healing",
+      "kind": "constitution",
+      "name": "自愈之体",
+      "aliases": [],
+      "category": "beast",
+      "elements": [
+        "生机"
+      ],
+      "localStatus": "external-candidate",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:thunder-body",
+      "kind": "constitution",
+      "name": "雷电之体",
+      "aliases": [],
+      "category": "thunder",
+      "elements": [
+        "雷"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:tianyin",
+      "kind": "constitution",
+      "name": "天阴之体",
+      "aliases": [],
+      "category": "innate",
+      "elements": [
+        "阴"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:tongyu-fengsui",
+      "kind": "constitution",
+      "name": "通玉凤髓之体",
+      "aliases": [
+        "通玉凤髓之身"
+      ],
+      "category": "innate",
+      "elements": [
+        "通灵"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:water-spirit",
+      "kind": "constitution",
+      "name": "水灵之体",
+      "aliases": [],
+      "category": "elemental",
+      "elements": [
+        "水"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:wood-spirit",
+      "kind": "constitution",
+      "name": "木灵之体",
+      "aliases": [],
+      "category": "elemental",
+      "elements": [
+        "木"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:yuanci",
+      "kind": "constitution",
+      "name": "元磁之体",
+      "aliases": [
+        "元磁法体",
+        "元磁之身"
+      ],
+      "category": "legendary",
+      "elements": [
+        "元磁"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:yuanyang-yuanyin",
+      "kind": "constitution",
+      "name": "元阳、元阴之体",
+      "aliases": [
+        "元阳之体",
+        "元阴之体",
+        "元阳",
+        "元阴"
+      ],
+      "category": "innate",
+      "elements": [
+        "阳",
+        "阴"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "concept:spirit-root-inheritance",
+      "kind": "concept",
+      "name": "灵根遗传",
+      "aliases": [
+        "灵根继承",
+        "相同血脉继承"
+      ],
+      "conceptType": "system",
+      "description": "原文说明灵根容易出现在相同血脉继承的人身上，支撑修仙家族体系。"
+    },
+    {
+      "id": "concept:butiandan",
+      "kind": "concept",
+      "name": "补天丹",
+      "aliases": [
+        "补天丹",
+        "洗炼先天灵根",
+        "弥补灵根的不纯"
+      ],
+      "conceptType": "medicine",
+      "description": "虚天鼎相关丹药，原文说明可弥补灵根不纯、洗炼结丹期修士先天灵根。"
+    },
+    {
+      "id": "concept:external-hanli-five-root-conflict",
+      "kind": "concept",
+      "name": "韩立五灵根外部冲突",
+      "aliases": [
+        "韩立就是五灵根"
+      ],
+      "conceptType": "source-conflict",
+      "description": "灵根网页总结称韩立为五灵根；本地原文明确为四属性缺金，当前以原文为准。"
+    },
+    {
+      "id": "spirit-root:item-tgpn4j",
+      "kind": "spiritRoot",
+      "name": "全属性灵根",
+      "aliases": [
+        "全属性",
+        "全属性属性",
+        "全属性灵根",
+        "全"
+      ],
+      "element": "全",
+      "rootType": "special"
+    },
+    {
+      "id": "constitution:chaos-body",
+      "kind": "constitution",
+      "name": "混沌之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "混沌"
+      ],
+      "localStatus": "external-candidate",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/linggen.html"
+      ]
+    },
+    {
+      "id": "constitution:ghostly",
+      "kind": "constitution",
+      "name": "鬼魅之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "阴",
+        "鬼"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:ice-marrow-cold-soul",
+      "kind": "constitution",
+      "name": "冰髓寒魄之体",
+      "aliases": [
+        "冰髓之体"
+      ],
+      "category": "other",
+      "elements": [
+        "冰"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:innate-dao",
+      "kind": "constitution",
+      "name": "先天道体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "道"
+      ],
+      "localStatus": "external-candidate",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/linggen.html"
+      ]
+    },
+    {
+      "id": "constitution:molten-metal",
+      "kind": "constitution",
+      "name": "熔金之体",
+      "aliases": [],
+      "category": "elemental",
+      "elements": [
+        "金"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        ""
+      ]
+    },
+    {
+      "id": "constitution:pure-yang",
+      "kind": "constitution",
+      "name": "纯阳之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "阳"
+      ],
+      "localStatus": "external-candidate",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/linggen.html"
+      ]
+    },
+    {
+      "id": "constitution:pure-yin",
+      "kind": "constitution",
+      "name": "纯阴之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "阴"
+      ],
+      "localStatus": "external-candidate",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/linggen.html"
+      ]
+    },
+    {
+      "id": "spirit-root:all",
+      "kind": "spiritRoot",
+      "name": "全属性灵根",
+      "aliases": [
+        "全属性",
+        "全属性属性",
+        "全属性灵根",
+        "全"
+      ],
+      "element": "全",
+      "rootType": "special"
+    },
+    {
+      "id": "spirit-root-level:dual",
+      "kind": "spiritRootLevel",
+      "name": "真灵根/dual",
+      "aliases": [],
+      "group": "true"
+    },
+    {
+      "id": "spirit-root-level:triple",
+      "kind": "spiritRootLevel",
+      "name": "真灵根/triple",
+      "aliases": [],
+      "group": "true"
+    },
+    {
+      "id": "spirit-root-level:quad",
+      "kind": "spiritRootLevel",
+      "name": "伪灵根/quad",
+      "aliases": [],
+      "group": "pseudo"
+    },
+    {
+      "id": "spirit-root-level:penta",
+      "kind": "spiritRootLevel",
+      "name": "伪灵根/penta",
+      "aliases": [],
+      "group": "pseudo"
+    },
+    {
+      "id": "constitution:ethereal-body",
+      "kind": "constitution",
+      "name": "空灵之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "空灵"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:psychic-body",
+      "kind": "constitution",
+      "name": "通灵之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "通灵"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:shapechanging-body",
+      "kind": "constitution",
+      "name": "化形之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "化形"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:true-spirit-body",
+      "kind": "constitution",
+      "name": "真灵之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "真灵"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
+      ]
+    },
+    {
+      "id": "constitution:xuanhun-body",
+      "kind": "constitution",
+      "name": "玄魂之体",
+      "aliases": [],
+      "category": "other",
+      "elements": [
+        "神魂"
+      ],
+      "localStatus": "matched-local-text",
+      "sourceRefs": [
+        "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html"
       ]
     }
   ],
@@ -1772,6 +2669,192 @@
       "relation": "AFFILIATED_WITH",
       "target": "region:outer-star-sea",
       "evidence": "Source: immortalascension.com/lore/demon-beast-ecology, accessed 2026-06-21."
+    },
+    {
+      "source": "spirit-root-level:heavenly",
+      "relation": "IS_A",
+      "target": "spirit-root-level:heavenly",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:hidden",
+      "relation": "IS_A",
+      "target": "spirit-root-level:hidden",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:mutant",
+      "relation": "IS_A",
+      "target": "spirit-root-level:mutant",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:dual",
+      "relation": "IS_A",
+      "target": "spirit-root-level:true",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:triple",
+      "relation": "IS_A",
+      "target": "spirit-root-level:true",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:quad",
+      "relation": "IS_A",
+      "target": "spirit-root-level:pseudo",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:penta",
+      "relation": "IS_A",
+      "target": "spirit-root-level:pseudo",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:special",
+      "relation": "IS_A",
+      "target": "spirit-root-level:special",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "spirit-root-level:none",
+      "relation": "IS_A",
+      "target": "spirit-root-level:none",
+      "evidence": "Spirit identity foundation grouping."
+    },
+    {
+      "source": "constitution:earth-spirit",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:earth",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:fire-spirit",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:fire",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:five-elements",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:metal",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:five-elements",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:wood",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:five-elements",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:water",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:five-elements",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:fire",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:five-elements",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:earth",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:five-thunder",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:thunder",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:flame-spirit",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:fire",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:forged-metal",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:metal",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:natural-charm",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:yin",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:sanyang",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:fire",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:thunder-body",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:thunder",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:tianyin",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:yin",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:water-spirit",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:water",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:wood-spirit",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:wood",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:yuanyang-yuanyin",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:yin",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "concept:butiandan",
+      "relation": "IMPROVES",
+      "target": "spirit-root-level:pseudo",
+      "evidence": "原文和外部灵根页均说明补天丹可洗炼或改善灵根不纯。"
+    },
+    {
+      "source": "constitution:ghostly",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:yin",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:ice-marrow-cold-soul",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:ice",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:molten-metal",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:metal",
+      "evidence": "Spirit constitution metadata."
+    },
+    {
+      "source": "constitution:pure-yin",
+      "relation": "ASSOCIATED_WITH_ATTRIBUTE",
+      "target": "spirit-root:yin",
+      "evidence": "Spirit constitution metadata."
     }
   ],
   "migrationPolicy": {

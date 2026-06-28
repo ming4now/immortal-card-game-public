@@ -1,4 +1,4 @@
-import{n as e,t}from"./main-CLAaxzai.js";var n={A:10,B:20,C:30},r=`
+import{n as e,t}from"./main-BJC3QbW2.js";var n={A:10,B:20,C:30},r=`
 .scene-dialogue-toast {
     position: fixed;
     top: 72px;

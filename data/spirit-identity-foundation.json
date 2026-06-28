@@ -1,0 +1,2043 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-28T02:30:35.465Z",
+  "sourcePages": [
+    {
+      "key": "constitution",
+      "categoryHint": "特殊体质",
+      "url": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "title": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科"
+    },
+    {
+      "key": "spirit-root",
+      "categoryHint": "灵根体系",
+      "url": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "title": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测"
+    }
+  ],
+  "localText": "凡人修仙传（人界篇+灵界篇）.txt",
+  "matchPolicy": "对体质、灵根、概念的名称和别名在本地原文中做精确子串匹配，并记录前几个命中上下文。",
+  "notes": [
+    "本资料层只做灵根/体质事实基础，不启用新战斗规则。",
+    "外部页面用于提供高密度候选；凡与原文冲突处，以本地原文证据为准。",
+    "linggen.html 将韩立概括为五灵根，但本地原文明确为“四属性缺金，属于伪灵根”，当前游戏仍保留 quad(木水火土)。"
+  ],
+  "summary": {
+    "rootLevelSections": 7,
+    "extractedConstitutions": 32,
+    "constitutionsWithLocalHits": 26,
+    "heroFacts": 6,
+    "heroFactsWithLocalHits": 6,
+    "characterFacts": 6,
+    "characterFactsWithLocalHits": 6
+  },
+  "rootLevels": [
+    {
+      "id": "heavenly",
+      "name": "天灵根",
+      "aliases": [
+        "天根",
+        "单一灵根"
+      ],
+      "gameLevelRefs": [
+        "heavenly"
+      ],
+      "description": "单一五行属性，修炼速度极快，原文称“天根”拥有结丹无瓶颈优势。",
+      "taxonomyRef": "spirit-root-level:heavenly",
+      "localHits": [
+        {
+          "line": 4576,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "天根",
+            "单一灵根"
+          ],
+          "snippet": "至于只有一种属性的单一灵根，则被修仙界称为“天根”，意思是上天的宠儿。因为拥有这种灵根、不论是何属性的人，他修炼的速度都是普通灵根人的二至三倍。而且修炼到筑基期顶峰时，不需面对跨入结丹期时所应面对的瓶颈，可轻易的开始结丹。"
+        },
+        {
+          "line": 4577,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "天根"
+          ],
+          "snippet": "如果说修炼速度的惊人快，让其他修仙者羡慕异常的话，那么“天根”人的无瓶颈就可结丹，则让其他修仙者嫉妒的快要吐血。"
+        },
+        {
+          "line": 4579,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "天根"
+          ],
+          "snippet": "如此悬殊的结丹比例，怎能不让其他修仙者大为眼红“天根”人的得天独厚。"
+        }
+      ]
+    },
+    {
+      "id": "hidden",
+      "name": "隐灵根",
+      "aliases": [
+        "隐雷灵根",
+        "隐暗灵根"
+      ],
+      "gameLevelRefs": [
+        "hidden"
+      ],
+      "description": "被特殊体质或血脉遮蔽、间歇显现的稀有灵根，原文以海月天的隐雷灵根作例。",
+      "taxonomyRef": "spirit-root-level:hidden",
+      "localHits": [
+        {
+          "line": 101608,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "隐灵根"
+          ],
+          "snippet": "第一千七百九十五章 隐灵根"
+        },
+        {
+          "line": 101634,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "隐灵根"
+          ],
+          "snippet": "“说实话，要是你二人真只是一般的筑基修士和普通的炼体士，我是不可能收你们为记名弟子的。之所以决定今日收下你二人，是你二人的确是和我有些缘分。心性品行，我也很满意。但最主要的，还是因为你们一个拥有传说中的隐灵根，另一个体内拥有传承器物。”韩立望着二人，脸上表情有些怪异的说道。"
+        },
+        {
+          "line": 101635,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "隐灵根"
+          ],
+          "snippet": "“隐灵根！”"
+        }
+      ]
+    },
+    {
+      "id": "mutant",
+      "name": "变异灵根",
+      "aliases": [
+        "异灵根",
+        "雷灵根",
+        "冰灵根",
+        "风灵根",
+        "暗灵根"
+      ],
+      "gameLevelRefs": [
+        "mutant"
+      ],
+      "description": "二至三种五行属性异变升华，速度不逊天根，但仍有结丹瓶颈。",
+      "taxonomyRef": "spirit-root-level:mutant",
+      "localHits": [
+        {
+          "line": 4581,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "变异灵根",
+            "异灵根"
+          ],
+          "snippet": "不过像“天根”这样逆天灵根的出现，其几率几乎可以忽略不计，基本上每数百年才可被修仙门派发现一个。倒是另外一种虽不是“天根”，但也不属于五行灵根的“变异灵根”，其出现的几率较大一些，每二三十年就能出现一个。"
+        },
+        {
+          "line": 4582,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "变异灵根",
+            "异灵根"
+          ],
+          "snippet": "所谓的“变异灵根”，指的是二种或三种五行属性混在一起，被异变和升华的灵根。"
+        },
+        {
+          "line": 4583,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "变异灵根",
+            "异灵根",
+            "雷灵根",
+            "冰灵根",
+            "风灵根",
+            "暗灵根"
+          ],
+          "snippet": "像“金灵根”和“水灵根”异变产生的“雷灵根”；“土灵根”和“水灵根”异变后产生的“冰灵根”，当然还有“暗灵根”、“风灵根”等其他变异灵根。"
+        }
+      ]
+    },
+    {
+      "id": "true",
+      "name": "真灵根",
+      "aliases": [
+        "双灵根",
+        "三灵根"
+      ],
+      "gameLevelRefs": [
+        "dual",
+        "triple"
+      ],
+      "description": "两种或三种属性，修炼速度明显优于四、五属性伪灵根。",
+      "taxonomyRef": "spirit-root-level:true",
+      "localHits": [
+        {
+          "line": 4575,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "真灵根"
+          ],
+          "snippet": "所以具有五种、甚至四种属性的灵根，也被修仙界称为“伪灵根”，以示和只有两、三种属性，修炼起来较为快速的“真灵根”相区别。"
+        },
+        {
+          "line": 4586,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "真灵根"
+          ],
+          "snippet": "但是在以前，不要说“天根”和“变异灵根”这样的奇才，修仙门派轻易寻觅不到，就是普通的“真灵根”之人，各门派也大为不好寻找。"
+        },
+        {
+          "line": 4587,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "真灵根"
+          ],
+          "snippet": "因为修仙门派中人，总不能把世俗间每户人家的小孩，都拉出来测试一番！要知道一万个人中才可能有一个生有灵根的人，而五六个有灵根的人中，又只能找出一个是真灵根的人。"
+        }
+      ]
+    },
+    {
+      "id": "pseudo",
+      "name": "伪灵根",
+      "aliases": [
+        "四灵根",
+        "五灵根",
+        "四属性灵根",
+        "五属性灵根"
+      ],
+      "gameLevelRefs": [
+        "quad",
+        "penta"
+      ],
+      "description": "四种或五种属性混杂，修炼困难。韩立原文明确为四属性缺金。",
+      "taxonomyRef": "spirit-root-level:pseudo",
+      "localHits": [
+        {
+          "line": 4575,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "伪灵根"
+          ],
+          "snippet": "所以具有五种、甚至四种属性的灵根，也被修仙界称为“伪灵根”，以示和只有两、三种属性，修炼起来较为快速的“真灵根”相区别。"
+        },
+        {
+          "line": 5411,
+          "chapter": "第一百四十四章 筑基丹之争",
+          "matchedTerms": [
+            "伪灵根"
+          ],
+          "snippet": "“是，掌门师兄！”一位淡绿色的中年人站了起来，淡淡的说道：“这人年纪不大，十八九岁的样子，木属性基础功法九层初期，灵根属性四属性缺金，属于伪灵根。从整体上判断，此人应是资质低下，但应有过奇遇和能勤恳苦练，否则根本无法有如今的境界。若再无其他的机遇，基本上此生顶多练至基础功法十一二层，无法进入筑基期。即使服用一粒筑基丹，但能进入筑基期的可能性也只有百分之一………"
+        },
+        {
+          "line": 5434,
+          "chapter": "第一百四十五章 不速之客",
+          "matchedTerms": [
+            "伪灵根"
+          ],
+          "snippet": "听了姓王的接引人如此一说，韩立自然不会自找没趣，况且在知道自己是四属性的伪灵根后，韩立的心情也老一阵不大好受。"
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "name": "特殊灵根",
+      "aliases": [
+        "特殊灵体"
+      ],
+      "gameLevelRefs": [
+        "special"
+      ],
+      "description": "游戏中用于承载阴、血、魔、妖、尸等非标准五行或身份化属性。",
+      "taxonomyRef": "spirit-root-level:special",
+      "localHits": [
+        {
+          "line": 27846,
+          "chapter": "第五百八十七章 通灵之气",
+          "matchedTerms": [
+            "特殊灵根"
+          ],
+          "snippet": "它虽然无法和其他特殊灵根者相比，也算不上什么百年一见的稀罕体质，但却在修仙界中鼎鼎大名，几乎无人不知，无人不晓！"
+        },
+        {
+          "line": 28426,
+          "chapter": "第六百章 入门（中）",
+          "matchedTerms": [
+            "特殊灵体"
+          ],
+          "snippet": "“想必本宗收录弟子的标准，诸位道友都应该知道了才是。那在下就不在此多说什么了。下面凡是两、三灵根或身具特殊灵体的道友，可以先站出来了。”秋师兄缓缓说道，露出肃然之色。"
+        },
+        {
+          "line": 28546,
+          "chapter": "第六百二章 煅金之体",
+          "matchedTerms": [
+            "特殊灵体"
+          ],
+          "snippet": "“哼！你们隐剑峰上次领走的弟子的确最少，但其中一个可是两灵根的弟子，这怎么不说了。这次的好不容易又出了一位特殊灵体的弟子，自然该轮到我们我们火云峰了。”另一名面色有些惨白的中年人，一听这话立坐不住了，毫不客气站起反驳道。"
+        }
+      ]
+    },
+    {
+      "id": "none",
+      "name": "凡骨",
+      "aliases": [
+        "无灵根"
+      ],
+      "gameLevelRefs": [
+        "none"
+      ],
+      "description": "未进入修仙灵根体系。",
+      "taxonomyRef": "spirit-root-level:none",
+      "localHits": [
+        {
+          "line": 2046,
+          "chapter": "第五十九章 三大铁则",
+          "matchedTerms": [
+            "无灵根"
+          ],
+          "snippet": "对此墨大夫曾心有疑问，想要亲自修炼此功，结果自然毫无所成，还被余子童嘲笑了一番，这才知道没有灵根的人，是无法修炼出法力的，而他就是修仙者口中无灵根的庸人。"
+        },
+        {
+          "line": 42972,
+          "chapter": "第九百二十三章 白露书院",
+          "matchedTerms": [
+            "无灵根"
+          ],
+          "snippet": "“嗯！看来甘兄为你这位表侄还真颇花费了些心思。不过这也难怪，世间凡人能拥有灵根者万中无一，自然对你多加垂青了。就是在下也是苦无灵根，否则也早进入白露书院，苦修求仙之道了。”儒生口中有些感慨的说道。"
+        },
+        {
+          "line": 100452,
+          "chapter": "第一千七百七十七章 九仙山",
+          "matchedTerms": [
+            "无灵根"
+          ],
+          "snippet": "此刻任何一名修士检查其体内灵根，都只会说他是一名毫无灵根的普通炼体士。"
+        }
+      ]
+    }
+  ],
+  "spiritRootSections": [
+    {
+      "id": "tianling",
+      "name": "天灵根",
+      "heading": "天灵根 - 上天宠儿",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "天灵根 - 上天宠儿 稀有度：★★★★★ 基本属性 属性类型： 单一属性（金、木、水、火、土任一） 修炼速度： 普通灵根的2-3倍 出现概率： 数百年才出现一个 特殊能力： 无结丹瓶颈，轻易进入结丹期 五种天灵根详解 金天灵根 主攻击、锐利，修炼金系功法威力巨大，擅长炼器和攻击法术。 代表功法：金刚不坏功、万剑归宗 木天灵根 主生机、治疗，生命力旺盛，擅长炼丹和治疗法术。 代表功法：长春功、青木长生诀 水天灵根 主柔韧、变化，适应性强，擅长防御和辅助法术。 代表功法：玄水真经、寒冰诀 火天灵根 主爆发、毁灭，攻击…",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "yinling",
+      "name": "隐灵根",
+      "heading": "隐灵根 - 神秘莫测",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "隐灵根 - 神秘莫测 稀有度：★★★★★★ 基本属性 属性类型： 隐藏属性，极难发现 出现条件： 特殊血脉和体质 出现概率： 千年难遇 特殊能力： 潜力巨大，需要特殊方法激发 隐灵根类型 隐暗灵根 最稀有的隐灵根，掌控黑暗和阴影力量，攻击诡异难防。 特点：隐秘性极强，难以被发现 隐雷灵根 隐藏的雷属性灵根，一旦觉醒威力惊人，速度和攻击力俱佳。 特点：爆发力强，修炼速度快 觉醒条件 隐灵根需要特殊的机遇或血脉激发才能觉醒，一旦觉醒，修炼潜力不逊于天灵根，甚至在某些方面更加优秀。",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "bianyi",
+      "name": "变异灵根",
+      "heading": "变异灵根 - 异变升华",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "变异灵根 - 异变升华 稀有度：★★★★☆ 基本属性 形成方式： 两种或三种五行属性异变升华 修炼速度： 不逊于天灵根 出现概率： 每20-30年出现一个 战斗能力： 能顶3-4个同等实力的普通修仙者 主要变异灵根类型 雷灵根 形成： 土灵根 + 水灵根异变 特点： 破坏力超强，速度极快，攻击带有麻痹效果 优势： 群体攻击范围大，单体伤害高 攻击力 95% 速度 90% 防御力 70% 冰灵根 形成： 金灵根 + 水灵根异变 特点： 攻防并重，控制能力强，可冰封敌人 优势： 范围控制，持续伤害 攻击力 80% 速…",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "shuang",
+      "name": "真灵根",
+      "heading": "真灵根 - 修炼良材",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "真灵根 - 修炼良材 双灵根和三灵根被统称为\"真灵根\"，是修仙界的良好修炼材料，虽不如天灵根，但远胜伪灵根。 双灵根 基本信息 属性数量： 两种属性 修炼速度： 较快 稀有度： ★★★☆☆ 筑基成功率： 30-40% 常见组合 金+火 水+木 木+土 火+土 水+金 其他组合 优势： 可修炼两系功法，法术组合多样，适应性强 三灵根 基本信息 属性数量： 三种属性 修炼速度： 一般 稀有度： ★★☆☆☆ 筑基成功率： 20-30% 修炼策略 选择主修一种属性 辅修与主属性相生的属性 后期可尝试多系法术融合 需要更多…",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "si",
+      "name": "伪灵根",
+      "heading": "伪灵根 - 修炼困难",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "伪灵根 - 修炼困难 四灵根和五灵根被称为\"伪灵根\"，修炼效果惨不忍睹，是修仙路上的最大障碍。 四灵根 属性数量： 四种属性 修炼速度： 很慢 稀有度： ★☆☆☆☆ 筑基成功率： 5-10% 主要问题 灵气吸收效率低 功法修炼冲突 法力纯度不高 突破极其困难 改善方法： 服用补天丹等丹药洗炼灵根，或寻找特殊功法 五灵根 属性数量： 五行俱全 修炼速度： 极慢 稀有度： ☆☆☆☆☆（最常见） 筑基成功率： 1-3% 韩立的例子 《凡人修仙传》主角韩立就是五灵根，但通过掌天瓶的绿液和各种机缘，最终成为修仙界巨擘。 现…",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "teshu",
+      "name": "特殊体质",
+      "heading": "特殊体质 - 天赋异禀",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "特殊体质 - 天赋异禀 除了灵根外，还有一些修仙者拥有特殊体质，这些体质往往带来独特的能力或限制。 龙吟之体 特征： 男体错生女儿身，天生阴阳失衡 能力： 修炼速度极快，天赋异禀 缺陷： 到一定年龄会因阴阳失衡而死亡 代表人物： 辛如音 需要特殊功法或丹药调节阴阳平衡 通玉凤髓之体 特征： 体内能产生先天灵气 能力： 先天灵气有不可思议的妙用 优势： 修炼事半功倍，体质特殊 代表人物： 梅凝 极为珍贵的体质，可辅助他人修炼 其他罕见体质 体质名称 主要特征 修炼优势 注意事项 纯阴之体 体质极阴，天生寒冷 修炼阴…",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "yichuan",
+      "name": "灵根遗传规律",
+      "heading": "灵根遗传规律",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "灵根遗传规律 遗传概率 父母一方有灵根 25% 父母双方都有灵根 50-80% 父母都是天灵根 90%+ 普通人中出现 0.01% 遗传特点 灵根在血脉中容易传承 修仙家族多有灵根聚集 属性类型可能发生变化 品质有概率提升或降低 隔代遗传也有可能",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "jingjie",
+      "name": "修炼境界与灵根关系",
+      "heading": "修炼境界与灵根关系",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "修炼境界与灵根关系 修炼境界 天灵根 变异灵根 双/三灵根 四/五灵根 关键因素 炼气期 轻松达成 轻松达成 可以达成 勉强达成 灵根感应能力 筑基期 90%+ 80%+ 30-40% 5-10% 筑基丹+灵根品质 结丹期 无瓶颈 有瓶颈 困难 极困难 法力纯度+天赋 元婴期 有希望 有希望 需机缘 几乎不可能 机缘+资源 化神期+ 看造化 看造化 传说级 不可能 个人机缘+天地环境",
+      "extraction": "linggen-section"
+    },
+    {
+      "id": "butiandan",
+      "name": "补天丹",
+      "heading": "补天丹 - 灵根改善",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "summary": "补天丹 - 灵根改善 神丹妙药 丹药功效 弥补灵根不纯： 减少多余属性，提升主属性 精炼先天灵根： 提升灵根品质和纯度 助力结丹： 让修士更容易进军元婴期 改善体质： 整体提升修炼天赋 使用效果对比 服用前 五灵根 修炼缓慢 四灵根 法力杂乱 三灵根 进阶困难 筑基 成功率低 服用后 双灵根 修炼较快 属性纯 法力精纯 瓶颈松 进阶容易 筑基 成功率大增 重要提醒 补天丹极其珍贵，通常只在结丹期服用效果最佳。丹药数量有限，需要大量珍贵材料炼制，一般修士难以获得。 如何测试自己的灵根属性？ 凡人修仙传-灵根测试 快…",
+      "extraction": "linggen-section"
+    }
+  ],
+  "constitutions": [
+    {
+      "id": "chaos-body",
+      "taxonomyRef": "constitution:chaos-body",
+      "name": "混沌之体",
+      "aliases": [],
+      "sourceId": "linggen-special-body-table",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "category": "other",
+      "elements": [
+        "混沌"
+      ],
+      "status": "candidate-only",
+      "subtitle": "体质包容万物",
+      "tags": [
+        "特殊体质"
+      ],
+      "description": "体质包容万物；可修炼任何功法；传说中的体质",
+      "extraction": "special-body-table",
+      "localHits": [],
+      "localStatus": "external-candidate"
+    },
+    {
+      "id": "earth-spirit",
+      "taxonomyRef": "constitution:earth-spirit",
+      "name": "土灵之体",
+      "aliases": [],
+      "sourceId": "tuling",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "elemental",
+      "elements": [
+        "土"
+      ],
+      "status": "usable-reference",
+      "subtitle": "擅长土遁等土属性功法的厚重体质",
+      "tags": [
+        "土属性",
+        "稀有",
+        "防御特化"
+      ],
+      "description": "土灵之体具有大地般厚重稳固的特质，拥有者天生与土元素亲和。这种体质不仅让修士在土系功法上天赋异禀，还具备强大的防御能力和地形操控技巧。土灵之体的修士往往根基扎实，修为稳定，很少出现根基不稳的问题。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 42205,
+          "chapter": "第九百零七章 上古巨墓",
+          "matchedTerms": [
+            "土灵之体"
+          ],
+          "snippet": "“道友应该猜的出来，老夫是一名散修，而且是一名修炼了土属性功法的散修。在下别的神通普普通通，但偏偏天生的土灵之体，在土遁术上有些小造诣。若不是在下灵根实在低劣，恐怕不少大宗门还会抢着收老夫为徒。”说道这里，老者脸上满是惋惜之色。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "ethereal-body",
+      "taxonomyRef": "constitution:ethereal-body",
+      "name": "空灵之体",
+      "aliases": [],
+      "sourceId": "other-constitutions",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "other",
+      "elements": [
+        "空灵"
+      ],
+      "status": "candidate-only",
+      "subtitle": "其他特殊体质",
+      "tags": [
+        "其他"
+      ],
+      "description": "身体轻盈如风，速度和敏捷度极高",
+      "extraction": "other-constitution-info-item",
+      "localHits": [
+        {
+          "line": 46331,
+          "chapter": "第九百九十章 随风掩形",
+          "matchedTerms": [
+            "空灵之体"
+          ],
+          "snippet": "此飞尸形态大变，浑身绿毛全然不见，换上了淡金色鳞片，背后的一对银翅闪动起青白两色异芒，银目中更是出现了一对淡金色的瞳孔。但更惊人的是，银翅夜叉的冲天尸气荡然无存，察觉不到有任何气息的存在，神识一扫过去，仿佛它只是一具空灵之体。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "fire-spirit",
+      "taxonomyRef": "constitution:fire-spirit",
+      "name": "火灵之体",
+      "aliases": [],
+      "sourceId": "huoling",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "elemental",
+      "elements": [
+        "火"
+      ],
+      "status": "usable-reference",
+      "subtitle": "炽热如火的火属性灵体",
+      "tags": [
+        "火属性",
+        "稀有",
+        "爆发特化"
+      ],
+      "description": "火灵之体拥有炽热的火焰力量，体内火元素异常活跃。这种体质让修士在火系功法修炼上进步神速，同时具备强大的爆发力和破坏力。火灵之体的拥有者往往性格热烈，战斗风格刚猛直接，是天生的战斗型修士。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 62714,
+          "chapter": "第一千二百五十章 捕捉精火",
+          "matchedTerms": [
+            "火灵之体"
+          ],
+          "snippet": "这两物都是火灵之体，自然不会被那厚厚的土层阻挡。"
+        },
+        {
+          "line": 62762,
+          "chapter": "第一千二百五十章 捕捉精火",
+          "matchedTerms": [
+            "火灵之体"
+          ],
+          "snippet": "只要被这些禁制符箓贴上，对方就算再是火灵之体，也绝对插翅难飞。"
+        },
+        {
+          "line": 78312,
+          "chapter": "第一千四百六十九章 血焰山",
+          "matchedTerms": [
+            "火灵之体"
+          ],
+          "snippet": "“这是本座的看门兽，杶龟兽。此兽可是天生的火灵之体，可同时释放三种不同的灵焰。在熔岩火灵之地时，威力奇大，就是本座当时收服它时，都费了莫大的力气。而要进本座的血焰宫，就必须经过此兽。”一名血袍人嘿嘿一笑，冲韩立说道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "five-elements",
+      "taxonomyRef": "constitution:five-elements",
+      "name": "五行之体",
+      "aliases": [],
+      "sourceId": "wuxing",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "legendary",
+      "elements": [
+        "金",
+        "木",
+        "水",
+        "火",
+        "土"
+      ],
+      "status": "usable-reference",
+      "subtitle": "完美平衡的五行属性体质",
+      "tags": [
+        "传说",
+        "五行平衡",
+        "全能体质"
+      ],
+      "description": "五行之体是最为完美的体质之一，体内金木水火土五行元素完美平衡，没有任何偏向。这种体质让拥有者能够修炼任何属性的功法，而且都能达到极高的成就。五行之体的修士往往修炼路径宽广，适应性极强，是各大宗门最渴望得到的弟子类型。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 66361,
+          "chapter": "第一千三百零四章 三族齐聚",
+          "matchedTerms": [
+            "五行之体"
+          ],
+          "snippet": "“啧啧，你二人倒还认得老夫。当年一战，我尚未进阶炼虚已经可以力敌你二人不败，如今万余年已过，我早已成就五行之体，可你们还是区区两名灵将。看来灵族除了寿元活的长久些外，真无法和我们人妖两族的潜力相比。估计早晚也会和其他弱小种族一样，在灵界中慢慢消亡。如此的话，不如早点归顺我们的好。灵族对我们两族还是大有用处的，不会让你等真的彻底消亡掉。”寰姓少年平静的说道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "five-thunder",
+      "taxonomyRef": "constitution:five-thunder",
+      "name": "五雷之体",
+      "aliases": [],
+      "sourceId": "wulei",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "thunder",
+      "elements": [
+        "雷"
+      ],
+      "status": "usable-reference",
+      "subtitle": "掌控五种雷电的终极雷系体质",
+      "tags": [
+        "传说",
+        "五雷属性",
+        "全能特化"
+      ],
+      "description": "五雷之体是雷系体质的终极形态，拥有者能够同时掌控五种不同属性的雷电力量：金雷、木雷、水雷、火雷、土雷。每种雷电都有其独特的特性和威力，五雷合一时更是威力无穷。这种体质极其罕见，历史上拥有者屈指可数，都成为了震古烁今的强者。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 98534,
+          "chapter": "第一千七百四十八章 雷云子与雷光法阵",
+          "matchedTerms": [
+            "五雷之体"
+          ],
+          "snippet": "这叫“雷云子”的异族人，竟然是传说中的“五雷之体”，天生就能操纵驱使五种截然不同的雷电之力，外加修炼的功法也是一门上古早已失传的雷霆大神通，可以将身躯在实体和雷电之间随时自由转化。虽然限于修为，无法坚持多长时间，但也足以让韩立拿此位干瞪眼，而无计可施了。"
+        },
+        {
+          "line": 112049,
+          "chapter": "第一千九百五十七章 花树再现",
+          "matchedTerms": [
+            "五雷之体"
+          ],
+          "snippet": "“是不是魔族圣祖，我不知道。但他们的确可以驱使很精纯的真魔气，其中一人的功法竟然可以克制我的五雷之体，至于另外一人，我至今没有看出对方的修为深浅，说不定也真是古魔哪一位圣祖的化身。”大汉非常含糊说了两句。"
+        },
+        {
+          "line": 112109,
+          "chapter": "第一千九百五十八章 暴露",
+          "matchedTerms": [
+            "五雷之体"
+          ],
+          "snippet": "韩立正心念四下转动的时候，对面巨花上的女子，却再次冲雷云子开口了：“这种雷阵之术，是雷道友的自己独创的吧，的确十分的玄妙，但也只有像你这般拥有五雷之体之人，才能将其发挥的淋漓尽致。道友刚才一口回绝我，也就是凭借此神通吧。”"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "flame-spirit",
+      "taxonomyRef": "constitution:flame-spirit",
+      "name": "炎灵之体",
+      "aliases": [],
+      "sourceId": "yanling",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "elemental",
+      "elements": [
+        "火"
+      ],
+      "status": "usable-reference",
+      "subtitle": "比火灵之体更强的极炎体质",
+      "tags": [
+        "传说",
+        "极火属性",
+        "毁灭特化"
+      ],
+      "description": "炎灵之体是火属性体质的进阶版本，比普通火灵之体更加强大。这种体质的拥有者体内蕴含着极致的炎之力，能够操控温度达到万度以上的极致火焰。炎灵之体不仅攻击力恐怖，还具备焚烧万物的毁灭性力量，是修仙界中最具破坏力的体质之一。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 88216,
+          "chapter": "第一千六百零五章 瑕疵品",
+          "matchedTerms": [
+            "炎灵之体"
+          ],
+          "snippet": "“烈道友，若是真无心这火液，又何必在乎价格高低。但以道友的炎灵之体，这琉璃天火液恐怕正合用吧？”萧布衣望了对面三层的某间屋子一凝眼，口中不软不硬的反问了一句。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "forged-metal",
+      "taxonomyRef": "constitution:forged-metal",
+      "name": "锻金之体",
+      "aliases": [],
+      "sourceId": "duanjin",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "elemental",
+      "elements": [
+        "金"
+      ],
+      "status": "usable-reference",
+      "subtitle": "修炼金属性功法的绝佳资质",
+      "tags": [
+        "金属性",
+        "稀有",
+        "攻击特化"
+      ],
+      "description": "锻金之体是金属性修士梦寐以求的体质，拥有者天生与金属性灵气亲和度极高，修炼金属性功法时进展神速。这种体质不仅让修士在攻击力上有显著提升，还能大幅提高炼器成功率。许多著名的炼器大师都拥有这种珍贵的体质。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 28544,
+          "chapter": "第六百二章 煅金之体",
+          "matchedTerms": [
+            "锻金之体"
+          ],
+          "snippet": "“这一切自然还是由掌门师兄决定。想必魏师兄一定会让我等心服口服的。”一名头发有些灰白的老者，捻了捻下巴的短须，客气非常的样子，但是他话音一转，马上又圆滑说道，“不过，外事弟子也就算了，但是内门弟子，我们隐剑峰上次只招收了两名而已，比其他山峰都要少，这一次是不是该多分一个给本峰了。别的弟子不说了，就将这名是锻金之体的弟子，交予我们隐剑峰调教吧。”"
+        },
+        {
+          "line": 28547,
+          "chapter": "第六百二章 煅金之体",
+          "matchedTerms": [
+            "锻金之体"
+          ],
+          "snippet": "“你们火云峰是以火属性功法为主，锻金之体的修士可是天生的金属性功法修士。杨师弟，你们有什么好争的。”灰白头发的老者一听此言，嘿嘿一笑的摇摇头道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "ghostly",
+      "taxonomyRef": "constitution:ghostly",
+      "name": "鬼魅之体",
+      "aliases": [],
+      "sourceId": "other-constitutions",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "other",
+      "elements": [
+        "阴",
+        "鬼"
+      ],
+      "status": "candidate-only",
+      "subtitle": "其他特殊体质",
+      "tags": [
+        "其他"
+      ],
+      "description": "擅长隐身和偷袭，鬼修首选体质",
+      "extraction": "other-constitution-info-item",
+      "localHits": [
+        {
+          "line": 38844,
+          "chapter": "第八百三十六章 祭坛",
+          "matchedTerms": [
+            "鬼魅之体"
+          ],
+          "snippet": "突然，麒麟石像同时缓缓抬首，张开了大嘴，里面五色霞光闪烁不定，仿佛有什么东西要喷射而出，鬼魅之体的儒生，这时行动了。"
+        },
+        {
+          "line": 38934,
+          "chapter": "第八百三十八章 魔躯",
+          "matchedTerms": [
+            "鬼魅之体"
+          ],
+          "snippet": "因为对面的儒生，身上血红符文仍然流转闪烁不定，这分明是惊魂咒正在发作的样子。并且对方裸露出的皮肤，随着符文闪动明显在抽蓄跳动着，但是儒生此时满面春风，脸上哪有丝毫痛苦之色，并且鬼魅之体也凝固异常，没有一点溃散的迹象。"
+        },
+        {
+          "line": 85696,
+          "chapter": "第一千五百六十九章 化血",
+          "matchedTerms": [
+            "鬼魅之体"
+          ],
+          "snippet": "此人影全身呈半透明之状，出现时丝毫灵动未带，仿佛鬼魅之体一般。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "ice-marrow-cold-soul",
+      "taxonomyRef": "constitution:ice-marrow-cold-soul",
+      "name": "冰髓寒魄之体",
+      "aliases": [
+        "冰髓之体"
+      ],
+      "sourceId": "other-constitutions",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "other",
+      "elements": [
+        "冰"
+      ],
+      "status": "usable-reference",
+      "subtitle": "其他特殊体质",
+      "tags": [
+        "其他"
+      ],
+      "description": "极致寒冰体质，修炼冰系功法威力倍增，能够冰封万物",
+      "extraction": "other-constitution-info-item",
+      "localHits": [
+        {
+          "line": 100930,
+          "chapter": "第一千七百八十四章 冰髓之体",
+          "matchedTerms": [
+            "冰髓之体"
+          ],
+          "snippet": "第一千七百八十四章 冰髓之体"
+        },
+        {
+          "line": 100976,
+          "chapter": "第一千七百八十四章 冰髓之体",
+          "matchedTerms": [
+            "冰髓之体"
+          ],
+          "snippet": "“冰髓之体！”"
+        },
+        {
+          "line": 100978,
+          "chapter": "第一千七百八十四章 冰髓之体",
+          "matchedTerms": [
+            "冰髓之体"
+          ],
+          "snippet": "倒是那名老妪听到冰髓之体的名字，皱纹脸孔为之一动，脸上满是震惊之色。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "indestructible",
+      "taxonomyRef": "constitution:indestructible",
+      "name": "不灭之体",
+      "aliases": [],
+      "sourceId": "bumie",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "beast",
+      "elements": [
+        "生机"
+      ],
+      "status": "usable-reference",
+      "subtitle": "身体破碎后可自行修复的终极天赋",
+      "tags": [
+        "传说",
+        "妖兽天赋",
+        "终极防御"
+      ],
+      "description": "不灭之体是妖兽中最为逆天的天赋能力之一，拥有这种体质的存在即使身体完全破碎，头颅四肢被斩断，也能够自行重新愈合修复。这种近乎不死的能力让拥有者在战斗中几乎立于不败之地，是修仙界中最为恐怖的体质之一。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 38125,
+          "chapter": "第八百二十一章 古修遗骸",
+          "matchedTerms": [
+            "不灭之体"
+          ],
+          "snippet": "“不灭之体！这火蟾竟然具有这种天赋神通？”看到此幕，南陇侯奇失声的叫道。鲁姓老者脸上一惊后，同样露出骇然之色。"
+        },
+        {
+          "line": 38126,
+          "chapter": "第八百二十一章 古修遗骸",
+          "matchedTerms": [
+            "不灭之体"
+          ],
+          "snippet": "“不灭？这世上哪有真正不灭的东西，只不过，生命力比普通妖兽强一些罢了。”看过诸多典籍的韩立，自然知道所谓的“不灭之体”指的是什么，并在斩下火蟾前肢，看到断肢的异样后，就隐隐有些怀疑了，这才出声阻止了南陇侯冒然打开禁制的举动。否则万一火蟾趁机复活逃掉，他刚才可是白忙活了一阵。"
+        },
+        {
+          "line": 38129,
+          "chapter": "第八百二十一章 古修遗骸",
+          "matchedTerms": [
+            "不灭之体"
+          ],
+          "snippet": "一见妖丹现出，南陇侯和鲁姓老者互望了一眼，均从对方眼中看出一丝动心之意。毕竟是具有不灭之体古兽的妖丹，说不定还有什么特殊神效。但二人一想到韩立先前施展的神通，以及最近如雷贯耳的偌大名声，两人心中的这丝动摇，也就一瞬间掐灭了。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "innate-dao",
+      "taxonomyRef": "constitution:innate-dao",
+      "name": "先天道体",
+      "aliases": [],
+      "sourceId": "linggen-special-body-table",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "category": "other",
+      "elements": [
+        "道"
+      ],
+      "status": "candidate-only",
+      "subtitle": "天生与道相亲",
+      "tags": [
+        "特殊体质"
+      ],
+      "description": "天生与道相亲；感悟天地法则能力强；万年难遇",
+      "extraction": "special-body-table",
+      "localHits": [],
+      "localStatus": "external-candidate"
+    },
+    {
+      "id": "longyin",
+      "taxonomyRef": "constitution:longyin",
+      "name": "龙吟之体",
+      "aliases": [],
+      "sourceId": "longyin",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "innate",
+      "elements": [
+        "阴阳"
+      ],
+      "status": "usable-reference",
+      "subtitle": "男体错生女儿身的特殊体质",
+      "tags": [
+        "罕见",
+        "特殊性别",
+        "阴阳失调"
+      ],
+      "description": "龙吟之体是一种极为特殊的体质，表现为男子魂魄却生于女儿身。随着修为的加深，体内阴阳之气会逐渐失调，若不及时调理将导致严重后果。然而，这种体质也蕴含着独特的修炼优势，在某些特殊功法的修炼上有着常人难以企及的天赋。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 55618,
+          "chapter": "第一千一百三十八章 轮回之惑",
+          "matchedTerms": [
+            "龙吟之体"
+          ],
+          "snippet": "“嘿嘿，这是自然的。那毒虫的毒性只是造成令女现在症状的一个诱因而已，真正造成她性命垂危的却是她的龙吟之体！一名女修士有男儿才有的特殊体质，再加上那毒虫剧毒多半也是至阳之物，才造成现在的症状！就算没有毒发之事，令女在体内的生机也会渐渐枯竭，决活不过四十岁的。”韩立冲少女手心处的红色龙纹标记一指，不动声色的说道。"
+        },
+        {
+          "line": 55619,
+          "chapter": "第一千一百三十八章 轮回之惑",
+          "matchedTerms": [
+            "龙吟之体"
+          ],
+          "snippet": "“龙吟之体？不可能，小女出生时我夫妇可是亲自检测过的，并未有发现异常的。”文思月面色唰的一下，苍白无比。"
+        },
+        {
+          "line": 55620,
+          "chapter": "第一千一百三十八章 轮回之惑",
+          "matchedTerms": [
+            "龙吟之体"
+          ],
+          "snippet": "“令爱的龙吟之体非常少见，是一种隐性体质，不被外力诱发或者后期自行开始发作，一般人的确是无法发觉的。拥有此体质的人虽然修炼够快，但随着修行加快，体内阴阳之气会渐渐失调，最终在筑基之前，就会一命呜呼。”韩立冷静的说道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "molten-metal",
+      "taxonomyRef": "constitution:molten-metal",
+      "name": "熔金之体",
+      "aliases": [],
+      "sourceId": "local-text-supplement",
+      "sourceUrl": "",
+      "sourceTitle": "本地原文补充",
+      "category": "elemental",
+      "elements": [
+        "金"
+      ],
+      "status": "usable-reference",
+      "subtitle": "本地原文补充命中",
+      "tags": [
+        "本地补充"
+      ],
+      "description": "熔金之体在本地原文中有明确命中，外部页面可作为体质体系上下文参考。",
+      "extraction": "local-text-supplement",
+      "localHits": [
+        {
+          "line": 101648,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "熔金之体"
+          ],
+          "snippet": "“你和器灵子的情况又截然不同了。这些天我已经彻底的检查过你的身体，还向一些同阶的道友询问了一些疑惑之处，现在可以肯定你不但身体具有罕见的熔金之体，而且体内那怪异的雷灵根应该是传闻中的隐灵根。不，应该叫隐雷灵根更恰当一些的。”"
+        },
+        {
+          "line": 101650,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "熔金之体"
+          ],
+          "snippet": "“熔金之体虽然罕见，但是以人族如此庞大的基数，总有一定几率出现的。也基于此，你才能在炼体术上修炼如此之快。至于隐灵根则不好说了！从古至今，有关隐灵根的传闻就寥寥无几，几乎彻底淹没在了各种传说之中，所以我一开始才没有想到此事，并分析研究了好久才能真正确定下来的。而隐灵根极难发现，但此种灵根者诞生几率，决不会高于那些特殊体质者或真灵血脉继承者。”韩立解释的说道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "natural-charm",
+      "taxonomyRef": "constitution:natural-charm",
+      "name": "天生媚体",
+      "aliases": [
+        "媚体"
+      ],
+      "sourceId": "meiti",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "innate",
+      "elements": [
+        "阴",
+        "神识"
+      ],
+      "status": "candidate-only",
+      "subtitle": "极具魅惑之力的特殊灵体，天生自带阴柔灵韵，极易引动他人情欲心念。",
+      "tags": [
+        "传说",
+        "女性专属",
+        "魅惑灵体"
+      ],
+      "description": "“天生媚体”乃修仙界极为罕见的女性体质之一，体内自带特殊灵韵，能在无意中引动周围修士情绪波动，尤其易令男性修士情欲扰动、神魂不稳。此体质拥有强大的精神渗透与意志影响力，在某些功法配合下甚至能不战而屈人之兵。但因其天赋特性，也极易成为魔修与采补之徒觊觎的对象，乃“艳福”与“祸水”并存之体。",
+      "extraction": "constitution-card",
+      "localHits": [],
+      "localStatus": "external-candidate"
+    },
+    {
+      "id": "nine-spirit-sword",
+      "taxonomyRef": "constitution:nine-spirit-sword",
+      "name": "九灵剑体",
+      "aliases": [],
+      "sourceId": "jiuling-jianti",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "legendary",
+      "elements": [
+        "剑"
+      ],
+      "status": "usable-reference",
+      "subtitle": "修仙界三大剑修灵体之一",
+      "tags": [
+        "传说",
+        "剑修专精",
+        "顶级灵体"
+      ],
+      "description": "九灵剑体是修仙界最顶尖的剑修体质之一，号称三大剑修灵体之首。拥有这种体质的修士天生与剑道相合，体内蕴含九道剑气灵光，修炼剑法时进步神速。九灵剑体的拥有者往往能够领悟到剑道的最高境界，成为震慑一方的剑道宗师。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 29601,
+          "chapter": "第六百二十四章 阁楼之议",
+          "matchedTerms": [
+            "九灵剑体"
+          ],
+          "snippet": "“就是！我也听说，前几年古剑门又收了一位拥九灵剑体的弟子，这一次肯定会放他出来参加大会的。如此一来，这试剑大会还有什么可比的。我们这边虽有一些有特殊体质的弟子，但和人家一比，差的可不是一丁半点。而且听说，百巧院这次也收了一位上官家族的嫡系弟子，听说尚在炼气期就已经用自己炼制的法器击败家中的长辈了。恐怕，也很难对付啊！”另一位面色蜡黄的老者，同样摇头的说道。"
+        },
+        {
+          "line": 29864,
+          "chapter": "第六百二十九章 三派禁地",
+          "matchedTerms": [
+            "九灵剑体"
+          ],
+          "snippet": "至于这次取得第一的弟子，是一名神情如出鞘利剑般的黑衣青年，此青年就是拥有“九灵剑体”的古剑门弟子孟笛。"
+        },
+        {
+          "line": 29865,
+          "chapter": "第六百二十九章 三派禁地",
+          "matchedTerms": [
+            "九灵剑体"
+          ],
+          "snippet": "“九灵剑体”号称修仙界三大剑修灵体，这一点不是开玩笑之事。此人凭借手中一把顶阶剑器，没有任何对手能够在其纵横披靡剑气之下，撑得过一时半刻，完全以绝对优势取得最后的第一。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "psychic-body",
+      "taxonomyRef": "constitution:psychic-body",
+      "name": "通灵之体",
+      "aliases": [],
+      "sourceId": "other-constitutions",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "other",
+      "elements": [
+        "通灵"
+      ],
+      "status": "candidate-only",
+      "subtitle": "其他特殊体质",
+      "tags": [
+        "其他"
+      ],
+      "description": "能够与灵体沟通，精神力异常强大",
+      "extraction": "other-constitution-info-item",
+      "localHits": [
+        {
+          "line": 80067,
+          "chapter": "第一千四百九十三章 乾坤幡与冥雷兽",
+          "matchedTerms": [
+            "通灵之体"
+          ],
+          "snippet": "…神通，至于你们口中的宝物，应是它们尸体经过如此多年的阴气滋润，某些特殊部位自行通灵而已。这些宝物虽然用途不小，但如何能和神乳相比。不要忘了，只要服下神乳再用其涂遍全身，可让身躯立成通灵之体，以后控制的天地元气从此可增幅数倍的。如此一来，我们修炼成真之事不是梦想了。运气好的话，说不定真有机会飞升真仙界的。”六足复眼闪动不已的说道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "pure-yang",
+      "taxonomyRef": "constitution:pure-yang",
+      "name": "纯阳之体",
+      "aliases": [],
+      "sourceId": "linggen-special-body-table",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "category": "other",
+      "elements": [
+        "阳"
+      ],
+      "status": "candidate-only",
+      "subtitle": "体质极阳，天生燥热",
+      "tags": [
+        "特殊体质"
+      ],
+      "description": "体质极阳，天生燥热；修炼阳系功法威力巨大；容易走火入魔",
+      "extraction": "special-body-table",
+      "localHits": [],
+      "localStatus": "external-candidate"
+    },
+    {
+      "id": "pure-yin",
+      "taxonomyRef": "constitution:pure-yin",
+      "name": "纯阴之体",
+      "aliases": [],
+      "sourceId": "linggen-special-body-table",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/linggen.html",
+      "sourceTitle": "灵根解读 | 凡人修仙传灵根测试-免费在线灵根检测",
+      "category": "other",
+      "elements": [
+        "阴"
+      ],
+      "status": "candidate-only",
+      "subtitle": "体质极阴，天生寒冷",
+      "tags": [
+        "特殊体质"
+      ],
+      "description": "体质极阴，天生寒冷；修炼阴系功法速度极快；需要阳性丹药调和",
+      "extraction": "special-body-table",
+      "localHits": [],
+      "localStatus": "external-candidate"
+    },
+    {
+      "id": "sanyang",
+      "taxonomyRef": "constitution:sanyang",
+      "name": "三阳之体",
+      "aliases": [],
+      "sourceId": "sanyang",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "innate",
+      "elements": [
+        "阳",
+        "火"
+      ],
+      "status": "usable-reference",
+      "subtitle": "修炼资质仅次于天灵根的顶尖体质",
+      "tags": [
+        "传说",
+        "阳属性",
+        "战斗特化"
+      ],
+      "description": "三阳之体乃修仙界罕见的顶级体质，体内蕴含三道纯阳之气，修炼资质仅次于传说中的天灵根。拥有此体质者天生阳气充盛，修炼阳属性功法时速度惊人，且对阴邪之物有天然克制效果。历史上拥有三阳之体的修士大多成就非凡，是各大宗门梦寐以求的弟子。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 9932,
+          "chapter": "第二百三十九章 抉择",
+          "matchedTerms": [
+            "三阳之体"
+          ],
+          "snippet": "“呵呵！为师修炼是顶阶功法《真阳决》，但为师本身就是仅次于天灵根的三阳之体，修炼此功法可是如鱼得水，反而远胜其他功法了！否则，为师又怎能结成金丹呢？”李化元虽然没料到韩立会有此一问，但还是自傲的说道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "self-governing",
+      "taxonomyRef": "constitution:self-governing",
+      "name": "自治之体",
+      "aliases": [],
+      "sourceId": "zizhi",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "beast",
+      "elements": [
+        "神识"
+      ],
+      "status": "candidate-only",
+      "subtitle": "某些妖族（巨龟）的天赋能力",
+      "tags": [
+        "妖族天赋",
+        "土属性",
+        "稀有"
+      ],
+      "description": "自治之体是某些古老妖族，特别是巨龟一族的天赋能力。这种体质赋予拥有者强大的自我修复和调节能力，不仅能治愈外伤，还能自动调节体内的各种不平衡状态，包括毒素、诅咒等负面效果。拥有这种体质的存在往往长寿且极难被彻底击败。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 26119,
+          "chapter": "第五百五十一章 噬蛟",
+          "matchedTerms": [
+            "自治之体"
+          ],
+          "snippet": "“自治之体！”韩立一脸的惊愕，接着口中有些发苦起来。"
+        },
+        {
+          "line": 26120,
+          "chapter": "第五百五十一章 噬蛟",
+          "matchedTerms": [
+            "自治之体"
+          ],
+          "snippet": "所谓的“自治之体”，在妖兽中并不少见。许多低阶妖兽都拥有，可以让伤口自愈，肢体重生的诡异能力。可这种本能的天赋，在高阶妖兽中却非常少见的。甚至韩立灭杀了这么多六七级妖兽中，还从未见有一只拥有这种重生能力的。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "self-healing",
+      "taxonomyRef": "constitution:self-healing",
+      "name": "自愈之体",
+      "aliases": [],
+      "sourceId": "ziyu",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "beast",
+      "elements": [
+        "生机"
+      ],
+      "status": "candidate-only",
+      "subtitle": "某些妖兽的强大再生天赋",
+      "tags": [
+        "妖兽天赋",
+        "防御特化",
+        "稀有"
+      ],
+      "description": "自愈之体是某些强大妖兽天生具备的能力，拥有这种体质的存在具有超强的抗打击能力和伤势恢复速度。在战斗中能够快速愈合伤口，持续作战能力极强。对于修士而言，若能通过特殊手段获得这种体质，将在生存能力上获得巨大提升。",
+      "extraction": "constitution-card",
+      "localHits": [],
+      "localStatus": "external-candidate"
+    },
+    {
+      "id": "shapechanging-body",
+      "taxonomyRef": "constitution:shapechanging-body",
+      "name": "化形之体",
+      "aliases": [],
+      "sourceId": "other-constitutions",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "other",
+      "elements": [
+        "化形"
+      ],
+      "status": "candidate-only",
+      "subtitle": "其他特殊体质",
+      "tags": [
+        "其他"
+      ],
+      "description": "能够改变外形，伪装和潜入能力强",
+      "extraction": "other-constitution-info-item",
+      "localHits": [
+        {
+          "line": 40051,
+          "chapter": "第八百六十三章 坦言",
+          "matchedTerms": [
+            "化形之体"
+          ],
+          "snippet": "那玄天仙藤的残根也就算了，韩立对能否救活它，并没有报多大的希望，但九曲灵参却非同小可，是一种外界早已灭绝的灵药。况且此药通灵已久，甚至有了化形之体了，那就更加的珍稀异常。若不是此灵参带在身上实在不方便，韩立还真想将此灵药一起移植随身携带。可惜现在得到的古方中，一直未有再用到此灵参的丹药，他也只能望而兴叹的将其暂时搁置不问了。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "thunder-body",
+      "taxonomyRef": "constitution:thunder-body",
+      "name": "雷电之体",
+      "aliases": [],
+      "sourceId": "leidian",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "thunder",
+      "elements": [
+        "雷"
+      ],
+      "status": "usable-reference",
+      "subtitle": "操控雷电力量的霸道体质",
+      "tags": [
+        "雷属性",
+        "稀有",
+        "速度特化"
+      ],
+      "description": "雷电之体是天地间最为霸道的体质之一，拥有者能够操控雷电之力。这种体质不仅赋予修士强大的攻击力和速度，还具备麻痹敌人和破除禁制的特殊能力。雷电之体的修士往往修炼速度极快，但同时也面临着雷劫更加猛烈的风险。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 75231,
+          "chapter": "第一千四百二十八章 五色天雷",
+          "matchedTerms": [
+            "雷电之体"
+          ],
+          "snippet": "从雷电中诞生灵物，虽然不知道此事是真是假，但看此兽操纵的雷电之力如此惊人，就算不是如此，也是天生的雷电之体。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "tianyin",
+      "taxonomyRef": "constitution:tianyin",
+      "name": "天阴之体",
+      "aliases": [],
+      "sourceId": "tianyin",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "innate",
+      "elements": [
+        "阴"
+      ],
+      "status": "usable-reference",
+      "subtitle": "阴年阴月阴日阴时出生的处子之身女子",
+      "tags": [
+        "传说",
+        "女性专属",
+        "极阴体质"
+      ],
+      "description": "天阴之体是修仙界最为罕见的女性专属体质之一，需在阴年阴月阴日阴时出生且保持处子之身才能拥有。这种体质集天地间最纯净的阴寒之力于一身，修炼阴属性功法时进展神速，同时也是炼制某些顶级丹药不可或缺的体质。拥有此体质的女修往往成为各大宗门争夺的焦点。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 81951,
+          "chapter": "第一千五百一十八章 天阴之体",
+          "matchedTerms": [
+            "天阴之体"
+          ],
+          "snippet": "第一千五百一十八章 天阴之体"
+        },
+        {
+          "line": 81997,
+          "chapter": "第一千五百一十八章 天阴之体",
+          "matchedTerms": [
+            "天阴之体"
+          ],
+          "snippet": "“果然我的感应没错，的确是天阴之体。没想到我苦苦寻找这么多年都未遇见过，现如今快要放弃的时候，上天就送上门来一个给我。还好，现在还不太晚，时间还勉强来得及！”老者在大笑声中，欣喜若狂的说道。"
+        },
+        {
+          "line": 82000,
+          "chapter": "第一千五百一十八章 天阴之体",
+          "matchedTerms": [
+            "天阴之体"
+          ],
+          "snippet": "“天阴之体！晚辈也算见多识广了，似乎从未听说过此种特殊体质。姜前辈如此高兴，能否告知一二！”"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "tongyu-fengsui",
+      "taxonomyRef": "constitution:tongyu-fengsui",
+      "name": "通玉凤髓之体",
+      "aliases": [
+        "通玉凤髓之身"
+      ],
+      "sourceId": "tongyu-fengsu",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "innate",
+      "elements": [
+        "通灵"
+      ],
+      "status": "usable-reference",
+      "subtitle": "筑基期生出通灵之气的珍贵女修体质",
+      "tags": [
+        "传说",
+        "女性专属",
+        "通灵体质"
+      ],
+      "description": "通玉凤髓之体是女修中极为珍贵的灵体，拥有此体质的女修在进入筑基期后，体内会自然生出一丝通灵之气。这股通灵之气不仅能让女修本身修为大进，更能通过特殊方式让男子洗髓易经，修为飞速提升。因此，拥有此体质的女修往往成为各大宗门和强者争夺的目标。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 27836,
+          "chapter": "第五百八十七章 通灵之气",
+          "matchedTerms": [
+            "通玉凤髓之身"
+          ],
+          "snippet": "“韩兄不知道，小女子虽然不是异灵根和天灵根资质的修仙者，但是却是通玉凤髓之身，这个代表着什么，韩兄应该很清楚吧。凭着此体质我可以通过密术渡给道友我的通灵之气，而通灵之气的精粹灵力，绝对不是这所谓的绝灵之气，能马上禁锢的。当然时间一长，这股通灵之气一散去，道友自然还是恢复如初的。”此女微露迟疑之色的低声道。"
+        },
+        {
+          "line": 27837,
+          "chapter": "第五百八十七章 通灵之气",
+          "matchedTerms": [
+            "通玉凤髓之身"
+          ],
+          "snippet": "“通玉凤髓之身！”韩立一听此言，怔住了。但片刻后，他就用一种古怪的眼神上下打量着此女，脸上露出了一丝恍然之色。"
+        },
+        {
+          "line": 27850,
+          "chapter": "第五百八十七章 通灵之气",
+          "matchedTerms": [
+            "通玉凤髓之体"
+          ],
+          "snippet": "但是这种通灵之气，也只有在那女子心甘情愿之下，才能渡给男子，强行用各种秘法向女子吸取或者采补，是无法得到灵气的。而且拥有通玉凤髓之体的女子，其一生中也只能将这丝通灵之气渡给一名男子，其后体内就不会再产生此灵气了。若是在此之前，失去了处子之身，通灵之气也同样的自行散去。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "true-spirit-body",
+      "taxonomyRef": "constitution:true-spirit-body",
+      "name": "真灵之体",
+      "aliases": [],
+      "sourceId": "other-constitutions",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "other",
+      "elements": [
+        "真灵"
+      ],
+      "status": "candidate-only",
+      "subtitle": "其他特殊体质",
+      "tags": [
+        "其他"
+      ],
+      "description": "蕴含真灵之力，修炼神魂类功法极快",
+      "extraction": "other-constitution-info-item",
+      "localHits": [
+        {
+          "line": 90748,
+          "chapter": "第一千六百四十一章 真麟本源",
+          "matchedTerms": [
+            "真灵之体"
+          ],
+          "snippet": "“就是说像你们这样的家伙，我早已经吞噬了三四个之多。现在只要再吞了你们两个，外加上如此多的真灵之血，我不久就可以拥有真灵之体了。至于真麟本源，自然在我体内了。好了。还想再知道什么，你们让我吞噬，成为我的一部分，自然什么都知道了。”巨大怪物似乎不愿再多说了，体表黑光一闪，在雷鸣声中，两道黑色电弧一闪射出。"
+        },
+        {
+          "line": 103529,
+          "chapter": "第一千八百二十四章 逆灵真阴大法",
+          "matchedTerms": [
+            "真灵之体"
+          ],
+          "snippet": "…了一次变异。正好可以修炼这篇逆转人族金阙玉书内页上秘术的逆天神通。更巧的是，你还是我下界中化身隔界传讯时，提到过的那个小子的叛逃灵虫。还真是有趣的很！不知等你这逆灵大法大成，凝聚出真灵之体后，再遇到那姓韩小子的话，又会是怎么一副表情了。”"
+        },
+        {
+          "line": 134972,
+          "chapter": "第两千三百零二章 元魂灯",
+          "matchedTerms": [
+            "真灵之体"
+          ],
+          "snippet": "真不知道将十二种惊蛰变化全修成后，再幻化的真灵之体，会强大到何种逆天地步了。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "water-spirit",
+      "taxonomyRef": "constitution:water-spirit",
+      "name": "水灵之体",
+      "aliases": [],
+      "sourceId": "shuiling",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "elemental",
+      "elements": [
+        "水"
+      ],
+      "status": "usable-reference",
+      "subtitle": "如水般灵动的水属性体质",
+      "tags": [
+        "水属性",
+        "稀有",
+        "灵活特化"
+      ],
+      "description": "水灵之体如水般柔韧灵动，拥有者天生具备操控水元素的能力。这种体质不仅让修士在水系功法修炼上事半功倍，还赋予了极强的适应性和变化能力。在战斗中能够如水般灵活多变，防御和控制能力都十分出色。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 66128,
+          "chapter": "第一千三百零一章 灵族援军",
+          "matchedTerms": [
+            "水灵之体"
+          ],
+          "snippet": "“怕什么！连我水灵之体都没有把握进出炙光潭的。那些人、妖之人又怎能轻易进入潭下。”水人反而恢复了平静。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "wood-spirit",
+      "taxonomyRef": "constitution:wood-spirit",
+      "name": "木灵之体",
+      "aliases": [],
+      "sourceId": "muling",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "elemental",
+      "elements": [
+        "木"
+      ],
+      "status": "usable-reference",
+      "subtitle": "与自然共鸣的木属性灵体",
+      "tags": [
+        "木属性",
+        "稀有",
+        "治疗特化"
+      ],
+      "description": "木灵之体拥有与自然万物天然的亲和力，这种体质让修士能够轻松感知并操控木属性灵气。拥有此体质者不仅在木系功法修炼上天赋异禀，还具备强大的治疗能力和生命力恢复速度。许多医修和炼丹师都渴望拥有这种体质。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 72509,
+          "chapter": "第一千三百九十章 人树合一",
+          "matchedTerms": [
+            "木灵之体"
+          ],
+          "snippet": "这才是木族之人的本来面目，木灵之体！"
+        },
+        {
+          "line": 72514,
+          "chapter": "第一千三百九十章 人树合一",
+          "matchedTerms": [
+            "木灵之体"
+          ],
+          "snippet": "“嘿嘿，区区一名化神级的人族修士，也想伤我等本命灵树，简直是白日做梦。动用了木灵之体虽然免不了要沉睡数百年之久，但是身体之坚硬，就算你们人族所谓的通天灵宝也休想伤我分毫的。你就乖乖的把小命交过来吧。”巨人冷笑一声，大步一迈，竟然视四周浮现的剑丝如无物，一下横跨七八十丈距离，眼看再一步，就几乎到了韩立近在咫尺的地方了。"
+        },
+        {
+          "line": 77958,
+          "chapter": "第一千四百六十五章 四大妖王",
+          "matchedTerms": [
+            "木灵之体"
+          ],
+          "snippet": "“妾身是木灵之体凝形。辟邪神雷在上古时候，名列五行神雷中的至木神雷。由小妹亲自教授的话，总胜过其他人吧。”木青脸色微沉了起来。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "xuanhun-body",
+      "taxonomyRef": "constitution:xuanhun-body",
+      "name": "玄魂之体",
+      "aliases": [],
+      "sourceId": "other-constitutions",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "other",
+      "elements": [
+        "神魂"
+      ],
+      "status": "candidate-only",
+      "subtitle": "其他特殊体质",
+      "tags": [
+        "其他"
+      ],
+      "description": "魂魄异常强大，抗精神攻击能力强",
+      "extraction": "other-constitution-info-item",
+      "localHits": [
+        {
+          "line": 20042,
+          "chapter": "第四百二十八章 萧诧",
+          "matchedTerms": [
+            "玄魂之体"
+          ],
+          "snippet": "“我未修炼玄魂炼妖大法时，便已活了六百余岁，转化为玄魂之体后虽然不知过了多少年月，但四五百年有吧！这也幸亏我散尽了元婴，另修炼了这玄魂之体。否则就是肉身犹在，恐怕也早已坐化了。”少年低头看了看恢复了常态的双手，不置可否的说道。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "yuanci",
+      "taxonomyRef": "constitution:yuanci",
+      "name": "元磁之体",
+      "aliases": [
+        "元磁法体",
+        "元磁之身"
+      ],
+      "sourceId": "yuanci",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "legendary",
+      "elements": [
+        "元磁"
+      ],
+      "status": "usable-reference",
+      "subtitle": "操控磁场力量的神秘体质",
+      "tags": [
+        "传说",
+        "磁力操控",
+        "极稀有"
+      ],
+      "description": "元磁之体是一种极其神秘的体质，拥有者能够感知和操控磁场力量。这种体质不仅能够操控金属类法宝，还能影响他人的神识和精神力。元磁之体在阵法布置和破解方面有着得天独厚的优势，同时也是炼制特殊法宝的绝佳体质。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 87916,
+          "chapter": "第一千六百零一章 元磁之体",
+          "matchedTerms": [
+            "元磁之体"
+          ],
+          "snippet": "第一千六百零一章 元磁之体"
+        },
+        {
+          "line": 87942,
+          "chapter": "第一千六百零一章 元磁之体",
+          "matchedTerms": [
+            "元磁之体"
+          ],
+          "snippet": "“果真是后天的元磁之体，如此的话，大事可成了。”美妇喃喃的说了一句，接着抬手一招。"
+        },
+        {
+          "line": 87945,
+          "chapter": "第一千六百零一章 元磁之体",
+          "matchedTerms": [
+            "元磁之体"
+          ],
+          "snippet": "“元磁之体，前辈此话是何用意。”韩立深吸了一口气，才恢复如常的问了一句。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    },
+    {
+      "id": "yuanyang-yuanyin",
+      "taxonomyRef": "constitution:yuanyang-yuanyin",
+      "name": "元阳、元阴之体",
+      "aliases": [
+        "元阳之体",
+        "元阴之体",
+        "元阳",
+        "元阴"
+      ],
+      "sourceId": "yuanyang-yuanyin",
+      "sourceUrl": "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "sourceTitle": "修仙特殊体质大全 - 凡人修仙传体质详解 | 修仙百科",
+      "category": "innate",
+      "elements": [
+        "阳",
+        "阴"
+      ],
+      "status": "usable-reference",
+      "subtitle": "未破身男女的纯净体质",
+      "tags": [
+        "稀有",
+        "男女通用",
+        "纯净体质"
+      ],
+      "description": "元阳、元阴之体是修仙界中极为珍贵的先天体质，只有保持纯净之身的男女才能拥有。这种体质蕴含着最原始纯净的阴阳之力，是诸多高深功法和炼丹术的绝佳基础。拥有此体质者在修炼阴阳类功法时事半功倍，同时也是各大宗门争相招揽的对象。",
+      "extraction": "constitution-card",
+      "localHits": [
+        {
+          "line": 6567,
+          "chapter": "第一百七十一章 返回",
+          "matchedTerms": [
+            "元阳、元阴之体",
+            "元阴之体",
+            "元阳",
+            "元阴"
+          ],
+          "snippet": "“咳！你现在的样子还真是让人动心。若不是听那马老头说过，元阳、元阴之体的男女，其筑基成功的概率能够更大上一些，我又怎会拒绝这种好事，去被迫玩什么做怀不乱！”韩立开始脸色还很平静，但说着说着就轻摇了下头，露出了深感遗憾的样子。"
+        },
+        {
+          "line": 6569,
+          "chapter": "第一百七十一章 返回",
+          "matchedTerms": [
+            "元阳之体",
+            "元阳"
+          ],
+          "snippet": "至于那位“陆师兄”为何能毫不在意的想要迷奸此女，韩立不用脑子想也能猜得出，看他那副小白脸的风流样，其元阳之体恐怕早就已破了，所以才能无所顾忌。而且恐怕这也是其对自己筑基信心不足，迟迟拖到现在还未敢服用筑基丹的原因之一，如今倒是便宜了韩立。"
+        },
+        {
+          "line": 10233,
+          "chapter": "第二百四十六章 董萱儿",
+          "matchedTerms": [
+            "元阴"
+          ],
+          "snippet": "在少妇的惊讶中，红拂才告诉其。她这徒弟因为贪图驻颜奇效，选修的是她手上的一本顶阶功法“化春决”，眉眼间的风情乃是修炼此法所带的皮相而已。所以，一些精通素女鉴定之术的修士，见了董萱儿几面后，自然以为她元阴早失，就渐渐传出了许多不利她徒弟的传言来。"
+        }
+      ],
+      "localStatus": "matched-local-text"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "spirit-root-inheritance",
+      "name": "灵根遗传",
+      "aliases": [
+        "灵根继承",
+        "相同血脉继承"
+      ],
+      "type": "system",
+      "description": "原文说明灵根容易出现在相同血脉继承的人身上，支撑修仙家族体系。",
+      "localHits": [
+        {
+          "line": 4589,
+          "chapter": "第一百二十七章 灵根之说",
+          "matchedTerms": [
+            "相同血脉继承"
+          ],
+          "snippet": "面对这种尴尬的局面，一些有心的人苦心研究后终于发现，这“灵根”极容易出现在相同血脉继承的人身上。"
+        }
+      ]
+    },
+    {
+      "id": "butiandan",
+      "name": "补天丹",
+      "aliases": [
+        "补天丹",
+        "洗炼先天灵根",
+        "弥补灵根的不纯"
+      ],
+      "type": "medicine",
+      "description": "虚天鼎相关丹药，原文说明可弥补灵根不纯、洗炼结丹期修士先天灵根。",
+      "localHits": [
+        {
+          "line": 20382,
+          "chapter": "第四百三十五章 虚天鼎、补天丹",
+          "matchedTerms": [
+            "补天丹"
+          ],
+          "snippet": "第四百三十五章 虚天鼎、补天丹"
+        },
+        {
+          "line": 20390,
+          "chapter": "第四百三十五章 虚天鼎、补天丹",
+          "matchedTerms": [
+            "补天丹"
+          ],
+          "snippet": "极阴祖师听了这话，脸上露出一丝笑意，当即不再明说，传声道：“按照虚天殿主人所遗留的信息看来，那虚天鼎内除了最重要的补天丹外，还有数件古修士遗留的顶级蛮荒古宝，威力绝对小不了。我除了要虚天鼎和一粒补天丹外，其余的东西都给几位平分如何？”"
+        },
+        {
+          "line": 20393,
+          "chapter": "第四百三十五章 虚天鼎、补天丹",
+          "matchedTerms": [
+            "补天丹"
+          ],
+          "snippet": "于是极阴祖师转脸望向了蛮胡子，面带微笑的将自己的条件传声过去，然后才问道：“不知蛮兄对在下的提议有何看法，有没有兴趣合作一下？毕竟那补天丹的价值不用我说，蛮兄也应该很清楚吧！能弥补人五行灵根的东西，我想修仙界除此处之外，别无他家了。说不定蛮兄服用后，就会很容易功力大进，再此突破寿元限制呢！”"
+        }
+      ]
+    },
+    {
+      "id": "external-hanli-five-root-conflict",
+      "name": "韩立五灵根外部冲突",
+      "aliases": [
+        "韩立就是五灵根"
+      ],
+      "type": "source-conflict",
+      "description": "灵根网页总结称韩立为五灵根；本地原文明确为四属性缺金，当前以原文为准。",
+      "localHits": []
+    }
+  ],
+  "heroFacts": [
+    {
+      "heroId": "hanli",
+      "entityRef": "spirit-root-level:quad",
+      "relation": "HAS_SPIRIT_ROOT_LEVEL",
+      "label": "四属性缺金伪灵根",
+      "evidenceQueries": [
+        [
+          "四属性缺金",
+          "属于伪灵根"
+        ]
+      ],
+      "heroName": "韩立",
+      "localHits": [
+        {
+          "line": 5411,
+          "chapter": "第一百四十四章 筑基丹之争",
+          "matchedTerms": [
+            "四属性缺金",
+            "属于伪灵根"
+          ],
+          "snippet": "“是，掌门师兄！”一位淡绿色的中年人站了起来，淡淡的说道：“这人年纪不大，十八九岁的样子，木属性基础功法九层初期，灵根属性四属性缺金，属于伪灵根。从整体上判断，此人应是资质低下，但应有过奇遇和能勤恳苦练，否则根本无法有如今的境界。若再无其他的机遇，基本上此生顶多练至基础功法十一二层，无法进入筑基期。即使服用一粒筑基丹，但能进入筑基期的可能性也只有百分之一………"
+        }
+      ]
+    },
+    {
+      "heroId": "lu_shixiong",
+      "entityRef": "spirit-root:wind",
+      "relation": "HAS_SPIRIT_ROOT",
+      "label": "风属性异灵根",
+      "evidenceQueries": [
+        [
+          "风属性的异灵根"
+        ],
+        [
+          "陆师兄",
+          "风灵根"
+        ]
+      ],
+      "heroName": "陆师兄",
+      "localHits": [
+        {
+          "line": 5403,
+          "chapter": "第一百四十四章 筑基丹之争",
+          "matchedTerms": [
+            "风属性的异灵根"
+          ],
+          "snippet": "“剩下的这一位，身具风属性的异灵根，你说这理由够吗？”钟灵道手捻长髯，缓缓说道。"
+        }
+      ]
+    },
+    {
+      "heroId": "lu_shixiong",
+      "entityRef": "spirit-root-level:mutant",
+      "relation": "HAS_SPIRIT_ROOT_LEVEL",
+      "label": "异灵根",
+      "evidenceQueries": [
+        [
+          "陆师兄",
+          "异灵根属性"
+        ]
+      ],
+      "heroName": "陆师兄",
+      "localHits": [
+        {
+          "line": 5959,
+          "chapter": "第一百五十七章 慕容兄弟",
+          "matchedTerms": [
+            "陆师兄",
+            "异灵根属性"
+          ],
+          "snippet": "“这人我认识，他是陆师兄，的确是异灵根属性，一手风系法术可厉害的很！”"
+        }
+      ]
+    },
+    {
+      "heroId": "wangchan",
+      "entityRef": "spirit-root:dark",
+      "relation": "HAS_SPIRIT_ROOT",
+      "label": "暗灵根",
+      "evidenceQueries": [
+        [
+          "鬼灵门的少门主",
+          "暗灵根"
+        ]
+      ],
+      "heroName": "王婵",
+      "localHits": [
+        {
+          "line": 10696,
+          "chapter": "第二百五十六章 谋划",
+          "matchedTerms": [
+            "鬼灵门的少门主",
+            "暗灵根"
+          ],
+          "snippet": "…行，而灵根资质对其能修炼至几层，则是至关重要的。若是资质不行，也就只能练成个两三层就到尽头了，那可是没什么威力可言的鸡肋货。因此如焉的天灵根，绝对是对方梦寐以求的最佳双修对象，而这鬼灵门的少门主也是极其罕见的暗灵根，同样是修炼血灵大法的最佳体质。以他（她）二人的绝顶资质，如果真的双修血灵大法的话，肯定能将此秘法炼至极深之处，横扫六宗也是可期之事。所以，这鬼灵…"
+        }
+      ]
+    },
+    {
+      "heroId": "yuanyao",
+      "entityRef": "constitution:tianyin",
+      "relation": "HAS_CONSTITUTION",
+      "label": "天阴之体",
+      "evidenceQueries": [
+        [
+          "元瑶",
+          "天阴之体"
+        ]
+      ],
+      "arcNote": "灵界篇明确命中，当前作为未来体质系统事实储备。",
+      "heroName": "元瑶",
+      "localHits": [
+        {
+          "line": 82001,
+          "chapter": "第一千五百一十八章 天阴之体",
+          "matchedTerms": [
+            "元瑶",
+            "天阴之体"
+          ],
+          "snippet": "…元族本身也罕有人有的，其他各族具有此体质的就更加稀少了。最起码，老夫曾经花费近万余年专门寻找，一直未果的。这位道友姓元吧，不知元道友可否愿意拜在老夫的门下。”老者满面笑容之下，竟对元瑶如此的说道。"
+        }
+      ]
+    },
+    {
+      "heroId": "hanli",
+      "entityRef": "constitution:yuanci",
+      "relation": "HAS_CONSTITUTION",
+      "label": "后天元磁之体",
+      "evidenceQueries": [
+        [
+          "后天的元磁之体"
+        ],
+        [
+          "韩立",
+          "元磁之体"
+        ]
+      ],
+      "arcNote": "灵界篇后期获得，当前不影响人界对战基础设定。",
+      "heroName": "韩立",
+      "localHits": [
+        {
+          "line": 87942,
+          "chapter": "第一千六百零一章 元磁之体",
+          "matchedTerms": [
+            "后天的元磁之体"
+          ],
+          "snippet": "“果真是后天的元磁之体，如此的话，大事可成了。”美妇喃喃的说了一句，接着抬手一招。"
+        },
+        {
+          "line": 87946,
+          "chapter": "第一千六百零一章 元磁之体",
+          "matchedTerms": [
+            "后天的元磁之体"
+          ],
+          "snippet": "“元磁之体，自然是能够施展元磁神光的法体。阁下既然将一件元磁之宝和自己身躯融为了一体，也算是一种后天的元磁之体了。不过，这种将宝物彻底融入肢体的功法，倒和段道友修炼的‘吸金化玉’功有异曲同工之妙。不过段兄融入身体的不是宝物，而是各种珍稀的炼器材料而已。”美妇似乎心情大好，笑吟吟的说道。"
+        }
+      ]
+    }
+  ],
+  "characterFacts": [
+    {
+      "characterName": "李化元",
+      "entityRef": "constitution:sanyang",
+      "label": "三阳之体",
+      "evidenceQueries": [
+        [
+          "李化元",
+          "三阳之体"
+        ]
+      ],
+      "localHits": [
+        {
+          "line": 9932,
+          "chapter": "第二百三十九章 抉择",
+          "matchedTerms": [
+            "李化元",
+            "三阳之体"
+          ],
+          "snippet": "“呵呵！为师修炼是顶阶功法《真阳决》，但为师本身就是仅次于天灵根的三阳之体，修炼此功法可是如鱼得水，反而远胜其他功法了！否则，为师又怎能结成金丹呢？”李化元虽然没料到韩立会有此一问，但还是自傲的说道。"
+        }
+      ]
+    },
+    {
+      "characterName": "田琴儿",
+      "entityRef": "constitution:longyin",
+      "label": "龙吟之体",
+      "evidenceQueries": [
+        [
+          "田琴儿",
+          "龙吟之体"
+        ]
+      ],
+      "localHits": [
+        {
+          "line": 55699,
+          "chapter": "第一千一百三十九章 约定",
+          "matchedTerms": [
+            "田琴儿",
+            "龙吟之体"
+          ],
+          "snippet": "他突然决定给那名叫“田琴儿”的少女一个机会，并约定下次还见一面，其中多半原因是想弄清楚此女的真正来历。毕竟田琴儿的女生龙吟之体和身上那种独特的感觉，实在很难判断两者只是纯粹的巧合。"
+        },
+        {
+          "line": 57994,
+          "chapter": "第一千一百七十四章 安排",
+          "matchedTerms": [
+            "田琴儿",
+            "龙吟之体"
+          ],
+          "snippet": "随即他将田琴儿身怀龙吟之体和可能是自己好友转世之事，略微提了一下。"
+        }
+      ]
+    },
+    {
+      "characterName": "梅凝",
+      "entityRef": "constitution:tongyu-fengsui",
+      "label": "通玉凤髓之身",
+      "evidenceQueries": [
+        [
+          "通玉凤髓之身",
+          "通灵之气"
+        ]
+      ],
+      "localHits": [
+        {
+          "line": 27836,
+          "chapter": "第五百八十七章 通灵之气",
+          "matchedTerms": [
+            "通玉凤髓之身",
+            "通灵之气"
+          ],
+          "snippet": "“韩兄不知道，小女子虽然不是异灵根和天灵根资质的修仙者，但是却是通玉凤髓之身，这个代表着什么，韩兄应该很清楚吧。凭着此体质我可以通过密术渡给道友我的通灵之气，而通灵之气的精粹灵力，绝对不是这所谓的绝灵之气，能马上禁锢的。当然时间一长，这股通灵之气一散去，道友自然还是恢复如初的。”此女微露迟疑之色的低声道。"
+        }
+      ]
+    },
+    {
+      "characterName": "海月天",
+      "entityRef": "spirit-root-level:hidden",
+      "label": "隐雷灵根",
+      "evidenceQueries": [
+        [
+          "海大少",
+          "隐灵根"
+        ],
+        [
+          "隐雷灵根"
+        ]
+      ],
+      "localHits": [
+        {
+          "line": 101656,
+          "chapter": "第一千七百九十六章 紫衫女子",
+          "matchedTerms": [
+            "海大少",
+            "隐灵根"
+          ],
+          "snippet": "而海大少则听的两眼放光，总算明白了自己体内灵根真正异处，并忍不住的问道：“师傅所说的隐灵根来历和修炼不易，徒儿总算明白几分的。但是为何只有隐雷灵根等几种灵根才能被重视几分的，其中还另有什么蹊跷吗？”"
+        },
+        {
+          "line": 101648,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "隐雷灵根"
+          ],
+          "snippet": "“你和器灵子的情况又截然不同了。这些天我已经彻底的检查过你的身体，还向一些同阶的道友询问了一些疑惑之处，现在可以肯定你不但身体具有罕见的熔金之体，而且体内那怪异的雷灵根应该是传闻中的隐灵根。不，应该叫隐雷灵根更恰当一些的。”"
+        }
+      ]
+    },
+    {
+      "characterName": "海月天",
+      "entityRef": "constitution:molten-metal",
+      "label": "熔金之体",
+      "evidenceQueries": [
+        [
+          "熔金之体"
+        ]
+      ],
+      "localHits": [
+        {
+          "line": 101648,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "熔金之体"
+          ],
+          "snippet": "“你和器灵子的情况又截然不同了。这些天我已经彻底的检查过你的身体，还向一些同阶的道友询问了一些疑惑之处，现在可以肯定你不但身体具有罕见的熔金之体，而且体内那怪异的雷灵根应该是传闻中的隐灵根。不，应该叫隐雷灵根更恰当一些的。”"
+        },
+        {
+          "line": 101650,
+          "chapter": "第一千七百九十五章 隐灵根",
+          "matchedTerms": [
+            "熔金之体"
+          ],
+          "snippet": "“熔金之体虽然罕见，但是以人族如此庞大的基数，总有一定几率出现的。也基于此，你才能在炼体术上修炼如此之快。至于隐灵根则不好说了！从古至今，有关隐灵根的传闻就寥寥无几，几乎彻底淹没在了各种传说之中，所以我一开始才没有想到此事，并分析研究了好久才能真正确定下来的。而隐灵根极难发现，但此种灵根者诞生几率，决不会高于那些特殊体质者或真灵血脉继承者。”韩立解释的说道。"
+        }
+      ]
+    },
+    {
+      "characterName": "燕如嫣",
+      "entityRef": "spirit-root-level:heavenly",
+      "label": "天灵根",
+      "evidenceQueries": [
+        [
+          "如焉侄女的天灵根"
+        ],
+        [
+          "燕如嫣",
+          "天灵根"
+        ]
+      ],
+      "localHits": [
+        {
+          "line": 10691,
+          "chapter": "第二百五十五章 密会",
+          "matchedTerms": [
+            "如焉侄女的天灵根"
+          ],
+          "snippet": "得到了燕家老祖的这番话后，这儒生才点点头，然后肃然问道：“首先，这个血灵大法是否威力很大，如焉侄女的天灵根资质和对方少门主双修后，对这功法影响有多大？第二对方如何找到我们燕家来的，还知道我们祖上原先出自鬼灵门？最后，老祖宗得到的姜国和车骑国被魔道六宗所占领的事，是否完全从对方口中得知的？如果是真的，风都国的正道盟现在正忙什么事？”"
+        },
+        {
+          "line": 32394,
+          "chapter": "第六百八十六章 密会",
+          "matchedTerms": [
+            "燕如嫣",
+            "天灵根"
+          ],
+          "snippet": "他这才发现，除了王蝉外，旁边那位国色天香的貌美少妇也是结丹后期的修为，就和王蝉并排站在王天古身后。看此女从容不迫的样子，不像普通的女修。听说当年越国第一家族燕家，一潜出越国后就马上加入了鬼灵门，并将家族的那位天灵根之女燕如嫣嫁给了王婵，难道就是此女不成？韩立不由得想到。"
+        }
+      ]
+    }
+  ]
+}

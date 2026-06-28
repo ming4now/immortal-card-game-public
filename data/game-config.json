@@ -380,32 +380,71 @@
     "heavenly": {
       "name": "天灵根",
       "quality": 5,
-      "desc": "单一属性，修炼速度极快"
+      "desc": "单一属性，修炼速度极快",
+      "aliases": [
+        "天根",
+        "单灵根",
+        "单一灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:heavenly"
+      ]
     },
     "dual": {
       "name": "双灵根",
       "quality": 4,
-      "desc": "两种属性，修炼速度较快"
+      "desc": "两种属性，修炼速度较快",
+      "group": "true",
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:true"
+      ]
     },
     "triple": {
       "name": "三灵根",
       "quality": 3,
-      "desc": "三种属性，修炼速度普通"
+      "desc": "三种属性，修炼速度普通",
+      "group": "true",
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:true"
+      ]
     },
     "quad": {
       "name": "伪灵根",
       "quality": 2,
-      "desc": "四种属性，修炼速度缓慢"
+      "desc": "四种属性，修炼速度缓慢",
+      "group": "pseudo",
+      "aliases": [
+        "四灵根",
+        "四属性伪灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:pseudo"
+      ]
     },
     "penta": {
       "name": "伪灵根",
       "quality": 1,
-      "desc": "五种属性，修炼速度极慢"
+      "desc": "五种属性，修炼速度极慢",
+      "group": "pseudo",
+      "aliases": [
+        "五灵根",
+        "五行伪灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:pseudo"
+      ]
     },
     "mutant": {
       "name": "变异灵根",
       "quality": 4,
-      "desc": "属性变异，特殊能力"
+      "desc": "属性变异，特殊能力",
+      "aliases": [
+        "异灵根",
+        "变异灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:mutant"
+      ]
     },
     "special": {
       "name": "特殊灵根",
@@ -416,6 +455,19 @@
       "name": "凡骨",
       "quality": 0,
       "desc": "未入修仙灵根体系，用于江湖武者或凡人敌人"
+    },
+    "hidden": {
+      "name": "隐灵根",
+      "quality": 5,
+      "desc": "被特殊体质或血脉遮蔽的稀有灵根，需要特定条件显现",
+      "group": "hidden",
+      "aliases": [
+        "隐雷灵根",
+        "隐暗灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:hidden"
+      ]
     }
   },
   "spiritRootRules": {
@@ -1328,6 +1380,430 @@
       "type": "region",
       "parent": "human_realm",
       "description": "千竹教、大衍神君和人界傀儡术传承相关地域"
+    }
+  },
+  "spiritRootFoundation": {
+    "enabled": false,
+    "sourceData": "data/spirit-identity-foundation.json",
+    "sourcePages": [
+      "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "https://ydys.axiaoxin.com/linggen-quiz/linggen.html"
+    ],
+    "conflictNotes": [
+      "外部灵根页称韩立为五灵根；本地原文命中“四属性缺金，属于伪灵根”，当前以四灵根/quad 为准。"
+    ],
+    "usage": "资料储备层，后续开发灵根体质系统时再开启玩法规则。"
+  },
+  "spiritConstitutions": {
+    "enabled": false,
+    "sourceData": "data/spirit-identity-foundation.json",
+    "items": {
+      "chaos-body": {
+        "name": "混沌之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "混沌"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "体质包容万物；可修炼任何功法；传说中的体质",
+        "taxonomyRef": "constitution:chaos-body"
+      },
+      "earth-spirit": {
+        "name": "土灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "土"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "土灵之体具有大地般厚重稳固的特质，拥有者天生与土元素亲和。这种体质不仅让修士在土系功法上天赋异禀，还具备强大的防御能力和地形操控技巧。土灵之体的修士往往根基扎实，修为稳定，很少出现根基不稳的问题。",
+        "taxonomyRef": "constitution:earth-spirit"
+      },
+      "ethereal-body": {
+        "name": "空灵之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "空灵"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "身体轻盈如风，速度和敏捷度极高",
+        "taxonomyRef": "constitution:ethereal-body"
+      },
+      "fire-spirit": {
+        "name": "火灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "火"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "火灵之体拥有炽热的火焰力量，体内火元素异常活跃。这种体质让修士在火系功法修炼上进步神速，同时具备强大的爆发力和破坏力。火灵之体的拥有者往往性格热烈，战斗风格刚猛直接，是天生的战斗型修士。",
+        "taxonomyRef": "constitution:fire-spirit"
+      },
+      "five-elements": {
+        "name": "五行之体",
+        "aliases": [],
+        "category": "legendary",
+        "elements": [
+          "金",
+          "木",
+          "水",
+          "火",
+          "土"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "五行之体是最为完美的体质之一，体内金木水火土五行元素完美平衡，没有任何偏向。这种体质让拥有者能够修炼任何属性的功法，而且都能达到极高的成就。五行之体的修士往往修炼路径宽广，适应性极强，是各大宗门最渴望得到的弟子类型。",
+        "taxonomyRef": "constitution:five-elements"
+      },
+      "five-thunder": {
+        "name": "五雷之体",
+        "aliases": [],
+        "category": "thunder",
+        "elements": [
+          "雷"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "五雷之体是雷系体质的终极形态，拥有者能够同时掌控五种不同属性的雷电力量：金雷、木雷、水雷、火雷、土雷。每种雷电都有其独特的特性和威力，五雷合一时更是威力无穷。这种体质极其罕见，历史上拥有者屈指可数，都成为了震古烁今的强者。",
+        "taxonomyRef": "constitution:five-thunder"
+      },
+      "flame-spirit": {
+        "name": "炎灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "火"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "炎灵之体是火属性体质的进阶版本，比普通火灵之体更加强大。这种体质的拥有者体内蕴含着极致的炎之力，能够操控温度达到万度以上的极致火焰。炎灵之体不仅攻击力恐怖，还具备焚烧万物的毁灭性力量，是修仙界中最具破坏力的体质之一。",
+        "taxonomyRef": "constitution:flame-spirit"
+      },
+      "forged-metal": {
+        "name": "锻金之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "金"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "锻金之体是金属性修士梦寐以求的体质，拥有者天生与金属性灵气亲和度极高，修炼金属性功法时进展神速。这种体质不仅让修士在攻击力上有显著提升，还能大幅提高炼器成功率。许多著名的炼器大师都拥有这种珍贵的体质。",
+        "taxonomyRef": "constitution:forged-metal"
+      },
+      "ghostly": {
+        "name": "鬼魅之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "阴",
+          "鬼"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "擅长隐身和偷袭，鬼修首选体质",
+        "taxonomyRef": "constitution:ghostly"
+      },
+      "ice-marrow-cold-soul": {
+        "name": "冰髓寒魄之体",
+        "aliases": [
+          "冰髓之体"
+        ],
+        "category": "other",
+        "elements": [
+          "冰"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "极致寒冰体质，修炼冰系功法威力倍增，能够冰封万物",
+        "taxonomyRef": "constitution:ice-marrow-cold-soul"
+      },
+      "indestructible": {
+        "name": "不灭之体",
+        "aliases": [],
+        "category": "beast",
+        "elements": [
+          "生机"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "不灭之体是妖兽中最为逆天的天赋能力之一，拥有这种体质的存在即使身体完全破碎，头颅四肢被斩断，也能够自行重新愈合修复。这种近乎不死的能力让拥有者在战斗中几乎立于不败之地，是修仙界中最为恐怖的体质之一。",
+        "taxonomyRef": "constitution:indestructible"
+      },
+      "innate-dao": {
+        "name": "先天道体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "道"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "天生与道相亲；感悟天地法则能力强；万年难遇",
+        "taxonomyRef": "constitution:innate-dao"
+      },
+      "longyin": {
+        "name": "龙吟之体",
+        "aliases": [],
+        "category": "innate",
+        "elements": [
+          "阴阳"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "龙吟之体是一种极为特殊的体质，表现为男子魂魄却生于女儿身。随着修为的加深，体内阴阳之气会逐渐失调，若不及时调理将导致严重后果。然而，这种体质也蕴含着独特的修炼优势，在某些特殊功法的修炼上有着常人难以企及的天赋。",
+        "taxonomyRef": "constitution:longyin"
+      },
+      "molten-metal": {
+        "name": "熔金之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "金"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "熔金之体在本地原文中有明确命中，外部页面可作为体质体系上下文参考。",
+        "taxonomyRef": "constitution:molten-metal"
+      },
+      "natural-charm": {
+        "name": "天生媚体",
+        "aliases": [
+          "媚体"
+        ],
+        "category": "innate",
+        "elements": [
+          "阴",
+          "神识"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "“天生媚体”乃修仙界极为罕见的女性体质之一，体内自带特殊灵韵，能在无意中引动周围修士情绪波动，尤其易令男性修士情欲扰动、神魂不稳。此体质拥有强大的精神渗透与意志影响力，在某些功法配合下甚至能不战而屈人之兵。但因其天赋特性，也极易成为魔修与采补之徒觊觎的对象，乃“艳福”与“祸水”并存之体。",
+        "taxonomyRef": "constitution:natural-charm"
+      },
+      "nine-spirit-sword": {
+        "name": "九灵剑体",
+        "aliases": [],
+        "category": "legendary",
+        "elements": [
+          "剑"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "九灵剑体是修仙界最顶尖的剑修体质之一，号称三大剑修灵体之首。拥有这种体质的修士天生与剑道相合，体内蕴含九道剑气灵光，修炼剑法时进步神速。九灵剑体的拥有者往往能够领悟到剑道的最高境界，成为震慑一方的剑道宗师。",
+        "taxonomyRef": "constitution:nine-spirit-sword"
+      },
+      "psychic-body": {
+        "name": "通灵之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "通灵"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "能够与灵体沟通，精神力异常强大",
+        "taxonomyRef": "constitution:psychic-body"
+      },
+      "pure-yang": {
+        "name": "纯阳之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "阳"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "体质极阳，天生燥热；修炼阳系功法威力巨大；容易走火入魔",
+        "taxonomyRef": "constitution:pure-yang"
+      },
+      "pure-yin": {
+        "name": "纯阴之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "阴"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "体质极阴，天生寒冷；修炼阴系功法速度极快；需要阳性丹药调和",
+        "taxonomyRef": "constitution:pure-yin"
+      },
+      "sanyang": {
+        "name": "三阳之体",
+        "aliases": [],
+        "category": "innate",
+        "elements": [
+          "阳",
+          "火"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "三阳之体乃修仙界罕见的顶级体质，体内蕴含三道纯阳之气，修炼资质仅次于传说中的天灵根。拥有此体质者天生阳气充盛，修炼阳属性功法时速度惊人，且对阴邪之物有天然克制效果。历史上拥有三阳之体的修士大多成就非凡，是各大宗门梦寐以求的弟子。",
+        "taxonomyRef": "constitution:sanyang"
+      },
+      "self-governing": {
+        "name": "自治之体",
+        "aliases": [],
+        "category": "beast",
+        "elements": [
+          "神识"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "自治之体是某些古老妖族，特别是巨龟一族的天赋能力。这种体质赋予拥有者强大的自我修复和调节能力，不仅能治愈外伤，还能自动调节体内的各种不平衡状态，包括毒素、诅咒等负面效果。拥有这种体质的存在往往长寿且极难被彻底击败。",
+        "taxonomyRef": "constitution:self-governing"
+      },
+      "self-healing": {
+        "name": "自愈之体",
+        "aliases": [],
+        "category": "beast",
+        "elements": [
+          "生机"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "自愈之体是某些强大妖兽天生具备的能力，拥有这种体质的存在具有超强的抗打击能力和伤势恢复速度。在战斗中能够快速愈合伤口，持续作战能力极强。对于修士而言，若能通过特殊手段获得这种体质，将在生存能力上获得巨大提升。",
+        "taxonomyRef": "constitution:self-healing"
+      },
+      "shapechanging-body": {
+        "name": "化形之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "化形"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "能够改变外形，伪装和潜入能力强",
+        "taxonomyRef": "constitution:shapechanging-body"
+      },
+      "thunder-body": {
+        "name": "雷电之体",
+        "aliases": [],
+        "category": "thunder",
+        "elements": [
+          "雷"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "雷电之体是天地间最为霸道的体质之一，拥有者能够操控雷电之力。这种体质不仅赋予修士强大的攻击力和速度，还具备麻痹敌人和破除禁制的特殊能力。雷电之体的修士往往修炼速度极快，但同时也面临着雷劫更加猛烈的风险。",
+        "taxonomyRef": "constitution:thunder-body"
+      },
+      "tianyin": {
+        "name": "天阴之体",
+        "aliases": [],
+        "category": "innate",
+        "elements": [
+          "阴"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "天阴之体是修仙界最为罕见的女性专属体质之一，需在阴年阴月阴日阴时出生且保持处子之身才能拥有。这种体质集天地间最纯净的阴寒之力于一身，修炼阴属性功法时进展神速，同时也是炼制某些顶级丹药不可或缺的体质。拥有此体质的女修往往成为各大宗门争夺的焦点。",
+        "taxonomyRef": "constitution:tianyin"
+      },
+      "tongyu-fengsui": {
+        "name": "通玉凤髓之体",
+        "aliases": [
+          "通玉凤髓之身"
+        ],
+        "category": "innate",
+        "elements": [
+          "通灵"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "通玉凤髓之体是女修中极为珍贵的灵体，拥有此体质的女修在进入筑基期后，体内会自然生出一丝通灵之气。这股通灵之气不仅能让女修本身修为大进，更能通过特殊方式让男子洗髓易经，修为飞速提升。因此，拥有此体质的女修往往成为各大宗门和强者争夺的目标。",
+        "taxonomyRef": "constitution:tongyu-fengsui"
+      },
+      "true-spirit-body": {
+        "name": "真灵之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "真灵"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "蕴含真灵之力，修炼神魂类功法极快",
+        "taxonomyRef": "constitution:true-spirit-body"
+      },
+      "water-spirit": {
+        "name": "水灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "水"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "水灵之体如水般柔韧灵动，拥有者天生具备操控水元素的能力。这种体质不仅让修士在水系功法修炼上事半功倍，还赋予了极强的适应性和变化能力。在战斗中能够如水般灵活多变，防御和控制能力都十分出色。",
+        "taxonomyRef": "constitution:water-spirit"
+      },
+      "wood-spirit": {
+        "name": "木灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "木"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "木灵之体拥有与自然万物天然的亲和力，这种体质让修士能够轻松感知并操控木属性灵气。拥有此体质者不仅在木系功法修炼上天赋异禀，还具备强大的治疗能力和生命力恢复速度。许多医修和炼丹师都渴望拥有这种体质。",
+        "taxonomyRef": "constitution:wood-spirit"
+      },
+      "xuanhun-body": {
+        "name": "玄魂之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "神魂"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "魂魄异常强大，抗精神攻击能力强",
+        "taxonomyRef": "constitution:xuanhun-body"
+      },
+      "yuanci": {
+        "name": "元磁之体",
+        "aliases": [
+          "元磁法体",
+          "元磁之身"
+        ],
+        "category": "legendary",
+        "elements": [
+          "元磁"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "元磁之体是一种极其神秘的体质，拥有者能够感知和操控磁场力量。这种体质不仅能够操控金属类法宝，还能影响他人的神识和精神力。元磁之体在阵法布置和破解方面有着得天独厚的优势，同时也是炼制特殊法宝的绝佳体质。",
+        "taxonomyRef": "constitution:yuanci"
+      },
+      "yuanyang-yuanyin": {
+        "name": "元阳、元阴之体",
+        "aliases": [
+          "元阳之体",
+          "元阴之体",
+          "元阳",
+          "元阴"
+        ],
+        "category": "innate",
+        "elements": [
+          "阳",
+          "阴"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "元阳、元阴之体是修仙界中极为珍贵的先天体质，只有保持纯净之身的男女才能拥有。这种体质蕴含着最原始纯净的阴阳之力，是诸多高深功法和炼丹术的绝佳基础。拥有此体质者在修炼阴阳类功法时事半功倍，同时也是各大宗门争相招揽的对象。",
+        "taxonomyRef": "constitution:yuanyang-yuanyin"
+      }
     }
   }
 }

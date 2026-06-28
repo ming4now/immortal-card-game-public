@@ -53,8 +53,8 @@
         })();
     </script>
     <!-- End Baidu Analytics -->
-  <script type="module" crossorigin src="./assets/main-CLAaxzai.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/main-CV04cVPV.css">
+  <script type="module" crossorigin src="./assets/main-BJC3QbW2.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-ChAHhbMB.css">
 </head>
 <body class="menu-open">
     <button id="audio-toggle" class="audio-toggle" type="button" title="关闭背景音乐" aria-label="关闭背景音乐">🔊</button>
@@ -345,12 +345,14 @@
         <div class="log-header">
             <div class="log-title">战斗记录</div>
             <div class="log-buttons">
-                <button id="download-log-btn">📥 下载战斗日志</button>
-                <button id="download-console-btn">📥 下载完整控制台日志</button>
+                <button id="toggle-log-visibility-btn" type="button" title="隐藏战斗记录" aria-controls="game-log" aria-expanded="true">隐藏</button>
+                <button id="download-log-btn" type="button">📥 下载战斗日志</button>
+                <button id="download-console-btn" type="button">📥 下载完整控制台日志</button>
             </div>
         </div>
         <div id="log-content"></div>
     </div>
+    <button id="show-game-log-btn" class="show-game-log-btn" type="button" hidden title="显示战斗记录" aria-label="显示战斗记录">战斗记录</button>
 
     <!-- AI配置弹窗 -->
     <div id="ai-config-modal" class="modal">
@@ -559,6 +561,22 @@
                 <button id="btn-deck-random" class="secondary-btn">🎲 随机生成</button>
                 <button class="primary-btn" id="deck-confirm-btn" disabled>开始战斗</button>
             </div>
+        </div>
+    </div>
+
+    <!-- 对战加载界面 -->
+    <div id="battle-loading-screen" class="battle-loading-screen" hidden role="status" aria-live="polite" aria-busy="true">
+        <div class="battle-loading-panel">
+            <div class="battle-loading-kicker">准备对战</div>
+            <div class="battle-loading-matchup">
+                <span id="battle-loading-player">我方</span>
+                <span class="battle-loading-vs">VS</span>
+                <span id="battle-loading-opponent">敌方</span>
+            </div>
+            <div class="battle-loading-bar" aria-hidden="true">
+                <div id="battle-loading-progress" class="battle-loading-progress"></div>
+            </div>
+            <div id="battle-loading-status" class="battle-loading-status">正在加载对战资源...</div>
         </div>
     </div>
 
