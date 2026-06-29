@@ -1,4 +1,4 @@
-import{n as e,t}from"./main-BUROFyUB.js";var n={A:10,B:20,C:30},r=`
+import{n as e,t}from"./main-CflsU07d.js";var n={A:10,B:20,C:30},r=`
 .scene-dialogue-toast {
     position: fixed;
     top: 72px;

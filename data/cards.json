@@ -2555,7 +2555,7 @@
             "spiritRoot": "土",
             "sect": "掩月宗",
             "battlecry": true,
-            "description": "掩月宗炼气期管事，负责采买世俗物品。战吼：抽1张牌并获得1点护甲",
+            "description": "掩月宗炼气期管事，负责采买世俗物品。战吼：获得一张点心/糕点牌并获得1点护甲",
             "avatar": "🧾",
             "taxonomyRefs": [
                 "sect:yanyue"
@@ -2568,7 +2568,7 @@
             "gameTags": [
                 "掩月宗",
                 "南宫婉",
-                "抽牌",
+                "丹药",
                 "防御"
             ],
             "onPlayEffectId": "yanyue_yuan_kun__onPlay"
