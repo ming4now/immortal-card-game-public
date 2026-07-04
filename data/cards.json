@@ -565,6 +565,54 @@
             "onAttackEffectId": "ghost_cultivator__onAttack"
         },
         {
+            "id": "yuanyao_yanli",
+            "name": "妍丽",
+            "type": "cultivator",
+            "realm": 3,
+            "cost": 3,
+            "attack": 2,
+            "health": 4,
+            "spiritRoot": "阴",
+            "cultivationSystem": "鬼道修士",
+            "description": "元瑶师姐，因青阳门之祸失去肉身，后与元瑶共修阴阳轮回诀。战吼：若墓地有可复活单位，恢复3生命并抽1张牌；否则恢复2生命。",
+            "avatar": "👥",
+            "heroOnly": "yuanyao",
+            "exclusive": true,
+            "battlecry": true,
+            "onPlayEffectId": "yuanyao_yanli__onPlay",
+            "taxonomyRefs": [
+                "path:guidao",
+                "race:guizu"
+            ],
+            "gameTags": [
+                "元瑶",
+                "妍丽",
+                "鬼道",
+                "回复",
+                "抽牌"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-07-03",
+                "novelExactMatch": {
+                    "name": "妍丽",
+                    "occurrenceCount": 69,
+                    "lineHints": [
+                        17206,
+                        26809,
+                        26812,
+                        26817,
+                        26869,
+                        28186,
+                        78881
+                    ]
+                },
+                "note": "原文确认妍丽是元瑶师姐/好友，青阳门之祸后失去肉身，元瑶为其寻养魂木并施展还魂术，后共同修炼阴阳轮回诀。"
+            }
+        },
+        {
             "id": "ice_cultivator",
             "name": "玄骨门冰修",
             "type": "cultivator",
@@ -1169,6 +1217,52 @@
             "gameTags": [
                 "极阴岛"
             ]
+        },
+        {
+            "id": "wuchou",
+            "name": "乌丑",
+            "type": "cultivator",
+            "realm": 4,
+            "cost": 4,
+            "attack": 3,
+            "health": 4,
+            "spiritRoot": "阴",
+            "cultivationSystem": "魔道修士",
+            "description": "极阴岛少主，修炼玄阴功。战吼：获得一张阴魔斩，并使随机敌方修士攻击力-1。",
+            "avatar": "🗡️",
+            "sect": "极阴岛",
+            "onPlayEffectId": "wuchou__onPlay",
+            "taxonomyRefs": [
+                "faction:jiyin",
+                "path:modao",
+                "path:guidao"
+            ],
+            "gameTags": [
+                "乌丑",
+                "极阴岛",
+                "魔道",
+                "鬼道",
+                "控制",
+                "抽牌"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "query": "乌丑 玄阴功 玄阴魔气",
+                "lineHints": [
+                    17535,
+                    17540,
+                    17555,
+                    17559,
+                    18733,
+                    22864,
+                    22931
+                ],
+                "note": "原文确认乌丑为极阴岛少主，结丹初期，修炼玄阴功并多次以玄阴魔气压阵。"
+            },
+            "heroOnly": "jiyin",
+            "exclusive": true
         },
         {
             "id": "wanfa_disciple",
@@ -3965,6 +4059,79 @@
             ]
         },
         {
+            "id": "golden_light_flying_sword",
+            "name": "金光飞剑术",
+            "type": "spell",
+            "cost": 3,
+            "realm": 2,
+            "spiritRoot": "金",
+            "description": "金光上人专属：飞剑斩向敌方攻击最高的修士，造成4点伤害；若敌方无修士，则对敌方英雄造成3点伤害。",
+            "avatar": "⚔️",
+            "heroOnly": "golden_light",
+            "exclusive": true,
+            "effectEffectId": "golden_light_flying_sword__effect",
+            "taxonomyRefs": [
+                "path:sanxiu"
+            ],
+            "gameTags": [
+                "散修",
+                "法术",
+                "法宝",
+                "爆发",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "query": "金光上人 飞剑之术 飞剑",
+                "lineHints": [
+                    2852,
+                    2856,
+                    3141,
+                    3148,
+                    3152
+                ],
+                "note": "原文写明金光上人向贾天龙演示飞剑之术，落日峰斗法时以黑匣飞出灰芒飞剑斩敌。"
+            }
+        },
+        {
+            "id": "golden_light_shield_talisman",
+            "name": "金光罩符",
+            "type": "spell",
+            "cost": 2,
+            "realm": 2,
+            "spiritRoot": "金",
+            "description": "金光上人专属：获得4点护甲，本回合下一次受到的伤害-2。",
+            "avatar": "✨",
+            "heroOnly": "golden_light",
+            "exclusive": true,
+            "effectEffectId": "golden_light_shield_talisman__effect",
+            "taxonomyRefs": [
+                "path:sanxiu"
+            ],
+            "gameTags": [
+                "散修",
+                "法术",
+                "防御",
+                "护甲",
+                "低费"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "query": "金光罩 金刚不坏功 黄色符纸",
+                "lineHints": [
+                    3071,
+                    3075,
+                    3084,
+                    3095
+                ],
+                "note": "原文中金光上人拍下黄符后周身金芒如厚甲，后又自称金刚不坏功。"
+            }
+        },
+        {
             "id": "hanli_puppet_army",
             "name": "千竹教傀儡大军",
             "type": "spell",
@@ -4471,6 +4638,128 @@
             }
         },
         {
+            "id": "yinmo_slash",
+            "name": "阴魔斩",
+            "type": "spell",
+            "realm": 5,
+            "cost": 4,
+            "description": "韩立从玄阴经中修得的一次性斩击秘术：对敌方攻击最高的修士造成5点伤害；若其死亡，敌方英雄受到2点伤害。若敌方无修士，则敌方英雄受到3点伤害。己方英雄受到1点反噬。",
+            "avatar": "⚔️",
+            "effectEffectId": "yinmo_slash__effect",
+            "taxonomyRefs": [
+                "path:modao",
+                "path:guidao"
+            ],
+            "gameTags": [
+                "韩立",
+                "玄骨门",
+                "极阴岛",
+                "魔道",
+                "鬼道",
+                "爆发"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "xuangui",
+                    "jiyin"
+                ]
+            },
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "query": "阴魔斩",
+                "lineHints": [
+                    27140,
+                    27148,
+                    27151,
+                    27152,
+                    27153
+                ],
+                "note": "原文明确称阴魔斩为韩立从玄阴经上挑选修炼的秘术，具有一次性释放、无坚不摧的特点。"
+            }
+        },
+        {
+            "id": "sadan_avatar",
+            "name": "煞丹分身",
+            "type": "spell",
+            "realm": 4,
+            "cost": 3,
+            "description": "玄阴经衍生的分身秘术：召唤一个2/2煞丹分身，并使随机敌方修士攻击力-1。",
+            "avatar": "🩸",
+            "effectEffectId": "sadan_avatar__effect",
+            "taxonomyRefs": [
+                "sect:xuangu",
+                "faction:jiyin",
+                "path:modao",
+                "path:guidao"
+            ],
+            "gameTags": [
+                "玄骨门",
+                "极阴岛",
+                "魔道",
+                "鬼道",
+                "召唤",
+                "控制"
+            ],
+            "requirements": {
+                "heroIds": [
+                    "xuangui",
+                    "jiyin"
+                ],
+                "anyIdentity": [
+                    "sect:xuangu",
+                    "faction:jiyin"
+                ]
+            },
+            "managedOwnershipRefs": [
+                "sect:xuangu",
+                "faction:jiyin"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "query": "煞丹 分身 玄阴经",
+                "lineHints": [
+                    18881,
+                    20065
+                ]
+            }
+        },
+        {
+            "id": "xuanhun_ningyao_dafa",
+            "name": "玄魂凝妖大法",
+            "type": "spell",
+            "realm": 5,
+            "cost": 5,
+            "description": "玄骨上人转修鬼妖之道的秘术：复活己方墓地费用最高的修士、灵宠或傀儡，半血入场并获得潜行；若无目标，获得3点护甲并抽1张牌。",
+            "avatar": "👻",
+            "heroOnly": "xuangui",
+            "exclusive": true,
+            "effectEffectId": "xuanhun_ningyao_dafa__effect",
+            "taxonomyRefs": [
+                "sect:xuangu",
+                "path:guidao",
+                "path:modao"
+            ],
+            "gameTags": [
+                "玄骨门",
+                "鬼道",
+                "魔道",
+                "复活",
+                "护甲",
+                "抽牌"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "query": "玄魂凝妖大法",
+                "lineHints": [
+                    20065,
+                    20302
+                ]
+            }
+        },
+        {
             "id": "possession_dafa",
             "name": "附身大法",
             "type": "spell",
@@ -4722,6 +5011,49 @@
             }
         },
         {
+            "id": "yin_yang_reincarnation_jue",
+            "name": "阴阳轮回诀",
+            "type": "spell",
+            "realm": 4,
+            "cost": 3,
+            "description": "元瑶与妍丽共修的人鬼合修之术：复活墓地费用最低的修士、灵宠或傀儡，生命减半，并获得2点护甲；若无法复活则抽1张牌。",
+            "avatar": "☯️",
+            "heroOnly": "yuanyao",
+            "exclusive": true,
+            "effectEffectId": "yin_yang_reincarnation_jue__effect",
+            "taxonomyRefs": [
+                "path:guidao",
+                "race:guizu"
+            ],
+            "gameTags": [
+                "元瑶",
+                "妍丽",
+                "鬼道",
+                "复活",
+                "护甲"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "retrievedAt": "2026-07-03",
+                "novelExactMatch": {
+                    "name": "阴阳轮回诀",
+                    "occurrenceCount": 7,
+                    "lineHints": [
+                        28182,
+                        28183,
+                        28184,
+                        28186,
+                        78881,
+                        79478,
+                        82070
+                    ]
+                },
+                "note": "原文称阴阳轮回诀为元瑶与妍丽共同修炼的人鬼合修之术，借阴冥之气修炼并导致半人半鬼之身。"
+            }
+        },
+        {
             "id": "heavenly_corpse_fire",
             "name": "天都尸火",
             "type": "spell",
@@ -4781,15 +5113,41 @@
             "avatar": "📜",
             "effectEffectId": "xuanyin_scripture__effect",
             "taxonomyRefs": [
-                "path:modao"
+                "sect:xuangu",
+                "faction:jiyin",
+                "path:modao",
+                "path:guidao"
             ],
             "gameTags": [
+                "玄骨门",
+                "极阴岛",
                 "魔道",
-                "血道"
+                "鬼道",
+                "控制",
+                "召唤"
             ],
             "requirements": {
+                "heroIds": [
+                    "xuangui",
+                    "jiyin"
+                ],
                 "anyIdentity": [
-                    "path:modao"
+                    "sect:xuangu",
+                    "faction:jiyin"
+                ]
+            },
+            "managedOwnershipRefs": [
+                "sect:xuangu",
+                "faction:jiyin"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "query": "玄阴经",
+                "lineHints": [
+                    14762,
+                    17545,
+                    18881,
+                    20065
                 ]
             }
         },
@@ -5296,15 +5654,39 @@
             "avatar": "🌫️",
             "effectEffectId": "xuanyin_demonic_qi__effect",
             "taxonomyRefs": [
-                "path:modao"
+                "sect:xuangu",
+                "faction:jiyin",
+                "path:modao",
+                "path:guidao"
             ],
             "gameTags": [
+                "玄骨门",
+                "极阴岛",
                 "魔道",
-                "血道"
+                "鬼道",
+                "控制"
             ],
             "requirements": {
+                "heroIds": [
+                    "xuangui",
+                    "jiyin"
+                ],
                 "anyIdentity": [
-                    "path:modao"
+                    "sect:xuangu",
+                    "faction:jiyin"
+                ]
+            },
+            "managedOwnershipRefs": [
+                "sect:xuangu",
+                "faction:jiyin"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "query": "玄阴魔气",
+                "lineHints": [
+                    17545,
+                    58545,
+                    58703
                 ]
             }
         },
@@ -7273,6 +7655,76 @@
                 "anyIdentity": [
                     "sect:moyan"
                 ]
+            }
+        },
+        {
+            "id": "zhongwu_demon_flame_surge",
+            "name": "钟吾魔焰突袭",
+            "type": "spell",
+            "realm": 3,
+            "cost": 3,
+            "description": "钟吾专属：魔焰席卷敌阵，敌方全体修士受到1点伤害，生命最低的敌方修士额外受到2点伤害；若敌方无修士，则敌方英雄受到3点伤害。",
+            "avatar": "🔥",
+            "heroOnly": "demon_vanguard",
+            "exclusive": true,
+            "effectEffectId": "zhongwu_demon_flame_surge__effect",
+            "taxonomyRefs": [
+                "sect:moyan",
+                "path:modao"
+            ],
+            "gameTags": [
+                "魔焰宗",
+                "魔道",
+                "火系",
+                "爆发",
+                "低费",
+                "法术"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "inferred-from-current-hero",
+                "title": "钟吾当前英雄定位",
+                "query": "钟吾 魔焰宗 魔焰滔天",
+                "lineHints": [
+                    11157
+                ],
+                "note": "当前工程将钟吾定位为魔焰宗火系突袭英雄；原文命中钟吾本人，但宗派命中为灵兽山，因此此牌用于承接既有玩法，后续可人工审核是否调整英雄身份。"
+            }
+        },
+        {
+            "id": "zhongwu_beast_drive",
+            "name": "钟吾驱兽",
+            "type": "spell",
+            "realm": 2,
+            "cost": 2,
+            "description": "钟吾专属：召唤一个2/2诱来的妖兽；若场上已满，则随机己方修士攻击力+1。",
+            "avatar": "🐾",
+            "heroOnly": "demon_vanguard",
+            "exclusive": true,
+            "effectEffectId": "zhongwu_beast_drive__effect",
+            "taxonomyRefs": [
+                "sect:yuling",
+                "path:yaoxiu"
+            ],
+            "gameTags": [
+                "灵兽山",
+                "妖族",
+                "妖修",
+                "召唤",
+                "低费",
+                "法术"
+            ],
+            "loreSource": {
+                "arc": "human",
+                "source": "novel-local",
+                "title": "凡人修仙传（人界篇+灵界篇）.txt",
+                "query": "灵兽山 丑汉钟吾",
+                "lineHints": [
+                    8422,
+                    11157,
+                    11158
+                ],
+                "note": "原文两次命中钟吾，明确为灵兽山丑汉；此牌先作为钟吾个人牌保留御兽方向，等待后续人工决定是否修正英雄宗派。"
             }
         },
         {
@@ -14346,7 +14798,7 @@
             "type": "formation",
             "cost": 3,
             "duration": 3,
-            "description": "鬼道迷雾，我方修士死亡时进入墓地而非直接消失，持续3回合。",
+            "description": "持续3回合，鬼道迷雾笼罩；我方复活修士、灵宠或傀儡的费用-1（最低0）。",
             "avatar": "🌫️",
             "onActivateEffectId": "guidao_ghost_mist__onActivate",
             "onExpireEffectId": "guidao_ghost_mist__onExpire",
@@ -14743,7 +15195,7 @@
             "realm": 4,
             "cost": 3,
             "duration": 3,
-            "description": "持续3回合，开启鬼道迷雾；我方修士死亡时保留在墓地，便于复活和亡语联动",
+            "description": "持续3回合，开启鬼道迷雾；我方复活修士、灵宠或傀儡的费用-1（最低0）",
             "avatar": "⭕",
             "category": "鬼道",
             "onActivateEffectId": "guidao_ghost_mist__onActivate",
@@ -14805,7 +15257,7 @@
             "realm": 4,
             "cost": 3,
             "duration": 3,
-            "description": "持续3回合，开启鬼道迷雾；我方修士死亡时保留在墓地，便于复活和亡语联动",
+            "description": "持续3回合，开启鬼道迷雾；我方复活修士、灵宠或傀儡的费用-1（最低0）",
             "avatar": "⭕",
             "category": "鬼道",
             "onActivateEffectId": "guidao_ghost_mist__onActivate",
@@ -14863,7 +15315,7 @@
             "realm": 4,
             "cost": 3,
             "duration": 3,
-            "description": "持续3回合，开启鬼道迷雾；我方修士死亡时保留在墓地，便于复活和亡语联动",
+            "description": "持续3回合，开启鬼道迷雾；我方复活修士、灵宠或傀儡的费用-1（最低0）",
             "avatar": "⭕",
             "category": "鬼道",
             "onActivateEffectId": "guidao_ghost_mist__onActivate",
@@ -14951,7 +15403,7 @@
             "realm": 5,
             "cost": 4,
             "duration": 3,
-            "description": "持续3回合，开启鬼道迷雾；我方修士死亡时保留在墓地，便于复活和亡语联动",
+            "description": "持续3回合，开启鬼道迷雾；我方复活修士、灵宠或傀儡的费用-1（最低0）",
             "avatar": "⭕",
             "category": "鬼道",
             "onActivateEffectId": "guidao_ghost_mist__onActivate",
@@ -16495,6 +16947,12 @@
                     ]
                 },
                 "note": "外部妖兽百科列为寻宝灵宠；现有难以被法术指定定位保留。"
+            },
+            "requirements": {
+                "heroIds": [
+                    "hanli",
+                    "nangongwan"
+                ]
             }
         },
         {

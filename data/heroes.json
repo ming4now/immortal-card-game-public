@@ -1,1315 +1,1359 @@
 {
-  "hanli": {
-    "id": "hanli",
-    "name": "韩立",
-    "avatar": "🧪",
-    "arc": "human",
-    "sect": "黄枫谷",
-    "race": "人族",
-    "spiritRoot": "木",
-    "spiritRootLevel": "quad",
-    "spiritRootElements": [
-      "木",
-      "水",
-      "火",
-      "土"
-    ],
-    "health": 30,
-    "skill": {
-      "name": "护在身前",
-      "description": "被动技能：韩立场上有修士时，敌方无法直接攻击韩立"
+    "hanli": {
+        "id": "hanli",
+        "name": "韩立",
+        "avatar": "🧪",
+        "arc": "human",
+        "sect": "黄枫谷",
+        "race": "人族",
+        "spiritRoot": "木",
+        "spiritRootLevel": "quad",
+        "spiritRootElements": [
+            "木",
+            "水",
+            "火",
+            "土"
+        ],
+        "health": 30,
+        "skill": {
+            "name": "护在身前",
+            "description": "被动技能：韩立场上有修士时，敌方无法直接攻击韩立"
+        },
+        "specialCards": [
+            "hanli_huanxing_jue",
+            "hanli_wangchen_pill",
+            "xuanmu_huaying_dafa",
+            "qingming_needles"
+        ],
+        "skillEffectId": "hanli__skill",
+        "originRegion": "青牛镇",
+        "activeRegions": [
+            "青牛镇",
+            "七玄门",
+            "黄枫谷",
+            "血色禁地",
+            "乱星海",
+            "大晋"
+        ],
+        "affiliationRefs": [
+            "faction:qixuan"
+        ],
+        "gameTags": [
+            "七玄门",
+            "凡人武学"
+        ],
+        "taxonomyRefs": [
+            "faction:qixuan",
+            "sect:huangfeng"
+        ]
     },
-    "specialCards": [
-      "hanli_huanxing_jue",
-      "hanli_wangchen_pill",
-      "xuanmu_huaying_dafa",
-      "qingming_needles"
-    ],
-    "skillEffectId": "hanli__skill",
-    "originRegion": "青牛镇",
-    "activeRegions": [
-      "青牛镇",
-      "七玄门",
-      "黄枫谷",
-      "血色禁地",
-      "乱星海",
-      "大晋"
-    ],
-    "affiliationRefs": [
-      "faction:qixuan"
-    ],
-    "gameTags": [
-      "七玄门",
-      "凡人武学"
-    ],
-    "taxonomyRefs": [
-      "faction:qixuan",
-      "sect:huangfeng"
-    ]
-  },
-  "nangongwan": {
-    "id": "nangongwan",
-    "name": "南宫婉",
-    "avatar": "🌙",
-    "arc": "human",
-    "sect": "掩月宗",
-    "race": "人族",
-    "spiritRoot": "水",
-    "spiritRootLevel": "heavenly",
-    "spiritRootElements": [
-      "水"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "轮回诀",
-      "description": "生命值首次降到0时，恢复12点生命并抽1张牌（每场战斗一次）"
+    "nangongwan": {
+        "id": "nangongwan",
+        "name": "南宫婉",
+        "avatar": "🌙",
+        "arc": "human",
+        "sect": "掩月宗",
+        "race": "人族",
+        "spiritRoot": "水",
+        "spiritRootLevel": "heavenly",
+        "spiritRootElements": [
+            "水"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "轮回诀",
+            "description": "生命值首次降到0时，恢复12点生命并抽1张牌（每场战斗一次）"
+        },
+        "specialCards": [
+            "nangongwan_soul_pact",
+            "nangongwan_zhuque_ring",
+            "nangong_reincarnation_light",
+            "nangongwan_reincarnation",
+            "reincarnation_art",
+            "nangong_sunu_huanxing_shu",
+            "nangong_ping_identity"
+        ],
+        "skillEffectId": "nangongwan__skill",
+        "originRegion": "掩月宗",
+        "activeRegions": [
+            "掩月宗",
+            "血色禁地",
+            "天南"
+        ],
+        "taxonomyRefs": [
+            "sect:yanyue"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "nangongwan__skill",
-    "originRegion": "掩月宗",
-    "activeRegions": [
-      "掩月宗",
-      "血色禁地",
-      "天南"
-    ],
-    "taxonomyRefs": [
-      "sect:yanyue"
-    ]
-  },
-  "dayan": {
-    "id": "dayan",
-    "name": "大衍神君",
-    "avatar": "🤖",
-    "arc": "human",
-    "sect": "千竹教",
-    "race": "人族",
-    "spiritRoot": "金",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "金",
-      "土"
-    ],
-    "health": 25,
-    "skill": {
-      "name": "大衍决",
-      "description": "召唤的傀儡获得+1/+1"
+    "dayan": {
+        "id": "dayan",
+        "name": "大衍神君",
+        "avatar": "🤖",
+        "arc": "human",
+        "sect": "千竹教",
+        "race": "人族",
+        "spiritRoot": "金",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "金",
+            "土"
+        ],
+        "health": 25,
+        "skill": {
+            "name": "大衍决",
+            "description": "召唤的傀儡获得+1/+1"
+        },
+        "specialCards": [
+            "dayan_divine_calculation"
+        ],
+        "skillEffectId": "dayan__skill",
+        "originRegion": "极西之地",
+        "activeRegions": [
+            "天南",
+            "大晋"
+        ],
+        "taxonomyRefs": [
+            "sect:qianzhu"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "dayan__skill",
-    "originRegion": "极西之地",
-    "activeRegions": [
-      "天南",
-      "大晋"
-    ],
-    "taxonomyRefs": [
-      "sect:qianzhu"
-    ]
-  },
-  "yinyue": {
-    "id": "yinyue",
-    "name": "银月",
-    "avatar": "🦊",
-    "arc": "human",
-    "sect": "妖族",
-    "race": "妖族",
-    "spiritRoot": "变异",
-    "spiritRootLevel": "mutant",
-    "spiritRootElements": [
-      "变异"
-    ],
-    "health": 26,
-    "skill": {
-      "name": "妖狐化身",
-      "description": "消耗2灵力，额外抽1张牌"
+    "yinyue": {
+        "id": "yinyue",
+        "name": "银月",
+        "avatar": "🦊",
+        "arc": "human",
+        "sect": "妖族",
+        "race": "妖族",
+        "spiritRoot": "变异",
+        "spiritRootLevel": "mutant",
+        "spiritRootElements": [
+            "变异"
+        ],
+        "health": 26,
+        "skill": {
+            "name": "妖狐化身",
+            "description": "消耗2灵力，额外抽1张牌"
+        },
+        "specialCards": [
+            "yinyue_fox_transformation",
+            "yinyue_fox_fire",
+            "silver_moon_escape"
+        ],
+        "skillEffectId": "yinyue__skill",
+        "originRegion": "大晋",
+        "activeRegions": [
+            "大晋",
+            "昆吾山"
+        ],
+        "rootRace": "妖族",
+        "lineage": "银月狼族",
+        "species": "银月狐",
+        "cultivationSystem": "妖修",
+        "taxonomyRefs": [
+            "race:yaozu",
+            "lineage:silvermoon-wolf",
+            "species:silver-fox",
+            "path:yaoxiu"
+        ],
+        "affiliationRefs": [
+            "region:great-jin",
+            "region:kunwu-mountain"
+        ],
+        "gameTags": [
+            "银月",
+            "妖族",
+            "妖修",
+            "控制",
+            "抽牌"
+        ]
     },
-    "specialCards": [
-      "yinyue_fox_transformation",
-      "yinyue_fox_fire",
-      "silver_moon_escape"
-    ],
-    "skillEffectId": "yinyue__skill",
-    "originRegion": "大晋",
-    "activeRegions": [
-      "大晋",
-      "昆吾山"
-    ],
-    "rootRace": "妖族",
-    "lineage": "银月狼族",
-    "species": "银月狐",
-    "cultivationSystem": "妖修",
-    "taxonomyRefs": [
-      "race:yaozu",
-      "lineage:silvermoon-wolf",
-      "species:silver-fox",
-      "path:yaoxiu"
-    ],
-    "affiliationRefs": [
-      "region:great-jin",
-      "region:kunwu-mountain"
-    ],
-    "gameTags": [
-      "银月",
-      "妖族",
-      "妖修",
-      "控制",
-      "抽牌"
-    ]
-  },
-  "ziling": {
-    "id": "ziling",
-    "name": "紫灵",
-    "aliases": [
-      "紫灵仙子"
-    ],
-    "avatar": "🎵",
-    "arc": "human",
-    "sect": "妙音门",
-    "race": "人族",
-    "spiritRoot": "水",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "水",
-      "风"
-    ],
-    "health": 27,
-    "skill": {
-      "name": "妙音幻术",
-      "description": "每回合开始时，敌方场上修士攻击力-1（已减过的不再重复）"
+    "ziling": {
+        "id": "ziling",
+        "name": "紫灵",
+        "aliases": [
+            "紫灵仙子"
+        ],
+        "avatar": "🎵",
+        "arc": "human",
+        "sect": "妙音门",
+        "race": "人族",
+        "spiritRoot": "水",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "水",
+            "风"
+        ],
+        "health": 27,
+        "skill": {
+            "name": "妙音幻术",
+            "description": "每回合开始时，敌方场上修士攻击力-1（已减过的不再重复）"
+        },
+        "specialCards": [
+            "ziling_sound_of_soul",
+            "ziling_mystic_sound",
+            "ziling_charm_dance"
+        ],
+        "skillEffectId": "ziling__skill",
+        "originRegion": "乱星海",
+        "activeRegions": [
+            "妙音门",
+            "乱星海"
+        ],
+        "taxonomyRefs": [
+            "sect:miaoyin"
+        ]
     },
-    "specialCards": [
-      "ziling_sound_of_soul",
-      "ziling_mystic_sound",
-      "ziling_charm_dance"
-    ],
-    "skillEffectId": "ziling__skill",
-    "originRegion": "乱星海",
-    "activeRegions": [
-      "妙音门",
-      "乱星海"
-    ],
-    "taxonomyRefs": [
-      "sect:miaoyin"
-    ]
-  },
-  "yuanyao": {
-    "id": "yuanyao",
-    "name": "元瑶",
-    "avatar": "👻",
-    "arc": "human",
-    "sect": "鬼道",
-    "race": "人族",
-    "cultivationSystem": "鬼道修士",
-    "taxonomyRefs": [
-      "path:guidao"
-    ],
-    "gameTags": [
-      "元瑶",
-      "鬼道",
-      "回复",
-      "召唤"
-    ],
-    "spiritRoot": "阴",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "阴"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "还魂术",
-      "description": "可以复活墓地中的一张修士、灵宠或傀儡，消耗等同于目标卡牌费用的灵力；灵力不足的目标无法选中"
+    "yuanyao": {
+        "id": "yuanyao",
+        "name": "元瑶",
+        "avatar": "👻",
+        "arc": "human",
+        "sect": "鬼道",
+        "race": "人族",
+        "cultivationSystem": "鬼道修士",
+        "taxonomyRefs": [
+            "path:guidao"
+        ],
+        "gameTags": [
+            "元瑶",
+            "鬼道",
+            "回复",
+            "召唤"
+        ],
+        "spiritRoot": "阴",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "阴"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "还魂术",
+            "description": "可以复活墓地中的一张修士、灵宠或傀儡，消耗等同于目标卡牌费用的灵力；灵力不足的目标无法选中"
+        },
+        "specialCards": [
+            "soul_pill",
+            "yin_yang_reversal",
+            "healing_formation",
+            "yuanyao_yanli",
+            "yuanyao_yin_spirit_possession",
+            "yin_yang_reincarnation_jue",
+            "yuanyao_soul_ring",
+            "yuanyao_yin_yang_dao",
+            "yuanyao_soul_beast_exclusive"
+        ],
+        "skillEffectId": "yuanyao__skill",
+        "originRegion": "乱星海",
+        "activeRegions": [
+            "乱星海"
+        ]
     },
-    "specialCards": [
-      "soul_pill",
-      "yin_yang_reversal",
-      "healing_formation",
-      "yuanyao_yin_spirit_possession",
-      "yuanyao_soul_ring",
-      "yuanyao_yin_yang_dao",
-      "yuanyao_soul_beast_exclusive"
-    ],
-    "skillEffectId": "yuanyao__skill",
-    "originRegion": "乱星海",
-    "activeRegions": [
-      "乱星海"
-    ]
-  },
-  "xuangui": {
-    "id": "xuangui",
-    "name": "玄骨上人",
-    "avatar": "❄️",
-    "arc": "human",
-    "sect": "玄骨门",
-    "race": "鬼族",
-    "cultivationSystem": "鬼道修士",
-    "taxonomyRefs": [
-      "race:guizu",
-      "path:guidao",
-      "path:modao",
-      "sect:xuangu"
-    ],
-    "gameTags": [
-      "玄骨门",
-      "鬼道",
-      "魔道",
-      "冰系",
-      "火系",
-      "控制"
-    ],
-    "spiritRoot": "冰",
-    "spiritRootLevel": "mutant",
-    "spiritRootElements": [
-      "冰"
-    ],
-    "health": 26,
-    "skill": {
-      "name": "玄骨魔焰",
-      "description": "每回合开始时，对敌方生命最低的修士造成1点伤害并冻结；敌方无修士时伤害敌方英雄"
+    "xuangui": {
+        "id": "xuangui",
+        "name": "玄骨上人",
+        "avatar": "❄️",
+        "arc": "human",
+        "sect": "玄骨门",
+        "race": "鬼族",
+        "cultivationSystem": "鬼道修士",
+        "taxonomyRefs": [
+            "race:guizu",
+            "path:guidao",
+            "path:modao",
+            "sect:xuangu"
+        ],
+        "gameTags": [
+            "玄骨门",
+            "鬼道",
+            "魔道",
+            "冰系",
+            "火系",
+            "控制"
+        ],
+        "spiritRoot": "冰",
+        "spiritRootLevel": "mutant",
+        "spiritRootElements": [
+            "冰"
+        ],
+        "health": 26,
+        "skill": {
+            "name": "玄骨魔焰",
+            "description": "每回合开始时，对敌方生命最低的修士造成1点伤害并冻结；敌方无修士时伤害敌方英雄"
+        },
+        "specialCards": [
+            "xuangui_ice_soul_light",
+            "xuangui_bone_fire",
+            "xuangui_bone_shield",
+            "xuanhun_ningyao_dafa"
+        ],
+        "skillEffectId": "xuangui__skill",
+        "originRegion": "乱星海",
+        "activeRegions": [
+            "乱星海",
+            "虚天殿"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "xuangui__skill",
-    "originRegion": "乱星海",
-    "activeRegions": [
-      "乱星海",
-      "虚天殿"
-    ]
-  },
-  "jiyin": {
-    "id": "jiyin",
-    "name": "极阴祖师",
-    "avatar": "💀",
-    "arc": "human",
-    "sect": "极阴岛",
-    "race": "人族",
-    "cultivationSystem": "魔道修士",
-    "taxonomyRefs": [
-      "path:modao",
-      "path:guidao",
-      "faction:jiyin"
-    ],
-    "gameTags": [
-      "极阴岛",
-      "魔道",
-      "鬼道",
-      "火系",
-      "召唤"
-    ],
-    "spiritRoot": "阴",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "阴",
-      "火"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "天都尸火",
-      "description": "己方修士击败敌方修士时，生成一个尸傀；尸傀攻击力和生命为死亡修士原始攻击力和生命各-1，生命降至0则不生成"
+    "jiyin": {
+        "id": "jiyin",
+        "name": "极阴祖师",
+        "avatar": "💀",
+        "arc": "human",
+        "sect": "极阴岛",
+        "race": "人族",
+        "cultivationSystem": "魔道修士",
+        "taxonomyRefs": [
+            "path:modao",
+            "path:guidao",
+            "faction:jiyin"
+        ],
+        "gameTags": [
+            "极阴岛",
+            "魔道",
+            "鬼道",
+            "火系",
+            "召唤"
+        ],
+        "spiritRoot": "阴",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "阴",
+            "火"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "天都尸火",
+            "description": "己方修士击败敌方修士时，生成一个尸傀；尸傀攻击力和生命为死亡修士原始攻击力和生命各-1，生命降至0则不生成"
+        },
+        "specialCards": [
+            "soul_pill",
+            "blood_escape",
+            "blood_red_dart",
+            "jiyin_blood_jade",
+            "jiyin_corpse_fire_blast",
+            "wuchou"
+        ],
+        "skillEffectId": "jiyin__skill",
+        "originRegion": "极阴岛",
+        "activeRegions": [
+            "极阴岛",
+            "乱星海",
+            "虚天殿"
+        ]
     },
-    "specialCards": [
-      "soul_pill",
-      "blood_escape",
-      "blood_red_dart",
-      "jiyin_blood_jade"
-    ],
-    "skillEffectId": "jiyin__skill",
-    "originRegion": "极阴岛",
-    "activeRegions": [
-      "极阴岛",
-      "乱星海",
-      "虚天殿"
-    ]
-  },
-  "fengxi": {
-    "id": "fengxi",
-    "name": "风希",
-    "avatar": "🌪️",
-    "arc": "human",
-    "sect": "裂风兽",
-    "race": "羽族",
-    "rootRace": "妖族",
-    "lineage": "羽族",
-    "species": "裂风兽",
-    "cultivationSystem": "妖修",
-    "taxonomyRefs": [
-      "race:yaozu",
-      "lineage:yuzu",
-      "species:liefengshou",
-      "path:yaoxiu"
-    ],
-    "affiliationRefs": [
-      "region:outer-star-sea"
-    ],
-    "gameTags": [
-      "妖族",
-      "羽族",
-      "裂风兽",
-      "妖修",
-      "风系",
-      "雷法",
-      "速度"
-    ],
-    "spiritRoot": "风",
-    "spiritRootLevel": "mutant",
-    "spiritRootElements": [
-      "风"
-    ],
-    "health": 27,
-    "skill": {
-      "name": "风雷翅",
-      "description": "每回合开始时获得1点临时灵力，并使随机己方修士攻击力+1"
+    "fengxi": {
+        "id": "fengxi",
+        "name": "风希",
+        "avatar": "🌪️",
+        "arc": "human",
+        "sect": "裂风兽",
+        "race": "羽族",
+        "rootRace": "妖族",
+        "lineage": "羽族",
+        "species": "裂风兽",
+        "cultivationSystem": "妖修",
+        "taxonomyRefs": [
+            "race:yaozu",
+            "lineage:yuzu",
+            "species:liefengshou",
+            "path:yaoxiu"
+        ],
+        "affiliationRefs": [
+            "region:outer-star-sea"
+        ],
+        "gameTags": [
+            "妖族",
+            "羽族",
+            "裂风兽",
+            "妖修",
+            "风系",
+            "雷法",
+            "速度"
+        ],
+        "spiritRoot": "风",
+        "spiritRootLevel": "mutant",
+        "spiritRootElements": [
+            "风"
+        ],
+        "health": 27,
+        "skill": {
+            "name": "风雷翅",
+            "description": "每回合开始时获得1点临时灵力，并使随机己方修士攻击力+1"
+        },
+        "specialCards": [
+            "fengxi_wind_blade",
+            "fengxi_storm_call",
+            "fengxi_wind_thunder_wing",
+            "fengxi_wind_thunder_wings",
+            "wind_thunder_formation"
+        ],
+        "skillEffectId": "fengxi__skill",
+        "originRegion": "外星海",
+        "activeRegions": [
+            "外星海"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "fengxi__skill",
-    "originRegion": "外星海",
-    "activeRegions": [
-      "外星海"
-    ]
-  },
-  "wentianren": {
-    "id": "wentianren",
-    "name": "温天仁",
-    "avatar": "☯️",
-    "arc": "human",
-    "sect": "逆星盟",
-    "race": "人族",
-    "cultivationSystem": "魔道修士",
-    "taxonomyRefs": [
-      "faction:reverse-star-alliance",
-      "path:modao",
-      "path:guidao",
-      "lineage:liudao"
-    ],
-    "gameTags": [
-      "魔道",
-      "鬼道",
-      "血道",
-      "控制",
-      "逆星盟",
-      "六道传承"
-    ],
-    "spiritRoot": "暗",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "暗",
-      "金"
-    ],
-    "health": 29,
-    "skill": {
-      "name": "六极真魔功",
-      "description": "消耗2灵力，等概率触发：回复2生命、获得2护甲、随机我方修士攻击+2、召唤2/2魔侍从、对敌方随机单位造成2伤害、灵力+1"
+    "wentianren": {
+        "id": "wentianren",
+        "name": "温天仁",
+        "avatar": "☯️",
+        "arc": "human",
+        "sect": "逆星盟",
+        "race": "人族",
+        "cultivationSystem": "魔道修士",
+        "taxonomyRefs": [
+            "faction:reverse-star-alliance",
+            "path:modao",
+            "path:guidao",
+            "lineage:liudao"
+        ],
+        "gameTags": [
+            "魔道",
+            "鬼道",
+            "血道",
+            "控制",
+            "逆星盟",
+            "六道传承"
+        ],
+        "spiritRoot": "暗",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "暗",
+            "金"
+        ],
+        "health": 29,
+        "skill": {
+            "name": "六极真魔功",
+            "description": "消耗2灵力，等概率触发：回复2生命、获得2护甲、随机我方修士攻击+2、召唤2/2魔侍从、对敌方随机单位造成2伤害、灵力+1"
+        },
+        "specialCards": [
+            "eight_gates_golden_light_mirror"
+        ],
+        "skillEffectId": "wentianren__skill",
+        "originRegion": "乱星海",
+        "activeRegions": [
+            "乱星海",
+            "星宫海域"
+        ]
     },
-    "specialCards": [
-      "eight_gates_golden_light_mirror"
-    ],
-    "skillEffectId": "wentianren__skill",
-    "originRegion": "乱星海",
-    "activeRegions": [
-      "乱星海",
-      "星宫海域"
-    ]
-  },
-  "wangchan": {
-    "id": "wangchan",
-    "name": "王婵",
-    "avatar": "🩸",
-    "arc": "human",
-    "sect": "鬼灵门",
-    "race": "人族",
-    "cultivationSystem": "魔道修士",
-    "taxonomyRefs": [
-      "sect:guiling",
-      "path:modao",
-      "path:guidao"
-    ],
-    "gameTags": [
-      "鬼灵门",
-      "魔道",
-      "鬼道",
-      "血道",
-      "回复",
-      "爆发"
-    ],
-    "spiritRoot": "血",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "血",
-      "阴"
-    ],
-    "health": 27,
-    "skill": {
-      "name": "血灵大法",
-      "description": "己方修士攻击敌方英雄时恢复1点生命，该修士首次触发时生命+1"
+    "wangchan": {
+        "id": "wangchan",
+        "name": "王婵",
+        "avatar": "🩸",
+        "arc": "human",
+        "sect": "鬼灵门",
+        "race": "人族",
+        "cultivationSystem": "魔道修士",
+        "taxonomyRefs": [
+            "sect:guiling",
+            "path:modao",
+            "path:guidao"
+        ],
+        "gameTags": [
+            "鬼灵门",
+            "魔道",
+            "鬼道",
+            "血道",
+            "回复",
+            "爆发"
+        ],
+        "spiritRoot": "血",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "血",
+            "阴"
+        ],
+        "health": 27,
+        "skill": {
+            "name": "血灵大法",
+            "description": "己方修士攻击敌方英雄时恢复1点生命，该修士首次触发时生命+1"
+        },
+        "specialCards": [
+            "blood_escape",
+            "blood_red_dart",
+            "yin_yang_reversal",
+            "core_ancestor"
+        ],
+        "skillEffectId": "wangchan__skill",
+        "originRegion": "天南",
+        "activeRegions": [
+            "越国魔道战场",
+            "天南"
+        ]
     },
-    "specialCards": [
-      "blood_escape",
-      "blood_red_dart",
-      "yin_yang_reversal",
-      "core_ancestor"
-    ],
-    "skillEffectId": "wangchan__skill",
-    "originRegion": "天南",
-    "activeRegions": [
-      "越国魔道战场",
-      "天南"
-    ]
-  },
-  "xiangzhili": {
-    "id": "xiangzhili",
-    "name": "向之礼",
-    "avatar": "👁️",
-    "arc": "human",
-    "sect": "化神散修",
-    "race": "人族",
-    "spiritRoot": "全",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "全"
-    ],
-    "health": 32,
-    "skill": {
-      "name": "化神威压",
-      "description": "攻击向之礼英雄造成的伤害自动-1"
+    "xiangzhili": {
+        "id": "xiangzhili",
+        "name": "向之礼",
+        "avatar": "👁️",
+        "arc": "human",
+        "sect": "化神散修",
+        "race": "人族",
+        "spiritRoot": "全",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "全"
+        ],
+        "health": 32,
+        "skill": {
+            "name": "化神威压",
+            "description": "攻击向之礼英雄造成的伤害自动-1"
+        },
+        "specialCards": [
+            "xiangzhili_divine_sense",
+            "xiangzhili_space_seal",
+            "xiangzhili_divine_pressure",
+            "xiang_zhili",
+            "divine_transformation",
+            "sanxiu_treasure_hunt"
+        ],
+        "skillEffectId": "xiangzhili__skill",
+        "originRegion": "人界",
+        "activeRegions": [
+            "天南",
+            "大晋"
+        ],
+        "cultivationSystem": "化神修士",
+        "taxonomyRefs": [
+            "race:human",
+            "path:huashen",
+            "path:sanxiu"
+        ],
+        "affiliationRefs": [
+            "region:human-realm",
+            "region:great-jin",
+            "region:kunwu-mountain"
+        ],
+        "gameTags": [
+            "化神散修",
+            "散修",
+            "高阶",
+            "控制"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "xiangzhili__skill",
-    "originRegion": "人界",
-    "activeRegions": [
-      "天南",
-      "大晋"
-    ],
-    "cultivationSystem": "化神修士",
-    "taxonomyRefs": [
-      "race:human",
-      "path:huashen",
-      "path:sanxiu"
-    ],
-    "affiliationRefs": [
-      "region:human-realm",
-      "region:great-jin",
-      "region:kunwu-mountain"
-    ],
-    "gameTags": [
-      "化神散修",
-      "散修",
-      "高阶",
-      "控制"
-    ]
-  },
-  "linghu": {
-    "id": "linghu",
-    "name": "令狐老祖",
-    "avatar": "🍁",
-    "arc": "human",
-    "sect": "黄枫谷",
-    "race": "人族",
-    "spiritRoot": "木",
-    "spiritRootLevel": "heavenly",
-    "spiritRootElements": [
-      "木"
-    ],
-    "health": 30,
-    "skill": {
-      "name": "长春功·圆满",
-      "description": "每回合开始时恢复1点生命，并使生命最低的己方修士生命+1"
+    "linghu": {
+        "id": "linghu",
+        "name": "令狐老祖",
+        "avatar": "🍁",
+        "arc": "human",
+        "sect": "黄枫谷",
+        "race": "人族",
+        "spiritRoot": "木",
+        "spiritRootLevel": "heavenly",
+        "spiritRootElements": [
+            "木"
+        ],
+        "health": 30,
+        "skill": {
+            "name": "长春功·圆满",
+            "description": "每回合开始时恢复1点生命，并使生命最低的己方修士生命+1"
+        },
+        "specialCards": [
+            "linghu_ancient_elixir"
+        ],
+        "skillEffectId": "linghu__skill",
+        "originRegion": "黄枫谷",
+        "activeRegions": [
+            "黄枫谷",
+            "越国魔道战场"
+        ],
+        "taxonomyRefs": [
+            "sect:huangfeng"
+        ]
     },
-    "specialCards": [
-      "linghu_ancient_elixir"
-    ],
-    "skillEffectId": "linghu__skill",
-    "originRegion": "黄枫谷",
-    "activeRegions": [
-      "黄枫谷",
-      "越国魔道战场"
-    ],
-    "taxonomyRefs": [
-      "sect:huangfeng"
-    ]
-  },
-  "mo_jiao_hero": {
-    "id": "mo_jiao_hero",
-    "name": "墨蛟",
-    "avatar": "🐉",
-    "arc": "human",
-    "sect": "血色禁地",
-    "race": "妖族",
-    "spiritRoot": "毒",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "毒"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "墨毒",
-      "description": "每回合开始时使敌方英雄中毒；若其已中毒，则造成1点伤害"
+    "mo_jiao_hero": {
+        "id": "mo_jiao_hero",
+        "name": "墨蛟",
+        "avatar": "🐉",
+        "arc": "human",
+        "sect": "血色禁地",
+        "race": "妖族",
+        "spiritRoot": "毒",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "毒"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "墨毒",
+            "description": "每回合开始时使敌方英雄中毒；若其已中毒，则造成1点伤害"
+        },
+        "specialCards": [
+            "blood_burn",
+            "spirit_pill",
+            "shield_spell"
+        ],
+        "skillEffectId": "mo_jiao_hero__skill",
+        "originRegion": "血色禁地",
+        "activeRegions": [
+            "血色禁地"
+        ],
+        "rootRace": "妖族",
+        "species": "蛟龙",
+        "cultivationSystem": "妖修",
+        "taxonomyRefs": [
+            "race:yaozu",
+            "species:jiaolong",
+            "path:yaoxiu"
+        ],
+        "affiliationRefs": [
+            "region:blood-forbidden-land"
+        ],
+        "gameTags": [
+            "妖族",
+            "妖修",
+            "血色禁地",
+            "毒",
+            "控制"
+        ]
     },
-    "specialCards": [
-      "blood_burn",
-      "spirit_pill",
-      "shield_spell"
-    ],
-    "skillEffectId": "mo_jiao_hero__skill",
-    "originRegion": "血色禁地",
-    "activeRegions": [
-      "血色禁地"
-    ],
-    "rootRace": "妖族",
-    "species": "蛟龙",
-    "cultivationSystem": "妖修",
-    "taxonomyRefs": [
-      "race:yaozu",
-      "species:jiaolong",
-      "path:yaoxiu"
-    ],
-    "affiliationRefs": [
-      "region:blood-forbidden-land"
-    ],
-    "gameTags": [
-      "妖族",
-      "妖修",
-      "血色禁地",
-      "毒",
-      "控制"
-    ]
-  },
-  "hehuan_young_master": {
-    "id": "hehuan_young_master",
-    "name": "田不缺",
-    "avatar": "💋",
-    "arc": "human",
-    "sect": "合欢宗",
-    "race": "人族",
-    "spiritRoot": "阴",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "阴",
-      "水"
-    ],
-    "health": 27,
-    "skill": {
-      "name": "玄月吸阴功",
-      "description": "己方修士攻击敌方英雄时，恢复1点生命"
+    "hehuan_young_master": {
+        "id": "hehuan_young_master",
+        "name": "田不缺",
+        "avatar": "💋",
+        "arc": "human",
+        "sect": "合欢宗",
+        "race": "人族",
+        "spiritRoot": "阴",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "阴",
+            "水"
+        ],
+        "health": 27,
+        "skill": {
+            "name": "玄月吸阴功",
+            "description": "己方修士攻击敌方英雄时，恢复1点生命"
+        },
+        "specialCards": [
+            "confusion_formation",
+            "healing_formation",
+            "shield_spell",
+            "spirit_pill",
+            "burst_pill",
+            "xuan_yue_absorption_art",
+            "hehuan_red_dust_mist"
+        ],
+        "skillEffectId": "hehuan_young_master__skill",
+        "originRegion": "天南",
+        "activeRegions": [
+            "越国魔道战场",
+            "天南"
+        ],
+        "taxonomyRefs": [
+            "sect:hehuan"
+        ]
     },
-    "specialCards": [
-      "confusion_formation",
-      "healing_formation",
-      "shield_spell",
-      "spirit_pill",
-      "burst_pill",
-      "xuan_yue_absorption_art",
-      "hehuan_red_dust_mist"
-    ],
-    "skillEffectId": "hehuan_young_master__skill",
-    "originRegion": "天南",
-    "activeRegions": [
-      "越国魔道战场",
-      "天南"
-    ],
-    "taxonomyRefs": [
-      "sect:hehuan"
-    ]
-  },
-  "demon_vanguard": {
-    "id": "demon_vanguard",
-    "name": "钟吾",
-    "avatar": "👹",
-    "arc": "human",
-    "sect": "魔焰宗",
-    "race": "人族",
-    "spiritRoot": "火",
-    "spiritRootLevel": "triple",
-    "spiritRootElements": [
-      "火",
-      "土",
-      "金"
-    ],
-    "health": 26,
-    "skill": {
-      "name": "魔焰滔天",
-      "description": "每回合开始时，对敌方场上生命最低的修士造成1点伤害"
+    "demon_vanguard": {
+        "id": "demon_vanguard",
+        "name": "钟吾",
+        "avatar": "👹",
+        "arc": "human",
+        "sect": "魔焰宗",
+        "race": "人族",
+        "spiritRoot": "火",
+        "spiritRootLevel": "triple",
+        "spiritRootElements": [
+            "火",
+            "土",
+            "金"
+        ],
+        "health": 26,
+        "skill": {
+            "name": "魔焰滔天",
+            "description": "每回合开始时，对敌方场上生命最低的修士造成1点伤害"
+        },
+        "specialCards": [
+            "zhongwu_demon_flame_surge",
+            "zhongwu_beast_drive"
+        ],
+        "skillEffectId": "demon_vanguard__skill",
+        "originRegion": "天南",
+        "activeRegions": [
+            "越国魔道战场",
+            "天南"
+        ],
+        "taxonomyRefs": [
+            "sect:moyan"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "demon_vanguard__skill",
-    "originRegion": "天南",
-    "activeRegions": [
-      "越国魔道战场",
-      "天南"
-    ],
-    "taxonomyRefs": [
-      "sect:moyan"
-    ]
-  },
-  "mulan_elder": {
-    "id": "mulan_elder",
-    "name": "慕兰族长老",
-    "avatar": "🏹",
-    "arc": "human",
-    "sect": "慕兰族",
-    "race": "法士",
-    "spiritRoot": "风",
-    "spiritRootLevel": "heavenly",
-    "spiritRootElements": [
-      "风"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "神师法相",
-      "description": "每回合开始时召唤慕兰法士；若场上已有法士，新法士为1/2"
+    "mulan_elder": {
+        "id": "mulan_elder",
+        "name": "慕兰族长老",
+        "avatar": "🏹",
+        "arc": "human",
+        "sect": "慕兰族",
+        "race": "法士",
+        "spiritRoot": "风",
+        "spiritRootLevel": "heavenly",
+        "spiritRootElements": [
+            "风"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "神师法相",
+            "description": "每回合开始时召唤慕兰法士；若场上已有法士，新法士为1/2"
+        },
+        "specialCards": [
+            "burst_pill",
+            "spirit_pill",
+            "shield_spell",
+            "fireball",
+            "wind_blade",
+            "divine_sense"
+        ],
+        "skillEffectId": "mulan_elder__skill",
+        "originRegion": "慕兰草原",
+        "activeRegions": [
+            "慕兰草原",
+            "天南边境"
+        ],
+        "cultivationSystem": "法士",
+        "taxonomyRefs": [
+            "tribe:mulan",
+            "path:fashi"
+        ],
+        "affiliationRefs": [
+            "region:mulan-grassland",
+            "region:tiannan-border"
+        ],
+        "gameTags": [
+            "慕兰族",
+            "法士",
+            "风系",
+            "召唤"
+        ]
     },
-    "specialCards": [
-      "burst_pill",
-      "spirit_pill",
-      "shield_spell",
-      "fireball",
-      "wind_blade",
-      "divine_sense"
-    ],
-    "skillEffectId": "mulan_elder__skill",
-    "originRegion": "慕兰草原",
-    "activeRegions": [
-      "慕兰草原",
-      "天南边境"
-    ],
-    "cultivationSystem": "法士",
-    "taxonomyRefs": [
-      "tribe:mulan",
-      "path:fashi"
-    ],
-    "affiliationRefs": [
-      "region:mulan-grassland",
-      "region:tiannan-border"
-    ],
-    "gameTags": [
-      "慕兰族",
-      "法士",
-      "风系",
-      "召唤"
-    ]
-  },
-  "yue_emperor": {
-    "id": "yue_emperor",
-    "name": "越皇",
-    "avatar": "👑",
-    "arc": "human",
-    "sect": "黑煞教",
-    "race": "人族",
-    "cultivationSystem": "魔道修士",
-    "taxonomyRefs": [
-      "faction:heisha",
-      "path:modao",
-      "path:guidao"
-    ],
-    "gameTags": [
-      "黑煞教",
-      "魔道",
-      "鬼道",
-      "血道",
-      "召唤"
-    ],
-    "spiritRoot": "血",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "血",
-      "暗"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "血煞大法",
-      "description": "每回合开始时召唤黑煞血侍；若场上已有血侍，新血侍为2/1"
+    "yue_emperor": {
+        "id": "yue_emperor",
+        "name": "越皇",
+        "avatar": "👑",
+        "arc": "human",
+        "sect": "黑煞教",
+        "race": "人族",
+        "cultivationSystem": "魔道修士",
+        "taxonomyRefs": [
+            "faction:heisha",
+            "path:modao",
+            "path:guidao"
+        ],
+        "gameTags": [
+            "黑煞教",
+            "魔道",
+            "鬼道",
+            "血道",
+            "召唤"
+        ],
+        "spiritRoot": "血",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "血",
+            "暗"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "血煞大法",
+            "description": "每回合开始时召唤黑煞血侍；若场上已有血侍，新血侍为2/1"
+        },
+        "specialCards": [
+            "blood_escape",
+            "blood_red_dart",
+            "soul_seizing_formula"
+        ],
+        "skillEffectId": "yue_emperor__skill",
+        "originRegion": "越京",
+        "activeRegions": [
+            "越京",
+            "越国"
+        ]
     },
-    "specialCards": [
-      "blood_escape",
-      "blood_red_dart",
-      "soul_seizing_formula"
-    ],
-    "skillEffectId": "yue_emperor__skill",
-    "originRegion": "越京",
-    "activeRegions": [
-      "越京",
-      "越国"
-    ]
-  },
-  "tianlan_saintess": {
-    "id": "tianlan_saintess",
-    "name": "天澜圣女",
-    "avatar": "🦅",
-    "arc": "human",
-    "sect": "突兀族",
-    "race": "法士",
-    "spiritRoot": "风",
-    "spiritRootLevel": "heavenly",
-    "spiritRootElements": [
-      "风"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "天澜圣兽",
-      "description": "每回合开始时，获得1点护甲并召唤一个1/1突兀战士"
+    "tianlan_saintess": {
+        "id": "tianlan_saintess",
+        "name": "天澜圣女",
+        "avatar": "🦅",
+        "arc": "human",
+        "sect": "突兀族",
+        "race": "法士",
+        "spiritRoot": "风",
+        "spiritRootLevel": "heavenly",
+        "spiritRootElements": [
+            "风"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "天澜圣兽",
+            "description": "每回合开始时，获得1点护甲并召唤一个1/1突兀战士"
+        },
+        "specialCards": [
+            "wind_blade",
+            "spirit_pill",
+            "shield_spell",
+            "healing_formation",
+            "confusion_formation"
+        ],
+        "skillEffectId": "tianlan_saintess__skill",
+        "originRegion": "天澜草原",
+        "activeRegions": [
+            "天澜草原",
+            "天南边境"
+        ],
+        "cultivationSystem": "法士",
+        "taxonomyRefs": [
+            "tribe:tuwu",
+            "path:fashi"
+        ],
+        "affiliationRefs": [
+            "region:tianlan-grassland",
+            "region:tiannan-border"
+        ],
+        "gameTags": [
+            "突兀族",
+            "法士",
+            "风系",
+            "防御",
+            "召唤"
+        ]
     },
-    "specialCards": [
-      "wind_blade",
-      "spirit_pill",
-      "shield_spell",
-      "healing_formation",
-      "confusion_formation"
-    ],
-    "skillEffectId": "tianlan_saintess__skill",
-    "originRegion": "天澜草原",
-    "activeRegions": [
-      "天澜草原",
-      "天南边境"
-    ],
-    "cultivationSystem": "法士",
-    "taxonomyRefs": [
-      "tribe:tuwu",
-      "path:fashi"
-    ],
-    "affiliationRefs": [
-      "region:tianlan-grassland",
-      "region:tiannan-border"
-    ],
-    "gameTags": [
-      "突兀族",
-      "法士",
-      "风系",
-      "防御",
-      "召唤"
-    ]
-  },
-  "wild_wolf_chief": {
-    "id": "wild_wolf_chief",
-    "name": "野狼帮主",
-    "avatar": "🐺",
-    "arc": "human",
-    "sect": "野狼帮",
-    "race": "人族",
-    "spiritRoot": "凡",
-    "spiritRootLevel": "none",
-    "spiritRootElements": [
-      "凡"
-    ],
-    "health": 25,
-    "skill": {
-      "name": "江湖霸刀",
-      "description": "每回合开始时，召唤一个1/1野狼帮众"
+    "wild_wolf_chief": {
+        "id": "wild_wolf_chief",
+        "name": "野狼帮主",
+        "avatar": "🐺",
+        "arc": "human",
+        "sect": "野狼帮",
+        "race": "人族",
+        "spiritRoot": "凡",
+        "spiritRootLevel": "none",
+        "spiritRootElements": [
+            "凡"
+        ],
+        "health": 25,
+        "skill": {
+            "name": "江湖霸刀",
+            "description": "每回合开始时，召唤一个1/1野狼帮众"
+        },
+        "specialCards": [],
+        "skillEffectId": "wild_wolf_chief__skill",
+        "originRegion": "嘉元城",
+        "activeRegions": [
+            "嘉元城",
+            "七玄门"
+        ],
+        "taxonomyRefs": [
+            "faction:wild-wolf",
+            "path:jianghu-wuxue"
+        ],
+        "cultivationSystem": "凡人武学",
+        "gameTags": [
+            "野狼帮",
+            "江湖帮派",
+            "凡人武学",
+            "低费",
+            "爆发"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "wild_wolf_chief__skill",
-    "originRegion": "嘉元城",
-    "activeRegions": [
-      "嘉元城",
-      "七玄门"
-    ],
-    "taxonomyRefs": [
-      "faction:wild-wolf",
-      "path:jianghu-wuxue"
-    ],
-    "cultivationSystem": "凡人武学",
-    "gameTags": [
-      "野狼帮",
-      "江湖帮派",
-      "凡人武学",
-      "低费",
-      "爆发"
-    ]
-  },
-  "golden_light": {
-    "id": "golden_light",
-    "name": "金光上人",
-    "avatar": "✨",
-    "arc": "human",
-    "sect": "散修",
-    "race": "人族",
-    "spiritRoot": "金",
-    "spiritRootLevel": "triple",
-    "spiritRootElements": [
-      "金",
-      "火",
-      "土"
-    ],
-    "health": 26,
-    "skill": {
-      "name": "升仙令",
-      "description": "每回合可以消耗2灵力，获得2点护甲"
+    "golden_light": {
+        "id": "golden_light",
+        "name": "金光上人",
+        "avatar": "✨",
+        "arc": "human",
+        "sect": "散修",
+        "race": "人族",
+        "spiritRoot": "金",
+        "spiritRootLevel": "triple",
+        "spiritRootElements": [
+            "金",
+            "火",
+            "土"
+        ],
+        "health": 26,
+        "skill": {
+            "name": "升仙令",
+            "description": "每回合可以消耗2灵力，获得2点护甲"
+        },
+        "specialCards": [
+            "golden_light_flying_sword",
+            "golden_light_shield_talisman",
+            "flying_sword_basic",
+            "black_iron_shield",
+            "blue_crystal_shield",
+            "spirit_gathering",
+            "sanxiu_treasure_hunt",
+            "defense_formation"
+        ],
+        "skillEffectId": "golden_light__skill",
+        "originRegion": "越国",
+        "activeRegions": [
+            "越国",
+            "天南"
+        ],
+        "taxonomyRefs": [
+            "race:human",
+            "path:sanxiu"
+        ],
+        "affiliationRefs": [
+            "region:yue-state"
+        ],
+        "gameTags": [
+            "散修",
+            "越国",
+            "低费"
+        ]
     },
-    "specialCards": [],
-    "skillEffectId": "golden_light__skill",
-    "originRegion": "越国",
-    "activeRegions": [
-      "越国",
-      "天南"
-    ],
-    "taxonomyRefs": [
-      "race:human",
-      "path:sanxiu"
-    ],
-    "affiliationRefs": [
-      "region:yue-state"
-    ],
-    "gameTags": [
-      "散修",
-      "越国",
-      "低费"
-    ]
-  },
-  "doctor_mo": {
-    "id": "doctor_mo",
-    "name": "墨大夫",
-    "avatar": "🧑‍⚕️",
-    "arc": "human",
-    "sect": "七玄门",
-    "race": "人族",
-    "spiritRoot": "阴",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "阴",
-      "金"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "夺舍术",
-      "description": "每2回合，随机控制敌方一个修士1回合"
+    "doctor_mo": {
+        "id": "doctor_mo",
+        "name": "墨大夫",
+        "avatar": "🧑‍⚕️",
+        "arc": "human",
+        "sect": "七玄门",
+        "race": "人族",
+        "spiritRoot": "阴",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "阴",
+            "金"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "夺舍术",
+            "description": "每2回合，随机控制敌方一个修士1回合"
+        },
+        "specialCards": [
+            "soul_pill",
+            "blood_escape",
+            "soul_seizing_formula",
+            "blood_burn",
+            "read_jade_slip",
+            "meditation",
+            "seven_ghost_soul_devourer_art"
+        ],
+        "skillEffectId": "doctor_mo__skill",
+        "originRegion": "七玄门",
+        "activeRegions": [
+            "七玄门",
+            "嘉元城"
+        ],
+        "taxonomyRefs": [
+            "faction:qixuan",
+            "path:jianghu-wuxue"
+        ],
+        "gameTags": [
+            "七玄门",
+            "凡人武学",
+            "毒",
+            "回复"
+        ]
     },
-    "specialCards": [
-      "soul_pill",
-      "blood_escape",
-      "soul_seizing_formula",
-      "blood_burn",
-      "read_jade_slip",
-      "meditation",
-      "seven_ghost_soul_devourer_art"
-    ],
-    "skillEffectId": "doctor_mo__skill",
-    "originRegion": "七玄门",
-    "activeRegions": [
-      "七玄门",
-      "嘉元城"
-    ],
-    "taxonomyRefs": [
-      "faction:qixuan",
-      "path:jianghu-wuxue"
-    ],
-    "gameTags": [
-      "七玄门",
-      "凡人武学",
-      "毒",
-      "回复"
-    ]
-  },
-  "lu_shixiong": {
-    "id": "lu_shixiong",
-    "name": "陆师兄",
-    "avatar": "🗡️",
-    "arc": "human",
-    "sect": "黄枫谷",
-    "race": "人族",
-    "spiritRoot": "风",
-    "spiritRootLevel": "heavenly",
-    "spiritRootElements": [
-      "风"
-    ],
-    "health": 27,
-    "skill": {
-      "name": "风刃术",
-      "description": "每回合开始时，对敌方生命最低的修士造成1点伤害；敌方无修士时伤害敌方英雄"
+    "lu_shixiong": {
+        "id": "lu_shixiong",
+        "name": "陆师兄",
+        "avatar": "🗡️",
+        "arc": "human",
+        "sect": "黄枫谷",
+        "race": "人族",
+        "spiritRoot": "风",
+        "spiritRootLevel": "heavenly",
+        "spiritRootElements": [
+            "风"
+        ],
+        "health": 27,
+        "skill": {
+            "name": "风刃术",
+            "description": "每回合开始时，对敌方生命最低的修士造成1点伤害；敌方无修士时伤害敌方英雄"
+        },
+        "specialCards": [
+            "inner_disciple",
+            "lightning_strike",
+            "sword_cultivator",
+            "shield_spell",
+            "burst_pill",
+            "fireball",
+            "spirit_pill",
+            "wind_blade",
+            "read_jade_slip",
+            "observe_qi",
+            "meditation"
+        ],
+        "skillEffectId": "lu_shixiong__skill",
+        "originRegion": "黄枫谷",
+        "activeRegions": [
+            "黄枫谷",
+            "血色禁地"
+        ],
+        "taxonomyRefs": [
+            "sect:huangfeng"
+        ]
     },
-    "specialCards": [
-      "inner_disciple",
-      "lightning_strike",
-      "sword_cultivator",
-      "shield_spell",
-      "burst_pill",
-      "fireball",
-      "spirit_pill",
-      "wind_blade",
-      "read_jade_slip",
-      "observe_qi",
-      "meditation"
-    ],
-    "skillEffectId": "lu_shixiong__skill",
-    "originRegion": "黄枫谷",
-    "activeRegions": [
-      "黄枫谷",
-      "血色禁地"
-    ],
-    "taxonomyRefs": [
-      "sect:huangfeng"
-    ]
-  },
-  "gu_elder": {
-    "id": "gu_elder",
-    "name": "古长老",
-    "avatar": "🏛️",
-    "arc": "human",
-    "sect": "六连殿",
-    "race": "人族",
-    "spiritRoot": "水",
-    "spiritRootLevel": "dual",
-    "spiritRootElements": [
-      "水",
-      "冰"
-    ],
-    "health": 28,
-    "skill": {
-      "name": "六连诀",
-      "description": "己方修士攻击时，有50%概率额外造成1点伤害"
+    "gu_elder": {
+        "id": "gu_elder",
+        "name": "古长老",
+        "avatar": "🏛️",
+        "arc": "human",
+        "sect": "六连殿",
+        "race": "人族",
+        "spiritRoot": "水",
+        "spiritRootLevel": "dual",
+        "spiritRootElements": [
+            "水",
+            "冰"
+        ],
+        "health": 28,
+        "skill": {
+            "name": "六连诀",
+            "description": "己方修士攻击时，有50%概率额外造成1点伤害"
+        },
+        "specialCards": [
+            "freeze_spell",
+            "shield_spell",
+            "healing_light",
+            "spirit_pill",
+            "divine_sense",
+            "read_jade_slip"
+        ],
+        "skillEffectId": "gu_elder__skill",
+        "originRegion": "六连殿海域",
+        "activeRegions": [
+            "六连殿海域",
+            "乱星海"
+        ],
+        "taxonomyRefs": [
+            "faction:liulian"
+        ]
     },
-    "specialCards": [
-      "freeze_spell",
-      "shield_spell",
-      "healing_light",
-      "spirit_pill",
-      "divine_sense",
-      "read_jade_slip"
-    ],
-    "skillEffectId": "gu_elder__skill",
-    "originRegion": "六连殿海域",
-    "activeRegions": [
-      "六连殿海域",
-      "乱星海"
-    ],
-    "taxonomyRefs": [
-      "faction:liulian"
-    ]
-  },
-  "mulan_shaman": {
-    "id": "mulan_shaman",
-    "name": "慕兰神师",
-    "avatar": "🔮",
-    "arc": "human",
-    "sect": "慕兰族",
-    "race": "法士",
-    "spiritRoot": "火",
-    "spiritRootLevel": "heavenly",
-    "spiritRootElements": [
-      "火"
-    ],
-    "health": 30,
-    "skill": {
-      "name": "神师法相",
-      "description": "每回合开始时，随机一个己方修士可以越过敌方嘲讽修士攻击敌方英雄"
+    "mulan_shaman": {
+        "id": "mulan_shaman",
+        "name": "慕兰神师",
+        "avatar": "🔮",
+        "arc": "human",
+        "sect": "慕兰族",
+        "race": "法士",
+        "spiritRoot": "火",
+        "spiritRootLevel": "heavenly",
+        "spiritRootElements": [
+            "火"
+        ],
+        "health": 30,
+        "skill": {
+            "name": "神师法相",
+            "description": "每回合开始时，随机一个己方修士可以越过敌方嘲讽修士攻击敌方英雄"
+        },
+        "specialCards": [
+            "fireball",
+            "lightning_strike",
+            "burst_pill",
+            "spirit_pill",
+            "shield_spell",
+            "wind_blade",
+            "divine_sense",
+            "read_jade_slip"
+        ],
+        "skillEffectId": "mulan_shaman__skill",
+        "originRegion": "慕兰草原",
+        "activeRegions": [
+            "慕兰草原",
+            "天南边境"
+        ],
+        "cultivationSystem": "法士",
+        "taxonomyRefs": [
+            "tribe:mulan",
+            "path:fashi"
+        ],
+        "affiliationRefs": [
+            "region:mulan-grassland",
+            "region:tiannan-border"
+        ],
+        "gameTags": [
+            "慕兰族",
+            "法士",
+            "火系",
+            "召唤",
+            "爆发"
+        ]
     },
-    "specialCards": [
-      "fireball",
-      "lightning_strike",
-      "burst_pill",
-      "spirit_pill",
-      "shield_spell",
-      "wind_blade",
-      "divine_sense",
-      "read_jade_slip"
-    ],
-    "skillEffectId": "mulan_shaman__skill",
-    "originRegion": "慕兰草原",
-    "activeRegions": [
-      "慕兰草原",
-      "天南边境"
-    ],
-    "cultivationSystem": "法士",
-    "taxonomyRefs": [
-      "tribe:mulan",
-      "path:fashi"
-    ],
-    "affiliationRefs": [
-      "region:mulan-grassland",
-      "region:tiannan-border"
-    ],
-    "gameTags": [
-      "慕兰族",
-      "法士",
-      "火系",
-      "召唤",
-      "爆发"
-    ]
-  },
-  "hu_old_demon": {
-    "id": "hu_old_demon",
-    "name": "呼老魔",
-    "avatar": "😈",
-    "arc": "human",
-    "sect": "天魔宗",
-    "race": "人族",
-    "spiritRoot": "暗",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "暗",
-      "魔"
-    ],
-    "health": 32,
-    "skill": {
-      "name": "天魔大法",
-      "description": "每回合开始时，敌方手牌随机弃置1张"
+    "hu_old_demon": {
+        "id": "hu_old_demon",
+        "name": "呼老魔",
+        "avatar": "😈",
+        "arc": "human",
+        "sect": "天魔宗",
+        "race": "人族",
+        "spiritRoot": "暗",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "暗",
+            "魔"
+        ],
+        "health": 32,
+        "skill": {
+            "name": "天魔大法",
+            "description": "每回合开始时，敌方手牌随机弃置1张"
+        },
+        "specialCards": [
+            "blood_escape",
+            "blood_red_dart",
+            "blood_burn"
+        ],
+        "skillEffectId": "hu_old_demon__skill",
+        "originRegion": "大晋魔道",
+        "activeRegions": [
+            "大晋魔道",
+            "大晋"
+        ],
+        "taxonomyRefs": [
+            "sect:tianmo"
+        ]
     },
-    "specialCards": [
-      "blood_escape",
-      "blood_red_dart",
-      "blood_burn"
-    ],
-    "skillEffectId": "hu_old_demon__skill",
-    "originRegion": "大晋魔道",
-    "activeRegions": [
-      "大晋魔道",
-      "大晋"
-    ],
-    "taxonomyRefs": [
-      "sect:tianmo"
-    ]
-  },
-  "che_old_demon": {
-    "id": "che_old_demon",
-    "name": "车老妖",
-    "avatar": "🐲",
-    "arc": "human",
-    "sect": "万妖谷",
-    "race": "妖族",
-    "rootRace": "妖族",
-    "cultivationSystem": "妖修",
-    "taxonomyRefs": [
-      "race:yaozu",
-      "path:yaoxiu",
-      "faction:wanyaogu"
-    ],
-    "affiliationRefs": [
-      "faction:wanyaogu"
-    ],
-    "gameTags": [
-      "万妖谷",
-      "妖族",
-      "妖修",
-      "召唤"
-    ],
-    "spiritRoot": "土",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "土",
-      "妖"
-    ],
-    "health": 31,
-    "skill": {
-      "name": "万妖之主",
-      "description": "召唤的妖兽获得+1/+1"
+    "che_old_demon": {
+        "id": "che_old_demon",
+        "name": "车老妖",
+        "avatar": "🐲",
+        "arc": "human",
+        "sect": "万妖谷",
+        "race": "妖族",
+        "rootRace": "妖族",
+        "cultivationSystem": "妖修",
+        "taxonomyRefs": [
+            "race:yaozu",
+            "path:yaoxiu",
+            "faction:wanyaogu"
+        ],
+        "affiliationRefs": [
+            "faction:wanyaogu"
+        ],
+        "gameTags": [
+            "万妖谷",
+            "妖族",
+            "妖修",
+            "召唤"
+        ],
+        "spiritRoot": "土",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "土",
+            "妖"
+        ],
+        "health": 31,
+        "skill": {
+            "name": "万妖之主",
+            "description": "召唤的妖兽获得+1/+1"
+        },
+        "specialCards": [
+            "thunder_leopard",
+            "spirit_pill",
+            "burst_pill",
+            "healing_formation"
+        ],
+        "skillEffectId": "che_old_demon__skill",
+        "originRegion": "万妖谷",
+        "activeRegions": [
+            "万妖谷",
+            "大晋"
+        ]
     },
-    "specialCards": [
-      "thunder_leopard",
-      "spirit_pill",
-      "burst_pill",
-      "healing_formation"
-    ],
-    "skillEffectId": "che_old_demon__skill",
-    "originRegion": "万妖谷",
-    "activeRegions": [
-      "万妖谷",
-      "大晋"
-    ]
-  },
-  "flower_basket_weirdo": {
-    "id": "flower_basket_weirdo",
-    "name": "花篮怪人",
-    "avatar": "🧺",
-    "arc": "human",
-    "sect": "散修",
-    "race": "人族",
-    "spiritRoot": "木",
-    "spiritRootLevel": "triple",
-    "spiritRootElements": [
-      "木",
-      "水",
-      "土"
-    ],
-    "health": 26,
-    "skill": {
-      "name": "花篮收宝",
-      "description": "消耗敌方法宝等价灵力，收取敌方场上的一个法宝加入手牌"
+    "flower_basket_weirdo": {
+        "id": "flower_basket_weirdo",
+        "name": "花篮怪人",
+        "avatar": "🧺",
+        "arc": "human",
+        "sect": "散修",
+        "race": "人族",
+        "spiritRoot": "木",
+        "spiritRootLevel": "triple",
+        "spiritRootElements": [
+            "木",
+            "水",
+            "土"
+        ],
+        "health": 26,
+        "skill": {
+            "name": "花篮收宝",
+            "description": "消耗敌方法宝等价灵力，收取敌方场上的一个法宝加入手牌"
+        },
+        "specialCards": [
+            "puppet_beast",
+            "puppet_core",
+            "shield_spell",
+            "spirit_pill",
+            "defense_formation"
+        ],
+        "skillEffectId": "flower_basket_weirdo__skill",
+        "originRegion": "大晋",
+        "activeRegions": [
+            "大晋"
+        ],
+        "taxonomyRefs": [
+            "race:human",
+            "path:sanxiu"
+        ],
+        "affiliationRefs": [
+            "region:great-jin"
+        ],
+        "gameTags": [
+            "散修",
+            "法宝",
+            "控制"
+        ]
     },
-    "specialCards": [
-      "puppet_beast",
-      "puppet_core",
-      "shield_spell",
-      "spirit_pill",
-      "defense_formation"
-    ],
-    "skillEffectId": "flower_basket_weirdo__skill",
-    "originRegion": "大晋",
-    "activeRegions": [
-      "大晋"
-    ],
-    "taxonomyRefs": [
-      "race:human",
-      "path:sanxiu"
-    ],
-    "affiliationRefs": [
-      "region:great-jin"
-    ],
-    "gameTags": [
-      "散修",
-      "法宝",
-      "控制"
-    ]
-  },
-  "qian_old_demon": {
-    "id": "qian_old_demon",
-    "name": "乾老魔",
-    "avatar": "☠️",
-    "arc": "human",
-    "sect": "阴罗宗",
-    "race": "人族",
-    "spiritRoot": "暗",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "暗",
-      "魔"
-    ],
-    "health": 30,
-    "skill": {
-      "name": "五子同心魔",
-      "description": "每回合开始时召唤1/1五子魔；凑成五子时额外伤害敌方英雄"
+    "qian_old_demon": {
+        "id": "qian_old_demon",
+        "name": "乾老魔",
+        "avatar": "☠️",
+        "arc": "human",
+        "sect": "阴罗宗",
+        "race": "人族",
+        "spiritRoot": "暗",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "暗",
+            "魔"
+        ],
+        "health": 30,
+        "skill": {
+            "name": "五子同心魔",
+            "description": "每回合开始时召唤1/1五子魔；凑成五子时额外伤害敌方英雄"
+        },
+        "specialCards": [
+            "blood_escape",
+            "blood_red_dart",
+            "soul_seizing_formula"
+        ],
+        "skillEffectId": "qian_old_demon__skill",
+        "originRegion": "大晋魔道",
+        "activeRegions": [
+            "大晋魔道",
+            "大晋"
+        ],
+        "taxonomyRefs": [
+            "sect:yinluo"
+        ]
     },
-    "specialCards": [
-      "blood_escape",
-      "blood_red_dart",
-      "soul_seizing_formula"
-    ],
-    "skillEffectId": "qian_old_demon__skill",
-    "originRegion": "大晋魔道",
-    "activeRegions": [
-      "大晋魔道",
-      "大晋"
-    ],
-    "taxonomyRefs": [
-      "sect:yinluo"
-    ]
-  },
-  "yuansha_avatar": {
-    "id": "yuansha_avatar",
-    "name": "元刹圣祖分身",
-    "avatar": "👿",
-    "arc": "human",
-    "sect": "古魔",
-    "race": "魔族",
-    "rootRace": "魔族",
-    "species": "古魔",
-    "cultivationSystem": "魔道修士",
-    "taxonomyRefs": [
-      "race:mozu",
-      "species:gumo",
-      "path:modao",
-      "path:guidao"
-    ],
-    "gameTags": [
-      "古魔",
-      "魔道",
-      "鬼道",
-      "控制",
-      "爆发",
-      "高阶"
-    ],
-    "spiritRoot": "魔",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "魔"
-    ],
-    "health": 35,
-    "skill": {
-      "name": "古魔降临",
-      "description": "每回合开始时，对敌方所有修士造成1点伤害"
+    "yuansha_avatar": {
+        "id": "yuansha_avatar",
+        "name": "元刹圣祖分身",
+        "avatar": "👿",
+        "arc": "human",
+        "sect": "古魔",
+        "race": "魔族",
+        "rootRace": "魔族",
+        "species": "古魔",
+        "cultivationSystem": "魔道修士",
+        "taxonomyRefs": [
+            "race:mozu",
+            "species:gumo",
+            "path:modao",
+            "path:guidao"
+        ],
+        "gameTags": [
+            "古魔",
+            "魔道",
+            "鬼道",
+            "控制",
+            "爆发",
+            "高阶"
+        ],
+        "spiritRoot": "魔",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "魔"
+        ],
+        "health": 35,
+        "skill": {
+            "name": "古魔降临",
+            "description": "每回合开始时，对敌方所有修士造成1点伤害"
+        },
+        "specialCards": [
+            "blood_escape",
+            "blood_red_dart"
+        ],
+        "skillEffectId": "yuansha_avatar__skill",
+        "originRegion": "魔界",
+        "activeRegions": [
+            "魔界",
+            "昆吾山"
+        ]
     },
-    "specialCards": [
-      "blood_escape",
-      "blood_red_dart"
-    ],
-    "skillEffectId": "yuansha_avatar__skill",
-    "originRegion": "魔界",
-    "activeRegions": [
-      "魔界",
-      "昆吾山"
-    ]
-  },
-  "le_shangshi": {
-    "id": "le_shangshi",
-    "name": "穆上师",
-    "avatar": "🌪️",
-    "arc": "human",
-    "sect": "天风部",
-    "race": "法士",
-    "cultivationSystem": "法士",
-    "taxonomyRefs": [
-      "tribe:tianfeng"
-    ],
-    "gameTags": [
-      "天风部",
-      "法士",
-      "风系",
-      "速度"
-    ],
-    "spiritRoot": "风",
-    "spiritRootLevel": "heavenly",
-    "spiritRootElements": [
-      "风"
-    ],
-    "health": 27,
-    "skill": {
-      "name": "御风车",
-      "description": "每回合开始时，召唤一个2/1御风战士"
+    "le_shangshi": {
+        "id": "le_shangshi",
+        "name": "穆上师",
+        "avatar": "🌪️",
+        "arc": "human",
+        "sect": "天风部",
+        "race": "法士",
+        "cultivationSystem": "法士",
+        "taxonomyRefs": [
+            "tribe:tianfeng"
+        ],
+        "gameTags": [
+            "天风部",
+            "法士",
+            "风系",
+            "速度"
+        ],
+        "spiritRoot": "风",
+        "spiritRootLevel": "heavenly",
+        "spiritRootElements": [
+            "风"
+        ],
+        "health": 27,
+        "skill": {
+            "name": "御风车",
+            "description": "每回合开始时，召唤一个2/1御风战士"
+        },
+        "specialCards": [
+            "lightning_strike",
+            "burst_pill",
+            "spirit_pill",
+            "shield_spell",
+            "wind_blade",
+            "wind_thunder_formation",
+            "divine_sense"
+        ],
+        "skillEffectId": "le_shangshi__skill",
+        "originRegion": "天澜草原",
+        "activeRegions": [
+            "天澜草原"
+        ]
     },
-    "specialCards": [
-      "lightning_strike",
-      "burst_pill",
-      "spirit_pill",
-      "shield_spell",
-      "wind_blade",
-      "wind_thunder_formation",
-      "divine_sense"
-    ],
-    "skillEffectId": "le_shangshi__skill",
-    "originRegion": "天澜草原",
-    "activeRegions": [
-      "天澜草原"
-    ]
-  },
-  "silver_wing_yasha": {
-    "id": "silver_wing_yasha",
-    "name": "银翅夜叉",
-    "avatar": "🦇",
-    "arc": "human",
-    "sect": "昆吾山",
-    "race": "炼尸",
-    "rootRace": "鬼族",
-    "cultivationSystem": "鬼道修士",
-    "taxonomyRefs": [
-      "race:guizu",
-      "path:guidao",
-      "species:lianshi",
-      "region:kunwu-mountain"
-    ],
-    "gameTags": [
-      "鬼道",
-      "炼尸",
-      "控制",
-      "防御"
-    ],
-    "spiritRoot": "暗",
-    "spiritRootLevel": "special",
-    "spiritRootElements": [
-      "暗",
-      "尸"
-    ],
-    "health": 30,
-    "skill": {
-      "name": "银瞳幻术",
-      "description": "每回合开始时，随机敌方修士攻击力-1，并有概率冻结"
-    },
-    "specialCards": [
-      "soul_pill",
-      "confusion_formation",
-      "shield_spell",
-      "kunwu_seal_chain",
-      "silver_wing_claw",
-      "silver_pupil_illusion",
-      "silver_wing_dive",
-      "evil_moon_mirror"
-    ],
-    "skillEffectId": "silver_wing_yasha__skill",
-    "originRegion": "昆吾山",
-    "activeRegions": [
-      "昆吾山"
-    ]
-  }
+    "silver_wing_yasha": {
+        "id": "silver_wing_yasha",
+        "name": "银翅夜叉",
+        "avatar": "🦇",
+        "arc": "human",
+        "sect": "昆吾山",
+        "race": "炼尸",
+        "rootRace": "鬼族",
+        "cultivationSystem": "鬼道修士",
+        "taxonomyRefs": [
+            "race:guizu",
+            "path:guidao",
+            "species:lianshi",
+            "region:kunwu-mountain"
+        ],
+        "gameTags": [
+            "鬼道",
+            "炼尸",
+            "控制",
+            "防御"
+        ],
+        "spiritRoot": "暗",
+        "spiritRootLevel": "special",
+        "spiritRootElements": [
+            "暗",
+            "尸"
+        ],
+        "health": 30,
+        "skill": {
+            "name": "银瞳幻术",
+            "description": "每回合开始时，随机敌方修士攻击力-1，并有概率冻结"
+        },
+        "specialCards": [
+            "soul_pill",
+            "confusion_formation",
+            "shield_spell",
+            "kunwu_seal_chain",
+            "silver_wing_claw",
+            "silver_pupil_illusion",
+            "silver_wing_dive",
+            "evil_moon_mirror"
+        ],
+        "skillEffectId": "silver_wing_yasha__skill",
+        "originRegion": "昆吾山",
+        "activeRegions": [
+            "昆吾山"
+        ]
+    }
 }

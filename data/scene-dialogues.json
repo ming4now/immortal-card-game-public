@@ -529,6 +529,78 @@
       ]
     },
     {
+      "id": "xuanyin_lineage_revealed",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "xuangui",
+      "text": "玄阴经一脉，果然落到了这逆徒手里。",
+      "source": {
+        "chapter": "第四百零七章 倒戈",
+        "line": 18881
+      },
+      "conditions": {
+        "heroesAny": [
+          "xuangui"
+        ],
+        "cardsAny": [
+          "xuanyin_scripture",
+          "xuan_yin_dafa",
+          "xuanyin_demonic_qi",
+          "sadan_avatar"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "玄阴经一脉，果然落到了这逆徒手里。",
+          "source": {
+            "chapter": "第四百零七章 倒戈",
+            "line": 18881
+          }
+        },
+        {
+          "text": "煞丹、分身这些手段，正是玄阴经传承的影子。",
+          "source": {
+            "chapter": "第四百零七章 倒戈",
+            "line": 18881
+          },
+          "quoteHash": "manual-xuanyin-lineage"
+        }
+      ]
+    },
+    {
+      "id": "jiyin_xuanyin_lineage_claim",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "jiyin",
+      "text": "玄阴大法练到至高境界，并不弱于托天魔功。",
+      "source": {
+        "chapter": "第四百五十七章 托天魔功",
+        "line": 21452
+      },
+      "conditions": {
+        "heroesAny": [
+          "jiyin"
+        ],
+        "cardsAny": [
+          "xuanyin_scripture",
+          "xuan_yin_dafa",
+          "xuanyin_demonic_qi",
+          "sadan_avatar"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "玄阴大法练到至高境界，并不弱于托天魔功。",
+          "source": {
+            "chapter": "第四百五十七章 托天魔功",
+            "line": 21452
+          }
+        }
+      ]
+    },
+    {
       "id": "yuanyao_soul_beast_token",
       "priority": "A",
       "trigger": "card_play",
@@ -900,6 +972,84 @@
             "line": 21803
           },
           "quoteHash": "4b03cb28018e"
+        }
+      ]
+    },
+    {
+      "id": "yuanyao_yanli_soul_recall",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "yuanyao",
+      "text": "此事关系妍丽师姐的生死存亡。",
+      "source": {
+        "chapter": "第五百六十六章 还魂术",
+        "line": 26827
+      },
+      "conditions": {
+        "cardsAny": [
+          "yuanyao_yanli",
+          "soul_recall_art"
+        ],
+        "cardNamesAny": [
+          "妍丽",
+          "还魂术"
+        ],
+        "tagsAny": [
+          "妍丽",
+          "复活"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "此事关系妍丽师姐的生死存亡。",
+          "source": {
+            "chapter": "第五百六十六章 还魂术",
+            "line": 26827
+          }
+        },
+        {
+          "text": "我和妍丽师姐从小一齐长大。",
+          "source": {
+            "chapter": "第五百六十七章 天兆",
+            "line": 26869
+          }
+        }
+      ]
+    },
+    {
+      "id": "yuanyao_yanli_reincarnation_jue",
+      "priority": "A",
+      "trigger": "card_play",
+      "speakerHeroId": "yuanyao",
+      "text": "师姐不用再说了。我心意已定。",
+      "source": {
+        "chapter": "第五百九十四章 阴阳轮回诀",
+        "line": 28185
+      },
+      "conditions": {
+        "cardsAny": [
+          "yin_yang_reincarnation_jue"
+        ],
+        "cardNamesAny": [
+          "阴阳轮回诀"
+        ]
+      },
+      "lines": [
+        {
+          "id": "representative",
+          "text": "师姐不用再说了。我心意已定。",
+          "source": {
+            "chapter": "第五百九十四章 阴阳轮回诀",
+            "line": 28185
+          }
+        },
+        {
+          "text": "我们就共同修炼这阴阳轮回诀吧！",
+          "source": {
+            "chapter": "第五百九十四章 阴阳轮回诀",
+            "line": 28186
+          }
         }
       ]
     }
