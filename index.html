@@ -53,8 +53,8 @@
         })();
     </script>
     <!-- End Baidu Analytics -->
-  <script type="module" crossorigin src="./assets/main-Bb05fGgV.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/main-Bkd800UH.css">
+  <script type="module" crossorigin src="./assets/main-Du5lSHHd.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-ai2E06xL.css">
 </head>
 <body class="menu-open">
     <button id="audio-toggle" class="audio-toggle" type="button" title="关闭背景音乐" aria-label="关闭背景音乐">🔊</button>
@@ -378,6 +378,10 @@
                 </div>
             </div>
 
+            <div id="ai-backend-status" class="ai-backend-status is-checking" role="status" hidden>
+                本机后端连接中...
+            </div>
+
             <div class="config-section" id="player-ai-config">
                 <h3>我方AI配置</h3>
                 <div class="ai-toggle">
@@ -391,7 +395,7 @@
                         <label>决策方式:</label>
                         <select id="player-ai-decision-mode">
                             <option value="local" selected>本地规则 - 无需API Key</option>
-                            <option value="remote">大模型AI - 需要API Key</option>
+                            <option value="remote">大模型AI - 通过后端</option>
                         </select>
                     </div>
                     <div class="form-row" id="player-ai-difficulty-row">
@@ -407,6 +411,7 @@
                         <select id="player-ai-provider">
                             <option value="minimax" selected>MiniMax</option>
                             <option value="kimi">Kimi</option>
+                            <option value="zhipu">智谱 GLM</option>
                             <option value="gpt">GPT</option>
                             <option value="claude">Claude</option>
                         </select>
@@ -421,8 +426,8 @@
                         </select>
                     </div>
                     <div class="form-row" id="player-ai-key-row">
-                        <label>API Key: <span class="hint">(大模型模式需要)</span></label>
-                        <input type="password" id="player-ai-key" placeholder="输入API Key">
+                        <label>API Key:</label>
+                        <input type="password" id="player-ai-key" placeholder="密钥由后端管理" disabled>
                     </div>
                 </div>
             </div>
@@ -440,7 +445,7 @@
                         <label>决策方式:</label>
                         <select id="opponent-ai-decision-mode">
                             <option value="local" selected>本地规则 - 无需API Key</option>
-                            <option value="remote">大模型AI - 需要API Key</option>
+                            <option value="remote">大模型AI - 通过后端</option>
                         </select>
                     </div>
                     <div class="form-row" id="opponent-ai-difficulty-row">
@@ -456,6 +461,7 @@
                         <select id="opponent-ai-provider">
                             <option value="minimax" selected>MiniMax</option>
                             <option value="kimi">Kimi</option>
+                            <option value="zhipu">智谱 GLM</option>
                             <option value="gpt">GPT</option>
                             <option value="claude">Claude</option>
                         </select>
@@ -470,8 +476,8 @@
                         </select>
                     </div>
                     <div class="form-row" id="opponent-ai-key-row">
-                        <label>API Key: <span class="hint">(大模型模式需要)</span></label>
-                        <input type="password" id="opponent-ai-key" placeholder="输入API Key">
+                        <label>API Key:</label>
+                        <input type="password" id="opponent-ai-key" placeholder="密钥由后端管理" disabled>
                     </div>
                     <div class="form-row" id="opponent-ai-timeout-row">
                         <label>决策超时: <span id="timeout-value">15</span>秒</label>
