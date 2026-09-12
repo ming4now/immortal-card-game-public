@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101513">
+  <link rel="icon" href="data:,">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' ws://127.0.0.1:*; media-src 'self';">
+  <title>凡人修仙传 · 斗法</title>
+  <script type="module" crossorigin src="./assets/index--asOYokF.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CWorR_UI.css">
+</head>
+<body>
+  <section id="lobby" aria-label="游戏大厅" data-screen="home">
+    <section id="lobby-home" class="lobby-page">
+      <div id="menu-environment" aria-hidden="true"><picture><source id="menu-scenery-small" media="(max-width: 650px)"><img id="menu-scenery" alt="" decoding="async" fetchpriority="low"></picture><img id="menu-floor-array" alt="" decoding="async"></div>
+      <div id="menu-cover" role="group" aria-label="英雄卡面封面"></div>
+      <img id="menu-title" alt="" aria-hidden="true" width="682" height="191" fetchpriority="high" decoding="async">
+      <header class="home-masthead"><span class="brand-seal">仙</span><div class="lobby-header-actions"><small>人界篇 · 本地试玩</small><button id="menu-sound" data-sound-toggle class="icon-button" aria-label="关闭声音" title="关闭声音"><i data-lucide="volume-2"></i></button></div></header>
+      <div class="cover-fallback"><h1 tabindex="-1">凡人修仙传</h1><p>修仙卡牌对战</p></div>
+      <div class="lobby-home-content">
+        <button id="start-game" class="primary" disabled>开始游戏<i data-lucide="arrow-right"></i></button><p id="lobby-status" role="status">正在载入英雄与卡牌...</p>
+        <button id="lobby-retry" class="secondary" hidden>重新加载</button>
+      </div>
+    </section>
+    <section id="lobby-config" class="lobby-page" hidden>
+      <header class="lobby-masthead"><div><span class="brand-seal">仙</span><div class="lobby-heading"><small>凡人修仙传 · 人界篇</small><h2 tabindex="-1">斗法准备</h2></div></div><div class="lobby-header-actions"><nav class="flow-steps" aria-label="开局流程"><span aria-current="step"><b>一</b>模式</span><span><b>二</b>英雄</span><span><b>三</b>入场</span></nav><button data-sound-toggle class="icon-button" aria-label="关闭声音" title="关闭声音"><i data-lucide="volume-2"></i></button></div></header>
+      <form id="config-form" class="lobby-form">
+        <div class="config-workbench"><section class="config-modes">
+        <fieldset><legend><span>壹</span>对战模式</legend><div class="mode-options">
+          <label><input type="radio" name="mode" value="ai" checked><i data-lucide="swords"></i><span>人机对战</span></label>
+          <label><input type="radio" name="mode" value="manual"><i data-lucide="users"></i><span>自由对战</span></label>
+          <label><input type="radio" name="mode" value="spectator"><i data-lucide="bot"></i><span>AI 观战</span></label>
+        </div></fieldset>
+        <div id="mode-matchup" class="mode-matchup" aria-live="polite"><span>玩家</span><i data-lucide="swords"></i><span>本地 AI</span></div>
+        <section id="ai-settings" aria-label="AI 决策设置">
+          <label>决策方式<select name="decisionMode" aria-label="决策方式"><option value="local">本地规则</option><option value="remote" disabled>大模型后端</option></select></label>
+          <div class="backend-state"><small id="backend-status" role="status">尚未检测后端</small><button id="backend-refresh" type="button" class="icon-button" aria-label="重新检测后端" title="重新检测后端"><i data-lucide="rotate-ccw"></i></button></div>
+          <div id="remote-model-settings" hidden><label>供应商<select name="provider" aria-label="模型供应商" disabled></select></label><label>模型<select name="model" aria-label="AI 模型" disabled></select></label></div>
+        </section>
+        </section><fieldset class="config-rules"><legend><span>贰</span>对局规则</legend>
+        <label id="difficulty-row">AI 难度<select name="difficulty" aria-label="AI 难度"><option value="local_easy">简单</option><option value="local_medium">普通</option><option value="local_hard" selected>困难</option></select></label>
+        <div class="deck-options"><label>我方卡组<select name="playerDeck" aria-label="我方卡组"><option value="exclusive">专属卡组</option><option value="random">随机卡组</option></select></label>
+          <label>对方卡组<select name="opponentDeck" aria-label="对方卡组"><option value="exclusive">专属卡组</option><option value="random">随机卡组</option></select></label></div>
+        <label>行动顺序<select name="firstSide" aria-label="行动顺序"><option value="player">我方先手</option><option value="opponent">对方先手</option><option value="random">随机先手</option></select></label>
+        </fieldset></div>
+        <footer class="lobby-footer"><button id="config-back" type="button" class="secondary"><i data-lucide="arrow-left"></i>返回</button><button type="submit" class="primary">选择英雄<i data-lucide="arrow-right"></i></button></footer>
+      </form>
+    </section>
+    <section id="lobby-heroes" class="lobby-page" hidden>
+      <header class="lobby-masthead"><div><button id="heroes-back" class="icon-button" aria-label="返回模式配置" title="返回模式配置"><i data-lucide="arrow-left"></i></button><div class="lobby-heading"><small>凡人修仙传 · 人界篇</small><h2 id="hero-selection-title" tabindex="-1">选择我方英雄</h2></div></div><div class="lobby-header-actions"><nav class="flow-steps" aria-label="开局流程"><span data-state="done"><b>一</b>模式</span><span aria-current="step"><b>二</b>英雄</span><span><b>三</b>入场</span></nav><button data-sound-toggle class="icon-button" aria-label="关闭声音" title="关闭声音"><i data-lucide="volume-2"></i></button></div></header>
+      <div class="hero-selection" role="group" aria-label="参战英雄">
+        <button id="select-player" aria-pressed="true"><img alt="我方英雄"><small>我方英雄</small><strong></strong><i data-lucide="check"></i></button>
+        <span class="selection-versus" aria-hidden="true"><i data-lucide="swords"></i></span>
+        <button id="select-opponent" aria-pressed="false"><img alt="对方英雄"><small>对方英雄</small><strong></strong><i data-lucide="check"></i></button>
+      </div>
+      <div class="hero-workbench">
+        <aside id="hero-preview" class="hero-preview" aria-label="英雄资料">
+          <div class="hero-preview-art"><span id="preview-avatar" aria-hidden="true"></span><img id="preview-portrait" alt="" decoding="async"></div>
+          <div class="hero-preview-identity"><small id="preview-faction"></small><h3 id="preview-name"></h3><div class="preview-vitals"><span><i data-lucide="heart"></i>初始生命 <b id="preview-health"></b></span><small id="preview-selection"></small></div></div>
+          <section class="preview-skill"><header><h4 id="preview-skill-name"></h4><small id="preview-skill-kind"></small></header><p id="selected-skill"></p></section>
+        </aside>
+        <div class="hero-roster">
+          <div class="lobby-search"><label><i data-lucide="search"></i><input id="hero-search" type="search" placeholder="搜索英雄、宗派、种族" aria-label="搜索英雄"></label><span id="hero-count"></span><button id="random-heroes" class="icon-button" aria-label="随机双方英雄" title="随机双方英雄"><i data-lucide="shuffle"></i></button></div>
+          <div class="hero-grid-scroll"><div id="hero-grid"></div><p id="hero-empty" hidden>未找到匹配的英雄</p></div>
+        </div>
+      </div>
+      <footer class="lobby-footer"><small id="match-summary"></small><button id="enter-battle" class="primary">进入对战<i data-lucide="arrow-right"></i></button></footer>
+    </section>
+  </section>
+  <main id="app" hidden>
+    <div id="battle-viewport" aria-hidden="true"></div>
+    <canvas id="arena" aria-label="斗法战场"></canvas>
+    <div id="scene-targets"></div>
+    <header class="topbar">
+      <div class="brand"><span class="brand-seal">仙</span><div><h1>凡人修仙传</h1><span>虚天遗境 · 斗法</span></div></div>
+      <div id="round" class="sr-only"><span>斗法</span><strong>一</strong></div>
+      <nav class="toolbar" aria-label="对战设置">
+        <button id="pause" class="icon-button" aria-label="暂停观战" title="暂停观战" hidden><i data-lucide="pause"></i></button>
+        <button id="sound" data-sound-toggle class="icon-button" aria-label="关闭声音" title="关闭声音"><i data-lucide="volume-2"></i></button>
+        <button id="log-toggle" class="icon-button" aria-label="战斗记录" title="战斗记录" aria-pressed="false"><i data-lucide="scroll-text"></i></button>
+        <button id="fullscreen" class="icon-button" aria-label="全屏" title="全屏"><i data-lucide="maximize"></i></button>
+        <button id="settings-toggle" class="icon-button" aria-label="设置" title="设置"><i data-lucide="settings-2"></i></button>
+      </nav>
+    </header>
+    <section id="hero-player" class="hero-panel hero-player" aria-label="韩立"></section>
+    <section id="hero-opponent" class="hero-panel hero-opponent" aria-label="极阴祖师"></section>
+    <div class="arena-caption"><span>虚天遗境</span><small>古修禁制</small></div>
+    <div id="opponent-hand" class="enemy-hand" aria-label="敌方手牌"></div>
+    <div id="turn-banner" class="turn-banner" aria-live="polite"></div>
+    <div id="action-announcement" class="action-announcement" aria-live="polite"></div>
+    <aside id="inspector" class="inspector" aria-label="卡牌与英雄详情" hidden>
+      <div id="card-detail" class="card-detail" hidden></div>
+    </aside>
+    <aside id="battle-log" class="battle-log" hidden><div class="panel-title"><h2>斗法记录</h2><div class="panel-tools"><button id="download-log" class="icon-button" title="导出对战记录" aria-label="导出对战记录"><i data-lucide="download"></i></button><button id="log-close" class="icon-button" title="关闭战斗记录" aria-label="关闭战斗记录"><i data-lucide="x"></i></button></div></div><p id="ai-summary"></p><ol id="log-entries"></ol></aside>
+    <output id="ai-status" role="status" hidden></output>
+    <section class="command-bar"><div id="mana-display"></div><span id="turn-status" class="sr-only" aria-live="polite"></span></section>
+    <button id="end-turn" aria-label="结束回合"><span class="sr-only">结束回合</span></button>
+    <section id="hand" class="hand" aria-label="我方手牌"></section>
+    <div id="toast" class="toast" role="status" hidden></div>
+    <section id="settings" class="dialog-backdrop" hidden><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+      <div class="panel-title"><h2 id="settings-title">斗法设置</h2><button id="settings-close" class="icon-button" aria-label="关闭设置"><i data-lucide="x"></i></button></div>
+      <label>战场样式<select id="stage"><option value="duel">虚天遗境</option><option value="jade">玉殿阵域</option><option value="round">圆形斗法台</option></select></label>
+      <label>战场视角<select id="camera-view"><option value="top">俯视</option><option value="angled">斜俯视</option></select></label>
+      <label>演出速度<select id="speed"><option value="1">标准</option><option value="2">快速</option><option value="4">极速</option></select></label>
+      <label>画面质量<select id="quality"><option value="high">高</option><option value="low">低</option></select></label>
+      <label class="check-row"><input id="reduced-motion" type="checkbox">减少动态效果</label>
+      <label class="check-row"><input id="shake" type="checkbox">命中震动</label>
+      <hr>
+      <label>音乐<input id="music-volume" type="range" min="0" max="100" step="1"><output id="music-value" for="music-volume"></output></label>
+      <label>音效<input id="effects-volume" type="range" min="0" max="100" step="1"><output id="effects-value" for="effects-volume"></output></label>
+      <button id="sound-preview" class="secondary"><i data-lucide="volume-2"></i>试听音效</button>
+      <hr><button id="new-match" class="secondary"><i data-lucide="rotate-ccw"></i>重新开局</button><button id="spectate" class="secondary"><i data-lucide="play"></i>AI 观战</button><button id="return-menu" class="secondary"><i data-lucide="house"></i>返回主菜单</button><button id="concede" class="danger">认输</button>
+    </div></section>
+    <section id="choice" class="dialog-backdrop" hidden><div class="dialog choice-dialog" role="dialog" aria-modal="true" aria-labelledby="choice-title"><div class="panel-title"><h2 id="choice-title">选择目标</h2><span id="choice-count"></span></div><div id="choice-options"></div><div class="choice-actions"><button id="choice-cancel" class="secondary">取消</button><button id="choice-confirm" class="primary" disabled>确认<i data-lucide="check"></i></button></div></div></section>
+    <section id="result" class="dialog-backdrop" hidden><div class="dialog result-dialog" role="dialog" aria-modal="true" aria-labelledby="result-title"><div class="result-portrait"><img id="result-hero" alt=""><span class="result-seal">胜</span></div><p>此间斗法已了</p><h2 id="result-title"></h2><p id="result-stats"></p><button id="rematch" class="primary">再战一局<i data-lucide="rotate-ccw"></i></button><div class="result-actions"><button id="result-config" class="secondary"><i data-lucide="settings-2"></i>重新配置</button><button id="result-home" class="secondary"><i data-lucide="house"></i>返回主菜单</button></div><button id="result-log" class="secondary"><i data-lucide="download"></i>导出对战记录</button></div></section>
+    <section id="leave-battle" class="dialog-backdrop" hidden><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="leave-title"><h2 id="leave-title">退出当前对战？</h2><p>本局进度不会保留。</p><button id="leave-cancel" class="secondary">继续对战</button><button id="leave-confirm" class="danger">退出对战</button></div></section>
+  </main>
+  <section id="loading" class="loading-screen" aria-label="对局准备" aria-busy="true" hidden>
+    <header class="loading-heading"><small>人界篇 · 虚天遗境</small><h2>即将入阵</h2><nav class="flow-steps" aria-label="开局流程"><span data-state="done"><b>一</b>模式</span><span data-state="done"><b>二</b>英雄</span><span aria-current="step"><b>三</b>入场</span></nav></header>
+    <div class="loading-matchup"><figure data-side="player"><img id="loading-player-art" alt=""><figcaption><small>我方英雄</small><strong id="loading-player-name"></strong></figcaption></figure><span class="versus-seal" aria-hidden="true">战</span><figure data-side="opponent"><img id="loading-opponent-art" alt=""><figcaption><small>对方英雄</small><strong id="loading-opponent-name"></strong></figcaption></figure></div>
+    <div class="loading-state"><p id="loading-summary"></p><div class="loading-progress-label"><p id="loading-label" role="status">正在准备斗法...</p><output id="loading-count" for="loading-progress">0 / 7</output></div><progress id="loading-progress" aria-label="对局准备进度" max="7" value="0"></progress><ol id="loading-steps"><li>英雄</li><li>战场</li><li>牌组</li><li>入阵</li></ol><div class="loading-actions"><button id="loading-back" class="secondary"><i data-lucide="arrow-left"></i>返回英雄选择</button><button id="retry" class="primary" hidden><i data-lucide="rotate-ccw"></i>重试</button></div></div>
+  </section>
+</body>
+</html>

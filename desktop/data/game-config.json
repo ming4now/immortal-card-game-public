@@ -1,0 +1,1861 @@
+{
+  "cardBacks": {
+    "enabled": true,
+    "defaultId": "classic_cultivation",
+    "sideDefaults": {
+      "player": "classic_cultivation",
+      "opponent": "classic_cultivation"
+    },
+    "backs": [
+      {
+        "id": "classic_cultivation",
+        "name": "青玄卡背",
+        "mark": "",
+        "pattern": "stripe",
+        "description": "默认修仙牌背，用于隐藏非当前操作者的手牌正面信息。",
+        "colors": {
+          "border": "rgba(243, 156, 18, 0.48)",
+          "accent": "rgba(243, 156, 18, 0.32)",
+          "glow": "rgba(243, 156, 18, 0.28)",
+          "text": "rgba(255, 230, 176, 0.86)",
+          "background": "linear-gradient(135deg, #142236, #223e58 48%, #101827)"
+        }
+      },
+      {
+        "id": "moon_shadow",
+        "name": "月影卡背",
+        "mark": "",
+        "pattern": "moon",
+        "description": "偏冷色的月华牌背，可用于后续特殊活动或阵营主题。",
+        "colors": {
+          "border": "rgba(125, 211, 252, 0.52)",
+          "accent": "rgba(167, 139, 250, 0.36)",
+          "glow": "rgba(125, 211, 252, 0.26)",
+          "text": "rgba(224, 242, 254, 0.9)",
+          "background": "linear-gradient(135deg, #111827, #26365f 50%, #141126)"
+        }
+      },
+      {
+        "id": "demon_flame",
+        "name": "魔焰卡背",
+        "mark": "",
+        "pattern": "flame",
+        "description": "偏魔道的暗红牌背，保留为后续阵营卡背扩展。",
+        "colors": {
+          "border": "rgba(248, 113, 113, 0.52)",
+          "accent": "rgba(251, 146, 60, 0.34)",
+          "glow": "rgba(248, 113, 113, 0.25)",
+          "text": "rgba(254, 226, 226, 0.9)",
+          "background": "linear-gradient(135deg, #1a1116, #4b1f28 48%, #111827)"
+        }
+      }
+    ]
+  },
+  "battleBackgrounds": {
+    "enabled": true,
+    "defaultMode": "artwork",
+    "defaultOpacity": 1,
+    "uiOpacity": {
+      "field": 0.13,
+      "hand": 0.28,
+      "center": 0.22,
+      "side": 0.55
+    },
+    "modes": [
+      {
+        "id": "solid",
+        "name": "纯色背景"
+      },
+      {
+        "id": "artwork",
+        "name": "图案背景"
+      }
+    ],
+    "matchups": [
+      {
+        "id": "hanli-vs-nangongwan",
+        "leftHeroId": "hanli",
+        "rightHeroId": "nangongwan",
+        "image": "battle-backgrounds/hanli-vs-nangongwan.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-dayan",
+        "leftHeroId": "hanli",
+        "rightHeroId": "dayan",
+        "image": "battle-backgrounds/hanli-vs-dayan.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yinyue",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yinyue",
+        "image": "battle-backgrounds/hanli-vs-yinyue.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-ziling",
+        "leftHeroId": "hanli",
+        "rightHeroId": "ziling",
+        "image": "battle-backgrounds/hanli-vs-ziling.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yuanyao",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yuanyao",
+        "image": "battle-backgrounds/hanli-vs-yuanyao.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-xuangui",
+        "leftHeroId": "hanli",
+        "rightHeroId": "xuangui",
+        "image": "battle-backgrounds/hanli-vs-xuangui.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-jiyin",
+        "leftHeroId": "hanli",
+        "rightHeroId": "jiyin",
+        "image": "battle-backgrounds/hanli-vs-jiyin.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-fengxi",
+        "leftHeroId": "hanli",
+        "rightHeroId": "fengxi",
+        "image": "battle-backgrounds/hanli-vs-fengxi.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-wentianren",
+        "leftHeroId": "hanli",
+        "rightHeroId": "wentianren",
+        "image": "battle-backgrounds/hanli-vs-wentianren.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-wangchan",
+        "leftHeroId": "hanli",
+        "rightHeroId": "wangchan",
+        "image": "battle-backgrounds/hanli-vs-wangchan.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-xiangzhili",
+        "leftHeroId": "hanli",
+        "rightHeroId": "xiangzhili",
+        "image": "battle-backgrounds/hanli-vs-xiangzhili.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-linghu",
+        "leftHeroId": "hanli",
+        "rightHeroId": "linghu",
+        "image": "battle-backgrounds/hanli-vs-linghu.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-mo-jiao-hero",
+        "leftHeroId": "hanli",
+        "rightHeroId": "mo_jiao_hero",
+        "image": "battle-backgrounds/hanli-vs-mo-jiao-hero.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-hehuan-young-master",
+        "leftHeroId": "hanli",
+        "rightHeroId": "hehuan_young_master",
+        "image": "battle-backgrounds/hanli-vs-hehuan-young-master.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-demon-vanguard",
+        "leftHeroId": "hanli",
+        "rightHeroId": "demon_vanguard",
+        "image": "battle-backgrounds/hanli-vs-demon-vanguard.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-mulan-elder",
+        "leftHeroId": "hanli",
+        "rightHeroId": "mulan_elder",
+        "image": "battle-backgrounds/hanli-vs-mulan-elder.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yue-emperor",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yue_emperor",
+        "image": "battle-backgrounds/hanli-vs-yue-emperor.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-tianlan-saintess",
+        "leftHeroId": "hanli",
+        "rightHeroId": "tianlan_saintess",
+        "image": "battle-backgrounds/hanli-vs-tianlan-saintess.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-wild-wolf-chief",
+        "leftHeroId": "hanli",
+        "rightHeroId": "wild_wolf_chief",
+        "image": "battle-backgrounds/hanli-vs-wild-wolf-chief.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-golden-light",
+        "leftHeroId": "hanli",
+        "rightHeroId": "golden_light",
+        "image": "battle-backgrounds/hanli-vs-golden-light.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-doctor-mo",
+        "leftHeroId": "hanli",
+        "rightHeroId": "doctor_mo",
+        "image": "battle-backgrounds/hanli-vs-doctor-mo.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-lu-shixiong",
+        "leftHeroId": "hanli",
+        "rightHeroId": "lu_shixiong",
+        "image": "battle-backgrounds/hanli-vs-lu-shixiong.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-gu-elder",
+        "leftHeroId": "hanli",
+        "rightHeroId": "gu_elder",
+        "image": "battle-backgrounds/hanli-vs-gu-elder.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-mulan-shaman",
+        "leftHeroId": "hanli",
+        "rightHeroId": "mulan_shaman",
+        "image": "battle-backgrounds/hanli-vs-mulan-shaman.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-hu-old-demon",
+        "leftHeroId": "hanli",
+        "rightHeroId": "hu_old_demon",
+        "image": "battle-backgrounds/hanli-vs-hu-old-demon.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-che-old-demon",
+        "leftHeroId": "hanli",
+        "rightHeroId": "che_old_demon",
+        "image": "battle-backgrounds/hanli-vs-che-old-demon.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-flower-basket-weirdo",
+        "leftHeroId": "hanli",
+        "rightHeroId": "flower_basket_weirdo",
+        "image": "battle-backgrounds/hanli-vs-flower-basket-weirdo.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-qian-old-demon",
+        "leftHeroId": "hanli",
+        "rightHeroId": "qian_old_demon",
+        "image": "battle-backgrounds/hanli-vs-qian-old-demon.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-yuansha-avatar",
+        "leftHeroId": "hanli",
+        "rightHeroId": "yuansha_avatar",
+        "image": "battle-backgrounds/hanli-vs-yuansha-avatar.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-le-shangshi",
+        "leftHeroId": "hanli",
+        "rightHeroId": "le_shangshi",
+        "image": "battle-backgrounds/hanli-vs-le-shangshi.webp",
+        "position": "center center"
+      },
+      {
+        "id": "hanli-vs-silver-wing-yasha",
+        "leftHeroId": "hanli",
+        "rightHeroId": "silver_wing_yasha",
+        "image": "battle-backgrounds/hanli-vs-silver-wing-yasha.webp",
+        "position": "center center"
+      }
+    ]
+  },
+  "sceneDialogues": {
+    "enabled": true
+  },
+  "heroGallery": {
+    "showDeckInfo": false
+  },
+  "heroSkillVariants": {
+    "enabled": false
+  },
+  "turnBalance": {
+    "enabled": true,
+    "secondPlayerExtraStartingCards": 0,
+    "secondPlayerStartingArmor": 0,
+    "secondPlayerOpeningShield": 3
+  },
+  "spiritRoots": {
+    "metal": {
+      "name": "金",
+      "type": "base",
+      "color": "#f1c40f",
+      "element": "金"
+    },
+    "wood": {
+      "name": "木",
+      "type": "base",
+      "color": "#27ae60",
+      "element": "木"
+    },
+    "water": {
+      "name": "水",
+      "type": "base",
+      "color": "#3498db",
+      "element": "水"
+    },
+    "fire": {
+      "name": "火",
+      "type": "base",
+      "color": "#e74c3c",
+      "element": "火"
+    },
+    "earth": {
+      "name": "土",
+      "type": "base",
+      "color": "#d4a373",
+      "element": "土"
+    },
+    "thunder": {
+      "name": "雷",
+      "type": "mutant",
+      "color": "#9b59b6",
+      "from": "金+木",
+      "element": "雷"
+    },
+    "ice": {
+      "name": "冰",
+      "type": "mutant",
+      "color": "#00cec9",
+      "from": "水+金",
+      "element": "冰"
+    },
+    "wind": {
+      "name": "风",
+      "type": "mutant",
+      "color": "#74b9ff",
+      "from": "木+火",
+      "element": "风"
+    },
+    "yin": {
+      "name": "阴",
+      "type": "special",
+      "color": "#636e72",
+      "element": "阴"
+    },
+    "dark": {
+      "name": "暗",
+      "type": "special",
+      "color": "#2d3436",
+      "element": "暗"
+    },
+    "blood": {
+      "name": "血",
+      "type": "special",
+      "color": "#c0392b",
+      "element": "血"
+    },
+    "time": {
+      "name": "时间",
+      "type": "special",
+      "color": "#ffd700",
+      "element": "时间"
+    },
+    "all": {
+      "name": "全属性",
+      "type": "special",
+      "color": "#e17055",
+      "element": "全",
+      "aliases": [
+        "全"
+      ]
+    },
+    "mutant": {
+      "name": "变异",
+      "type": "mutant",
+      "color": "#fd79a8",
+      "element": "变异"
+    },
+    "poison": {
+      "name": "毒",
+      "type": "special",
+      "color": "#2ecc71",
+      "element": "毒"
+    },
+    "mortal": {
+      "name": "凡",
+      "type": "none",
+      "color": "#7f8c8d",
+      "element": "凡"
+    },
+    "demonic": {
+      "name": "魔",
+      "type": "special",
+      "color": "#8e44ad",
+      "element": "魔"
+    },
+    "monster": {
+      "name": "妖",
+      "type": "special",
+      "color": "#16a085",
+      "element": "妖"
+    },
+    "corpse": {
+      "name": "尸",
+      "type": "special",
+      "color": "#6c5ce7",
+      "element": "尸"
+    }
+  },
+  "spiritRootLevels": {
+    "heavenly": {
+      "name": "天灵根",
+      "quality": 5,
+      "desc": "单一属性，修炼速度极快",
+      "aliases": [
+        "天根",
+        "单灵根",
+        "单一灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:heavenly"
+      ]
+    },
+    "dual": {
+      "name": "双灵根",
+      "quality": 4,
+      "desc": "两种属性，修炼速度较快",
+      "group": "true",
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:true"
+      ]
+    },
+    "triple": {
+      "name": "三灵根",
+      "quality": 3,
+      "desc": "三种属性，修炼速度普通",
+      "group": "true",
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:true"
+      ]
+    },
+    "quad": {
+      "name": "伪灵根",
+      "quality": 2,
+      "desc": "四种属性，修炼速度缓慢",
+      "group": "pseudo",
+      "aliases": [
+        "四灵根",
+        "四属性伪灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:pseudo"
+      ]
+    },
+    "penta": {
+      "name": "伪灵根",
+      "quality": 1,
+      "desc": "五种属性，修炼速度极慢",
+      "group": "pseudo",
+      "aliases": [
+        "五灵根",
+        "五行伪灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:pseudo"
+      ]
+    },
+    "mutant": {
+      "name": "变异灵根",
+      "quality": 4,
+      "desc": "属性变异，特殊能力",
+      "aliases": [
+        "异灵根",
+        "变异灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:mutant"
+      ]
+    },
+    "special": {
+      "name": "特殊灵根",
+      "quality": 5,
+      "desc": "稀有属性，独一无二"
+    },
+    "none": {
+      "name": "凡骨",
+      "quality": 0,
+      "desc": "未入修仙灵根体系，用于江湖武者或凡人敌人"
+    },
+    "hidden": {
+      "name": "隐灵根",
+      "quality": 5,
+      "desc": "被特殊体质或血脉遮蔽的稀有灵根，需要特定条件显现",
+      "group": "hidden",
+      "aliases": [
+        "隐雷灵根",
+        "隐暗灵根"
+      ],
+      "sourceRefs": [
+        "spirit-identity-foundation:root-level:hidden"
+      ]
+    }
+  },
+  "spiritRootRules": {
+    "enabled": false,
+    "levelEffects": {
+      "heavenly": {
+        "name": "天灵根共鸣",
+        "timing": "回合开始",
+        "shortDescription": "手牌有同属性卡时，恢复1点生命",
+        "description": "回合开始时，若手牌中有与主灵根相同属性的卡牌，恢复1点生命。"
+      },
+      "dual": {
+        "name": "双灵根调息",
+        "timing": "抽牌时",
+        "shortDescription": "每回合首次抽到匹配灵根属性的卡，恢复1点生命",
+        "description": "每回合首次抽到与任一灵根属性匹配的卡牌时，恢复1点生命。"
+      },
+      "triple": {
+        "name": "三灵根转化",
+        "timing": "打出卡牌",
+        "shortDescription": "每回合首张匹配灵根属性的卡费用-1",
+        "description": "每回合第一张与任一灵根属性匹配的卡牌费用减少1点。"
+      },
+      "quad": {
+        "name": "伪灵根适应",
+        "timing": "打出卡牌",
+        "shortDescription": "手牌上限+1；每回合首张匹配灵根属性的卡费用-1",
+        "description": "手牌上限提高1；每回合第一张与任一灵根属性匹配的卡牌费用减少1点。",
+        "handLimitBonus": 1
+      },
+      "penta": {
+        "name": "五行杂灵适应",
+        "timing": "打出卡牌",
+        "shortDescription": "手牌上限+2；每回合首张匹配灵根属性的卡费用-1",
+        "description": "手牌上限提高2；每回合第一张与任一灵根属性匹配的卡牌费用减少1点。",
+        "handLimitBonus": 2
+      },
+      "mutant": {
+        "name": "变异灵根爆发",
+        "timing": "打出卡牌",
+        "shortDescription": "每回合首张同属性卡费用-1",
+        "description": "每回合第一张与主灵根相同属性的卡牌费用减少1点。"
+      },
+      "special": {
+        "name": "特殊灵根异能",
+        "timing": "打出卡牌",
+        "shortDescription": "每回合首张同属性卡触发特殊灵根异能",
+        "description": "每回合第一张与特殊灵根属性匹配的卡牌，会触发该属性的专属异能。"
+      },
+      "none": {
+        "name": "凡骨",
+        "timing": "无",
+        "shortDescription": "没有灵根被动",
+        "description": "未进入修仙灵根体系，没有额外灵根被动。"
+      }
+    },
+    "rootEffects": {
+      "阴": {
+        "name": "阴灵回护",
+        "shortDescription": "同属性卡每回合首次触发：若墓地有牌，获得1点护甲",
+        "description": "每回合首次打出阴属性卡牌时，若墓地中有卡牌，获得1点护甲。"
+      },
+      "暗": {
+        "name": "暗灵蚀影",
+        "shortDescription": "同属性卡每回合首次触发：敌方英雄受到1点伤害",
+        "description": "每回合首次打出暗属性卡牌时，敌方英雄受到1点伤害。"
+      },
+      "血": {
+        "name": "血灵反哺",
+        "shortDescription": "同属性卡每回合首次触发：恢复1点生命",
+        "description": "每回合首次打出血属性卡牌时，恢复1点生命。"
+      },
+      "毒": {
+        "name": "毒灵侵蚀",
+        "shortDescription": "同属性卡每回合首次触发：令敌方英雄中毒",
+        "description": "每回合首次打出毒属性卡牌时，令敌方英雄中毒。"
+      },
+      "时间": {
+        "name": "时间回响",
+        "shortDescription": "同属性卡每回合首次触发：下回合临时灵力+1",
+        "description": "每回合首次打出时间属性卡牌时，下回合获得1点临时灵力。"
+      },
+      "全": {
+        "name": "全属性贯通",
+        "shortDescription": "任意属性卡每回合首次触发：抽1张牌",
+        "description": "每回合首次打出任意带灵根属性的卡牌时，抽1张牌。"
+      },
+      "魔": {
+        "name": "魔灵压迫",
+        "shortDescription": "同属性卡每回合首次触发：敌方英雄受到1点伤害",
+        "description": "每回合首次打出魔属性卡牌时，敌方英雄受到1点伤害。"
+      },
+      "妖": {
+        "name": "妖灵鼓舞",
+        "shortDescription": "同属性卡每回合首次触发：随机友方修士+1攻击",
+        "description": "每回合首次打出妖属性卡牌时，随机一个友方修士获得+1攻击。"
+      },
+      "尸": {
+        "name": "尸灵护身",
+        "shortDescription": "同属性卡每回合首次触发：获得1点护甲",
+        "description": "每回合首次打出尸属性卡牌时，获得1点护甲。"
+      },
+      "土": {
+        "name": "土灵稳固",
+        "shortDescription": "同属性卡每回合首次触发：获得1点护甲",
+        "description": "每回合首次打出土属性卡牌时，获得1点护甲。"
+      }
+    }
+  },
+  "sects": {
+    "huangfeng": {
+      "name": "黄枫谷",
+      "type": "正道",
+      "bonus": "木属性卡牌灵力消耗-1",
+      "category": "sect",
+      "taxonomyRef": "sect:huangfeng"
+    },
+    "yanyue": {
+      "name": "掩月宗",
+      "type": "正道",
+      "bonus": "水属性法术伤害+1",
+      "category": "sect",
+      "taxonomyRef": "sect:yanyue"
+    },
+    "hehuan": {
+      "name": "合欢宗",
+      "type": "魔道",
+      "bonus": "控制法术持续时间+1",
+      "category": "sect",
+      "taxonomyRef": "sect:hehuan"
+    },
+    "guhun": {
+      "name": "鬼灵门",
+      "type": "魔道",
+      "bonus": "墓地卡牌效果增强",
+      "deprecated": true,
+      "canonicalKey": "guiling",
+      "note": "兼容旧键；规范宗派键使用 guiling。",
+      "category": "sect",
+      "taxonomyRef": "sect:guiling"
+    },
+    "yaozu": {
+      "name": "妖族",
+      "type": "妖族",
+      "bonus": "灵宠卡牌召唤费用-1",
+      "category": "race",
+      "taxonomyRef": "race:yaozu"
+    },
+    "qingyuan": {
+      "name": "青元宫",
+      "type": "中立",
+      "bonus": "剑修卡牌攻击+1",
+      "category": "faction",
+      "taxonomyRef": "faction:qingyuan-palace"
+    },
+    "miaoyin": {
+      "name": "妙音门",
+      "type": "中立势力",
+      "bonus": "音律、幻术和商贸卡牌协同",
+      "category": "sect",
+      "region": "乱星海",
+      "taxonomyRef": "sect:miaoyin"
+    },
+    "guiling": {
+      "name": "鬼灵门",
+      "type": "魔道",
+      "bonus": "鬼道修士获得+1攻击",
+      "aliases": [
+        "鬼灵门",
+        "鬼灵宗"
+      ],
+      "category": "sect",
+      "region": "天罗国",
+      "note": "天罗国魔道六宗之一。",
+      "taxonomyRef": "sect:guiling"
+    },
+    "jiyin": {
+      "name": "极阴岛",
+      "type": "魔道",
+      "bonus": "阴属性修士攻击附带中毒",
+      "category": "faction",
+      "taxonomyRef": "faction:jiyin"
+    },
+    "xuangui": {
+      "name": "玄骨门",
+      "type": "魔道",
+      "bonus": "冰属性法术伤害+1",
+      "category": "sect",
+      "taxonomyRef": "sect:xuangu"
+    },
+    "liufeng": {
+      "name": "裂风兽",
+      "type": "妖族",
+      "bonus": "风属性修士攻击次数+1",
+      "category": "species",
+      "taxonomyRef": "species:liefengshou"
+    },
+    "huashen": {
+      "name": "化神散修",
+      "type": "正道",
+      "bonus": "高境界修士费用-1",
+      "category": "path",
+      "taxonomyRef": "path:huashen"
+    },
+    "qingxu": {
+      "name": "清虚门",
+      "type": "正道",
+      "bonus": "水属性防御卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:qingxu"
+    },
+    "huadaowu": {
+      "name": "化刀坞",
+      "type": "正道",
+      "bonus": "刀兵修士攻击增强",
+      "category": "sect",
+      "taxonomyRef": "sect:huadaowu"
+    },
+    "giant_sword": {
+      "name": "巨剑门",
+      "type": "正道",
+      "bonus": "剑修卡牌攻击增强",
+      "category": "sect",
+      "taxonomyRef": "sect:jujian"
+    },
+    "tianque": {
+      "name": "天阙堡",
+      "type": "正道",
+      "bonus": "火土属性修士协同",
+      "category": "sect",
+      "taxonomyRef": "sect:tianque"
+    },
+    "spirit_beast_mountain": {
+      "name": "灵兽山",
+      "type": "正道",
+      "bonus": "灵宠卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:lingshou"
+    },
+    "yuling": {
+      "name": "御灵宗",
+      "type": "魔道",
+      "bonus": "驱使灵兽和虫类卡牌",
+      "category": "sect",
+      "taxonomyRef": "sect:yuling"
+    },
+    "tiansha": {
+      "name": "天煞宗",
+      "type": "魔道",
+      "bonus": "煞气攻击卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:tiansha"
+    },
+    "demonic_flame": {
+      "name": "魔焰宗",
+      "type": "魔道",
+      "bonus": "火属性和魔焰卡牌协同",
+      "aliases": [
+        "魔焰门",
+        "魔焰宗"
+      ],
+      "note": "原文常见称呼为魔焰门，游戏中兼容魔焰宗。",
+      "category": "sect",
+      "taxonomyRef": "sect:moyan"
+    },
+    "qianhuan": {
+      "name": "千幻宗",
+      "type": "中立",
+      "bonus": "幻术卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:qianhuan"
+    },
+    "star_palace": {
+      "name": "星宫",
+      "type": "中立",
+      "bonus": "星海与阵法卡牌协同",
+      "category": "faction",
+      "region": "乱星海",
+      "aliases": [
+        "星宫",
+        "天星城星宫"
+      ],
+      "taxonomyRef": "faction:star-palace"
+    },
+    "wanfa": {
+      "name": "万法门",
+      "type": "正道",
+      "bonus": "法术卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:wanfa"
+    },
+    "seven_mysteries": {
+      "name": "七玄门",
+      "type": "江湖",
+      "bonus": "凡人武学卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:qixuan"
+    },
+    "human_realm": {
+      "name": "人界",
+      "type": "中立",
+      "bonus": "人界通用卡牌",
+      "category": "region",
+      "taxonomyRef": "region:human-realm"
+    },
+    "tu_wu": {
+      "name": "突兀族",
+      "type": "法士",
+      "bonus": "草原法士和风土卡牌协同",
+      "category": "tribe",
+      "taxonomyRef": "tribe:tuwu"
+    },
+    "mulan": {
+      "name": "慕兰族",
+      "type": "法士",
+      "bonus": "慕兰法士和神师卡牌协同",
+      "category": "tribe",
+      "taxonomyRef": "tribe:mulan"
+    },
+    "yan_clan": {
+      "name": "燕家堡",
+      "type": "修仙家族",
+      "bonus": "家族修士卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:yan-clan"
+    },
+    "rogue": {
+      "name": "散修",
+      "type": "中立",
+      "bonus": "通用修士和法宝适配",
+      "category": "path",
+      "taxonomyRef": "path:sanxiu"
+    },
+    "black_fiend": {
+      "name": "黑煞教",
+      "type": "魔道",
+      "bonus": "血道与阴暗属性卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:heisha"
+    },
+    "blood_trial": {
+      "name": "血色禁地",
+      "type": "秘境",
+      "bonus": "禁地妖兽和试炼卡牌协同",
+      "category": "region",
+      "taxonomyRef": "region:blood-forbidden-land"
+    },
+    "wild_wolf": {
+      "name": "野狼帮",
+      "type": "江湖",
+      "bonus": "凡人武者卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:wild-wolf"
+    },
+    "giant_whale": {
+      "name": "巨鲸帮",
+      "type": "江湖",
+      "bonus": "水路帮派和凡人武学卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:giant-whale"
+    },
+    "liulian": {
+      "name": "六连殿",
+      "type": "中立",
+      "bonus": "外海修士卡牌协同",
+      "category": "faction",
+      "region": "乱星海",
+      "aliases": [
+        "六连殿"
+      ],
+      "taxonomyRef": "faction:liulian"
+    },
+    "heavenly_demon": {
+      "name": "天魔宗",
+      "type": "魔道",
+      "bonus": "魔功与暗属性卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:tianmo"
+    },
+    "wan_yao": {
+      "name": "万妖谷",
+      "type": "妖族",
+      "bonus": "妖族和灵宠卡牌协同",
+      "category": "faction",
+      "taxonomyRef": "faction:wanyaogu"
+    },
+    "yinluo": {
+      "name": "阴罗宗",
+      "type": "魔道",
+      "bonus": "阴魂和鬼道卡牌协同",
+      "category": "sect",
+      "taxonomyRef": "sect:yinluo"
+    },
+    "ancient_demon": {
+      "name": "古魔",
+      "type": "魔族",
+      "bonus": "古魔与魔属性卡牌协同",
+      "category": "species",
+      "taxonomyRef": "species:gumo"
+    },
+    "tianfeng": {
+      "name": "天风部",
+      "type": "法士",
+      "bonus": "风属性法士卡牌协同",
+      "category": "tribe",
+      "taxonomyRef": "tribe:tianfeng"
+    },
+    "kunwu": {
+      "name": "昆吾山",
+      "type": "秘境",
+      "bonus": "昆吾封印和炼尸卡牌协同",
+      "category": "region",
+      "taxonomyRef": "region:kunwu-mountain"
+    },
+    "demon_path": {
+      "name": "魔道",
+      "type": "魔道",
+      "bonus": "魔道通用卡牌协同",
+      "category": "path",
+      "taxonomyRef": "path:modao"
+    },
+    "ghost_path": {
+      "name": "鬼道",
+      "type": "鬼道",
+      "bonus": "鬼修和阴魂卡牌协同",
+      "category": "path",
+      "taxonomyRef": "path:guidao"
+    },
+    "demon_clan": {
+      "name": "魔族",
+      "type": "魔族",
+      "bonus": "魔族卡牌协同",
+      "category": "race",
+      "taxonomyRef": "race:mozu"
+    },
+    "yue_seven_sects": {
+      "name": "越国七派",
+      "type": "宗派联盟",
+      "category": "faction",
+      "region": "越国",
+      "aliases": [
+        "七派",
+        "七大派"
+      ],
+      "bonus": "越国七派宗门卡牌协同",
+      "note": "黄枫谷、掩月宗、清虚门、化刀坞、巨剑门、天阙堡、灵兽山。",
+      "taxonomyRef": "faction:yue-seven-sects"
+    },
+    "tiannan_demon_six": {
+      "name": "魔道六宗",
+      "type": "魔道联盟",
+      "category": "faction",
+      "region": "天罗国",
+      "aliases": [
+        "天罗国魔道六宗",
+        "六宗"
+      ],
+      "bonus": "魔道六宗卡牌协同",
+      "note": "合欢宗、鬼灵门、御灵宗、天煞宗、魔焰宗、千幻宗。",
+      "taxonomyRef": "faction:tiannan-demon-six"
+    },
+    "zhengdao_alliance": {
+      "name": "正道盟",
+      "type": "正道联盟",
+      "category": "faction",
+      "region": "风都国",
+      "aliases": [
+        "正道联盟"
+      ],
+      "bonus": "正道宗门和防御卡牌协同",
+      "taxonomyRef": "faction:zhengdao-alliance"
+    },
+    "tiandao_alliance": {
+      "name": "天道盟",
+      "type": "正道联盟",
+      "category": "faction",
+      "region": "天南",
+      "aliases": [
+        "天道盟势力"
+      ],
+      "bonus": "天南正道盟友卡牌协同",
+      "taxonomyRef": "faction:tiandao-alliance"
+    },
+    "jiuguo_alliance": {
+      "name": "九国盟",
+      "type": "正道联盟",
+      "category": "faction",
+      "region": "天南边境",
+      "aliases": [
+        "九国盟势力"
+      ],
+      "bonus": "边境防御和法士对抗卡牌协同",
+      "taxonomyRef": "faction:jiuguo-alliance"
+    },
+    "tianxing": {
+      "name": "天星宗",
+      "type": "正道",
+      "category": "sect",
+      "region": "元武国",
+      "bonus": "阵法和禁制卡牌协同",
+      "taxonomyRef": "sect:tianxing"
+    },
+    "shenbing": {
+      "name": "神兵门",
+      "type": "正道",
+      "category": "sect",
+      "region": "元武国",
+      "bonus": "炼器和法宝卡牌协同",
+      "taxonomyRef": "sect:shenbing"
+    },
+    "wanmiao": {
+      "name": "万妙观",
+      "type": "正道",
+      "category": "sect",
+      "region": "元武国",
+      "bonus": "符箓和法术卡牌协同",
+      "taxonomyRef": "sect:wanmiao"
+    },
+    "qianzhu": {
+      "name": "千竹教",
+      "type": "中立势力",
+      "category": "sect",
+      "region": "元武国",
+      "bonus": "傀儡术和机关卡牌协同",
+      "taxonomyRef": "sect:qianzhu"
+    },
+    "yinsha": {
+      "name": "隐煞门",
+      "type": "魔道",
+      "category": "sect",
+      "region": "乱星海",
+      "bonus": "隐匿和煞气卡牌协同",
+      "taxonomyRef": "sect:yinsha"
+    },
+    "reverse_star_alliance": {
+      "name": "逆星盟",
+      "type": "乱星海联盟",
+      "category": "faction",
+      "region": "乱星海",
+      "bonus": "反星宫势力卡牌协同",
+      "taxonomyRef": "faction:reverse-star-alliance"
+    },
+    "chaotic_star_righteous": {
+      "name": "乱星海正道",
+      "type": "正道势力",
+      "category": "faction",
+      "region": "乱星海",
+      "bonus": "乱星海正道修士协同",
+      "taxonomyRef": "faction:chaotic-star-righteous"
+    },
+    "chaotic_star_demonic": {
+      "name": "乱星海魔道",
+      "type": "魔道势力",
+      "category": "faction",
+      "region": "乱星海",
+      "bonus": "乱星海魔道修士协同",
+      "taxonomyRef": "faction:chaotic-star-demonic"
+    },
+    "luoyun": {
+      "name": "落云宗",
+      "type": "正道",
+      "category": "sect",
+      "region": "云梦山",
+      "bonus": "云梦山宗门和木土防御卡牌协同",
+      "taxonomyRef": "sect:luoyun"
+    },
+    "gujian": {
+      "name": "古剑门",
+      "type": "正道",
+      "category": "sect",
+      "region": "云梦山",
+      "bonus": "剑修卡牌协同",
+      "taxonomyRef": "sect:gujian"
+    },
+    "baiqiao": {
+      "name": "百巧院",
+      "type": "正道",
+      "category": "sect",
+      "region": "云梦山",
+      "bonus": "炼器和机关卡牌协同",
+      "taxonomyRef": "sect:baiqiao"
+    },
+    "taiyi": {
+      "name": "太一门",
+      "type": "正道",
+      "category": "sect",
+      "region": "大晋",
+      "bonus": "大晋正道卡牌协同",
+      "taxonomyRef": "sect:taiyi"
+    },
+    "taizhen": {
+      "name": "太真门",
+      "type": "正道",
+      "category": "sect",
+      "region": "天南",
+      "bonus": "静心诀和正道盟卡牌协同",
+      "taxonomyRef": "sect:taizhen"
+    },
+    "xiaoji": {
+      "name": "小极宫",
+      "type": "正道",
+      "category": "sect",
+      "region": "大晋",
+      "aliases": [
+        "北冥小极宫"
+      ],
+      "bonus": "冰寒和防御卡牌协同",
+      "taxonomyRef": "sect:xiaoji"
+    },
+    "tianji": {
+      "name": "天机阁",
+      "type": "中立势力",
+      "category": "sect",
+      "region": "大晋",
+      "bonus": "情报和交易卡牌协同",
+      "taxonomyRef": "sect:tianji"
+    },
+    "great_jin_top_sects": {
+      "name": "大晋正魔十大宗门",
+      "type": "大晋势力",
+      "category": "faction",
+      "region": "大晋",
+      "bonus": "大晋高阶宗门卡牌协同",
+      "taxonomyRef": "faction:great-jin-top-sects"
+    },
+    "beiye": {
+      "name": "贝叶宗",
+      "type": "正道",
+      "category": "sect",
+      "region": "九国盟",
+      "aliases": [
+        "贝叶宗宗门"
+      ],
+      "bonus": "九国盟防御和统筹卡牌协同",
+      "taxonomyRef": "sect:beiye"
+    }
+  },
+  "races": {
+    "human": {
+      "name": "人族",
+      "description": "修仙界主流种族，修炼体系完善",
+      "bonus": "每回合额外抽1张牌（上限10张）",
+      "taxonomyRef": "race:human"
+    },
+    "demon": {
+      "name": "妖族",
+      "description": "天生具有强大肉身和神通",
+      "bonus": "初始生命值+2",
+      "taxonomyRef": "race:yaozu"
+    },
+    "ghost": {
+      "name": "鬼族",
+      "description": "死后化为鬼修，擅长阴属性功法",
+      "bonus": "墓地卡牌复活费用-1",
+      "taxonomyRef": "race:guizu"
+    },
+    "mage": {
+      "name": "法士",
+      "description": "草原修炼体系，常以部族和图腾法术作战",
+      "bonus": "法术与部族协同",
+      "taxonomyRef": "path:fashi"
+    },
+    "feather": {
+      "name": "羽族",
+      "description": "具备飞遁和风属性天赋的异族",
+      "bonus": "风属性和速度协同",
+      "taxonomyRef": "lineage:yuzu"
+    },
+    "demon_clan": {
+      "name": "魔族",
+      "description": "古魔或魔界族裔，擅长魔气与暗属性神通",
+      "bonus": "魔属性卡牌协同",
+      "taxonomyRef": "race:mozu"
+    },
+    "corpse": {
+      "name": "炼尸",
+      "description": "由秘法炼制或尸气孕育的特殊存在",
+      "bonus": "阴暗属性和复生协同",
+      "taxonomyRef": "species:lianshi"
+    }
+  },
+  "regions": {
+    "human_realm": {
+      "name": "人界",
+      "arc": "human",
+      "type": "world",
+      "parent": null,
+      "description": "凡人修仙传前期主舞台，包含天南、乱星海、大晋等区域"
+    },
+    "tiannan": {
+      "name": "天南",
+      "arc": "human",
+      "type": "cultivation_region",
+      "parent": "human_realm",
+      "description": "韩立早期踏入修仙界的主要区域"
+    },
+    "yue_state": {
+      "name": "越国",
+      "arc": "human",
+      "type": "country",
+      "parent": "tiannan",
+      "description": "七派所在国家，黄枫谷、掩月宗等势力活动区域"
+    },
+    "jingzhou": {
+      "name": "镜州",
+      "arc": "human",
+      "type": "province",
+      "parent": "yue_state",
+      "description": "韩立凡人时期的出身区域"
+    },
+    "qingniu_town": {
+      "name": "青牛镇",
+      "arc": "human",
+      "type": "town",
+      "parent": "jingzhou",
+      "description": "韩立出生和少年时期所在乡镇"
+    },
+    "jiayuan_city": {
+      "name": "嘉元城",
+      "arc": "human",
+      "type": "mortal_city",
+      "parent": "jingzhou",
+      "description": "七玄门、野狼帮相关的凡俗江湖区域"
+    },
+    "seven_mysteries_mountain": {
+      "name": "七玄门",
+      "arc": "human",
+      "type": "mortal_sect_domain",
+      "parent": "jingzhou",
+      "description": "韩立拜入的凡俗门派，也是墨大夫相关剧情舞台"
+    },
+    "yellow_maple_valley": {
+      "name": "黄枫谷",
+      "arc": "human",
+      "type": "sect_domain",
+      "parent": "yue_state",
+      "description": "越国七派之一，韩立筑基前后的主要宗门"
+    },
+    "moon_covering_mountain": {
+      "name": "掩月宗",
+      "arc": "human",
+      "type": "sect_domain",
+      "parent": "yue_state",
+      "description": "南宫婉所属宗门"
+    },
+    "blood_trial_forbidden_land": {
+      "name": "血色禁地",
+      "arc": "human",
+      "type": "secret_realm",
+      "parent": "yue_state",
+      "description": "越国七派试炼秘境，墨蛟等剧情相关"
+    },
+    "yan_clan_fort": {
+      "name": "燕家堡",
+      "arc": "human",
+      "type": "clan_domain",
+      "parent": "yue_state",
+      "description": "越国修仙家族势力区域"
+    },
+    "yue_capital": {
+      "name": "越京",
+      "arc": "human",
+      "type": "capital_city",
+      "parent": "yue_state",
+      "description": "越皇和黑煞教相关剧情区域"
+    },
+    "tiannan_demon_warfront": {
+      "name": "越国魔道战场",
+      "arc": "human",
+      "type": "warfront",
+      "parent": "tiannan",
+      "description": "天南正魔冲突和魔道入侵相关区域"
+    },
+    "chaotic_star_sea": {
+      "name": "乱星海",
+      "arc": "human",
+      "type": "sea_region",
+      "parent": "human_realm",
+      "description": "韩立海外修炼和星海势力活动区域"
+    },
+    "miaoyin_island": {
+      "name": "妙音门",
+      "arc": "human",
+      "type": "island_force_domain",
+      "parent": "chaotic_star_sea",
+      "description": "紫灵和妙音门相关的乱星海势力地域"
+    },
+    "outer_star_sea": {
+      "name": "外星海",
+      "arc": "human",
+      "type": "sea_region",
+      "parent": "chaotic_star_sea",
+      "description": "风希、裂风兽等妖兽活动区域"
+    },
+    "xutian_palace": {
+      "name": "虚天殿",
+      "arc": "human",
+      "type": "secret_realm",
+      "parent": "chaotic_star_sea",
+      "description": "虚天鼎、玄骨上人、极阴祖师等剧情核心秘境"
+    },
+    "jiyin_island": {
+      "name": "极阴岛",
+      "arc": "human",
+      "type": "island",
+      "parent": "chaotic_star_sea",
+      "description": "极阴祖师势力所在区域"
+    },
+    "liulian_islands": {
+      "name": "六连殿海域",
+      "arc": "human",
+      "type": "sea_region",
+      "parent": "chaotic_star_sea",
+      "description": "乱星海六连殿相关海域"
+    },
+    "star_palace_sea": {
+      "name": "星宫海域",
+      "arc": "human",
+      "type": "sea_region",
+      "parent": "chaotic_star_sea",
+      "description": "星宫和逆星盟相关的乱星海核心区域"
+    },
+    "mulan_grassland": {
+      "name": "慕兰草原",
+      "arc": "human",
+      "type": "grassland",
+      "parent": "human_realm",
+      "description": "慕兰法士活动区域"
+    },
+    "tianlan_grassland": {
+      "name": "天澜草原",
+      "arc": "human",
+      "type": "grassland",
+      "parent": "human_realm",
+      "description": "突兀族和天澜圣女相关区域"
+    },
+    "tiannan_border": {
+      "name": "天南边境",
+      "arc": "human",
+      "type": "border",
+      "parent": "tiannan",
+      "description": "天南与草原法士冲突的边境区域"
+    },
+    "great_jin": {
+      "name": "大晋",
+      "arc": "human",
+      "type": "country",
+      "parent": "human_realm",
+      "description": "人界后期高阶修士、魔宗、妖谷和昆吾山相关区域"
+    },
+    "kunwu_mountain": {
+      "name": "昆吾山",
+      "arc": "human",
+      "type": "secret_realm",
+      "parent": "great_jin",
+      "description": "昆吾封印、银翅夜叉、元刹分身等剧情区域"
+    },
+    "wan_yao_valley": {
+      "name": "万妖谷",
+      "arc": "human",
+      "type": "demon_valley",
+      "parent": "great_jin",
+      "description": "大晋妖族势力区域"
+    },
+    "great_jin_demon_path": {
+      "name": "大晋魔道",
+      "arc": "human",
+      "type": "demon_path_region",
+      "parent": "great_jin",
+      "description": "天魔宗、阴罗宗等大晋魔道势力活动范围"
+    },
+    "demon_realm": {
+      "name": "魔界",
+      "arc": "human",
+      "type": "world",
+      "parent": null,
+      "description": "古魔、元刹等魔族来源区域"
+    },
+    "spirit_realm": {
+      "name": "灵界",
+      "arc": "spirit",
+      "type": "world",
+      "parent": null,
+      "description": "灵界篇主舞台"
+    },
+    "spirit_human_territory": {
+      "name": "灵界人族区域",
+      "arc": "spirit",
+      "type": "cultivation_region",
+      "parent": "spirit_realm",
+      "description": "韩立飞升灵界后的主要人族活动范围"
+    },
+    "immortal_realm": {
+      "name": "仙界",
+      "arc": "immortal",
+      "type": "world",
+      "parent": null,
+      "description": "仙界篇主舞台"
+    },
+    "immortal_domain": {
+      "name": "仙界仙域",
+      "arc": "immortal",
+      "type": "immortal_region",
+      "parent": "immortal_realm",
+      "description": "韩立仙界阶段的泛用地域标记"
+    },
+    "extreme_west": {
+      "name": "极西之地",
+      "arc": "human",
+      "type": "region",
+      "parent": "human_realm",
+      "description": "千竹教、大衍神君和人界傀儡术传承相关地域"
+    }
+  },
+  "spiritRootFoundation": {
+    "enabled": false,
+    "sourceData": "data/spirit-identity-foundation.json",
+    "sourcePages": [
+      "https://ydys.axiaoxin.com/linggen-quiz/baike_tizhi.html",
+      "https://ydys.axiaoxin.com/linggen-quiz/linggen.html"
+    ],
+    "conflictNotes": [
+      "外部灵根页称韩立为五灵根；本地原文命中“四属性缺金，属于伪灵根”，当前以四灵根/quad 为准。"
+    ],
+    "usage": "资料储备层，后续开发灵根体质系统时再开启玩法规则。"
+  },
+  "spiritConstitutions": {
+    "enabled": false,
+    "sourceData": "data/spirit-identity-foundation.json",
+    "items": {
+      "chaos-body": {
+        "name": "混沌之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "混沌"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "体质包容万物；可修炼任何功法；传说中的体质",
+        "taxonomyRef": "constitution:chaos-body"
+      },
+      "earth-spirit": {
+        "name": "土灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "土"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "土灵之体具有大地般厚重稳固的特质，拥有者天生与土元素亲和。这种体质不仅让修士在土系功法上天赋异禀，还具备强大的防御能力和地形操控技巧。土灵之体的修士往往根基扎实，修为稳定，很少出现根基不稳的问题。",
+        "taxonomyRef": "constitution:earth-spirit"
+      },
+      "ethereal-body": {
+        "name": "空灵之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "空灵"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "身体轻盈如风，速度和敏捷度极高",
+        "taxonomyRef": "constitution:ethereal-body"
+      },
+      "fire-spirit": {
+        "name": "火灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "火"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "火灵之体拥有炽热的火焰力量，体内火元素异常活跃。这种体质让修士在火系功法修炼上进步神速，同时具备强大的爆发力和破坏力。火灵之体的拥有者往往性格热烈，战斗风格刚猛直接，是天生的战斗型修士。",
+        "taxonomyRef": "constitution:fire-spirit"
+      },
+      "five-elements": {
+        "name": "五行之体",
+        "aliases": [],
+        "category": "legendary",
+        "elements": [
+          "金",
+          "木",
+          "水",
+          "火",
+          "土"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "五行之体是最为完美的体质之一，体内金木水火土五行元素完美平衡，没有任何偏向。这种体质让拥有者能够修炼任何属性的功法，而且都能达到极高的成就。五行之体的修士往往修炼路径宽广，适应性极强，是各大宗门最渴望得到的弟子类型。",
+        "taxonomyRef": "constitution:five-elements"
+      },
+      "five-thunder": {
+        "name": "五雷之体",
+        "aliases": [],
+        "category": "thunder",
+        "elements": [
+          "雷"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "五雷之体是雷系体质的终极形态，拥有者能够同时掌控五种不同属性的雷电力量：金雷、木雷、水雷、火雷、土雷。每种雷电都有其独特的特性和威力，五雷合一时更是威力无穷。这种体质极其罕见，历史上拥有者屈指可数，都成为了震古烁今的强者。",
+        "taxonomyRef": "constitution:five-thunder"
+      },
+      "flame-spirit": {
+        "name": "炎灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "火"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "炎灵之体是火属性体质的进阶版本，比普通火灵之体更加强大。这种体质的拥有者体内蕴含着极致的炎之力，能够操控温度达到万度以上的极致火焰。炎灵之体不仅攻击力恐怖，还具备焚烧万物的毁灭性力量，是修仙界中最具破坏力的体质之一。",
+        "taxonomyRef": "constitution:flame-spirit"
+      },
+      "forged-metal": {
+        "name": "锻金之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "金"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "锻金之体是金属性修士梦寐以求的体质，拥有者天生与金属性灵气亲和度极高，修炼金属性功法时进展神速。这种体质不仅让修士在攻击力上有显著提升，还能大幅提高炼器成功率。许多著名的炼器大师都拥有这种珍贵的体质。",
+        "taxonomyRef": "constitution:forged-metal"
+      },
+      "ghostly": {
+        "name": "鬼魅之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "阴",
+          "鬼"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "擅长隐身和偷袭，鬼修首选体质",
+        "taxonomyRef": "constitution:ghostly"
+      },
+      "ice-marrow-cold-soul": {
+        "name": "冰髓寒魄之体",
+        "aliases": [
+          "冰髓之体"
+        ],
+        "category": "other",
+        "elements": [
+          "冰"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "极致寒冰体质，修炼冰系功法威力倍增，能够冰封万物",
+        "taxonomyRef": "constitution:ice-marrow-cold-soul"
+      },
+      "indestructible": {
+        "name": "不灭之体",
+        "aliases": [],
+        "category": "beast",
+        "elements": [
+          "生机"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "不灭之体是妖兽中最为逆天的天赋能力之一，拥有这种体质的存在即使身体完全破碎，头颅四肢被斩断，也能够自行重新愈合修复。这种近乎不死的能力让拥有者在战斗中几乎立于不败之地，是修仙界中最为恐怖的体质之一。",
+        "taxonomyRef": "constitution:indestructible"
+      },
+      "innate-dao": {
+        "name": "先天道体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "道"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "天生与道相亲；感悟天地法则能力强；万年难遇",
+        "taxonomyRef": "constitution:innate-dao"
+      },
+      "longyin": {
+        "name": "龙吟之体",
+        "aliases": [],
+        "category": "innate",
+        "elements": [
+          "阴阳"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "龙吟之体是一种极为特殊的体质，表现为男子魂魄却生于女儿身。随着修为的加深，体内阴阳之气会逐渐失调，若不及时调理将导致严重后果。然而，这种体质也蕴含着独特的修炼优势，在某些特殊功法的修炼上有着常人难以企及的天赋。",
+        "taxonomyRef": "constitution:longyin"
+      },
+      "molten-metal": {
+        "name": "熔金之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "金"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "熔金之体在本地原文中有明确命中，外部页面可作为体质体系上下文参考。",
+        "taxonomyRef": "constitution:molten-metal"
+      },
+      "natural-charm": {
+        "name": "天生媚体",
+        "aliases": [
+          "媚体"
+        ],
+        "category": "innate",
+        "elements": [
+          "阴",
+          "神识"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "“天生媚体”乃修仙界极为罕见的女性体质之一，体内自带特殊灵韵，能在无意中引动周围修士情绪波动，尤其易令男性修士情欲扰动、神魂不稳。此体质拥有强大的精神渗透与意志影响力，在某些功法配合下甚至能不战而屈人之兵。但因其天赋特性，也极易成为魔修与采补之徒觊觎的对象，乃“艳福”与“祸水”并存之体。",
+        "taxonomyRef": "constitution:natural-charm"
+      },
+      "nine-spirit-sword": {
+        "name": "九灵剑体",
+        "aliases": [],
+        "category": "legendary",
+        "elements": [
+          "剑"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "九灵剑体是修仙界最顶尖的剑修体质之一，号称三大剑修灵体之首。拥有这种体质的修士天生与剑道相合，体内蕴含九道剑气灵光，修炼剑法时进步神速。九灵剑体的拥有者往往能够领悟到剑道的最高境界，成为震慑一方的剑道宗师。",
+        "taxonomyRef": "constitution:nine-spirit-sword"
+      },
+      "psychic-body": {
+        "name": "通灵之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "通灵"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "能够与灵体沟通，精神力异常强大",
+        "taxonomyRef": "constitution:psychic-body"
+      },
+      "pure-yang": {
+        "name": "纯阳之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "阳"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "体质极阳，天生燥热；修炼阳系功法威力巨大；容易走火入魔",
+        "taxonomyRef": "constitution:pure-yang"
+      },
+      "pure-yin": {
+        "name": "纯阴之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "阴"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "体质极阴，天生寒冷；修炼阴系功法速度极快；需要阳性丹药调和",
+        "taxonomyRef": "constitution:pure-yin"
+      },
+      "sanyang": {
+        "name": "三阳之体",
+        "aliases": [],
+        "category": "innate",
+        "elements": [
+          "阳",
+          "火"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "三阳之体乃修仙界罕见的顶级体质，体内蕴含三道纯阳之气，修炼资质仅次于传说中的天灵根。拥有此体质者天生阳气充盛，修炼阳属性功法时速度惊人，且对阴邪之物有天然克制效果。历史上拥有三阳之体的修士大多成就非凡，是各大宗门梦寐以求的弟子。",
+        "taxonomyRef": "constitution:sanyang"
+      },
+      "self-governing": {
+        "name": "自治之体",
+        "aliases": [],
+        "category": "beast",
+        "elements": [
+          "神识"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "自治之体是某些古老妖族，特别是巨龟一族的天赋能力。这种体质赋予拥有者强大的自我修复和调节能力，不仅能治愈外伤，还能自动调节体内的各种不平衡状态，包括毒素、诅咒等负面效果。拥有这种体质的存在往往长寿且极难被彻底击败。",
+        "taxonomyRef": "constitution:self-governing"
+      },
+      "self-healing": {
+        "name": "自愈之体",
+        "aliases": [],
+        "category": "beast",
+        "elements": [
+          "生机"
+        ],
+        "status": "candidate-only",
+        "localStatus": "external-candidate",
+        "description": "自愈之体是某些强大妖兽天生具备的能力，拥有这种体质的存在具有超强的抗打击能力和伤势恢复速度。在战斗中能够快速愈合伤口，持续作战能力极强。对于修士而言，若能通过特殊手段获得这种体质，将在生存能力上获得巨大提升。",
+        "taxonomyRef": "constitution:self-healing"
+      },
+      "shapechanging-body": {
+        "name": "化形之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "化形"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "能够改变外形，伪装和潜入能力强",
+        "taxonomyRef": "constitution:shapechanging-body"
+      },
+      "thunder-body": {
+        "name": "雷电之体",
+        "aliases": [],
+        "category": "thunder",
+        "elements": [
+          "雷"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "雷电之体是天地间最为霸道的体质之一，拥有者能够操控雷电之力。这种体质不仅赋予修士强大的攻击力和速度，还具备麻痹敌人和破除禁制的特殊能力。雷电之体的修士往往修炼速度极快，但同时也面临着雷劫更加猛烈的风险。",
+        "taxonomyRef": "constitution:thunder-body"
+      },
+      "tianyin": {
+        "name": "天阴之体",
+        "aliases": [],
+        "category": "innate",
+        "elements": [
+          "阴"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "天阴之体是修仙界最为罕见的女性专属体质之一，需在阴年阴月阴日阴时出生且保持处子之身才能拥有。这种体质集天地间最纯净的阴寒之力于一身，修炼阴属性功法时进展神速，同时也是炼制某些顶级丹药不可或缺的体质。拥有此体质的女修往往成为各大宗门争夺的焦点。",
+        "taxonomyRef": "constitution:tianyin"
+      },
+      "tongyu-fengsui": {
+        "name": "通玉凤髓之体",
+        "aliases": [
+          "通玉凤髓之身"
+        ],
+        "category": "innate",
+        "elements": [
+          "通灵"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "通玉凤髓之体是女修中极为珍贵的灵体，拥有此体质的女修在进入筑基期后，体内会自然生出一丝通灵之气。这股通灵之气不仅能让女修本身修为大进，更能通过特殊方式让男子洗髓易经，修为飞速提升。因此，拥有此体质的女修往往成为各大宗门和强者争夺的目标。",
+        "taxonomyRef": "constitution:tongyu-fengsui"
+      },
+      "true-spirit-body": {
+        "name": "真灵之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "真灵"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "蕴含真灵之力，修炼神魂类功法极快",
+        "taxonomyRef": "constitution:true-spirit-body"
+      },
+      "water-spirit": {
+        "name": "水灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "水"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "水灵之体如水般柔韧灵动，拥有者天生具备操控水元素的能力。这种体质不仅让修士在水系功法修炼上事半功倍，还赋予了极强的适应性和变化能力。在战斗中能够如水般灵活多变，防御和控制能力都十分出色。",
+        "taxonomyRef": "constitution:water-spirit"
+      },
+      "wood-spirit": {
+        "name": "木灵之体",
+        "aliases": [],
+        "category": "elemental",
+        "elements": [
+          "木"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "木灵之体拥有与自然万物天然的亲和力，这种体质让修士能够轻松感知并操控木属性灵气。拥有此体质者不仅在木系功法修炼上天赋异禀，还具备强大的治疗能力和生命力恢复速度。许多医修和炼丹师都渴望拥有这种体质。",
+        "taxonomyRef": "constitution:wood-spirit"
+      },
+      "xuanhun-body": {
+        "name": "玄魂之体",
+        "aliases": [],
+        "category": "other",
+        "elements": [
+          "神魂"
+        ],
+        "status": "candidate-only",
+        "localStatus": "matched-local-text",
+        "description": "魂魄异常强大，抗精神攻击能力强",
+        "taxonomyRef": "constitution:xuanhun-body"
+      },
+      "yuanci": {
+        "name": "元磁之体",
+        "aliases": [
+          "元磁法体",
+          "元磁之身"
+        ],
+        "category": "legendary",
+        "elements": [
+          "元磁"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "元磁之体是一种极其神秘的体质，拥有者能够感知和操控磁场力量。这种体质不仅能够操控金属类法宝，还能影响他人的神识和精神力。元磁之体在阵法布置和破解方面有着得天独厚的优势，同时也是炼制特殊法宝的绝佳体质。",
+        "taxonomyRef": "constitution:yuanci"
+      },
+      "yuanyang-yuanyin": {
+        "name": "元阳、元阴之体",
+        "aliases": [
+          "元阳之体",
+          "元阴之体",
+          "元阳",
+          "元阴"
+        ],
+        "category": "innate",
+        "elements": [
+          "阳",
+          "阴"
+        ],
+        "status": "usable-reference",
+        "localStatus": "matched-local-text",
+        "description": "元阳、元阴之体是修仙界中极为珍贵的先天体质，只有保持纯净之身的男女才能拥有。这种体质蕴含着最原始纯净的阴阳之力，是诸多高深功法和炼丹术的绝佳基础。拥有此体质者在修炼阴阳类功法时事半功倍，同时也是各大宗门争相招揽的对象。",
+        "taxonomyRef": "constitution:yuanyang-yuanyin"
+      }
+    }
+  }
+}
